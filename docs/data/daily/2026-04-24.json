@@ -1,0 +1,350 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T14:08:57.673401+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 4,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 47884971,
+          "title": "DeepSeek v4",
+          "url": "https://api-docs.deepseek.com/",
+          "score": 1309,
+          "created_at": "2026-04-24T03:01:21Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47884971",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 47878117,
+          "title": "MeshCore development team splits over trademark dispute and AI-generated code",
+          "url": "https://blog.meshcore.io/2026/04/23/the-split",
+          "score": 244,
+          "created_at": "2026-04-23T16:55:13Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47878117",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 47882697,
+          "title": "Show HN: Tolaria – Open-source macOS app to manage Markdown knowledge bases",
+          "url": "https://github.com/refactoringhq/tolaria",
+          "score": 239,
+          "created_at": "2026-04-23T22:01:59Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47882697",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 47887683,
+          "title": "S. Korea police arrest man over AI image of runaway wolf that misled authorities",
+          "url": "https://www.bbc.com/news/articles/c4gx1n0dl9no",
+          "score": 170,
+          "created_at": "2026-04-24T09:17:57Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47887683",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 47885014,
+          "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+          "score": 154,
+          "created_at": "2026-04-24T03:07:54Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47885014",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 47886517,
+          "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
+          "url": "https://ynarwal.github.io/how-llms-work/",
+          "score": 145,
+          "created_at": "2026-04-24T06:48:53Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47886517",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 6
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "Alishahryar1/free-claude-code",
+          "url": "https://github.com/Alishahryar1/free-claude-code",
+          "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+          "stars_today": 2640,
+          "total_stars": 7100,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "huggingface/ml-intern",
+          "url": "https://github.com/huggingface/ml-intern",
+          "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+          "stars_today": 2981,
+          "total_stars": 4737,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "google/osv-scanner",
+          "url": "https://github.com/google/osv-scanner",
+          "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+          "stars_today": 147,
+          "total_stars": 9290,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Z4nzu/hackingtool",
+          "url": "https://github.com/Z4nzu/hackingtool",
+          "description": "ALL IN ONE Hacking Tool For Hackers",
+          "stars_today": 1377,
+          "total_stars": 61842,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "zilliztech/claude-context",
+          "url": "https://github.com/zilliztech/claude-context",
+          "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+          "stars_today": 706,
+          "total_stars": 8802,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "open-metadata/OpenMetadata",
+          "url": "https://github.com/open-metadata/OpenMetadata",
+          "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+          "stars_today": 530,
+          "total_stars": 13196,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "PostHog/posthog",
+          "url": "https://github.com/PostHog/posthog",
+          "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+          "stars_today": 90,
+          "total_stars": 32906,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "dani-garcia/vaultwarden",
+          "url": "https://github.com/dani-garcia/vaultwarden",
+          "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+          "stars_today": 252,
+          "total_stars": 59062,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "codecrafters-io/build-your-own-x",
+          "url": "https://github.com/codecrafters-io/build-your-own-x",
+          "description": "Master programming by recreating your favorite technologies from scratch.",
+          "stars_today": 817,
+          "total_stars": 494176,
+          "language": "Markdown",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 4,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 88
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 47884971,
+      "title": "DeepSeek v4",
+      "url": "https://api-docs.deepseek.com/",
+      "score": 1309,
+      "created_at": "2026-04-24T03:01:21Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47884971",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 47878117,
+      "title": "MeshCore development team splits over trademark dispute and AI-generated code",
+      "url": "https://blog.meshcore.io/2026/04/23/the-split",
+      "score": 244,
+      "created_at": "2026-04-23T16:55:13Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47878117",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 47882697,
+      "title": "Show HN: Tolaria – Open-source macOS app to manage Markdown knowledge bases",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "score": 239,
+      "created_at": "2026-04-23T22:01:59Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47882697",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 47887683,
+      "title": "S. Korea police arrest man over AI image of runaway wolf that misled authorities",
+      "url": "https://www.bbc.com/news/articles/c4gx1n0dl9no",
+      "score": 170,
+      "created_at": "2026-04-24T09:17:57Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47887683",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 47885014,
+      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "score": 154,
+      "created_at": "2026-04-24T03:07:54Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47885014",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 47886517,
+      "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
+      "url": "https://ynarwal.github.io/how-llms-work/",
+      "score": 145,
+      "created_at": "2026-04-24T06:48:53Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47886517",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "stars_today": 2640,
+      "total_stars": 7100,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "huggingface/ml-intern",
+      "url": "https://github.com/huggingface/ml-intern",
+      "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+      "stars_today": 2981,
+      "total_stars": 4737,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "google/osv-scanner",
+      "url": "https://github.com/google/osv-scanner",
+      "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+      "stars_today": 147,
+      "total_stars": 9290,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "stars_today": 1377,
+      "total_stars": 61842,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "zilliztech/claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+      "stars_today": 706,
+      "total_stars": 8802,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "open-metadata/OpenMetadata",
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+      "stars_today": 530,
+      "total_stars": 13196,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "stars_today": 90,
+      "total_stars": 32906,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "stars_today": 252,
+      "total_stars": 59062,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "codecrafters-io/build-your-own-x",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "stars_today": 817,
+      "total_stars": 494176,
+      "language": "Markdown",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
