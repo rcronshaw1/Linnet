@@ -1,0 +1,82 @@
+---
+import Base from '@/layouts/Base.astro';
+import WizardShell from '@/components/wizard/WizardShell.astro';
+
+---
+
+<Base
+  title="搭好你的晨间简报 — Linnet"
+  description="通过 Linnet 的交互式向导，把分散的信息源整理成一份可交付的个人晨间简报。"
+  lang="zh-CN"
+>
+  <div class="setup-shell">
+
+    <header class="setup-masthead">
+      <div class="setup-masthead__kicker">配置向导</div>
+      <h1 class="setup-masthead__title">搭建你的晨间简报</h1>
+      <p class="setup-masthead__sub">
+        选择信息来源 · 逐项配置 · 生成可直接提交的配置文件。
+      </p>
+    </header>
+
+    <div class="setup-body">
+      <WizardShell
+        locale="zh"
+      />
+    </div>
+
+  </div>
+</Base>
+
+<style>
+.setup-shell {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 3rem 64px;
+}
+
+.setup-masthead {
+  padding: 48px 0 28px;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 40px;
+}
+
+.setup-masthead__kicker {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.setup-masthead__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.18;
+  color: var(--ink);
+  margin: 0 0 14px;
+}
+
+.setup-masthead__sub {
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 1rem;
+  color: var(--ink-soft);
+  margin: 0;
+  line-height: 1.8;
+}
+
+.setup-body {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+@media (max-width: 720px) {
+  .setup-shell { padding: 0 1.25rem 48px; }
+  .setup-masthead { padding: 36px 0 20px; }
+}
+</style>

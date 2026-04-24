@@ -1,0 +1,232 @@
+# Linnet — LLM context file
+
+Self-hosted daily briefing pipeline. Runs on GitHub Actions, publishes an Astro static site to GitHub Pages, and can optionally push the digest through delivery sinks such as Slack and ServerChan.
+
+Source: https://github.com/YuyangXueEd/linnet
+License: MIT
+
+---
+
+## Fast path for agents
+
+Pick the smallest relevant read order before editing:
+
+### If you are changing setup, onboarding, or docs
+1. `README.md` or `README_zh.md`
+2. `setup-bridge/README.md`
+3. `dev_docs/manual-config.md`
+4. `astro/src/pages/setup/index.astro` or `astro/src/pages/setup/zh/index.astro`
+5. `astro/src/components/wizard/`
+6. `skills/linnet-contributor/SKILL.md` or `skills/linnet-config-customization/SKILL.md`
+
+### If you are changing extensions
+1. `extensions/llms.txt`
+2. `extensions/README.md`
+3. `extensions/_template/`
+4. the target extension's `README.md` and code
+
+### If you are changing sinks
+1. `sinks/llms.txt`
+2. `sinks/README.md`
+3. `sinks/_template/`
+4. the target sink's `README.md` and code
+
+### If you are changing pipeline/runtime behaviour
+1. `main.py`
+2. `pipeline/config_loader.py`
+3. `publishers/data_publisher.py`
+4. the affected extension or sink
+5. `tests/`
+
+Read `skills/linnet-contributor/SKILL.md` when editing the repo itself. Read `skills/linnet-config-customization/SKILL.md` when helping someone configure their own repo or digest site.
+
+---
+
+## Product mental model
+
+- Primary product framing: `your personal AI morning briefing`
+- Main public entry point: the upstream Astro setup wizard under `astro/src/pages/setup/`, paired with `setup-bridge/` for GitHub App orchestration
+- Default output: a searchable digest site on GitHub Pages
+- Optional extras: delivery sinks, extra extensions, advanced prompt/model customization
+- Default LLM path: OpenRouter, but runtime supports any OpenAI-compatible endpoint through `llm.base_url` + `llm.api_key_env`
+- Default onboarding path: `Use this template -> install Linnet Bridge GitHub App -> authorize browser -> deploy from Step 5`
+- Manual config remains a fallback path, not the main story
+
+Keep the main user story simple. Advanced flexibility should stay available without dominating the first-run experience.
+
+---
+
+## Core flow
+
+```text
+GitHub Actions schedule
+    │
+    ▼
+main.py
+    │
+    ├─► pipeline/config_loader.py      loads config/sources.yaml + extension config
+    ├─► extensions/*                   fetch -> process -> render per enabled source
+    ├─► publishers/data_publisher.py   writes JSON to docs/data/
+    ├─► astro/                         renders the site from JSON
+    └─► sinks/*                        optional post-publish delivery
+```
+
+Important separation:
+
+- `fetch()` should not call LLMs
+- `process()` may score/summarize with the configured LLM
+- `render()` should package output for publishing, not fetch new data
+
+---
+
+## Repo map
+
+### Runtime and config
+
+- `main.py` — CLI entry point, provider-aware OpenAI-compatible client setup
+- `config/sources.yaml` — top-level source toggles, language, LLM, sinks
+- `config/extensions/*.yaml` — per-source detail config
+- `pipeline/config_loader.py` — loads and validates config
+- `pipeline/summarizer.py` — shared summary/scoring prompt helpers
+- `pipeline/aggregator.py` — weekly/monthly rollups
+
+### Extensions
+
+- `extensions/` — source plugins
+- `extensions/__init__.py` — extension registry
+- `extensions/*/meta.json` — Astro-facing setup metadata
+- `extensions/_template/` — starter template for new sources
+
+### Sinks
+
+- `sinks/` — optional delivery channels
+- `sinks/__init__.py` — sink registry
+- `sinks/_template/` — starter template for new sinks
+
+### Publishing and site
+
+- `publishers/data_publisher.py` — writes daily/weekly/monthly JSON payloads
+- `docs/data/` — generated JSON data store; ignored locally by default, but committed by digest workflows when publishing
+- `astro/src/pages/` — route pages
+- `astro/src/components/` — public UI components
+- `astro/src/components/wizard/` — live setup wizard UI and controller
+- `astro/src/lib/generatedExtensionRegistry.ts` — generated extension metadata for the site
+- `setup-bridge/` — Cloudflare Worker bridge for GitHub App auth, repo writes, secrets, Actions, and Pages setup
+
+### Docs and agent guidance
+
+- `README.md` / `README_zh.md` — user-facing setup story
+- `dev_docs/manual-config.md` — manual setup path
+- `skills/` — packaged public skills for contributors and configurators
+- `superpowers/roadmap.md` — remaining product and engineering TODOs
+
+---
+
+## Config rules that matter
+
+### `sources.yaml`
+
+- `display_order` controls rendered section order
+- each source block uses `enabled`
+- `language` controls summary language
+- `llm.provider` is a label used by setup/docs
+- `llm.base_url` is the OpenAI-compatible API base URL
+- `llm.api_key_env` is the environment variable that stores the LLM API key
+- `llm.scoring_model` and `llm.summarization_model` are separate on purpose
+- `sinks.*` holds non-secret delivery config
+
+### Secrets
+
+- Keep API keys, tokens, and webhooks in environment variables or GitHub Actions secrets only
+- Do not commit secrets into YAML or example configs
+- Step 4 of the setup wizard owns provider choice, model choice, and secret naming
+- Deploy copy and success states should reflect the resolved `llm.api_key_env`, not a hard-coded provider name
+
+### Provider support
+
+- OpenRouter is the default fast path
+- OpenAI is directly supported
+- Anthropic and Gemini currently go through their OpenAI-compatible endpoints, not native SDK adapters
+- Custom OpenAI-compatible gateways should work as long as `base_url`, secret name, and model IDs are valid
+
+---
+
+## Edit surfaces by task
+
+### Setup wizard or onboarding copy
+
+- `setup-bridge/README.md`
+- `astro/src/pages/setup/index.astro`
+- `astro/src/pages/setup/zh/index.astro`
+- `astro/src/components/wizard/WizardShell.astro`
+- `astro/src/components/wizard/WizardStep*.astro`
+- `astro/src/components/wizard/wizardController.ts`
+- `astro/src/components/wizard/wizardState.ts`
+
+### Public-site design
+
+- `astro/src/components/`
+- `astro/src/layouts/`
+- `astro/src/styles/global.css`
+- `assets/`
+
+### Extension work
+
+- `extensions/<name>/`
+- `config/extensions/<name>.yaml`
+- `tests/`
+
+### Sink work
+
+- `sinks/<name>/`
+- `config/sources.yaml`
+- `tests/`
+
+### Docs work
+
+- `README.md`
+- `README_zh.md`
+- `dev_docs/manual-config.md`
+- `llms.txt`
+- `skills/`
+- `superpowers/roadmap.md`
+
+---
+
+## Validation
+
+Use the smallest useful check for the change:
+
+### Python/runtime
+
+```bash
+PYTHONPATH=. pytest tests/ -q
+python -m py_compile main.py
+```
+
+### Astro/site
+
+```bash
+cd astro
+npm run check
+npm run build
+node --test tests/githubDeploy.test.mjs tests/githubAuth.test.mjs
+```
+
+### Quick hygiene
+
+```bash
+git diff --check
+rg -n "old_text|obsolete_path" .
+```
+
+---
+
+## Current important constraints
+
+- The setup wizard is now the real product entry point; keep it polished and aligned with the README story
+- The GitHub App + bridge flow is the default onboarding path; do not reintroduce PAT-shaped happy-path copy
+- The live setup flow is Astro component based; avoid reintroducing raw HTML wizard sources
+- Weekly/monthly rollups still deserve caution when changing extension-aware behaviour
+- Keep docs synchronized when setup, LLM, sink, or secret-handling behaviour changes
+- Prefer focused edits over broad refactors unless the task explicitly calls for restructuring

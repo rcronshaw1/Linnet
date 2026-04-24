@@ -1,0 +1,115 @@
+---
+import Base from '@/layouts/Base.astro';
+import WizardShell from '@/components/wizard/WizardShell.astro';
+
+---
+
+<Base
+  title="Set Up Your Morning Briefing — Linnet"
+  description="Use Linnet's setup wizard to turn scattered sources into a guided personal morning briefing."
+>
+  <Fragment slot="head">
+    <script is:inline>
+      (() => {
+        const storageKey = 'linnet-setup-locale';
+        let preferredLocale = null;
+
+        try {
+          preferredLocale = window.localStorage.getItem(storageKey);
+        } catch {
+          preferredLocale = null;
+        }
+
+        if (preferredLocale === 'en') return;
+
+        const languages = Array.isArray(navigator.languages) && navigator.languages.length
+          ? navigator.languages
+          : [navigator.language];
+        const prefersZh = preferredLocale === 'zh'
+          || languages.some((value) => typeof value === 'string' && /^zh(?:-|$)/i.test(value));
+
+        if (!prefersZh) return;
+
+        const nextUrl = new URL(window.location.href);
+        if (nextUrl.pathname.endsWith('/setup/zh/')) return;
+
+        nextUrl.pathname = nextUrl.pathname.endsWith('/setup/')
+          ? nextUrl.pathname.replace(/\/setup\/$/, '/setup/zh/')
+          : nextUrl.pathname.replace(/\/setup$/, '/setup/zh/');
+
+        if (!nextUrl.pathname.endsWith('/setup/zh/')) return;
+        window.location.replace(nextUrl.toString());
+      })();
+    </script>
+  </Fragment>
+  <div class="setup-shell">
+
+    <header class="setup-masthead">
+      <div class="setup-masthead__kicker">Configuration Wizard</div>
+      <h1 class="setup-masthead__title">Set Up Your Briefing</h1>
+      <p class="setup-masthead__sub">
+        Choose your sources · configure each one · generate ready-to-commit config files.
+      </p>
+    </header>
+
+    <div class="setup-body">
+      <WizardShell
+        locale="en"
+      />
+    </div>
+
+  </div>
+</Base>
+
+<style>
+.setup-shell {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 3rem 64px;
+}
+
+.setup-masthead {
+  padding: 48px 0 28px;
+  border-bottom: 2px solid var(--ink);
+  margin-bottom: 40px;
+}
+
+.setup-masthead__kicker {
+  font-family: var(--font-mono);
+  font-size: 0.69rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.setup-masthead__title {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 0.92;
+  color: var(--ink);
+  margin: 0 0 14px;
+}
+
+.setup-masthead__sub {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.setup-body {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+@media (max-width: 720px) {
+  .setup-shell { padding: 0 1.25rem 48px; }
+  .setup-masthead { padding: 36px 0 20px; }
+}
+</style>

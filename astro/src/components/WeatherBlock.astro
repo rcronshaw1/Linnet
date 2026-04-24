@@ -1,0 +1,240 @@
+---
+import WeatherIcon from './WeatherIcon.astro';
+
+interface WeatherItem {
+  resolved_name?: string;
+  label?: string;
+  query?: string;
+  condition?: string;
+  weather_code?: number;
+  temperature_c?: number;
+  apparent_temperature_c?: number;
+  temp_max_c?: number;
+  temp_min_c?: number;
+  humidity_pct?: number;
+  wind_speed_kmh?: number;
+  precipitation_probability_pct?: number;
+  sunrise?: string;
+  sunset?: string;
+  forecast_date?: string;
+  source_url?: string;
+}
+
+interface Props {
+  items: WeatherItem[];
+}
+const { items } = Astro.props;
+
+function fmt(dt?: string): string {
+  if (!dt) return '';
+  try {
+    return new Date(dt).toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' });
+  } catch { return ''; }
+}
+---
+
+{items.map(w => {
+  const city = w.resolved_name ?? w.query ?? w.label ?? 'Unknown';
+  const wcode = w.weather_code ?? 0;
+
+  const stats = [
+    ['Feels',  w.apparent_temperature_c != null ? `${w.apparent_temperature_c.toFixed(1)}°` : '—', false],
+    ['Rain',   w.precipitation_probability_pct != null ? `${w.precipitation_probability_pct}%` : '—', false],
+    ['Wind',   w.wind_speed_kmh != null ? `${w.wind_speed_kmh.toFixed(0)} km/h` : '—', false],
+    ['Humid',  w.humidity_pct != null ? `${w.humidity_pct}%` : '—', false],
+    ['Rise',   fmt(w.sunrise), false],
+    ['Set',    fmt(w.sunset), false],
+  ] as [string, string, boolean][];
+
+  const high = w.temp_max_c != null ? `${w.temp_max_c.toFixed(1)}°` : '—';
+  const low  = w.temp_min_c != null ? `${w.temp_min_c.toFixed(1)}°` : '—';
+
+  return (
+    <div class="weather-block">
+      <div class="weather-block__left">
+        <WeatherIcon code={wcode} size={52} />
+        <div>
+          <div class="weather-block__morning">This morning in</div>
+          <div class="weather-block__city">{city}</div>
+          <div class="weather-block__cond">{w.condition ?? ''}</div>
+        </div>
+      </div>
+
+      <div class="weather-block__range">
+        <div class="weather-range__label">Today's range</div>
+        <div class="weather-range__temps">
+          <span class="weather-range__high">{high}</span>
+          <span class="weather-range__sep">↓</span>
+          <span class="weather-range__low">{low}</span>
+        </div>
+        {w.temperature_c != null && (
+          <div class="weather-range__now">currently {w.temperature_c.toFixed(1)}°</div>
+        )}
+      </div>
+
+      <div class="weather-block__stats">
+        {stats.map(([label, val]) => (
+          <div class="weather-stat">
+            <div class="weather-stat__label">{label}</div>
+            <div class="weather-stat__val">{val}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+})}
+
+<style>
+.weather-block {
+  padding: 28px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 36px;
+  align-items: center;
+}
+
+.weather-block__left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.weather-block__morning {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.weather-block__city {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-top: 2px;
+}
+
+.weather-block__cond {
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+  margin-top: 2px;
+}
+
+/* ── Temperature range block ─── */
+.weather-block__range {
+  border-left: 1px solid var(--rule);
+  padding-left: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.weather-range__label {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.weather-range__temps {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.weather-range__high {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: -0.03em;
+  line-height: 1;
+}
+
+.weather-range__sep {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+}
+
+.weather-range__low {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.weather-range__now {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  color: var(--ink-muted);
+  margin-top: 2px;
+}
+
+/* ── Secondary stats grid ─── */
+.weather-block__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px 20px;
+  border-left: 1px solid var(--rule);
+  padding-left: 28px;
+}
+
+.weather-stat { display: flex; flex-direction: column; gap: 2px; }
+
+.weather-stat__label {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.weather-stat__val {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-top: 2px;
+}
+
+@media (max-width: 900px) {
+  .weather-block {
+    grid-template-columns: auto 1fr;
+    gap: 24px;
+  }
+  .weather-block__range {
+    border-left: none;
+    padding-left: 0;
+  }
+  .weather-block__stats {
+    grid-column: 1 / -1;
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid var(--rule);
+    padding-top: 16px;
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .weather-block {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .weather-block__stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+</style>
