@@ -2,26 +2,25 @@
 
 categories:
   - cs.AI
-  - cs.LG
-  - cs.CL
-  - stat.ML
+  - q-bio.QM
+  - eess.IV
 
 must_include:
-  - large language model
-  - foundation model
-  - diffusion model
-  - agent
-  - alignment
-  - RLHF
+  - medical imaging
+  - clinical
+  - radiology
+  - diagnosis
+  - healthcare
 
 boost_keywords:
-  - GPT
-  - LLaMA
-  - Gemini
-  - Claude
-  - LoRA
-  - RAG
-  - chain-of-thought
+  - MRI
+  - CT
+  - chest X-ray
+  - histology
+  - segmentation
+  - agent
+  - memory
+  - agent memory
 
 llm_score_threshold: 7
 max_papers_per_run: 100
