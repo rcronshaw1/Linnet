@@ -1,0 +1,629 @@
+{
+  "date": "2026-04-25",
+  "generated_at": "2026-04-25T00:56:15.506523+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2604.21814v1",
+          "title": "Divide-then-Diagnose: Weaving Clinician-Inspired Contexts for Ultra-Long Capsule Endoscopy Videos",
+          "authors": [
+            "Bowen Liu",
+            "Li Yang",
+            "Shanshan Song",
+            "Mingyu Tang",
+            "Zhifang Gao"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces \"Divide-then-Diagnose,\" a novel approach for analyzing ultra-long capsule endoscopy videos by framing the problem as diagnosis-driven video summarization. The core method involves identifying sparse, clinically meaningful evidence frames from the vast video data to support accurate diagnoses. The main contribution is the introduction of VideoCAP, the first large-scale dataset annotated with diagnosis-driven supervision derived from real clinical reports, enabling research beyond simple frame-level analysis.",
+          "url": "http://arxiv.org/abs/2604.21814v1",
+          "pdf_url": "https://arxiv.org/pdf/2604.21814v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2604.21814v1/x1.png",
+          "figure_caption": "(a) General videos typically contain task-relevant evidence that is temporally dense and visually salient, as reflected by the larger red box and denser timeline; (b) CE videos instead contain diagnostic evidence that is temporally sparse and visually subtle, as reflected by the smaller red box and sparser timeline; (c) Uniform sampling selects clinically irrelevant frames due to the sparse nature of lesions, leading to missed diagnoses; (d) Keyframe sampling captures unsatisfactory representative frames (e.g., bubbles), resulting in misdiagnosis; (e) DiCE (Ours) adaptively extracts context-aware evidence clips from the raw video, rather than selecting a fixed frame budget, to generate clinically oriented summaries and support correct diagnosis.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2604.21793v1",
+          "title": "Inferring High-Level Events from Timestamped Data: Complexity and Medical Applications",
+          "authors": [
+            "Yvon K. Awuklu",
+            "Meghyn Bienvenu",
+            "Katsumi Inoue",
+            "Vianney Jouhet",
+            "Fleur Mougin"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces a novel logic-based framework for inferring complex, temporally extended events (like disease episodes) from raw timestamped data and background knowledge. The method uses logical rules to define event existence and termination, combining them into meta-events, and incorporates constraints and a repair mechanism to ensure consistency among inferred events. The core contribution is a tractable approach, restricted to polynomial time complexity, demonstrated through a prototype using Answer Set Programming, particularly applied to medical record analysis.",
+          "url": "http://arxiv.org/abs/2604.21793v1",
+          "pdf_url": "https://arxiv.org/pdf/2604.21793v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2604.21421v1",
+          "title": "Differentially Private De-identification of Dutch Clinical Notes: A Comparative Evaluation",
+          "authors": [
+            "Michele Miranda",
+            "Xinlan Yan",
+            "Nishant Mishra",
+            "Rachel Murphy",
+            "Ameen Abu-Hanna"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CR"
+          ],
+          "abstract": "This paper comparatively evaluates three core methods—Differential Privacy (DP), Named Entity Recognition (NER), and Large Language Models (LLMs)—for automatically de-identifying Dutch clinical notes. The contribution is the first comprehensive study assessing these techniques, both individually and in hybrid configurations, based on privacy leakage and utility metrics. This research helps determine the most effective automated approach for balancing patient privacy with data usefulness in clinical text processing.",
+          "url": "http://arxiv.org/abs/2604.21421v1",
+          "pdf_url": "https://arxiv.org/pdf/2604.21421v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2604.21573v1",
+          "title": "CHRep: Cross-modal Histology Representation and Post-hoc Calibration for Spatial Gene Expression Prediction",
+          "authors": [
+            "Changfan Wang",
+            "Xinran Wang",
+            "Donghai Liu",
+            "Fei Su",
+            "Lulu Sun"
+          ],
+          "categories": [
+            "q-bio.QM",
+            "cs.CV"
+          ],
+          "abstract": "CHRep is a two-phase framework designed to robustly predict spatial gene expression from H&E images, addressing slide-level appearance shifts common in ST data. The core method involves learning a structure-aware representation via joint optimization of correlation-aware regression and spatial topology regularization during training. For robust inference, it employs a lightweight, post-hoc calibration module that uses a training gallery to correct for cross-slide variations without fine-tuning the main model backbone.",
+          "url": "http://arxiv.org/abs/2604.21573v1",
+          "pdf_url": "https://arxiv.org/pdf/2604.21573v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2604.21573v1/image/main.png",
+          "figure_caption": "Overview of CHRep with a two-phase workflow. Training phase (top): CHRep uses three branches for H&E patches, spot coordinates, and gene expression. The H&E branch produces histology features F H F_{H} for decoding and correlation-aware regression supervision ( ℒ reg \\( \\mathcal{L} \\)_{\\( \\mathrm{reg} \\)} ). The coordinate branch maps spot coordinates to coordinate features F C F_{C} , which are fused with F H F_{H} to form the coordinate-guided morphology representation F M F_{M} . The gene branch produces expression features F G F_{G} . A cross-modal alignment loss ( ℒ con \\( \\mathcal{L} \\)_{\\( \\mathrm{con} \\)} ) aligns F M F_{M} with F G F_{G} , while a topology regularization term ( ℒ spa \\( \\mathcal{L} \\)_{\\( \\mathrm{spa} \\)} ) preserves coordinate-induced spatial structure by regularizing the similarity pattern of F G F_{G} . Inference phase (bottom): the encoder is frozen, an Estimate Module computes a similarity-weighted neighbor-based estimate from the training gallery, and a Correction Module outputs a magnitude-regularized residual adjustment. Their sum gives the final prediction.",
+          "primary_category": "q-bio.QM",
+          "primary_category_anchor": "q-bio-qm",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 4,
+        "papers_after_llm_filter": 4,
+        "count": 4
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 47884971,
+          "title": "DeepSeek v4",
+          "url": "https://api-docs.deepseek.com/",
+          "score": 1797,
+          "created_at": "2026-04-24T03:01:21Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47884971",
+          "summary": "DeepSeek has released documentation for its new DeepSeek v4 model, indicating an update to their large language model offerings."
+        },
+        {
+          "id": 47886517,
+          "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
+          "url": "https://ynarwal.github.io/how-llms-work/",
+          "score": 233,
+          "created_at": "2026-04-24T06:48:53Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47886517",
+          "summary": "This tech news highlights an interactive visual guide, based on Andrej Karpathy's lecture, that explains the inner workings of Large Language Models (LLMs)."
+        },
+        {
+          "id": 47887683,
+          "title": "South Korea police arrest man for posting AI photo of runaway wolf",
+          "url": "https://www.bbc.com/news/articles/c4gx1n0dl9no",
+          "score": 218,
+          "created_at": "2026-04-24T09:17:57Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47887683",
+          "summary": "South Korean police arrested a man for creating and sharing an AI-generated image depicting a wolf that had escaped from a local zoo."
+        },
+        {
+          "id": 47885014,
+          "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+          "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+          "score": 157,
+          "created_at": "2026-04-24T03:07:54Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47885014",
+          "summary": "DeepSeek-V4 is a new large language model emphasizing highly efficient processing of million-token context lengths."
+        },
+        {
+          "id": 47894081,
+          "title": "SFO Quiet Airport (2025)",
+          "url": "https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/",
+          "score": 124,
+          "created_at": "2026-04-24T18:29:53Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47894081",
+          "summary": "San Francisco International Airport (SFO) has successfully implemented changes that removed 90 minutes of daily noise, significantly improving the travel experience for passengers."
+        },
+        {
+          "id": 47893779,
+          "title": "There Will Be a Scientific Theory of Deep Learning",
+          "url": "https://arxiv.org/abs/2604.21691",
+          "score": 115,
+          "created_at": "2026-04-24T18:06:05Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47893779",
+          "summary": "Researchers propose that a rigorous scientific theory for deep learning is achievable, moving beyond empirical observation to establish fundamental principles."
+        }
+      ],
+      "meta": {
+        "count": 6
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "Alishahryar1/free-claude-code",
+          "url": "https://github.com/Alishahryar1/free-claude-code",
+          "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+          "stars_today": 2638,
+          "total_stars": 8932,
+          "language": "Python",
+          "topics": [],
+          "summary": "This repository provides tools to access and utilize the Claude Code model freely within the terminal, VSCode, or via Discord, offering versatile integration for coding assistance."
+        },
+        {
+          "full_name": "huggingface/ml-intern",
+          "url": "https://github.com/huggingface/ml-intern",
+          "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+          "stars_today": 2985,
+          "total_stars": 5345,
+          "language": "Python",
+          "topics": [],
+          "summary": "Hugging Face's `ml-intern` is an open-source ML engineer designed to autonomously read research papers, train models, and deploy complete machine learning solutions."
+        },
+        {
+          "full_name": "google/osv-scanner",
+          "url": "https://github.com/google/osv-scanner",
+          "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+          "stars_today": 141,
+          "total_stars": 9506,
+          "language": "Go",
+          "topics": [],
+          "summary": "OSV-Scanner is a Go-based vulnerability scanner that leverages data from OSV.dev to identify security weaknesses in software dependencies."
+        },
+        {
+          "full_name": "Z4nzu/hackingtool",
+          "url": "https://github.com/Z4nzu/hackingtool",
+          "description": "ALL IN ONE Hacking Tool For Hackers",
+          "stars_today": 1378,
+          "total_stars": 62368,
+          "language": "Python",
+          "topics": [],
+          "summary": "This GitHub repository, \"Z4nzu/hackingtool,\" serves as a comprehensive, all-in-one hacking tool designed to consolidate various utilities for security professionals and ethical hackers."
+        },
+        {
+          "full_name": "zilliztech/claude-context",
+          "url": "https://github.com/zilliztech/claude-context",
+          "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+          "stars_today": 706,
+          "total_stars": 9011,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "This repository provides a Code Search MCP for Claude Code, enabling entire codebases to serve as context for coding agents."
+        },
+        {
+          "full_name": "open-metadata/OpenMetadata",
+          "url": "https://github.com/open-metadata/OpenMetadata",
+          "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+          "stars_today": 530,
+          "total_stars": 13350,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "OpenMetadata is a unified platform providing a central metadata repository for data discovery, observability, and governance, featuring in-depth column-level lineage and team collaboration tools."
+        },
+        {
+          "full_name": "PostHog/posthog",
+          "url": "https://github.com/PostHog/posthog",
+          "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+          "stars_today": 85,
+          "total_stars": 33110,
+          "language": "Python",
+          "topics": [],
+          "summary": "PostHog is an all-in-one developer platform providing product analytics, session replay, feature flags, experimentation, and more, designed to help teams build successful products by centralizing usage data and accelerating feature delivery."
+        },
+        {
+          "full_name": "dani-garcia/vaultwarden",
+          "url": "https://github.com/dani-garcia/vaultwarden",
+          "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+          "stars_today": 268,
+          "total_stars": 59170,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Vaultwarden is an unofficial, Rust-based, lightweight server compatible with the Bitwarden password manager ecosystem, offering a self-hosted alternative to the official server."
+        },
+        {
+          "full_name": "Anil-matcha/Open-Generative-AI",
+          "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+          "description": "Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+          "stars_today": 842,
+          "total_stars": 7691,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "This repository offers a free, self-hosted, and uncensored open-source alternative for AI image and video generation, featuring over 200 models like Flux, Midjourney, Kling, Sora, and Veo, all under the MIT license."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 4,
+    "papers_after_llm_filter": 4,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 16
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2604.21814v1",
+      "title": "Divide-then-Diagnose: Weaving Clinician-Inspired Contexts for Ultra-Long Capsule Endoscopy Videos",
+      "authors": [
+        "Bowen Liu",
+        "Li Yang",
+        "Shanshan Song",
+        "Mingyu Tang",
+        "Zhifang Gao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces \"Divide-then-Diagnose,\" a novel approach for analyzing ultra-long capsule endoscopy videos by framing the problem as diagnosis-driven video summarization. The core method involves identifying sparse, clinically meaningful evidence frames from the vast video data to support accurate diagnoses. The main contribution is the introduction of VideoCAP, the first large-scale dataset annotated with diagnosis-driven supervision derived from real clinical reports, enabling research beyond simple frame-level analysis.",
+      "url": "http://arxiv.org/abs/2604.21814v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21814v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2604.21814v1/x1.png",
+      "figure_caption": "(a) General videos typically contain task-relevant evidence that is temporally dense and visually salient, as reflected by the larger red box and denser timeline; (b) CE videos instead contain diagnostic evidence that is temporally sparse and visually subtle, as reflected by the smaller red box and sparser timeline; (c) Uniform sampling selects clinically irrelevant frames due to the sparse nature of lesions, leading to missed diagnoses; (d) Keyframe sampling captures unsatisfactory representative frames (e.g., bubbles), resulting in misdiagnosis; (e) DiCE (Ours) adaptively extracts context-aware evidence clips from the raw video, rather than selecting a fixed frame budget, to generate clinically oriented summaries and support correct diagnosis.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2604.21793v1",
+      "title": "Inferring High-Level Events from Timestamped Data: Complexity and Medical Applications",
+      "authors": [
+        "Yvon K. Awuklu",
+        "Meghyn Bienvenu",
+        "Katsumi Inoue",
+        "Vianney Jouhet",
+        "Fleur Mougin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a novel logic-based framework for inferring complex, temporally extended events (like disease episodes) from raw timestamped data and background knowledge. The method uses logical rules to define event existence and termination, combining them into meta-events, and incorporates constraints and a repair mechanism to ensure consistency among inferred events. The core contribution is a tractable approach, restricted to polynomial time complexity, demonstrated through a prototype using Answer Set Programming, particularly applied to medical record analysis.",
+      "url": "http://arxiv.org/abs/2604.21793v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21793v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2604.21421v1",
+      "title": "Differentially Private De-identification of Dutch Clinical Notes: A Comparative Evaluation",
+      "authors": [
+        "Michele Miranda",
+        "Xinlan Yan",
+        "Nishant Mishra",
+        "Rachel Murphy",
+        "Ameen Abu-Hanna"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper comparatively evaluates three core methods—Differential Privacy (DP), Named Entity Recognition (NER), and Large Language Models (LLMs)—for automatically de-identifying Dutch clinical notes. The contribution is the first comprehensive study assessing these techniques, both individually and in hybrid configurations, based on privacy leakage and utility metrics. This research helps determine the most effective automated approach for balancing patient privacy with data usefulness in clinical text processing.",
+      "url": "http://arxiv.org/abs/2604.21421v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21421v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2604.21573v1",
+      "title": "CHRep: Cross-modal Histology Representation and Post-hoc Calibration for Spatial Gene Expression Prediction",
+      "authors": [
+        "Changfan Wang",
+        "Xinran Wang",
+        "Donghai Liu",
+        "Fei Su",
+        "Lulu Sun"
+      ],
+      "categories": [
+        "q-bio.QM",
+        "cs.CV"
+      ],
+      "abstract": "CHRep is a two-phase framework designed to robustly predict spatial gene expression from H&E images, addressing slide-level appearance shifts common in ST data. The core method involves learning a structure-aware representation via joint optimization of correlation-aware regression and spatial topology regularization during training. For robust inference, it employs a lightweight, post-hoc calibration module that uses a training gallery to correct for cross-slide variations without fine-tuning the main model backbone.",
+      "url": "http://arxiv.org/abs/2604.21573v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21573v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2604.21573v1/image/main.png",
+      "figure_caption": "Overview of CHRep with a two-phase workflow. Training phase (top): CHRep uses three branches for H&E patches, spot coordinates, and gene expression. The H&E branch produces histology features F H F_{H} for decoding and correlation-aware regression supervision ( ℒ reg \\( \\mathcal{L} \\)_{\\( \\mathrm{reg} \\)} ). The coordinate branch maps spot coordinates to coordinate features F C F_{C} , which are fused with F H F_{H} to form the coordinate-guided morphology representation F M F_{M} . The gene branch produces expression features F G F_{G} . A cross-modal alignment loss ( ℒ con \\( \\mathcal{L} \\)_{\\( \\mathrm{con} \\)} ) aligns F M F_{M} with F G F_{G} , while a topology regularization term ( ℒ spa \\( \\mathcal{L} \\)_{\\( \\mathrm{spa} \\)} ) preserves coordinate-induced spatial structure by regularizing the similarity pattern of F G F_{G} . Inference phase (bottom): the encoder is frozen, an Estimate Module computes a similarity-weighted neighbor-based estimate from the training gallery, and a Correction Module outputs a magnitude-regularized residual adjustment. Their sum gives the final prediction.",
+      "primary_category": "q-bio.QM",
+      "primary_category_anchor": "q-bio-qm",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2604.21814v1",
+      "title": "Divide-then-Diagnose: Weaving Clinician-Inspired Contexts for Ultra-Long Capsule Endoscopy Videos",
+      "authors": [
+        "Bowen Liu",
+        "Li Yang",
+        "Shanshan Song",
+        "Mingyu Tang",
+        "Zhifang Gao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces \"Divide-then-Diagnose,\" a novel approach for analyzing ultra-long capsule endoscopy videos by framing the problem as diagnosis-driven video summarization. The core method involves identifying sparse, clinically meaningful evidence frames from the vast video data to support accurate diagnoses. The main contribution is the introduction of VideoCAP, the first large-scale dataset annotated with diagnosis-driven supervision derived from real clinical reports, enabling research beyond simple frame-level analysis.",
+      "url": "http://arxiv.org/abs/2604.21814v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21814v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2604.21814v1/x1.png",
+      "figure_caption": "(a) General videos typically contain task-relevant evidence that is temporally dense and visually salient, as reflected by the larger red box and denser timeline; (b) CE videos instead contain diagnostic evidence that is temporally sparse and visually subtle, as reflected by the smaller red box and sparser timeline; (c) Uniform sampling selects clinically irrelevant frames due to the sparse nature of lesions, leading to missed diagnoses; (d) Keyframe sampling captures unsatisfactory representative frames (e.g., bubbles), resulting in misdiagnosis; (e) DiCE (Ours) adaptively extracts context-aware evidence clips from the raw video, rather than selecting a fixed frame budget, to generate clinically oriented summaries and support correct diagnosis.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2604.21793v1",
+      "title": "Inferring High-Level Events from Timestamped Data: Complexity and Medical Applications",
+      "authors": [
+        "Yvon K. Awuklu",
+        "Meghyn Bienvenu",
+        "Katsumi Inoue",
+        "Vianney Jouhet",
+        "Fleur Mougin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a novel logic-based framework for inferring complex, temporally extended events (like disease episodes) from raw timestamped data and background knowledge. The method uses logical rules to define event existence and termination, combining them into meta-events, and incorporates constraints and a repair mechanism to ensure consistency among inferred events. The core contribution is a tractable approach, restricted to polynomial time complexity, demonstrated through a prototype using Answer Set Programming, particularly applied to medical record analysis.",
+      "url": "http://arxiv.org/abs/2604.21793v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21793v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2604.21421v1",
+      "title": "Differentially Private De-identification of Dutch Clinical Notes: A Comparative Evaluation",
+      "authors": [
+        "Michele Miranda",
+        "Xinlan Yan",
+        "Nishant Mishra",
+        "Rachel Murphy",
+        "Ameen Abu-Hanna"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper comparatively evaluates three core methods—Differential Privacy (DP), Named Entity Recognition (NER), and Large Language Models (LLMs)—for automatically de-identifying Dutch clinical notes. The contribution is the first comprehensive study assessing these techniques, both individually and in hybrid configurations, based on privacy leakage and utility metrics. This research helps determine the most effective automated approach for balancing patient privacy with data usefulness in clinical text processing.",
+      "url": "http://arxiv.org/abs/2604.21421v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21421v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2604.21573v1",
+      "title": "CHRep: Cross-modal Histology Representation and Post-hoc Calibration for Spatial Gene Expression Prediction",
+      "authors": [
+        "Changfan Wang",
+        "Xinran Wang",
+        "Donghai Liu",
+        "Fei Su",
+        "Lulu Sun"
+      ],
+      "categories": [
+        "q-bio.QM",
+        "cs.CV"
+      ],
+      "abstract": "CHRep is a two-phase framework designed to robustly predict spatial gene expression from H&E images, addressing slide-level appearance shifts common in ST data. The core method involves learning a structure-aware representation via joint optimization of correlation-aware regression and spatial topology regularization during training. For robust inference, it employs a lightweight, post-hoc calibration module that uses a training gallery to correct for cross-slide variations without fine-tuning the main model backbone.",
+      "url": "http://arxiv.org/abs/2604.21573v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21573v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2604.21573v1/image/main.png",
+      "figure_caption": "Overview of CHRep with a two-phase workflow. Training phase (top): CHRep uses three branches for H&E patches, spot coordinates, and gene expression. The H&E branch produces histology features F H F_{H} for decoding and correlation-aware regression supervision ( ℒ reg \\( \\mathcal{L} \\)_{\\( \\mathrm{reg} \\)} ). The coordinate branch maps spot coordinates to coordinate features F C F_{C} , which are fused with F H F_{H} to form the coordinate-guided morphology representation F M F_{M} . The gene branch produces expression features F G F_{G} . A cross-modal alignment loss ( ℒ con \\( \\mathcal{L} \\)_{\\( \\mathrm{con} \\)} ) aligns F M F_{M} with F G F_{G} , while a topology regularization term ( ℒ spa \\( \\mathcal{L} \\)_{\\( \\mathrm{spa} \\)} ) preserves coordinate-induced spatial structure by regularizing the similarity pattern of F G F_{G} . Inference phase (bottom): the encoder is frozen, an Estimate Module computes a similarity-weighted neighbor-based estimate from the training gallery, and a Correction Module outputs a magnitude-regularized residual adjustment. Their sum gives the final prediction.",
+      "primary_category": "q-bio.QM",
+      "primary_category_anchor": "q-bio-qm",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 47884971,
+      "title": "DeepSeek v4",
+      "url": "https://api-docs.deepseek.com/",
+      "score": 1797,
+      "created_at": "2026-04-24T03:01:21Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47884971",
+      "summary": "DeepSeek has released documentation for its new DeepSeek v4 model, indicating an update to their large language model offerings."
+    },
+    {
+      "id": 47886517,
+      "title": "Show HN: How LLMs Work – Interactive visual guide based on Karpathy's lecture",
+      "url": "https://ynarwal.github.io/how-llms-work/",
+      "score": 233,
+      "created_at": "2026-04-24T06:48:53Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47886517",
+      "summary": "This tech news highlights an interactive visual guide, based on Andrej Karpathy's lecture, that explains the inner workings of Large Language Models (LLMs)."
+    },
+    {
+      "id": 47887683,
+      "title": "South Korea police arrest man for posting AI photo of runaway wolf",
+      "url": "https://www.bbc.com/news/articles/c4gx1n0dl9no",
+      "score": 218,
+      "created_at": "2026-04-24T09:17:57Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47887683",
+      "summary": "South Korean police arrested a man for creating and sharing an AI-generated image depicting a wolf that had escaped from a local zoo."
+    },
+    {
+      "id": 47885014,
+      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "score": 157,
+      "created_at": "2026-04-24T03:07:54Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47885014",
+      "summary": "DeepSeek-V4 is a new large language model emphasizing highly efficient processing of million-token context lengths."
+    },
+    {
+      "id": 47894081,
+      "title": "SFO Quiet Airport (2025)",
+      "url": "https://viewfromthewing.com/san-francisco-airport-removed-90-minutes-of-daily-noise-travelers-say-it-changed-everything/",
+      "score": 124,
+      "created_at": "2026-04-24T18:29:53Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47894081",
+      "summary": "San Francisco International Airport (SFO) has successfully implemented changes that removed 90 minutes of daily noise, significantly improving the travel experience for passengers."
+    },
+    {
+      "id": 47893779,
+      "title": "There Will Be a Scientific Theory of Deep Learning",
+      "url": "https://arxiv.org/abs/2604.21691",
+      "score": 115,
+      "created_at": "2026-04-24T18:06:05Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47893779",
+      "summary": "Researchers propose that a rigorous scientific theory for deep learning is achievable, moving beyond empirical observation to establish fundamental principles."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use claude-code for free in the terminal, VSCode extension or via discord like openclaw",
+      "stars_today": 2638,
+      "total_stars": 8932,
+      "language": "Python",
+      "topics": [],
+      "summary": "This repository provides tools to access and utilize the Claude Code model freely within the terminal, VSCode, or via Discord, offering versatile integration for coding assistance."
+    },
+    {
+      "full_name": "huggingface/ml-intern",
+      "url": "https://github.com/huggingface/ml-intern",
+      "description": "🤗 ml-intern: an open-source ML engineer that reads papers, trains models, and ships ML models",
+      "stars_today": 2985,
+      "total_stars": 5345,
+      "language": "Python",
+      "topics": [],
+      "summary": "Hugging Face's `ml-intern` is an open-source ML engineer designed to autonomously read research papers, train models, and deploy complete machine learning solutions."
+    },
+    {
+      "full_name": "google/osv-scanner",
+      "url": "https://github.com/google/osv-scanner",
+      "description": "Vulnerability scanner written in Go which uses the data provided by https://osv.dev",
+      "stars_today": 141,
+      "total_stars": 9506,
+      "language": "Go",
+      "topics": [],
+      "summary": "OSV-Scanner is a Go-based vulnerability scanner that leverages data from OSV.dev to identify security weaknesses in software dependencies."
+    },
+    {
+      "full_name": "Z4nzu/hackingtool",
+      "url": "https://github.com/Z4nzu/hackingtool",
+      "description": "ALL IN ONE Hacking Tool For Hackers",
+      "stars_today": 1378,
+      "total_stars": 62368,
+      "language": "Python",
+      "topics": [],
+      "summary": "This GitHub repository, \"Z4nzu/hackingtool,\" serves as a comprehensive, all-in-one hacking tool designed to consolidate various utilities for security professionals and ethical hackers."
+    },
+    {
+      "full_name": "zilliztech/claude-context",
+      "url": "https://github.com/zilliztech/claude-context",
+      "description": "Code search MCP for Claude Code. Make entire codebase the context for any coding agent.",
+      "stars_today": 706,
+      "total_stars": 9011,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "This repository provides a Code Search MCP for Claude Code, enabling entire codebases to serve as context for coding agents."
+    },
+    {
+      "full_name": "open-metadata/OpenMetadata",
+      "url": "https://github.com/open-metadata/OpenMetadata",
+      "description": "OpenMetadata is a unified metadata platform for data discovery, data observability, and data governance powered by a central metadata repository, in-depth column level lineage, and seamless team collaboration.",
+      "stars_today": 530,
+      "total_stars": 13350,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "OpenMetadata is a unified platform providing a central metadata repository for data discovery, observability, and governance, featuring in-depth column-level lineage and team collaboration tools."
+    },
+    {
+      "full_name": "PostHog/posthog",
+      "url": "https://github.com/PostHog/posthog",
+      "description": "🦔 PostHog is an all-in-one developer platform for building successful products. We offer product analytics, web analytics, session replay, error tracking, feature flags, experimentation, surveys, data warehouse, a CDP, and an AI product assistant to help debug your code, ship features faster, and keep all your usage and customer data in one stack.",
+      "stars_today": 85,
+      "total_stars": 33110,
+      "language": "Python",
+      "topics": [],
+      "summary": "PostHog is an all-in-one developer platform providing product analytics, session replay, feature flags, experimentation, and more, designed to help teams build successful products by centralizing usage data and accelerating feature delivery."
+    },
+    {
+      "full_name": "dani-garcia/vaultwarden",
+      "url": "https://github.com/dani-garcia/vaultwarden",
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "stars_today": 268,
+      "total_stars": 59170,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Vaultwarden is an unofficial, Rust-based, lightweight server compatible with the Bitwarden password manager ecosystem, offering a self-hosted alternative to the official server."
+    },
+    {
+      "full_name": "Anil-matcha/Open-Generative-AI",
+      "url": "https://github.com/Anil-matcha/Open-Generative-AI",
+      "description": "Uncensored, open-source alternative to Higgsfield AI, Freepik AI, Krea AI, Openart AI — Free, unrestricted AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+      "stars_today": 842,
+      "total_stars": 7691,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "This repository offers a free, self-hosted, and uncensored open-source alternative for AI image and video generation, featuring over 200 models like Flux, Midjourney, Kling, Sora, and Veo, all under the MIT license."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
