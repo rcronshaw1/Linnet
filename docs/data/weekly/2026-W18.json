@@ -1,0 +1,110 @@
+{
+  "period": "2026-W18",
+  "summary": "The four papers this week present diverse advances across medical data analysis, focusing on **improving diagnostic support, handling complex temporal data, ensuring data privacy, and enhancing multi-modal biological representation.**\n\n**Popular Directions & Key Advances:**\n\nA clear trend is the move towards **clinically integrated and context-aware AI systems.** *Divide-then-Diagnose* addresses the challenge of ultra-long endoscopy videos by focusing on **diagnosis-driven summarization** and introducing a critical, large-scale dataset (VideoCAP) to facilitate this goal. Simultaneously, the *Inferring High-Level Events* paper tackles the complexity of temporal medical records by establishing a **principled, logic-based framework** to derive high-level clinical events from simple timestamps, ensuring computational tractability.\n\n**Handling Data Nuance and Robustness:**\n\nRobustness against real-world data variation is another focus. *CHRep* tackles inconsistencies in histology by developing a **cross-modal representation framework** using spatial regularization, complemented by a lightweight, **post-hoc calibration module** to correct for slide-to-slide appearance shifts in gene expression prediction.\n\n**Data Governance and Privacy:**\n\nStrong emphasis is placed on secure data utilization. The *Differentially Private De-identification* paper directly compares the efficacy of established methods (DP, NER) against cutting-edge **LLMs** for de-identifying clinical notes, offering crucial metrics on the trade-off between **privacy leakage and data utility** for real-world deployment.\n\n**Summary of Shifts:**\n\nThe week shows a significant shift from basic prediction toward **interpretable, actionable summaries** (endoscopy), **formalized reasoning** over time (temporal logic), and **robust generalization** across modalities and privacy constraints.",
+  "top_papers": [
+    {
+      "id": "2604.21814v1",
+      "title": "Divide-then-Diagnose: Weaving Clinician-Inspired Contexts for Ultra-Long Capsule Endoscopy Videos",
+      "authors": [
+        "Bowen Liu",
+        "Li Yang",
+        "Shanshan Song",
+        "Mingyu Tang",
+        "Zhifang Gao"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces \"Divide-then-Diagnose,\" a novel approach for analyzing ultra-long capsule endoscopy videos by framing the problem as diagnosis-driven video summarization. The core method involves identifying sparse, clinically meaningful evidence frames from the vast video data to support accurate diagnoses. The main contribution is the introduction of VideoCAP, the first large-scale dataset annotated with diagnosis-driven supervision derived from real clinical reports, enabling research beyond simple frame-level analysis.",
+      "url": "http://arxiv.org/abs/2604.21814v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21814v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2604.21814v1/x1.png",
+      "figure_caption": "(a) General videos typically contain task-relevant evidence that is temporally dense and visually salient, as reflected by the larger red box and denser timeline; (b) CE videos instead contain diagnostic evidence that is temporally sparse and visually subtle, as reflected by the smaller red box and sparser timeline; (c) Uniform sampling selects clinically irrelevant frames due to the sparse nature of lesions, leading to missed diagnoses; (d) Keyframe sampling captures unsatisfactory representative frames (e.g., bubbles), resulting in misdiagnosis; (e) DiCE (Ours) adaptively extracts context-aware evidence clips from the raw video, rather than selecting a fixed frame budget, to generate clinically oriented summaries and support correct diagnosis.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2604.21793v1",
+      "title": "Inferring High-Level Events from Timestamped Data: Complexity and Medical Applications",
+      "authors": [
+        "Yvon K. Awuklu",
+        "Meghyn Bienvenu",
+        "Katsumi Inoue",
+        "Vianney Jouhet",
+        "Fleur Mougin"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a novel logic-based framework for inferring complex, temporally extended events (like disease episodes) from raw timestamped data and background knowledge. The method uses logical rules to define event existence and termination, combining them into meta-events, and incorporates constraints and a repair mechanism to ensure consistency among inferred events. The core contribution is a tractable approach, restricted to polynomial time complexity, demonstrated through a prototype using Answer Set Programming, particularly applied to medical record analysis.",
+      "url": "http://arxiv.org/abs/2604.21793v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21793v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2604.21421v1",
+      "title": "Differentially Private De-identification of Dutch Clinical Notes: A Comparative Evaluation",
+      "authors": [
+        "Michele Miranda",
+        "Xinlan Yan",
+        "Nishant Mishra",
+        "Rachel Murphy",
+        "Ameen Abu-Hanna"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "This paper comparatively evaluates three core methods—Differential Privacy (DP), Named Entity Recognition (NER), and Large Language Models (LLMs)—for automatically de-identifying Dutch clinical notes. The contribution is the first comprehensive study assessing these techniques, both individually and in hybrid configurations, based on privacy leakage and utility metrics. This research helps determine the most effective automated approach for balancing patient privacy with data usefulness in clinical text processing.",
+      "url": "http://arxiv.org/abs/2604.21421v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21421v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2604.21573v1",
+      "title": "CHRep: Cross-modal Histology Representation and Post-hoc Calibration for Spatial Gene Expression Prediction",
+      "authors": [
+        "Changfan Wang",
+        "Xinran Wang",
+        "Donghai Liu",
+        "Fei Su",
+        "Lulu Sun"
+      ],
+      "categories": [
+        "q-bio.QM",
+        "cs.CV"
+      ],
+      "abstract": "CHRep is a two-phase framework designed to robustly predict spatial gene expression from H&E images, addressing slide-level appearance shifts common in ST data. The core method involves learning a structure-aware representation via joint optimization of correlation-aware regression and spatial topology regularization during training. For robust inference, it employs a lightweight, post-hoc calibration module that uses a training gallery to correct for cross-slide variations without fine-tuning the main model backbone.",
+      "url": "http://arxiv.org/abs/2604.21573v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.21573v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2604.21573v1/image/main.png",
+      "figure_caption": "Overview of CHRep with a two-phase workflow. Training phase (top): CHRep uses three branches for H&E patches, spot coordinates, and gene expression. The H&E branch produces histology features F H F_{H} for decoding and correlation-aware regression supervision ( ℒ reg \\( \\mathcal{L} \\)_{\\( \\mathrm{reg} \\)} ). The coordinate branch maps spot coordinates to coordinate features F C F_{C} , which are fused with F H F_{H} to form the coordinate-guided morphology representation F M F_{M} . The gene branch produces expression features F G F_{G} . A cross-modal alignment loss ( ℒ con \\( \\mathcal{L} \\)_{\\( \\mathrm{con} \\)} ) aligns F M F_{M} with F G F_{G} , while a topology regularization term ( ℒ spa \\( \\mathcal{L} \\)_{\\( \\mathrm{spa} \\)} ) preserves coordinate-induced spatial structure by regularizing the similarity pattern of F G F_{G} . Inference phase (bottom): the encoder is frozen, an Estimate Module computes a similarity-weighted neighbor-based estimate from the training gallery, and a Correction Module outputs a magnitude-regularized residual adjustment. Their sum gives the final prediction.",
+      "primary_category": "q-bio.QM",
+      "primary_category_anchor": "q-bio-qm",
+      "primary_category_rank": 1
+    }
+  ],
+  "new_jobs": [],
+  "trending_keywords": [],
+  "keyword_frequency": {},
+  "daily_refs": [
+    "2026-04-20",
+    "2026-04-21",
+    "2026-04-22",
+    "2026-04-23",
+    "2026-04-24",
+    "2026-04-25",
+    "2026-04-26"
+  ]
+}
