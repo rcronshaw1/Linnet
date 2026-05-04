@@ -1,0 +1,105 @@
+{
+  "period": "2026-W19",
+  "summary": "The four papers collectively highlight active research in applied AI across medical imaging, clinical data retrieval, and physiological monitoring, pointing toward trends in **enhanced robustness, integration of structured knowledge, and deployment feasibility**.\n\n**Popular Directions & Notable Advances:**\n\nA key direction is leveraging advanced models for complex tasks, as seen in the **Robustness Evaluation** paper which validates the deployment readiness of a large foundation segmentation model (SAM) for abdominal CT, showing high tolerance to domain shifts—a crucial step for real-world deployment like Digital Twins.\n\nAnother significant advance involves bridging unstructured data with structured knowledge. **CoRE** focuses on continual lesion segmentation by formally embedding clinical **concepts** to guide model expansion, moving beyond purely visual learning. Similarly, the **Health System Scale Semantic Search** paper demonstrates the successful engineering feat of deploying concept-based search across a massive corpus of clinical notes, emphasizing **governance and scalability** in real-world deployments.\n\n**Significant Shifts:**\n\nThe papers reveal a shift toward **validation and operational feasibility**. While foundational models are being tested for robustness (**Robustness Evaluation**), the semantic search paper validates the **practical, large-scale adoption** of advanced retrieval techniques within HIPAA constraints. Furthermore, the **Neonatal Pain Detection** paper highlights a nascent, yet important, trend in **non-contact physiological sensing**, using refined remote monitoring techniques to derive objective clinical insights non-invasively.",
+  "top_papers": [
+    {
+      "id": "2604.25376v1",
+      "title": "CoRE: Concept-Reasoning Expansion for Continual Brain Lesion Segmentation",
+      "authors": [
+        "Qianqian Chen",
+        "Anglin Liu",
+        "Jingyang Zhang",
+        "Yudong Zhang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "The CoRE framework addresses continual brain lesion segmentation by integrating visual features with structured concepts through a joint decision-making mechanism. It aligns image tokens with a hierarchical concept library to simulate clinical reasoning, guiding both interpretable expert routing and demand-based model expansion. This approach aims to overcome limitations in existing continual learning methods by incorporating explicit conceptual knowledge to handle pathological and multimodal heterogeneity.",
+      "url": "http://arxiv.org/abs/2604.25376v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25376v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2604.25376v1/Fig/figure1.jpg",
+      "figure_caption": "Illustration of CL paradigms. (a-b) Traditional paradigm (left) : Existing methods typically (a) employ a fixed expert pool shared by all tasks or (b) add task-specific experts, which often suffer from limited capacity or linear parameter growth. (c-d) Self-expansion paradigm (right) : (c) Existing dynamic expansion methods rely solely on image perception strategies and visual shifts. (d) Our method incorporates brain lesion concepts to simulate the clinical cognitive process, guiding expert routing and architectural growth through stable concept reasoning.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2604.25605v1",
+      "title": "Health System Scale Semantic Search Across Unstructured Clinical Notes",
+      "authors": [
+        "Faith Wavinya Mutinda",
+        "Spandana Makeneni",
+        "Anna Lin",
+        "Shivaji Dutta",
+        "Irit R. Rasooly"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.DB",
+        "cs.IR"
+      ],
+      "abstract": "This paper details the engineering and deployment of a semantic search system capable of indexing and querying 166 million unstructured clinical notes across a large health system. The core method involves using instruction-tuned embeddings, optimized chunking, and a hybrid storage architecture (vector database and key-value store) to manage scale efficiently. The contribution is demonstrating the feasibility, performance, and governance compliance of deploying large-scale, concept-based clinical information retrieval within a real-world, HIPAA-compliant environment.",
+      "url": "http://arxiv.org/abs/2604.25605v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25605v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2604.25685v1",
+      "title": "Robustness Evaluation of a Foundation Segmentation Model Under Simulated Domain Shifts in Abdominal CT: Implications for Health Digital Twin Deployment",
+      "authors": [
+        "Sanghati Basu"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper systematically evaluates the robustness of the Segment Anything Model (SAM) for spleen segmentation in abdominal CT against clinically relevant domain shifts. The core method involves applying controlled perturbations (noise, blur, contrast changes, etc.) to CT slices and measuring the resulting change in segmentation performance (Dice score). The key contribution is demonstrating that SAM exhibits high robustness, with minimal performance degradation ($\\Delta$Dice $< 0.01$) under simulated inter-scanner variability, suggesting promise for its deployment in health digital twins.",
+      "url": "http://arxiv.org/abs/2604.25685v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25685v1",
+      "score": 9.0,
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2604.25680v1",
+      "title": "Exploring Remote Photoplethysmography for Neonatal Pain Detection from Facial Videos",
+      "authors": [
+        "Ashutosh Dhamaniya",
+        "Anup Kumar Gupta",
+        "Trishna Saikia",
+        "Puneet Gupta"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces a novel, non-contact method for neonatal pain detection using remote photoplethysmography (rPPG) signals extracted from facial videos. To improve signal quality, the method incorporates a quality parameter to select temporal signals from facial regions least affected by skin deformations. The core contribution is demonstrating the feasibility of using these refined rPPG signals as objective physiological indicators for assessing pain in neonates.",
+      "url": "http://arxiv.org/abs/2604.25680v1",
+      "pdf_url": "https://arxiv.org/pdf/2604.25680v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2604.25680v1/proposed_method_1.png",
+      "figure_caption": "The flow diagram of our proposed method. The input video is divided into multiple clips, the face region is detected and divided into ROIs, and temporal signals with higher quality are selected. The selected signals are used to extract the rPPG signal along with the fitness parameter. Finally, the rPPG signal with the highest fitness parameter is fed to the machine learning classifier for pain and no pain classification.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    }
+  ],
+  "new_jobs": [],
+  "trending_keywords": [],
+  "keyword_frequency": {},
+  "daily_refs": [
+    "2026-04-27",
+    "2026-04-28",
+    "2026-04-29",
+    "2026-04-30",
+    "2026-05-01",
+    "2026-05-02",
+    "2026-05-03"
+  ]
+}
