@@ -1,0 +1,614 @@
+{
+  "date": "2026-05-04",
+  "generated_at": "2026-05-04T01:07:27.591076+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.00421v1",
+          "title": "RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI",
+          "authors": [
+            "Pankaj Gupta",
+            "Kartik Bose"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.LG"
+          ],
+          "abstract": "RadLite fine-tunes small language models (SLMs, 3-4B parameters) using LoRA across nine diverse radiology tasks to enable deployment on resource-constrained CPUs. The core contribution is demonstrating that this targeted fine-tuning significantly boosts performance over zero-shot baselines across various clinical applications. This method successfully bridges the gap between LLM potential and practical, low-compute clinical AI deployment.",
+          "url": "http://arxiv.org/abs/2605.00421v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.00421v1",
+          "score": 10.0,
+          "figure_url": "https://arxiv.org/html/2605.00421v1/figures/fig_dataset_overview.png",
+          "figure_caption": "Training data overview: 162K samples across 9 radiology tasks and 12 public datasets. (a) Task distribution by sample count with sampling weights. (b) RADS assignment breakdown across 10 classification systems. (c) Total samples by task category (Generation, Extraction, Classification). (d) Number of tasks per sampling weight tier.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.00793v1",
+          "title": "Unsupervised Denoising of Real Clinical Low Dose Liver CT with Perceptual Attention Networks",
+          "authors": [
+            "Jingxi Pu",
+            "Tonghua Liu",
+            "Zhilin Guan",
+            "Siqiao Li",
+            "Yang Ming"
+          ],
+          "categories": [
+            "cs.AI",
+            "eess.IV",
+            "cs.CV"
+          ],
+          "abstract": "This paper proposes an unsupervised deep learning framework for denoising real clinical low-dose liver CT images, inspired by Cycle-GAN. The method integrates a U-Net for multi-scale feature extraction, an attention mechanism, and a residual network, enhanced by perceptual loss tailored for medical images. This approach effectively reduces noise without requiring paired training data, improving diagnostic quality.",
+          "url": "http://arxiv.org/abs/2605.00793v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.00793v1",
+          "score": 9.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.00698v1",
+          "title": "FedKPer: Tackling Generalization and Personalization in Medical Federated Learning via Knowledge Personalization",
+          "authors": [
+            "Zoe Fowler",
+            "Ghassan AlRegib"
+          ],
+          "categories": [
+            "eess.IV",
+            "cs.LG"
+          ],
+          "abstract": "FedKPer addresses statistical heterogeneity in medical federated learning by integrating knowledge personalization into local training. The method achieves a better balance between generalization and personalization through selective alignment with the global model and a modified aggregation scheme. This approach mitigates forgetting and improves performance across diverse hospital datasets.",
+          "url": "http://arxiv.org/abs/2605.00698v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.00698v1",
+          "score": 9.0,
+          "primary_category": "eess.IV",
+          "primary_category_anchor": "eess-iv",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.00448v1",
+          "title": "Learning from Compressed CT: Feature Attention Style Transfer and Structured Factorized Projections for Resource-Efficient Medical Image Analysis",
+          "authors": [
+            "Shadid Yousuf",
+            "S. M. Mahbubur Rahman",
+            "Mohammed Imamul Hassan Bhuiyan"
+          ],
+          "categories": [
+            "eess.IV",
+            "cs.CV"
+          ],
+          "abstract": "This paper addresses the resource limitations of AI in medical imaging by enabling analysis directly from JPEG-compressed CT scans. The core method, Feature Attention Style Transfer (FAST), is a distillation framework that transfers rich feature representations and structural relationships from high-fidelity CTs to a model processing the compressed data. This allows for efficient, low-resource deployment of thoracic abnormality detection without sacrificing diagnostic performance.",
+          "url": "http://arxiv.org/abs/2605.00448v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.00448v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.00448v1/trainingonly.drawio.png",
+          "figure_caption": "Overview of the CT-Lite framework. (Left) Stage 1: Feature Attention Style Transfer (FAST) distills the frozen high-fidelity teacher into a student encoder operating on JPEG-compressed inputs, using attention-style and dual-attention feature alignment. (Right) Stage 2: contrastive alignment of compressed-CT and report embeddings via Structured Factorized Projection (SFP) blocks and a SigLIP objective.",
+          "primary_category": "eess.IV",
+          "primary_category_anchor": "eess-iv",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2605.00527v1",
+          "title": "Multi-frame Restoration for High-rate Lissajous Confocal Laser Endomicroscopy",
+          "authors": [
+            "Minhee Lee",
+            "Sangyoon Lee",
+            "Jiwook Lee",
+            "Minki Hong",
+            "Kyuyoung Kim"
+          ],
+          "categories": [
+            "eess.IV",
+            "cs.CV",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces MIRA, a lightweight recurrent framework designed to restore high-rate Lissajous Confocal Laser Endomicroscopy (CLE) images, which suffer from structured holes due to rapid scanning. The core method iteratively aggregates temporal context using feature reuse and displacement alignment. The contribution lies in creating the first benchmark dataset for this problem and demonstrating that MIRA achieves superior restoration quality compared to existing methods while remaining computationally efficient.",
+          "url": "http://arxiv.org/abs/2605.00527v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.00527v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2605.00527v1/x1.png",
+          "figure_caption": "A visual description of the high-rate Lissajous CLE frames: (a) High-rate LQ frame (10Hz) with steady probe movement; (b) High-rate LQ frame of the same scene, with shaky probe movement; (c) Scanning trajectory of the probe while taking one frame, where the white “holes” correspond to the missing pixels; (d) The low-rate HQ frame with the same field-of-view.",
+          "primary_category": "eess.IV",
+          "primary_category_anchor": "eess-iv",
+          "primary_category_rank": 2
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 6,
+        "papers_after_llm_filter": 5,
+        "count": 5
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 47994012,
+          "title": "Specsmaxxing – On overcoming AI psychosis, and why I write specs in YAML",
+          "url": "https://acai.sh/blog/specsmaxxing",
+          "score": 260,
+          "created_at": "2026-05-03T06:33:38Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47994012",
+          "summary": "The author advocates for \"specsmaxxing\"—writing detailed technical specifications in YAML—as a practical method to combat the confusion and anxiety associated with rapidly evolving AI capabilities, termed \"AI psychosis.\""
+        },
+        {
+          "id": 47998225,
+          "title": "For thirty years I programmed with Phish on, every day",
+          "url": "https://christophermeiklejohn.com/ai/personal/phish/flow/agents/2026/05/03/rift.html",
+          "score": 206,
+          "created_at": "2026-05-03T15:55:59Z",
+          "comments_url": "https://news.ycombinator.com/item?id=47998225",
+          "summary": "A programmer shares a personal reflection on how listening to the band Phish daily for thirty years influenced their programming workflow and state of flow."
+        }
+      ],
+      "meta": {
+        "count": 2
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "ruvnet/ruflo",
+          "url": "https://github.com/ruvnet/ruflo",
+          "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+          "stars_today": 1840,
+          "total_stars": 39015,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "ruflo is a leading agent orchestration platform for Claude, enabling the deployment of intelligent, self-learning multi-agent swarms for autonomous workflows, featuring enterprise architecture, RAG integration, and native Claude Code/Codex integration."
+        },
+        {
+          "full_name": "TauricResearch/TradingAgents",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+          "stars_today": 3313,
+          "total_stars": 65300,
+          "language": "Python",
+          "topics": [],
+          "summary": "TradingAgents is a multi-agent LLM framework designed for developing and testing sophisticated financial trading strategies."
+        },
+        {
+          "full_name": "soxoj/maigret",
+          "url": "https://github.com/soxoj/maigret",
+          "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+          "stars_today": 1119,
+          "total_stars": 23818,
+          "language": "Python",
+          "topics": [],
+          "summary": "Maigret is a tool that collects a comprehensive dossier on an individual by querying over 3000 websites using a provided username."
+        },
+        {
+          "full_name": "Hmbown/DeepSeek-TUI",
+          "url": "https://github.com/Hmbown/DeepSeek-TUI",
+          "description": "Coding agent for DeepSeek models that runs in your terminal",
+          "stars_today": 343,
+          "total_stars": 2173,
+          "language": "Rust",
+          "topics": [],
+          "summary": "DeepSeek-TUI is a terminal-based coding agent that allows users to interact with and utilize DeepSeek models directly within their command-line interface."
+        },
+        {
+          "full_name": "AIDC-AI/Pixelle-Video",
+          "url": "https://github.com/AIDC-AI/Pixelle-Video",
+          "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+          "stars_today": 497,
+          "total_stars": 9976,
+          "language": "Python",
+          "topics": [],
+          "summary": "Pixelle-Video is an AI-powered engine designed for the fully automated creation of short videos."
+        },
+        {
+          "full_name": "browserbase/skills",
+          "url": "https://github.com/browserbase/skills",
+          "description": "Claude Agent SDK with a web browsing tool",
+          "stars_today": 322,
+          "total_stars": 1828,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "The browserbase/skills repository provides a Claude Agent SDK featuring a built-in web browsing tool to enable agents to interact with and gather information from the internet."
+        },
+        {
+          "full_name": "czlonkowski/n8n-mcp",
+          "url": "https://github.com/czlonkowski/n8n-mcp",
+          "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+          "stars_today": 282,
+          "total_stars": 19525,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "This repository provides an n8n workflow builder that integrates with AI coding assistants like Claude Desktop and Cursor to automate workflow creation."
+        },
+        {
+          "full_name": "1jehuang/jcode",
+          "url": "https://github.com/1jehuang/jcode",
+          "description": "Coding Agent Harness",
+          "stars_today": 591,
+          "total_stars": 3437,
+          "language": "Rust",
+          "topics": [],
+          "summary": "The jcode repository provides a **Coding Agent Harness** designed to facilitate the development and execution of autonomous coding agents."
+        },
+        {
+          "full_name": "openwrt/openwrt",
+          "url": "https://github.com/openwrt/openwrt",
+          "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
+          "stars_today": 26,
+          "total_stars": 26617,
+          "language": "C",
+          "topics": [],
+          "summary": "The OpenWrt GitHub repository mirrors the official OpenWrt source code for reference and accepts pull requests, which are then merged into the primary Git repository via staging trees."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 6,
+    "papers_after_llm_filter": 5,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 60
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.00421v1",
+      "title": "RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI",
+      "authors": [
+        "Pankaj Gupta",
+        "Kartik Bose"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "RadLite fine-tunes small language models (SLMs, 3-4B parameters) using LoRA across nine diverse radiology tasks to enable deployment on resource-constrained CPUs. The core contribution is demonstrating that this targeted fine-tuning significantly boosts performance over zero-shot baselines across various clinical applications. This method successfully bridges the gap between LLM potential and practical, low-compute clinical AI deployment.",
+      "url": "http://arxiv.org/abs/2605.00421v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00421v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2605.00421v1/figures/fig_dataset_overview.png",
+      "figure_caption": "Training data overview: 162K samples across 9 radiology tasks and 12 public datasets. (a) Task distribution by sample count with sampling weights. (b) RADS assignment breakdown across 10 classification systems. (c) Total samples by task category (Generation, Extraction, Classification). (d) Number of tasks per sampling weight tier.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.00793v1",
+      "title": "Unsupervised Denoising of Real Clinical Low Dose Liver CT with Perceptual Attention Networks",
+      "authors": [
+        "Jingxi Pu",
+        "Tonghua Liu",
+        "Zhilin Guan",
+        "Siqiao Li",
+        "Yang Ming"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper proposes an unsupervised deep learning framework for denoising real clinical low-dose liver CT images, inspired by Cycle-GAN. The method integrates a U-Net for multi-scale feature extraction, an attention mechanism, and a residual network, enhanced by perceptual loss tailored for medical images. This approach effectively reduces noise without requiring paired training data, improving diagnostic quality.",
+      "url": "http://arxiv.org/abs/2605.00793v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00793v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.00698v1",
+      "title": "FedKPer: Tackling Generalization and Personalization in Medical Federated Learning via Knowledge Personalization",
+      "authors": [
+        "Zoe Fowler",
+        "Ghassan AlRegib"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.LG"
+      ],
+      "abstract": "FedKPer addresses statistical heterogeneity in medical federated learning by integrating knowledge personalization into local training. The method achieves a better balance between generalization and personalization through selective alignment with the global model and a modified aggregation scheme. This approach mitigates forgetting and improves performance across diverse hospital datasets.",
+      "url": "http://arxiv.org/abs/2605.00698v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00698v1",
+      "score": 9.0,
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.00448v1",
+      "title": "Learning from Compressed CT: Feature Attention Style Transfer and Structured Factorized Projections for Resource-Efficient Medical Image Analysis",
+      "authors": [
+        "Shadid Yousuf",
+        "S. M. Mahbubur Rahman",
+        "Mohammed Imamul Hassan Bhuiyan"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper addresses the resource limitations of AI in medical imaging by enabling analysis directly from JPEG-compressed CT scans. The core method, Feature Attention Style Transfer (FAST), is a distillation framework that transfers rich feature representations and structural relationships from high-fidelity CTs to a model processing the compressed data. This allows for efficient, low-resource deployment of thoracic abnormality detection without sacrificing diagnostic performance.",
+      "url": "http://arxiv.org/abs/2605.00448v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00448v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.00448v1/trainingonly.drawio.png",
+      "figure_caption": "Overview of the CT-Lite framework. (Left) Stage 1: Feature Attention Style Transfer (FAST) distills the frozen high-fidelity teacher into a student encoder operating on JPEG-compressed inputs, using attention-style and dual-attention feature alignment. (Right) Stage 2: contrastive alignment of compressed-CT and report embeddings via Structured Factorized Projection (SFP) blocks and a SigLIP objective.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.00527v1",
+      "title": "Multi-frame Restoration for High-rate Lissajous Confocal Laser Endomicroscopy",
+      "authors": [
+        "Minhee Lee",
+        "Sangyoon Lee",
+        "Jiwook Lee",
+        "Minki Hong",
+        "Kyuyoung Kim"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces MIRA, a lightweight recurrent framework designed to restore high-rate Lissajous Confocal Laser Endomicroscopy (CLE) images, which suffer from structured holes due to rapid scanning. The core method iteratively aggregates temporal context using feature reuse and displacement alignment. The contribution lies in creating the first benchmark dataset for this problem and demonstrating that MIRA achieves superior restoration quality compared to existing methods while remaining computationally efficient.",
+      "url": "http://arxiv.org/abs/2605.00527v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00527v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.00527v1/x1.png",
+      "figure_caption": "A visual description of the high-rate Lissajous CLE frames: (a) High-rate LQ frame (10Hz) with steady probe movement; (b) High-rate LQ frame of the same scene, with shaky probe movement; (c) Scanning trajectory of the probe while taking one frame, where the white “holes” correspond to the missing pixels; (d) The low-rate HQ frame with the same field-of-view.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.00421v1",
+      "title": "RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI",
+      "authors": [
+        "Pankaj Gupta",
+        "Kartik Bose"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "RadLite fine-tunes small language models (SLMs, 3-4B parameters) using LoRA across nine diverse radiology tasks to enable deployment on resource-constrained CPUs. The core contribution is demonstrating that this targeted fine-tuning significantly boosts performance over zero-shot baselines across various clinical applications. This method successfully bridges the gap between LLM potential and practical, low-compute clinical AI deployment.",
+      "url": "http://arxiv.org/abs/2605.00421v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00421v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2605.00421v1/figures/fig_dataset_overview.png",
+      "figure_caption": "Training data overview: 162K samples across 9 radiology tasks and 12 public datasets. (a) Task distribution by sample count with sampling weights. (b) RADS assignment breakdown across 10 classification systems. (c) Total samples by task category (Generation, Extraction, Classification). (d) Number of tasks per sampling weight tier.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.00793v1",
+      "title": "Unsupervised Denoising of Real Clinical Low Dose Liver CT with Perceptual Attention Networks",
+      "authors": [
+        "Jingxi Pu",
+        "Tonghua Liu",
+        "Zhilin Guan",
+        "Siqiao Li",
+        "Yang Ming"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper proposes an unsupervised deep learning framework for denoising real clinical low-dose liver CT images, inspired by Cycle-GAN. The method integrates a U-Net for multi-scale feature extraction, an attention mechanism, and a residual network, enhanced by perceptual loss tailored for medical images. This approach effectively reduces noise without requiring paired training data, improving diagnostic quality.",
+      "url": "http://arxiv.org/abs/2605.00793v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00793v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.00698v1",
+      "title": "FedKPer: Tackling Generalization and Personalization in Medical Federated Learning via Knowledge Personalization",
+      "authors": [
+        "Zoe Fowler",
+        "Ghassan AlRegib"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.LG"
+      ],
+      "abstract": "FedKPer addresses statistical heterogeneity in medical federated learning by integrating knowledge personalization into local training. The method achieves a better balance between generalization and personalization through selective alignment with the global model and a modified aggregation scheme. This approach mitigates forgetting and improves performance across diverse hospital datasets.",
+      "url": "http://arxiv.org/abs/2605.00698v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00698v1",
+      "score": 9.0,
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.00448v1",
+      "title": "Learning from Compressed CT: Feature Attention Style Transfer and Structured Factorized Projections for Resource-Efficient Medical Image Analysis",
+      "authors": [
+        "Shadid Yousuf",
+        "S. M. Mahbubur Rahman",
+        "Mohammed Imamul Hassan Bhuiyan"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper addresses the resource limitations of AI in medical imaging by enabling analysis directly from JPEG-compressed CT scans. The core method, Feature Attention Style Transfer (FAST), is a distillation framework that transfers rich feature representations and structural relationships from high-fidelity CTs to a model processing the compressed data. This allows for efficient, low-resource deployment of thoracic abnormality detection without sacrificing diagnostic performance.",
+      "url": "http://arxiv.org/abs/2605.00448v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00448v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.00448v1/trainingonly.drawio.png",
+      "figure_caption": "Overview of the CT-Lite framework. (Left) Stage 1: Feature Attention Style Transfer (FAST) distills the frozen high-fidelity teacher into a student encoder operating on JPEG-compressed inputs, using attention-style and dual-attention feature alignment. (Right) Stage 2: contrastive alignment of compressed-CT and report embeddings via Structured Factorized Projection (SFP) blocks and a SigLIP objective.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.00527v1",
+      "title": "Multi-frame Restoration for High-rate Lissajous Confocal Laser Endomicroscopy",
+      "authors": [
+        "Minhee Lee",
+        "Sangyoon Lee",
+        "Jiwook Lee",
+        "Minki Hong",
+        "Kyuyoung Kim"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces MIRA, a lightweight recurrent framework designed to restore high-rate Lissajous Confocal Laser Endomicroscopy (CLE) images, which suffer from structured holes due to rapid scanning. The core method iteratively aggregates temporal context using feature reuse and displacement alignment. The contribution lies in creating the first benchmark dataset for this problem and demonstrating that MIRA achieves superior restoration quality compared to existing methods while remaining computationally efficient.",
+      "url": "http://arxiv.org/abs/2605.00527v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00527v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.00527v1/x1.png",
+      "figure_caption": "A visual description of the high-rate Lissajous CLE frames: (a) High-rate LQ frame (10Hz) with steady probe movement; (b) High-rate LQ frame of the same scene, with shaky probe movement; (c) Scanning trajectory of the probe while taking one frame, where the white “holes” correspond to the missing pixels; (d) The low-rate HQ frame with the same field-of-view.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 47994012,
+      "title": "Specsmaxxing – On overcoming AI psychosis, and why I write specs in YAML",
+      "url": "https://acai.sh/blog/specsmaxxing",
+      "score": 260,
+      "created_at": "2026-05-03T06:33:38Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47994012",
+      "summary": "The author advocates for \"specsmaxxing\"—writing detailed technical specifications in YAML—as a practical method to combat the confusion and anxiety associated with rapidly evolving AI capabilities, termed \"AI psychosis.\""
+    },
+    {
+      "id": 47998225,
+      "title": "For thirty years I programmed with Phish on, every day",
+      "url": "https://christophermeiklejohn.com/ai/personal/phish/flow/agents/2026/05/03/rift.html",
+      "score": 206,
+      "created_at": "2026-05-03T15:55:59Z",
+      "comments_url": "https://news.ycombinator.com/item?id=47998225",
+      "summary": "A programmer shares a personal reflection on how listening to the band Phish daily for thirty years influenced their programming workflow and state of flow."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "ruvnet/ruflo",
+      "url": "https://github.com/ruvnet/ruflo",
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "stars_today": 1840,
+      "total_stars": 39015,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "ruflo is a leading agent orchestration platform for Claude, enabling the deployment of intelligent, self-learning multi-agent swarms for autonomous workflows, featuring enterprise architecture, RAG integration, and native Claude Code/Codex integration."
+    },
+    {
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "stars_today": 3313,
+      "total_stars": 65300,
+      "language": "Python",
+      "topics": [],
+      "summary": "TradingAgents is a multi-agent LLM framework designed for developing and testing sophisticated financial trading strategies."
+    },
+    {
+      "full_name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "stars_today": 1119,
+      "total_stars": 23818,
+      "language": "Python",
+      "topics": [],
+      "summary": "Maigret is a tool that collects a comprehensive dossier on an individual by querying over 3000 websites using a provided username."
+    },
+    {
+      "full_name": "Hmbown/DeepSeek-TUI",
+      "url": "https://github.com/Hmbown/DeepSeek-TUI",
+      "description": "Coding agent for DeepSeek models that runs in your terminal",
+      "stars_today": 343,
+      "total_stars": 2173,
+      "language": "Rust",
+      "topics": [],
+      "summary": "DeepSeek-TUI is a terminal-based coding agent that allows users to interact with and utilize DeepSeek models directly within their command-line interface."
+    },
+    {
+      "full_name": "AIDC-AI/Pixelle-Video",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video",
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "stars_today": 497,
+      "total_stars": 9976,
+      "language": "Python",
+      "topics": [],
+      "summary": "Pixelle-Video is an AI-powered engine designed for the fully automated creation of short videos."
+    },
+    {
+      "full_name": "browserbase/skills",
+      "url": "https://github.com/browserbase/skills",
+      "description": "Claude Agent SDK with a web browsing tool",
+      "stars_today": 322,
+      "total_stars": 1828,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "The browserbase/skills repository provides a Claude Agent SDK featuring a built-in web browsing tool to enable agents to interact with and gather information from the internet."
+    },
+    {
+      "full_name": "czlonkowski/n8n-mcp",
+      "url": "https://github.com/czlonkowski/n8n-mcp",
+      "description": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
+      "stars_today": 282,
+      "total_stars": 19525,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "This repository provides an n8n workflow builder that integrates with AI coding assistants like Claude Desktop and Cursor to automate workflow creation."
+    },
+    {
+      "full_name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "Coding Agent Harness",
+      "stars_today": 591,
+      "total_stars": 3437,
+      "language": "Rust",
+      "topics": [],
+      "summary": "The jcode repository provides a **Coding Agent Harness** designed to facilitate the development and execution of autonomous coding agents."
+    },
+    {
+      "full_name": "openwrt/openwrt",
+      "url": "https://github.com/openwrt/openwrt",
+      "description": "This repository is a mirror of https://git.openwrt.org/openwrt/openwrt.git It is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.",
+      "stars_today": 26,
+      "total_stars": 26617,
+      "language": "C",
+      "topics": [],
+      "summary": "The OpenWrt GitHub repository mirrors the official OpenWrt source code for reference and accepts pull requests, which are then merged into the primary Git repository via staging trees."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
