@@ -1,0 +1,129 @@
+{
+  "period": "2026-W20",
+  "summary": "The past week saw notable trends in making medical AI more practical, efficient, and robust, particularly focusing on **resource efficiency and overcoming data limitations.**\n\n**Popular directions** heavily emphasized deployment on constrained hardware and utilizing compressed or inherently noisy data. **RadLite** exemplifies the push for deployability by successfully fine-tuning small language models (SLMs) for specific radiology tasks suitable for CPU deployment via LoRA. Similarly, **Learning from Compressed CT** tackles deployment constraints by enabling models to analyze diagnostic images directly from heavily compressed JPEG formats using feature distillation (FAST).\n\n**Notable advances** were made in handling low-quality clinical data without excessive supervision. The **Unsupervised Denoising of Real Clinical Low Dose Liver CT** paper showcased a Cycle-GAN inspired method integrating attention and perceptual loss to significantly clean up noisy images without needing paired training sets. For real-time applications, **Multi-frame Restoration for High-rate Lissajous CLE (MIRA)** demonstrated an efficient recurrent framework to reconstruct high-quality images from fast-scanning endoscopy data, establishing a new benchmark.\n\nIn the realm of collaborative AI, **FedKPer** addressed a significant **shift** in federated learning: balancing generalization across institutions with the need for personalized local model performance, achieved through intelligent knowledge personalization during iterative training. This shows a maturing focus on practical heterogeneity in multi-site medical AI.",
+  "top_papers": [
+    {
+      "id": "2605.00421v1",
+      "title": "RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI",
+      "authors": [
+        "Pankaj Gupta",
+        "Kartik Bose"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "RadLite fine-tunes small language models (SLMs, 3-4B parameters) using LoRA across nine diverse radiology tasks to enable deployment on resource-constrained CPUs. The core contribution is demonstrating that this targeted fine-tuning significantly boosts performance over zero-shot baselines across various clinical applications. This method successfully bridges the gap between LLM potential and practical, low-compute clinical AI deployment.",
+      "url": "http://arxiv.org/abs/2605.00421v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00421v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2605.00421v1/figures/fig_dataset_overview.png",
+      "figure_caption": "Training data overview: 162K samples across 9 radiology tasks and 12 public datasets. (a) Task distribution by sample count with sampling weights. (b) RADS assignment breakdown across 10 classification systems. (c) Total samples by task category (Generation, Extraction, Classification). (d) Number of tasks per sampling weight tier.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.00793v1",
+      "title": "Unsupervised Denoising of Real Clinical Low Dose Liver CT with Perceptual Attention Networks",
+      "authors": [
+        "Jingxi Pu",
+        "Tonghua Liu",
+        "Zhilin Guan",
+        "Siqiao Li",
+        "Yang Ming"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper proposes an unsupervised deep learning framework for denoising real clinical low-dose liver CT images, inspired by Cycle-GAN. The method integrates a U-Net for multi-scale feature extraction, an attention mechanism, and a residual network, enhanced by perceptual loss tailored for medical images. This approach effectively reduces noise without requiring paired training data, improving diagnostic quality.",
+      "url": "http://arxiv.org/abs/2605.00793v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00793v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.00698v1",
+      "title": "FedKPer: Tackling Generalization and Personalization in Medical Federated Learning via Knowledge Personalization",
+      "authors": [
+        "Zoe Fowler",
+        "Ghassan AlRegib"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.LG"
+      ],
+      "abstract": "FedKPer addresses statistical heterogeneity in medical federated learning by integrating knowledge personalization into local training. The method achieves a better balance between generalization and personalization through selective alignment with the global model and a modified aggregation scheme. This approach mitigates forgetting and improves performance across diverse hospital datasets.",
+      "url": "http://arxiv.org/abs/2605.00698v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00698v1",
+      "score": 9.0,
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.00448v1",
+      "title": "Learning from Compressed CT: Feature Attention Style Transfer and Structured Factorized Projections for Resource-Efficient Medical Image Analysis",
+      "authors": [
+        "Shadid Yousuf",
+        "S. M. Mahbubur Rahman",
+        "Mohammed Imamul Hassan Bhuiyan"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper addresses the resource limitations of AI in medical imaging by enabling analysis directly from JPEG-compressed CT scans. The core method, Feature Attention Style Transfer (FAST), is a distillation framework that transfers rich feature representations and structural relationships from high-fidelity CTs to a model processing the compressed data. This allows for efficient, low-resource deployment of thoracic abnormality detection without sacrificing diagnostic performance.",
+      "url": "http://arxiv.org/abs/2605.00448v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00448v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.00448v1/trainingonly.drawio.png",
+      "figure_caption": "Overview of the CT-Lite framework. (Left) Stage 1: Feature Attention Style Transfer (FAST) distills the frozen high-fidelity teacher into a student encoder operating on JPEG-compressed inputs, using attention-style and dual-attention feature alignment. (Right) Stage 2: contrastive alignment of compressed-CT and report embeddings via Structured Factorized Projection (SFP) blocks and a SigLIP objective.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.00527v1",
+      "title": "Multi-frame Restoration for High-rate Lissajous Confocal Laser Endomicroscopy",
+      "authors": [
+        "Minhee Lee",
+        "Sangyoon Lee",
+        "Jiwook Lee",
+        "Minki Hong",
+        "Kyuyoung Kim"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces MIRA, a lightweight recurrent framework designed to restore high-rate Lissajous Confocal Laser Endomicroscopy (CLE) images, which suffer from structured holes due to rapid scanning. The core method iteratively aggregates temporal context using feature reuse and displacement alignment. The contribution lies in creating the first benchmark dataset for this problem and demonstrating that MIRA achieves superior restoration quality compared to existing methods while remaining computationally efficient.",
+      "url": "http://arxiv.org/abs/2605.00527v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00527v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.00527v1/x1.png",
+      "figure_caption": "A visual description of the high-rate Lissajous CLE frames: (a) High-rate LQ frame (10Hz) with steady probe movement; (b) High-rate LQ frame of the same scene, with shaky probe movement; (c) Scanning trajectory of the probe while taking one frame, where the white “holes” correspond to the missing pixels; (d) The low-rate HQ frame with the same field-of-view.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    }
+  ],
+  "new_jobs": [],
+  "trending_keywords": [],
+  "keyword_frequency": {},
+  "daily_refs": [
+    "2026-05-04",
+    "2026-05-05",
+    "2026-05-06",
+    "2026-05-07",
+    "2026-05-08",
+    "2026-05-09",
+    "2026-05-10"
+  ]
+}
