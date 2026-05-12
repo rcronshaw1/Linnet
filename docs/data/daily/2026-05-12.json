@@ -1,0 +1,482 @@
+{
+  "date": "2026-05-12",
+  "generated_at": "2026-05-12T01:06:25.003595+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.08851v1",
+          "title": "Geometrically Constrained Stenosis Editing in Coronary Angiography via Entropic Optimal Transport",
+          "authors": [
+            "Jialin Li",
+            "Zhuo Zhang",
+            "Yue Cao",
+            "Guipeng Lan",
+            "Jiabao Wen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces the **OT-Bridge Editor**, a novel method for synthesizing realistic coronary angiography (CAG) images with specific stenosis features. It reframes localized image editing as a **constrained entropic optimal transport (OT) problem**, using geometric information to precisely guide the generation process. This approach significantly improves downstream stenosis detection performance, achieving substantial relative gains on benchmark datasets compared to existing diffusion-based editing methods.",
+          "url": "http://arxiv.org/abs/2605.08851v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.08851v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.08851v1/x1.png",
+          "figure_caption": "Conceptual comparison between conditional diffusion and OT-Bridge Editor. OT-Bridge Editor fixes the start state S ∗ S^{\\( \\ast \\)} (edited vessel-structure) and enforces hard, path-level guidance (GPG) within a Schrödinger-bridge formulation, producing a deterministic generation path toward the target.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.08897v1",
+          "title": "Shapley Regression for Rare Disease Diagnosis Support: a case study on APDS",
+          "authors": [
+            "Safa Alsaidi",
+            "Tomás Brogueira",
+            "Nizar Mahlaoui",
+            "Marc Vincent",
+            "Guilherme Pelegrina"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces **Shapley Regression**, a novel game-theoretic model for rare disease diagnosis, specifically applied to APDS. It replaces the standard linear predictor with a $k$-additive cooperative game to explicitly model complex symptom co-occurrences, thereby improving upon traditional linear models. The method maintains the interpretability and convexity of logistic regression while demonstrating strong performance across biomedical datasets.",
+          "url": "http://arxiv.org/abs/2605.08897v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.08897v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2605.08897v1/stability_proof_k2.png",
+          "figure_caption": "Empirical Validation of Algorithmic Stability. We measure sensitivity (Euclidean shift ‖ 𝜽 ^ S − 𝜽 ^ S ′ ‖ 2 \\|\\( \\hat \\){\\( \\boldsymbol{\\theta} \\)}_{S}-\\( \\hat \\){\\( \\boldsymbol{\\theta} \\)}_{S^{\\( \\prime \\)}}\\|_{2} after flipping a single label) across varying regularisation strengths C C . The dashed line represents the theoretical linear bound ( β ∝ C \\( \\beta \\)\\( \\propto \\) C ) derived in Regime 3. Crucially, the empirical points follow this linear trend in the high-regularisation regime (small C C ) but naturally deviate and saturate around C ≈ 1.5 C\\( \\approx \\) 1.5 as the logistic gradients vanish. This confirms that the model adheres to the stability bound while being strictly more robust than predicted in low-regularisation settings.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 4,
+        "papers_after_llm_filter": 2,
+        "count": 2
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48093043,
+          "title": "A.I. note takers are making lawyers nervous",
+          "url": "https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html",
+          "score": 230,
+          "created_at": "2026-05-11T10:04:47Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48093043",
+          "summary": "The increasing use of AI note-taking tools in legal settings is causing anxiety among lawyers due to potential risks concerning client confidentiality and data security."
+        },
+        {
+          "id": 48096674,
+          "title": "Students Boo Commencement Speaker After She Calls AI Next Industrial Revolution",
+          "url": "https://www.404media.co/ucf-ai-commencement-speaker-booed/",
+          "score": 153,
+          "created_at": "2026-05-11T15:53:23Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48096674",
+          "summary": "Students at a UCF commencement booed the speaker after she declared artificial intelligence to be the next industrial revolution."
+        },
+        {
+          "id": 48094641,
+          "title": "Google says criminal hackers used AI to find a major software flaw",
+          "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+          "score": 111,
+          "created_at": "2026-05-11T13:20:14Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48094641",
+          "summary": "Google reported that malicious actors utilized artificial intelligence to successfully discover a significant vulnerability within a major software program."
+        },
+        {
+          "id": 48097078,
+          "title": "Interfaze: A new model architecture built for high accuracy at scale",
+          "url": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+          "score": 107,
+          "created_at": "2026-05-11T16:22:31Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48097078",
+          "summary": "Interfaze introduces a novel model architecture designed to achieve high accuracy while efficiently scaling for large-scale applications."
+        },
+        {
+          "id": 48100433,
+          "title": "If AI writes your code, why use Python?",
+          "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+          "score": 102,
+          "created_at": "2026-05-11T20:45:55Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48100433",
+          "summary": "The article questions the continued necessity of using Python for coding when AI tools can generate code in various languages, suggesting a shift in programming language relevance."
+        }
+      ],
+      "meta": {
+        "count": 5
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "bytedance/UI-TARS-desktop",
+          "url": "https://github.com/bytedance/UI-TARS-desktop",
+          "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+          "stars_today": 956,
+          "total_stars": 33007,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "UI-TARS-desktop is an open-source multimodal AI agent stack that connects cutting-edge AI models with agent infrastructure for building advanced applications."
+        },
+        {
+          "full_name": "CloakHQ/CloakBrowser",
+          "url": "https://github.com/CloakHQ/CloakBrowser",
+          "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+          "stars_today": 1320,
+          "total_stars": 6146,
+          "language": "Python",
+          "topics": [],
+          "summary": "CloakBrowser is a stealth-focused Chromium browser designed as a drop-in Playwright replacement, featuring source-level fingerprint patches to successfully bypass all bot detection tests."
+        },
+        {
+          "full_name": "yikart/AiToEarn",
+          "url": "https://github.com/yikart/AiToEarn",
+          "description": "Let's use AI to Earn!",
+          "stars_today": 427,
+          "total_stars": 10768,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "AiToEarn is a GitHub repository focused on leveraging artificial intelligence to create earning opportunities, likely through various AI-powered applications or services."
+        },
+        {
+          "full_name": "playcanvas/supersplat",
+          "url": "https://github.com/playcanvas/supersplat",
+          "description": "3D Gaussian Splat Editor",
+          "stars_today": 531,
+          "total_stars": 7346,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "SuperSplat is a 3D Gaussian Splatting editor built on PlayCanvas, enabling users to create, edit, and visualize volumetric scenes directly within the web browser."
+        },
+        {
+          "full_name": "datawhalechina/easy-vibe",
+          "url": "https://github.com/datawhalechina/easy-vibe",
+          "description": "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+          "stars_today": 812,
+          "total_stars": 9909,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Easy-Vibe is a modern coding course designed to guide beginners step-by-step towards mastering coding skills."
+        },
+        {
+          "full_name": "decolua/9router",
+          "url": "https://github.com/decolua/9router",
+          "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+          "stars_today": 941,
+          "total_stars": 8331,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "9router provides unlimited, free AI coding by connecting various AI models (Claude, Codex, Copilot, etc.) through over 40 providers, featuring auto-fallback and token reduction to prevent hitting usage limits."
+        },
+        {
+          "full_name": "tinyhumansai/openhuman",
+          "url": "https://github.com/tinyhumansai/openhuman",
+          "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "stars_today": 366,
+          "total_stars": 1465,
+          "language": "Rust",
+          "topics": [],
+          "summary": "OpenHuman is a private, simple, and extremely powerful personal AI super intelligence designed to serve as your dedicated AI assistant."
+        },
+        {
+          "full_name": "millionco/react-doctor",
+          "url": "https://github.com/millionco/react-doctor",
+          "description": "Your agent writes bad React. This catches it",
+          "stars_today": 212,
+          "total_stars": 8054,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "This repository provides a tool that acts as an agent to intentionally write \"bad\" React code, likely for testing, demonstration, or educational purposes."
+        },
+        {
+          "full_name": "Lordog/dive-into-llms",
+          "url": "https://github.com/Lordog/dive-into-llms",
+          "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+          "stars_today": 422,
+          "total_stars": 37310,
+          "language": "Jupyter Notebook",
+          "topics": [],
+          "summary": "This GitHub repository provides hands-on programming tutorials accompanying the \"Dive into LLMs\" series, focusing on practical implementation of large language models."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 4,
+    "papers_after_llm_filter": 2,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 138
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.08851v1",
+      "title": "Geometrically Constrained Stenosis Editing in Coronary Angiography via Entropic Optimal Transport",
+      "authors": [
+        "Jialin Li",
+        "Zhuo Zhang",
+        "Yue Cao",
+        "Guipeng Lan",
+        "Jiabao Wen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces the **OT-Bridge Editor**, a novel method for synthesizing realistic coronary angiography (CAG) images with specific stenosis features. It reframes localized image editing as a **constrained entropic optimal transport (OT) problem**, using geometric information to precisely guide the generation process. This approach significantly improves downstream stenosis detection performance, achieving substantial relative gains on benchmark datasets compared to existing diffusion-based editing methods.",
+      "url": "http://arxiv.org/abs/2605.08851v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08851v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08851v1/x1.png",
+      "figure_caption": "Conceptual comparison between conditional diffusion and OT-Bridge Editor. OT-Bridge Editor fixes the start state S ∗ S^{\\( \\ast \\)} (edited vessel-structure) and enforces hard, path-level guidance (GPG) within a Schrödinger-bridge formulation, producing a deterministic generation path toward the target.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08897v1",
+      "title": "Shapley Regression for Rare Disease Diagnosis Support: a case study on APDS",
+      "authors": [
+        "Safa Alsaidi",
+        "Tomás Brogueira",
+        "Nizar Mahlaoui",
+        "Marc Vincent",
+        "Guilherme Pelegrina"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **Shapley Regression**, a novel game-theoretic model for rare disease diagnosis, specifically applied to APDS. It replaces the standard linear predictor with a $k$-additive cooperative game to explicitly model complex symptom co-occurrences, thereby improving upon traditional linear models. The method maintains the interpretability and convexity of logistic regression while demonstrating strong performance across biomedical datasets.",
+      "url": "http://arxiv.org/abs/2605.08897v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08897v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.08897v1/stability_proof_k2.png",
+      "figure_caption": "Empirical Validation of Algorithmic Stability. We measure sensitivity (Euclidean shift ‖ 𝜽 ^ S − 𝜽 ^ S ′ ‖ 2 \\|\\( \\hat \\){\\( \\boldsymbol{\\theta} \\)}_{S}-\\( \\hat \\){\\( \\boldsymbol{\\theta} \\)}_{S^{\\( \\prime \\)}}\\|_{2} after flipping a single label) across varying regularisation strengths C C . The dashed line represents the theoretical linear bound ( β ∝ C \\( \\beta \\)\\( \\propto \\) C ) derived in Regime 3. Crucially, the empirical points follow this linear trend in the high-regularisation regime (small C C ) but naturally deviate and saturate around C ≈ 1.5 C\\( \\approx \\) 1.5 as the logistic gradients vanish. This confirms that the model adheres to the stability bound while being strictly more robust than predicted in low-regularisation settings.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.08851v1",
+      "title": "Geometrically Constrained Stenosis Editing in Coronary Angiography via Entropic Optimal Transport",
+      "authors": [
+        "Jialin Li",
+        "Zhuo Zhang",
+        "Yue Cao",
+        "Guipeng Lan",
+        "Jiabao Wen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces the **OT-Bridge Editor**, a novel method for synthesizing realistic coronary angiography (CAG) images with specific stenosis features. It reframes localized image editing as a **constrained entropic optimal transport (OT) problem**, using geometric information to precisely guide the generation process. This approach significantly improves downstream stenosis detection performance, achieving substantial relative gains on benchmark datasets compared to existing diffusion-based editing methods.",
+      "url": "http://arxiv.org/abs/2605.08851v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08851v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08851v1/x1.png",
+      "figure_caption": "Conceptual comparison between conditional diffusion and OT-Bridge Editor. OT-Bridge Editor fixes the start state S ∗ S^{\\( \\ast \\)} (edited vessel-structure) and enforces hard, path-level guidance (GPG) within a Schrödinger-bridge formulation, producing a deterministic generation path toward the target.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08897v1",
+      "title": "Shapley Regression for Rare Disease Diagnosis Support: a case study on APDS",
+      "authors": [
+        "Safa Alsaidi",
+        "Tomás Brogueira",
+        "Nizar Mahlaoui",
+        "Marc Vincent",
+        "Guilherme Pelegrina"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **Shapley Regression**, a novel game-theoretic model for rare disease diagnosis, specifically applied to APDS. It replaces the standard linear predictor with a $k$-additive cooperative game to explicitly model complex symptom co-occurrences, thereby improving upon traditional linear models. The method maintains the interpretability and convexity of logistic regression while demonstrating strong performance across biomedical datasets.",
+      "url": "http://arxiv.org/abs/2605.08897v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08897v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.08897v1/stability_proof_k2.png",
+      "figure_caption": "Empirical Validation of Algorithmic Stability. We measure sensitivity (Euclidean shift ‖ 𝜽 ^ S − 𝜽 ^ S ′ ‖ 2 \\|\\( \\hat \\){\\( \\boldsymbol{\\theta} \\)}_{S}-\\( \\hat \\){\\( \\boldsymbol{\\theta} \\)}_{S^{\\( \\prime \\)}}\\|_{2} after flipping a single label) across varying regularisation strengths C C . The dashed line represents the theoretical linear bound ( β ∝ C \\( \\beta \\)\\( \\propto \\) C ) derived in Regime 3. Crucially, the empirical points follow this linear trend in the high-regularisation regime (small C C ) but naturally deviate and saturate around C ≈ 1.5 C\\( \\approx \\) 1.5 as the logistic gradients vanish. This confirms that the model adheres to the stability bound while being strictly more robust than predicted in low-regularisation settings.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48093043,
+      "title": "A.I. note takers are making lawyers nervous",
+      "url": "https://www.nytimes.com/2026/05/09/business/dealbook/ai-notetakers-legal-risk.html",
+      "score": 230,
+      "created_at": "2026-05-11T10:04:47Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48093043",
+      "summary": "The increasing use of AI note-taking tools in legal settings is causing anxiety among lawyers due to potential risks concerning client confidentiality and data security."
+    },
+    {
+      "id": 48096674,
+      "title": "Students Boo Commencement Speaker After She Calls AI Next Industrial Revolution",
+      "url": "https://www.404media.co/ucf-ai-commencement-speaker-booed/",
+      "score": 153,
+      "created_at": "2026-05-11T15:53:23Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48096674",
+      "summary": "Students at a UCF commencement booed the speaker after she declared artificial intelligence to be the next industrial revolution."
+    },
+    {
+      "id": 48094641,
+      "title": "Google says criminal hackers used AI to find a major software flaw",
+      "url": "https://www.nytimes.com/2026/05/11/us/politics/google-hackers-attack-ai.html",
+      "score": 111,
+      "created_at": "2026-05-11T13:20:14Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48094641",
+      "summary": "Google reported that malicious actors utilized artificial intelligence to successfully discover a significant vulnerability within a major software program."
+    },
+    {
+      "id": 48097078,
+      "title": "Interfaze: A new model architecture built for high accuracy at scale",
+      "url": "https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale",
+      "score": 107,
+      "created_at": "2026-05-11T16:22:31Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48097078",
+      "summary": "Interfaze introduces a novel model architecture designed to achieve high accuracy while efficiently scaling for large-scale applications."
+    },
+    {
+      "id": 48100433,
+      "title": "If AI writes your code, why use Python?",
+      "url": "https://medium.com/@NMitchem/if-ai-writes-your-code-why-use-python-bf8c4ba1a055",
+      "score": 102,
+      "created_at": "2026-05-11T20:45:55Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48100433",
+      "summary": "The article questions the continued necessity of using Python for coding when AI tools can generate code in various languages, suggesting a shift in programming language relevance."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "bytedance/UI-TARS-desktop",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "stars_today": 956,
+      "total_stars": 33007,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "UI-TARS-desktop is an open-source multimodal AI agent stack that connects cutting-edge AI models with agent infrastructure for building advanced applications."
+    },
+    {
+      "full_name": "CloakHQ/CloakBrowser",
+      "url": "https://github.com/CloakHQ/CloakBrowser",
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "stars_today": 1320,
+      "total_stars": 6146,
+      "language": "Python",
+      "topics": [],
+      "summary": "CloakBrowser is a stealth-focused Chromium browser designed as a drop-in Playwright replacement, featuring source-level fingerprint patches to successfully bypass all bot detection tests."
+    },
+    {
+      "full_name": "yikart/AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "stars_today": 427,
+      "total_stars": 10768,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "AiToEarn is a GitHub repository focused on leveraging artificial intelligence to create earning opportunities, likely through various AI-powered applications or services."
+    },
+    {
+      "full_name": "playcanvas/supersplat",
+      "url": "https://github.com/playcanvas/supersplat",
+      "description": "3D Gaussian Splat Editor",
+      "stars_today": 531,
+      "total_stars": 7346,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "SuperSplat is a 3D Gaussian Splatting editor built on PlayCanvas, enabling users to create, edit, and visualize volumetric scenes directly within the web browser."
+    },
+    {
+      "full_name": "datawhalechina/easy-vibe",
+      "url": "https://github.com/datawhalechina/easy-vibe",
+      "description": "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+      "stars_today": 812,
+      "total_stars": 9909,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Easy-Vibe is a modern coding course designed to guide beginners step-by-step towards mastering coding skills."
+    },
+    {
+      "full_name": "decolua/9router",
+      "url": "https://github.com/decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "stars_today": 941,
+      "total_stars": 8331,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "9router provides unlimited, free AI coding by connecting various AI models (Claude, Codex, Copilot, etc.) through over 40 providers, featuring auto-fallback and token reduction to prevent hitting usage limits."
+    },
+    {
+      "full_name": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "stars_today": 366,
+      "total_stars": 1465,
+      "language": "Rust",
+      "topics": [],
+      "summary": "OpenHuman is a private, simple, and extremely powerful personal AI super intelligence designed to serve as your dedicated AI assistant."
+    },
+    {
+      "full_name": "millionco/react-doctor",
+      "url": "https://github.com/millionco/react-doctor",
+      "description": "Your agent writes bad React. This catches it",
+      "stars_today": 212,
+      "total_stars": 8054,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "This repository provides a tool that acts as an agent to intentionally write \"bad\" React code, likely for testing, demonstration, or educational purposes."
+    },
+    {
+      "full_name": "Lordog/dive-into-llms",
+      "url": "https://github.com/Lordog/dive-into-llms",
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "stars_today": 422,
+      "total_stars": 37310,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "summary": "This GitHub repository provides hands-on programming tutorials accompanying the \"Dive into LLMs\" series, focusing on practical implementation of large language models."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
