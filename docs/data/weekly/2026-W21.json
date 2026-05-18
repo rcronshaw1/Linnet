@@ -1,0 +1,67 @@
+{
+  "period": "2026-W21",
+  "summary": "The weekly trends across these two distinct papers reveal a focus on **advancements in specialized AI/ML applications within the medical domain**, specifically targeting improved image manipulation and diagnostic explainability.\n\n**Popular Directions:** Both papers emphasize **domain-specific refinement of advanced computational techniques**. The **OT-Bridge Editor** leverages a sophisticated mathematical framework (Entropic Optimal Transport) to tackle the challenging problem of *realistic, geographically controlled image synthesis* in medical imaging (CAG). This points to a trend of integrating complex optimization theory directly into generative models for high-fidelity medical tasks.\n\n**Notable Advances & Shifts:**\nThe **OT-Bridge Editor** introduces a notable advance by framing localized image editing as a *constrained* transport problem, moving beyond basic diffusion models to achieve superior **precision and performance in feature synthesis** (stenosis).\n\nConversely, **Shapley Regression** focuses on **interpretable diagnostics**. Its advance lies in merging **game theory (Shapley values)** with regression to explicitly model **complex non-linear dependencies (co-occurrence)** among rare disease symptoms (APDS). This represents a significant shift toward developing highly **interpretable, robust statistical models** that can capture multi-way interactions better than standard linear predictors, while retaining desirable mathematical properties like convexity.\n\nIn summary, the week shows parallel work in **high-fidelity generative editing (via OT)** and **enhanced, interpretable predictive modeling (via game theory)**, both underpinned by tailoring sophisticated mathematical models to specialized medical challenges.",
+  "top_papers": [
+    {
+      "id": "2605.08851v1",
+      "title": "Geometrically Constrained Stenosis Editing in Coronary Angiography via Entropic Optimal Transport",
+      "authors": [
+        "Jialin Li",
+        "Zhuo Zhang",
+        "Yue Cao",
+        "Guipeng Lan",
+        "Jiabao Wen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces the **OT-Bridge Editor**, a novel method for synthesizing realistic coronary angiography (CAG) images with specific stenosis features. It reframes localized image editing as a **constrained entropic optimal transport (OT) problem**, using geometric information to precisely guide the generation process. This approach significantly improves downstream stenosis detection performance, achieving substantial relative gains on benchmark datasets compared to existing diffusion-based editing methods.",
+      "url": "http://arxiv.org/abs/2605.08851v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08851v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08851v1/x1.png",
+      "figure_caption": "Conceptual comparison between conditional diffusion and OT-Bridge Editor. OT-Bridge Editor fixes the start state S ∗ S^{\\( \\ast \\)} (edited vessel-structure) and enforces hard, path-level guidance (GPG) within a Schrödinger-bridge formulation, producing a deterministic generation path toward the target.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08897v1",
+      "title": "Shapley Regression for Rare Disease Diagnosis Support: a case study on APDS",
+      "authors": [
+        "Safa Alsaidi",
+        "Tomás Brogueira",
+        "Nizar Mahlaoui",
+        "Marc Vincent",
+        "Guilherme Pelegrina"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **Shapley Regression**, a novel game-theoretic model for rare disease diagnosis, specifically applied to APDS. It replaces the standard linear predictor with a $k$-additive cooperative game to explicitly model complex symptom co-occurrences, thereby improving upon traditional linear models. The method maintains the interpretability and convexity of logistic regression while demonstrating strong performance across biomedical datasets.",
+      "url": "http://arxiv.org/abs/2605.08897v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08897v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.08897v1/stability_proof_k2.png",
+      "figure_caption": "Empirical Validation of Algorithmic Stability. We measure sensitivity (Euclidean shift ‖ 𝜽 ^ S − 𝜽 ^ S ′ ‖ 2 \\|\\( \\hat \\){\\( \\boldsymbol{\\theta} \\)}_{S}-\\( \\hat \\){\\( \\boldsymbol{\\theta} \\)}_{S^{\\( \\prime \\)}}\\|_{2} after flipping a single label) across varying regularisation strengths C C . The dashed line represents the theoretical linear bound ( β ∝ C \\( \\beta \\)\\( \\propto \\) C ) derived in Regime 3. Crucially, the empirical points follow this linear trend in the high-regularisation regime (small C C ) but naturally deviate and saturate around C ≈ 1.5 C\\( \\approx \\) 1.5 as the logistic gradients vanish. This confirms that the model adheres to the stability bound while being strictly more robust than predicted in low-regularisation settings.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "new_jobs": [],
+  "trending_keywords": [],
+  "keyword_frequency": {},
+  "daily_refs": [
+    "2026-05-11",
+    "2026-05-12",
+    "2026-05-13",
+    "2026-05-14",
+    "2026-05-15",
+    "2026-05-16",
+    "2026-05-17"
+  ]
+}
