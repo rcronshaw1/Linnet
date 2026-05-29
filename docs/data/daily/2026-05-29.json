@@ -1,0 +1,503 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T01:17:49.581204+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2605.29753v1",
+          "title": "A unified deeplearning framework for contrast-phase-specific virtual monochromatic imaging",
+          "authors": [
+            "Antony Jerald",
+            "Hemant K Aggarwal",
+            "Brian Nett",
+            "Avinash Gopal",
+            "Phaneendra K Yalavarthy"
+          ],
+          "categories": [
+            "cs.AI",
+            "eess.IV"
+          ],
+          "abstract": "This paper introduces a unified deep learning framework to generate contrast-phase-specific virtual monochromatic (50 keV) images from standard single-energy CT (SECT) data. The method leverages contrast phase information as a prior, integrated via a novel conditioning architecture during training with dual-energy CT (DECT) data. This approach successfully synthesizes phase-specific 50 keV images, enhancing contrast and preserving dynamic changes without requiring complex DECT hardware.",
+          "url": "http://arxiv.org/abs/2605.29753v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.29753v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.29753v1/Images_Pdf/Arc.png",
+          "figure_caption": "(a) Overall Architecture for energy transformation across phase-contrasts used in the proposed approach. (b) Proposed prior conditioning module used for adaptively modulate decoded features based on the input contrast phase. (c) Contrast phase timelines used as prior information",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2605.29744v1",
+          "title": "Why Specialist Models Still Matter: A Heterogeneous Multi-Agent Paradigm for Medical Artificial Intelligence",
+          "authors": [
+            "Yanan Wang",
+            "Shuaicong Hu",
+            "Jian Liu",
+            "Guohui Zhou",
+            "Aiguo Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.LG",
+            "cs.MA"
+          ],
+          "abstract": "This paper proposes HetMedAgent, a heterogeneous multi-agent framework that orchestrates collaboration between generalist LLMs, domain-specific medical specialist models, and clinicians. Its core method involves conflict-aware evidence fusion and uncertainty-based intervention triggering. The contribution is demonstrating that this synergistic approach significantly outperforms using either generalist or specialist models in isolation, validating the continued necessity of specialist models for modality-specific medical analysis.",
+          "url": "http://arxiv.org/abs/2605.29744v1",
+          "pdf_url": "https://arxiv.org/pdf/2605.29744v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2605.29744v1/x1.png",
+          "figure_caption": "(a) Previous: The generalist medical LLM. Lacking domain specificity and human oversight, single LLMs are prone to hallucinations and unsafe decisions on multimodal data. (b) Ours: Overview of the HetMedAgent framework. Orchestrates a Specialist Agent Group, a Generalist LLM Agent, and a Clinician Agent, enabling conflict-aware evidence fusion and uncertainty-driven oversight with adaptive calibration.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 7,
+        "papers_after_llm_filter": 2,
+        "count": 2
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48307887,
+          "title": "Disagreement among frontier LLMs on real-world fact-checks",
+          "url": "https://lenz.io/research/llm-disagreement",
+          "score": 484,
+          "created_at": "2026-05-28T12:20:19Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48307887",
+          "summary": "Frontier Large Language Models exhibit significant disagreement when fact-checking real-world claims, highlighting ongoing reliability issues."
+        },
+        {
+          "id": 48308376,
+          "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
+          "url": "https://llmgame.scalex.dev",
+          "score": 239,
+          "created_at": "2026-05-28T13:02:00Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48308376",
+          "summary": "\"Continue? Y/N\" is a short, 60-second game illustrating the growing user fatigue associated with constantly granting permissions to AI agents."
+        },
+        {
+          "id": 48313810,
+          "title": "Various LLM Smells",
+          "url": "https://shvbsle.in/various-llm-smells/",
+          "score": 213,
+          "created_at": "2026-05-28T19:02:18Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48313810",
+          "summary": "The article discusses various undesirable outputs or \"smells\" that Large Language Models can produce, highlighting different types of model failures."
+        },
+        {
+          "id": 48314363,
+          "title": "Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions",
+          "url": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
+          "score": 177,
+          "created_at": "2026-05-28T19:43:14Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48314363",
+          "summary": "OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei are reportedly softening their previous dire predictions about widespread job displacement caused by artificial intelligence."
+        },
+        {
+          "id": 48307098,
+          "title": "AI sticker shock hits corporate America",
+          "url": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
+          "score": 156,
+          "created_at": "2026-05-28T10:39:32Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48307098",
+          "summary": "Corporate America is experiencing significant sticker shock as the high costs of implementing and scaling AI solutions begin to outweigh the expected return on investment."
+        },
+        {
+          "id": 48305446,
+          "title": "A Eureka machine that thinks like nature and explores what AI cannot",
+          "url": "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/",
+          "score": 144,
+          "created_at": "2026-05-28T06:40:31Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48305446",
+          "summary": "Researchers have developed a novel \"Eureka machine\" inspired by natural processes to explore complex problems beyond the capabilities of current artificial intelligence."
+        }
+      ],
+      "meta": {
+        "count": 6
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "harry0703/MoneyPrinterTurbo",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+          "stars_today": 4698,
+          "total_stars": 66370,
+          "language": "Python",
+          "topics": [],
+          "summary": "MoneyPrinterTurbo is a tool that uses AI large language models to generate high-definition short videos with a single click."
+        },
+        {
+          "full_name": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "stars_today": 1385,
+          "total_stars": 197292,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "The ECC repository provides an agent harness performance optimization system, focusing on skills, instincts, memory, security, and research-first development for various code models like Claude Code and Codex."
+        },
+        {
+          "full_name": "Leonxlnx/taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+          "stars_today": 2234,
+          "total_stars": 26441,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Taste-Skill is a Python library designed to enhance AI output by preventing the generation of boring or generic content, effectively giving the AI \"good taste.\""
+        },
+        {
+          "full_name": "hardikpandya/stop-slop",
+          "url": "https://github.com/hardikpandya/stop-slop",
+          "description": "A skill file for removing AI tells from prose",
+          "stars_today": 761,
+          "total_stars": 6422,
+          "language": "",
+          "topics": [],
+          "summary": "The `stop-slop` GitHub repository provides a skill file designed to help users remove common \"AI tells\" or stylistic artifacts from prose generated by artificial intelligence."
+        },
+        {
+          "full_name": "twentyhq/twenty",
+          "url": "https://github.com/twentyhq/twenty",
+          "description": "The open alternative to Salesforce, designed for AI.",
+          "stars_today": 493,
+          "total_stars": 47864,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Twenty is an open-source CRM alternative to Salesforce, built with a focus on AI integration for enhanced customer relationship management."
+        },
+        {
+          "full_name": "DigitalPlatDev/FreeDomain",
+          "url": "https://github.com/DigitalPlatDev/FreeDomain",
+          "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+          "stars_today": 1761,
+          "total_stars": 170729,
+          "language": "HTML",
+          "topics": [],
+          "summary": "DigitalPlatDev/FreeDomain aims to provide everyone with free domain names through a platform or service, simplifying domain acquisition for users."
+        },
+        {
+          "full_name": "byoungd/English-level-up-tips",
+          "url": "https://github.com/byoungd/English-level-up-tips",
+          "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+          "stars_today": 2019,
+          "total_stars": 48525,
+          "language": "",
+          "topics": [],
+          "summary": "This repository provides an advanced, comprehensive guide with tips and tutorials for significantly improving English language skills."
+        },
+        {
+          "full_name": "microsoft/markitdown",
+          "url": "https://github.com/microsoft/markitdown",
+          "description": "Python tool for converting files and office documents to Markdown.",
+          "stars_today": 1410,
+          "total_stars": 127760,
+          "language": "Python",
+          "topics": [],
+          "summary": "Markitdown is a Python tool designed to convert various file and office document formats into Markdown, streamlining content migration and standardization."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 1730,
+          "total_stars": 211094,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Superpowers is an agentic skills framework and software development methodology designed to be a functional and effective approach to building software."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 7,
+    "papers_after_llm_filter": 2,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 56
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2605.29753v1",
+      "title": "A unified deeplearning framework for contrast-phase-specific virtual monochromatic imaging",
+      "authors": [
+        "Antony Jerald",
+        "Hemant K Aggarwal",
+        "Brian Nett",
+        "Avinash Gopal",
+        "Phaneendra K Yalavarthy"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV"
+      ],
+      "abstract": "This paper introduces a unified deep learning framework to generate contrast-phase-specific virtual monochromatic (50 keV) images from standard single-energy CT (SECT) data. The method leverages contrast phase information as a prior, integrated via a novel conditioning architecture during training with dual-energy CT (DECT) data. This approach successfully synthesizes phase-specific 50 keV images, enhancing contrast and preserving dynamic changes without requiring complex DECT hardware.",
+      "url": "http://arxiv.org/abs/2605.29753v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29753v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.29753v1/Images_Pdf/Arc.png",
+      "figure_caption": "(a) Overall Architecture for energy transformation across phase-contrasts used in the proposed approach. (b) Proposed prior conditioning module used for adaptively modulate decoded features based on the input contrast phase. (c) Contrast phase timelines used as prior information",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.29744v1",
+      "title": "Why Specialist Models Still Matter: A Heterogeneous Multi-Agent Paradigm for Medical Artificial Intelligence",
+      "authors": [
+        "Yanan Wang",
+        "Shuaicong Hu",
+        "Jian Liu",
+        "Guohui Zhou",
+        "Aiguo Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper proposes HetMedAgent, a heterogeneous multi-agent framework that orchestrates collaboration between generalist LLMs, domain-specific medical specialist models, and clinicians. Its core method involves conflict-aware evidence fusion and uncertainty-based intervention triggering. The contribution is demonstrating that this synergistic approach significantly outperforms using either generalist or specialist models in isolation, validating the continued necessity of specialist models for modality-specific medical analysis.",
+      "url": "http://arxiv.org/abs/2605.29744v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29744v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.29744v1/x1.png",
+      "figure_caption": "(a) Previous: The generalist medical LLM. Lacking domain specificity and human oversight, single LLMs are prone to hallucinations and unsafe decisions on multimodal data. (b) Ours: Overview of the HetMedAgent framework. Orchestrates a Specialist Agent Group, a Generalist LLM Agent, and a Clinician Agent, enabling conflict-aware evidence fusion and uncertainty-driven oversight with adaptive calibration.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2605.29753v1",
+      "title": "A unified deeplearning framework for contrast-phase-specific virtual monochromatic imaging",
+      "authors": [
+        "Antony Jerald",
+        "Hemant K Aggarwal",
+        "Brian Nett",
+        "Avinash Gopal",
+        "Phaneendra K Yalavarthy"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV"
+      ],
+      "abstract": "This paper introduces a unified deep learning framework to generate contrast-phase-specific virtual monochromatic (50 keV) images from standard single-energy CT (SECT) data. The method leverages contrast phase information as a prior, integrated via a novel conditioning architecture during training with dual-energy CT (DECT) data. This approach successfully synthesizes phase-specific 50 keV images, enhancing contrast and preserving dynamic changes without requiring complex DECT hardware.",
+      "url": "http://arxiv.org/abs/2605.29753v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29753v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.29753v1/Images_Pdf/Arc.png",
+      "figure_caption": "(a) Overall Architecture for energy transformation across phase-contrasts used in the proposed approach. (b) Proposed prior conditioning module used for adaptively modulate decoded features based on the input contrast phase. (c) Contrast phase timelines used as prior information",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.29744v1",
+      "title": "Why Specialist Models Still Matter: A Heterogeneous Multi-Agent Paradigm for Medical Artificial Intelligence",
+      "authors": [
+        "Yanan Wang",
+        "Shuaicong Hu",
+        "Jian Liu",
+        "Guohui Zhou",
+        "Aiguo Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper proposes HetMedAgent, a heterogeneous multi-agent framework that orchestrates collaboration between generalist LLMs, domain-specific medical specialist models, and clinicians. Its core method involves conflict-aware evidence fusion and uncertainty-based intervention triggering. The contribution is demonstrating that this synergistic approach significantly outperforms using either generalist or specialist models in isolation, validating the continued necessity of specialist models for modality-specific medical analysis.",
+      "url": "http://arxiv.org/abs/2605.29744v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29744v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.29744v1/x1.png",
+      "figure_caption": "(a) Previous: The generalist medical LLM. Lacking domain specificity and human oversight, single LLMs are prone to hallucinations and unsafe decisions on multimodal data. (b) Ours: Overview of the HetMedAgent framework. Orchestrates a Specialist Agent Group, a Generalist LLM Agent, and a Clinician Agent, enabling conflict-aware evidence fusion and uncertainty-driven oversight with adaptive calibration.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48307887,
+      "title": "Disagreement among frontier LLMs on real-world fact-checks",
+      "url": "https://lenz.io/research/llm-disagreement",
+      "score": 484,
+      "created_at": "2026-05-28T12:20:19Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48307887",
+      "summary": "Frontier Large Language Models exhibit significant disagreement when fact-checking real-world claims, highlighting ongoing reliability issues."
+    },
+    {
+      "id": 48308376,
+      "title": "Show HN: Continue? Y/N: A 60-second game about AI agent permission fatigue",
+      "url": "https://llmgame.scalex.dev",
+      "score": 239,
+      "created_at": "2026-05-28T13:02:00Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48308376",
+      "summary": "\"Continue? Y/N\" is a short, 60-second game illustrating the growing user fatigue associated with constantly granting permissions to AI agents."
+    },
+    {
+      "id": 48313810,
+      "title": "Various LLM Smells",
+      "url": "https://shvbsle.in/various-llm-smells/",
+      "score": 213,
+      "created_at": "2026-05-28T19:02:18Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48313810",
+      "summary": "The article discusses various undesirable outputs or \"smells\" that Large Language Models can produce, highlighting different types of model failures."
+    },
+    {
+      "id": 48314363,
+      "title": "Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions",
+      "url": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
+      "score": 177,
+      "created_at": "2026-05-28T19:43:14Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48314363",
+      "summary": "OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei are reportedly softening their previous dire predictions about widespread job displacement caused by artificial intelligence."
+    },
+    {
+      "id": 48307098,
+      "title": "AI sticker shock hits corporate America",
+      "url": "https://www.axios.com/2026/05/28/ai-spending-roi-enterprise-costs",
+      "score": 156,
+      "created_at": "2026-05-28T10:39:32Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48307098",
+      "summary": "Corporate America is experiencing significant sticker shock as the high costs of implementing and scaling AI solutions begin to outweigh the expected return on investment."
+    },
+    {
+      "id": 48305446,
+      "title": "A Eureka machine that thinks like nature and explores what AI cannot",
+      "url": "https://iisc.ac.in/a-eureka-machine-that-thinks-like-nature-and-explores-what-ai-cannot/",
+      "score": 144,
+      "created_at": "2026-05-28T06:40:31Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48305446",
+      "summary": "Researchers have developed a novel \"Eureka machine\" inspired by natural processes to explore complex problems beyond the capabilities of current artificial intelligence."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "stars_today": 4698,
+      "total_stars": 66370,
+      "language": "Python",
+      "topics": [],
+      "summary": "MoneyPrinterTurbo is a tool that uses AI large language models to generate high-definition short videos with a single click."
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars_today": 1385,
+      "total_stars": 197292,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "The ECC repository provides an agent harness performance optimization system, focusing on skills, instincts, memory, security, and research-first development for various code models like Claude Code and Codex."
+    },
+    {
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "stars_today": 2234,
+      "total_stars": 26441,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Taste-Skill is a Python library designed to enhance AI output by preventing the generation of boring or generic content, effectively giving the AI \"good taste.\""
+    },
+    {
+      "full_name": "hardikpandya/stop-slop",
+      "url": "https://github.com/hardikpandya/stop-slop",
+      "description": "A skill file for removing AI tells from prose",
+      "stars_today": 761,
+      "total_stars": 6422,
+      "language": "",
+      "topics": [],
+      "summary": "The `stop-slop` GitHub repository provides a skill file designed to help users remove common \"AI tells\" or stylistic artifacts from prose generated by artificial intelligence."
+    },
+    {
+      "full_name": "twentyhq/twenty",
+      "url": "https://github.com/twentyhq/twenty",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "stars_today": 493,
+      "total_stars": 47864,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Twenty is an open-source CRM alternative to Salesforce, built with a focus on AI integration for enhanced customer relationship management."
+    },
+    {
+      "full_name": "DigitalPlatDev/FreeDomain",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain",
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "stars_today": 1761,
+      "total_stars": 170729,
+      "language": "HTML",
+      "topics": [],
+      "summary": "DigitalPlatDev/FreeDomain aims to provide everyone with free domain names through a platform or service, simplifying domain acquisition for users."
+    },
+    {
+      "full_name": "byoungd/English-level-up-tips",
+      "url": "https://github.com/byoungd/English-level-up-tips",
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "stars_today": 2019,
+      "total_stars": 48525,
+      "language": "",
+      "topics": [],
+      "summary": "This repository provides an advanced, comprehensive guide with tips and tutorials for significantly improving English language skills."
+    },
+    {
+      "full_name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "stars_today": 1410,
+      "total_stars": 127760,
+      "language": "Python",
+      "topics": [],
+      "summary": "Markitdown is a Python tool designed to convert various file and office document formats into Markdown, streamlining content migration and standardization."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 1730,
+      "total_stars": 211094,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Superpowers is an agentic skills framework and software development methodology designed to be a functional and effective approach to building software."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
