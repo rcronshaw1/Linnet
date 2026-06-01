@@ -1,0 +1,68 @@
+{
+  "period": "2026-W23",
+  "summary": "Both papers explore advancements in handling medical imaging and reasoning, albeit with different focuses.\n\n**A unified deeplearning framework for contrast-phase-specific virtual monochromatic imaging** highlights a trend toward **enhancing existing hardware capabilities through deep learning.** The key advance is the successful creation of *contrast-phase-specific virtual monochromatic images* (50 keV) from standard Single-Energy CT (SECT). This is achieved by integrating contrast phase information as a prior using a novel conditioning architecture trained on Dual-Energy CT (DECT) data. The trend here is making advanced material decomposition and visualization techniques accessible without requiring costly or complex DECT scanner upgrades.\n\n**Why Specialist Models Still Matter** addresses the evolving paradigm in Medical AI, emphasizing **the enduring value of specialized models over pure generalism.** The notable advance is the **HetMedAgent framework,** which successfully orchestrates generalist LLMs with domain-specific specialist models and human clinicians. This framework leverages conflict-aware fusion and uncertainty monitoring. The significant shift identified is a rebuttal against the sole reliance on large generalist models; the paper strongly validates the necessity of purpose-built specialist models for robust, modality-specific tasks, suggesting a future of **synergistic, orchestrated AI systems.**\n\nOverall, the week shows trends moving towards both **computational enhancement of existing clinical tools (virtual monochromatic imaging)** and **architectural refinement of AI systems (hybrid generalist/specialist collaboration).**",
+  "top_papers": [
+    {
+      "id": "2605.29753v1",
+      "title": "A unified deeplearning framework for contrast-phase-specific virtual monochromatic imaging",
+      "authors": [
+        "Antony Jerald",
+        "Hemant K Aggarwal",
+        "Brian Nett",
+        "Avinash Gopal",
+        "Phaneendra K Yalavarthy"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV"
+      ],
+      "abstract": "This paper introduces a unified deep learning framework to generate contrast-phase-specific virtual monochromatic (50 keV) images from standard single-energy CT (SECT) data. The method leverages contrast phase information as a prior, integrated via a novel conditioning architecture during training with dual-energy CT (DECT) data. This approach successfully synthesizes phase-specific 50 keV images, enhancing contrast and preserving dynamic changes without requiring complex DECT hardware.",
+      "url": "http://arxiv.org/abs/2605.29753v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29753v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.29753v1/Images_Pdf/Arc.png",
+      "figure_caption": "(a) Overall Architecture for energy transformation across phase-contrasts used in the proposed approach. (b) Proposed prior conditioning module used for adaptively modulate decoded features based on the input contrast phase. (c) Contrast phase timelines used as prior information",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.29744v1",
+      "title": "Why Specialist Models Still Matter: A Heterogeneous Multi-Agent Paradigm for Medical Artificial Intelligence",
+      "authors": [
+        "Yanan Wang",
+        "Shuaicong Hu",
+        "Jian Liu",
+        "Guohui Zhou",
+        "Aiguo Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper proposes HetMedAgent, a heterogeneous multi-agent framework that orchestrates collaboration between generalist LLMs, domain-specific medical specialist models, and clinicians. Its core method involves conflict-aware evidence fusion and uncertainty-based intervention triggering. The contribution is demonstrating that this synergistic approach significantly outperforms using either generalist or specialist models in isolation, validating the continued necessity of specialist models for modality-specific medical analysis.",
+      "url": "http://arxiv.org/abs/2605.29744v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29744v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.29744v1/x1.png",
+      "figure_caption": "(a) Previous: The generalist medical LLM. Lacking domain specificity and human oversight, single LLMs are prone to hallucinations and unsafe decisions on multimodal data. (b) Ours: Overview of the HetMedAgent framework. Orchestrates a Specialist Agent Group, a Generalist LLM Agent, and a Clinician Agent, enabling conflict-aware evidence fusion and uncertainty-driven oversight with adaptive calibration.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "new_jobs": [],
+  "trending_keywords": [],
+  "keyword_frequency": {},
+  "daily_refs": [
+    "2026-05-25",
+    "2026-05-26",
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29",
+    "2026-05-30",
+    "2026-05-31"
+  ]
+}
