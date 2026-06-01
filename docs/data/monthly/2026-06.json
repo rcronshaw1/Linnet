@@ -1,0 +1,251 @@
+{
+  "period": "2026-06",
+  "summary": "## Monthly Trends Summary: Medical AI Research (Past 30 Days)\n\nThe past month in medical AI research has emphasized **resource efficiency, leveraging existing data formats, and the critical balance between generalization and clinical personalization.** A strong theme is pushing advanced AI capabilities onto lower-computing infrastructure or utilizing existing suboptimal data sources.\n\n### Shifts in Research Direction Popularity:\n\n1.  **Efficiency and Deployment Focus:** There is a distinct shift toward practical deployment. Papers like **RadLite** (SLMs on CPU) and **Learning from Compressed CT** focus heavily on making high-performance models viable in low-resource clinical environments, moving beyond purely high-accuracy benchmarks.\n2.  **Data Fidelity and Generation:** Research continues to push the boundaries of image quality under constraints. This includes unsupervised denoising (**Unsupervised Denoising of Real Clinical Low Dose Liver CT**) and highly precise generative editing (**Geometrically Constrained Stenosis Editing** via Optimal Transport), indicating growth in refining noisy or synthesized clinical inputs.\n3.  **Federated Learning Sophistication:** The focus in collaborative learning has moved past simple aggregation to address data heterogeneity directly through knowledge infusion (**FedKPer**), signaling a maturing field requiring complex personalization strategies.\n4.  **LLM Integration Strategy:** The recent influx of Large Language Models (LLMs) is finding its niche through structured frameworks. **Why Specialist Models Still Matter** directly addresses the current debate by advocating for specialized models orchestrated by a heterogeneous agent system, rather than immediate replacement by generalists.\n\n### Notable Groups or Labs:\n\nWhile specific institutional affiliations are not provided, the nature of the research suggests involvement from groups specializing in:\n\n*   **Low-Level Signal Processing and Reconstruction:** Implied by the work on Lissajous CLE restoration (**MIRA**) and low-dose CT denoising.\n*   **Graph/Game Theory in Explainability:** Demonstrated by the rigorous application of game theory (**Shapley Regression**) to diagnostic modeling, suggesting expertise in robust, interpretable modeling.\n*   **Advanced Optimization (Non-Standard Loss Functions):** Evidenced by the use of Entropic Optimal Transport for guided image modification.\n\n### Trends to Watch Next Month:\n\n1.  **Bridging the Compression Gap:** Following the success of **Learning from Compressed CT**, expect more research on adapting complex models (like transformers or large vision models) to function optimally directly on highly compressed modalities (e.g., M-mode ultrasound or highly compressed DICOM).\n2.  **Personalization in Collaborative Learning:** The success of knowledge personalization in **FedKPer** will likely spawn more complex, fine-grained aggregation schemes that attempt to selectively merge personalized learned features rather than just model weights.\n3.  **LLM Orchestration and Agentic Systems in Practice:** The HetMedAgent framework sets a potential challenge for how to robustly deploy multi-agent systems in regulated settings, suggesting a near-future focus on conflict resolution protocols and quantifiable clinical utility outside of benchmark comparison.\n4.  **Game Theory as a Standard Modeling Tool:** The introduction of **Shapley Regression** suggests a growing interest in injecting established non-linear optimization/game theory paradigms (like Shapley values) directly into the regression layer for improved interpretability in complex, rare-event diagnosis.",
+  "top_papers": [
+    {
+      "id": "2605.00421v1",
+      "title": "RadLite: Multi-Task LoRA Fine-Tuning of Small Language Models for CPU-Deployable Radiology AI",
+      "authors": [
+        "Pankaj Gupta",
+        "Kartik Bose"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "RadLite fine-tunes small language models (SLMs, 3-4B parameters) using LoRA across nine diverse radiology tasks to enable deployment on resource-constrained CPUs. The core contribution is demonstrating that this targeted fine-tuning significantly boosts performance over zero-shot baselines across various clinical applications. This method successfully bridges the gap between LLM potential and practical, low-compute clinical AI deployment.",
+      "url": "http://arxiv.org/abs/2605.00421v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00421v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2605.00421v1/figures/fig_dataset_overview.png",
+      "figure_caption": "Training data overview: 162K samples across 9 radiology tasks and 12 public datasets. (a) Task distribution by sample count with sampling weights. (b) RADS assignment breakdown across 10 classification systems. (c) Total samples by task category (Generation, Extraction, Classification). (d) Number of tasks per sampling weight tier.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.00793v1",
+      "title": "Unsupervised Denoising of Real Clinical Low Dose Liver CT with Perceptual Attention Networks",
+      "authors": [
+        "Jingxi Pu",
+        "Tonghua Liu",
+        "Zhilin Guan",
+        "Siqiao Li",
+        "Yang Ming"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper proposes an unsupervised deep learning framework for denoising real clinical low-dose liver CT images, inspired by Cycle-GAN. The method integrates a U-Net for multi-scale feature extraction, an attention mechanism, and a residual network, enhanced by perceptual loss tailored for medical images. This approach effectively reduces noise without requiring paired training data, improving diagnostic quality.",
+      "url": "http://arxiv.org/abs/2605.00793v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00793v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.00698v1",
+      "title": "FedKPer: Tackling Generalization and Personalization in Medical Federated Learning via Knowledge Personalization",
+      "authors": [
+        "Zoe Fowler",
+        "Ghassan AlRegib"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.LG"
+      ],
+      "abstract": "FedKPer addresses statistical heterogeneity in medical federated learning by integrating knowledge personalization into local training. The method achieves a better balance between generalization and personalization through selective alignment with the global model and a modified aggregation scheme. This approach mitigates forgetting and improves performance across diverse hospital datasets.",
+      "url": "http://arxiv.org/abs/2605.00698v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00698v1",
+      "score": 9.0,
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.00448v1",
+      "title": "Learning from Compressed CT: Feature Attention Style Transfer and Structured Factorized Projections for Resource-Efficient Medical Image Analysis",
+      "authors": [
+        "Shadid Yousuf",
+        "S. M. Mahbubur Rahman",
+        "Mohammed Imamul Hassan Bhuiyan"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper addresses the resource limitations of AI in medical imaging by enabling analysis directly from JPEG-compressed CT scans. The core method, Feature Attention Style Transfer (FAST), is a distillation framework that transfers rich feature representations and structural relationships from high-fidelity CTs to a model processing the compressed data. This allows for efficient, low-resource deployment of thoracic abnormality detection without sacrificing diagnostic performance.",
+      "url": "http://arxiv.org/abs/2605.00448v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00448v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.00448v1/trainingonly.drawio.png",
+      "figure_caption": "Overview of the CT-Lite framework. (Left) Stage 1: Feature Attention Style Transfer (FAST) distills the frozen high-fidelity teacher into a student encoder operating on JPEG-compressed inputs, using attention-style and dual-attention feature alignment. (Right) Stage 2: contrastive alignment of compressed-CT and report embeddings via Structured Factorized Projection (SFP) blocks and a SigLIP objective.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2605.08851v1",
+      "title": "Geometrically Constrained Stenosis Editing in Coronary Angiography via Entropic Optimal Transport",
+      "authors": [
+        "Jialin Li",
+        "Zhuo Zhang",
+        "Yue Cao",
+        "Guipeng Lan",
+        "Jiabao Wen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces the **OT-Bridge Editor**, a novel method for synthesizing realistic coronary angiography (CAG) images with specific stenosis features. It reframes localized image editing as a **constrained entropic optimal transport (OT) problem**, using geometric information to precisely guide the generation process. This approach significantly improves downstream stenosis detection performance, achieving substantial relative gains on benchmark datasets compared to existing diffusion-based editing methods.",
+      "url": "http://arxiv.org/abs/2605.08851v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08851v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.08851v1/x1.png",
+      "figure_caption": "Conceptual comparison between conditional diffusion and OT-Bridge Editor. OT-Bridge Editor fixes the start state S ∗ S^{\\( \\ast \\)} (edited vessel-structure) and enforces hard, path-level guidance (GPG) within a Schrödinger-bridge formulation, producing a deterministic generation path toward the target.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.29753v1",
+      "title": "A unified deeplearning framework for contrast-phase-specific virtual monochromatic imaging",
+      "authors": [
+        "Antony Jerald",
+        "Hemant K Aggarwal",
+        "Brian Nett",
+        "Avinash Gopal",
+        "Phaneendra K Yalavarthy"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV"
+      ],
+      "abstract": "This paper introduces a unified deep learning framework to generate contrast-phase-specific virtual monochromatic (50 keV) images from standard single-energy CT (SECT) data. The method leverages contrast phase information as a prior, integrated via a novel conditioning architecture during training with dual-energy CT (DECT) data. This approach successfully synthesizes phase-specific 50 keV images, enhancing contrast and preserving dynamic changes without requiring complex DECT hardware.",
+      "url": "http://arxiv.org/abs/2605.29753v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29753v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.29753v1/Images_Pdf/Arc.png",
+      "figure_caption": "(a) Overall Architecture for energy transformation across phase-contrasts used in the proposed approach. (b) Proposed prior conditioning module used for adaptively modulate decoded features based on the input contrast phase. (c) Contrast phase timelines used as prior information",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.29744v1",
+      "title": "Why Specialist Models Still Matter: A Heterogeneous Multi-Agent Paradigm for Medical Artificial Intelligence",
+      "authors": [
+        "Yanan Wang",
+        "Shuaicong Hu",
+        "Jian Liu",
+        "Guohui Zhou",
+        "Aiguo Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "abstract": "This paper proposes HetMedAgent, a heterogeneous multi-agent framework that orchestrates collaboration between generalist LLMs, domain-specific medical specialist models, and clinicians. Its core method involves conflict-aware evidence fusion and uncertainty-based intervention triggering. The contribution is demonstrating that this synergistic approach significantly outperforms using either generalist or specialist models in isolation, validating the continued necessity of specialist models for modality-specific medical analysis.",
+      "url": "http://arxiv.org/abs/2605.29744v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.29744v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2605.29744v1/x1.png",
+      "figure_caption": "(a) Previous: The generalist medical LLM. Lacking domain specificity and human oversight, single LLMs are prone to hallucinations and unsafe decisions on multimodal data. (b) Ours: Overview of the HetMedAgent framework. Orchestrates a Specialist Agent Group, a Generalist LLM Agent, and a Clinician Agent, enabling conflict-aware evidence fusion and uncertainty-driven oversight with adaptive calibration.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.08897v1",
+      "title": "Shapley Regression for Rare Disease Diagnosis Support: a case study on APDS",
+      "authors": [
+        "Safa Alsaidi",
+        "Tomás Brogueira",
+        "Nizar Mahlaoui",
+        "Marc Vincent",
+        "Guilherme Pelegrina"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **Shapley Regression**, a novel game-theoretic model for rare disease diagnosis, specifically applied to APDS. It replaces the standard linear predictor with a $k$-additive cooperative game to explicitly model complex symptom co-occurrences, thereby improving upon traditional linear models. The method maintains the interpretability and convexity of logistic regression while demonstrating strong performance across biomedical datasets.",
+      "url": "http://arxiv.org/abs/2605.08897v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.08897v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2605.08897v1/stability_proof_k2.png",
+      "figure_caption": "Empirical Validation of Algorithmic Stability. We measure sensitivity (Euclidean shift ‖ 𝜽 ^ S − 𝜽 ^ S ′ ‖ 2 \\|\\( \\hat \\){\\( \\boldsymbol{\\theta} \\)}_{S}-\\( \\hat \\){\\( \\boldsymbol{\\theta} \\)}_{S^{\\( \\prime \\)}}\\|_{2} after flipping a single label) across varying regularisation strengths C C . The dashed line represents the theoretical linear bound ( β ∝ C \\( \\beta \\)\\( \\propto \\) C ) derived in Regime 3. Crucially, the empirical points follow this linear trend in the high-regularisation regime (small C C ) but naturally deviate and saturate around C ≈ 1.5 C\\( \\approx \\) 1.5 as the logistic gradients vanish. This confirms that the model adheres to the stability bound while being strictly more robust than predicted in low-regularisation settings.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2605.00527v1",
+      "title": "Multi-frame Restoration for High-rate Lissajous Confocal Laser Endomicroscopy",
+      "authors": [
+        "Minhee Lee",
+        "Sangyoon Lee",
+        "Jiwook Lee",
+        "Minki Hong",
+        "Kyuyoung Kim"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces MIRA, a lightweight recurrent framework designed to restore high-rate Lissajous Confocal Laser Endomicroscopy (CLE) images, which suffer from structured holes due to rapid scanning. The core method iteratively aggregates temporal context using feature reuse and displacement alignment. The contribution lies in creating the first benchmark dataset for this problem and demonstrating that MIRA achieves superior restoration quality compared to existing methods while remaining computationally efficient.",
+      "url": "http://arxiv.org/abs/2605.00527v1",
+      "pdf_url": "https://arxiv.org/pdf/2605.00527v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2605.00527v1/x1.png",
+      "figure_caption": "A visual description of the high-rate Lissajous CLE frames: (a) High-rate LQ frame (10Hz) with steady probe movement; (b) High-rate LQ frame of the same scene, with shaky probe movement; (c) Scanning trajectory of the probe while taking one frame, where the white “holes” correspond to the missing pixels; (d) The low-rate HQ frame with the same field-of-view.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    }
+  ],
+  "new_jobs": [],
+  "trending_keywords": [],
+  "keyword_frequency": {},
+  "daily_refs": [
+    "2026-05-02",
+    "2026-05-03",
+    "2026-05-04",
+    "2026-05-05",
+    "2026-05-06",
+    "2026-05-07",
+    "2026-05-08",
+    "2026-05-09",
+    "2026-05-10",
+    "2026-05-11",
+    "2026-05-12",
+    "2026-05-13",
+    "2026-05-14",
+    "2026-05-15",
+    "2026-05-16",
+    "2026-05-17",
+    "2026-05-18",
+    "2026-05-19",
+    "2026-05-20",
+    "2026-05-21",
+    "2026-05-22",
+    "2026-05-23",
+    "2026-05-24",
+    "2026-05-25",
+    "2026-05-26",
+    "2026-05-27",
+    "2026-05-28",
+    "2026-05-29",
+    "2026-05-30",
+    "2026-05-31"
+  ]
+}
