@@ -1,0 +1,458 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T01:22:29.023748+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.00563v1",
+          "title": "A Practical Upper Bound on Selection Bias Effects in Medical Prediction Models",
+          "authors": [
+            "Kara Liu",
+            "Maggie Wang",
+            "Russ B. Altman"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "stat.ML"
+          ],
+          "abstract": "This paper introduces a novel, practical upper bound to estimate the worst-case performance of medical prediction models when deployed in a target population affected by selection bias. The method is significant because it only requires partial knowledge of the selection mechanism and target data, making it applicable in realistic scenarios where full distribution knowledge is unavailable. This provides practitioners with a reliable pre-deployment assessment of model generalizability and potential risks.",
+          "url": "http://arxiv.org/abs/2606.00563v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.00563v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.00563v1/x1.png",
+          "figure_caption": "Figure 1 . Pipeline illustrating how our method estimates a generalization bound under limited observation of the target-data, thereby enabling better informed decisions of model deployment.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 6,
+        "papers_after_llm_filter": 1,
+        "count": 1
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48359102,
+          "title": "The newest Instagram “exploit” is the goofiest I've seen",
+          "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+          "score": 1311,
+          "created_at": "2026-06-01T16:31:42Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48359102",
+          "summary": "A recent, unusual Instagram \"exploit\" involved a bizarre account takeover process that Meta's security team mishandled, leading to a confusing and somewhat comical situation."
+        },
+        {
+          "id": 48358646,
+          "title": "Anthropic confidentially submits draft S-1 to the SEC",
+          "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+          "score": 448,
+          "created_at": "2026-06-01T16:00:40Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48358646",
+          "summary": "AI company Anthropic has confidentially submitted a draft S-1 registration statement to the U.S. Securities and Exchange Commission (SEC), signaling a potential initial public offering."
+        },
+        {
+          "id": 48359232,
+          "title": "AI Agent Guidelines for CS336 at Stanford",
+          "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+          "score": 316,
+          "created_at": "2026-06-01T16:41:49Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48359232",
+          "summary": "Stanford's CS336 course has released specific guidelines detailing the acceptable and prohibited uses of AI agents like Claude for completing assignment one."
+        },
+        {
+          "id": 48359130,
+          "title": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
+          "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+          "score": 282,
+          "created_at": "2026-06-01T16:33:59Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48359130",
+          "summary": "DuckDuckGo is enhancing access to its non-AI search engine amidst a surge in user traffic, positioning itself as an alternative to AI-driven search."
+        },
+        {
+          "id": 48358667,
+          "title": "Florida sues OpenAI and Sam Altman over AI risks",
+          "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
+          "score": 177,
+          "created_at": "2026-06-01T16:02:04Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48358667",
+          "summary": "Florida is suing OpenAI and CEO Sam Altman, alleging the company's artificial intelligence poses risks to the state's residents."
+        },
+        {
+          "id": 48357725,
+          "title": "Ask HN: Who is hiring? (June 2026)",
+          "url": "",
+          "score": 155,
+          "created_at": "2026-06-01T15:00:48Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48357725",
+          "summary": "This \"Ask HN\" thread from June 2026 serves as a community forum for companies to announce job openings and for individuals to seek employment opportunities."
+        },
+        {
+          "id": 48356654,
+          "title": "Nvidia Cosmos 3",
+          "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/",
+          "score": 143,
+          "created_at": "2026-06-01T13:32:44Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48356654",
+          "summary": "Nvidia Cosmos 3 is a new platform enabling developers to create and train physical AI reasoning and action models within a simulated world environment."
+        },
+        {
+          "id": 48355751,
+          "title": "When AI Crosses the Line: The Matplotlib Incident",
+          "url": "https://members.sigmazero.cc/posts/when-ai-crosses-159174096?postId=when-ai-crosses-159174096",
+          "score": 130,
+          "created_at": "2026-06-01T12:08:23Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48355751",
+          "summary": "The Matplotlib incident involved an AI system generating code that inadvertently included malicious or unauthorized functionality, highlighting ethical and security risks when AI tools are used in software development."
+        }
+      ],
+      "meta": {
+        "count": 8
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "microsoft/markitdown",
+          "url": "https://github.com/microsoft/markitdown",
+          "description": "Python tool for converting files and office documents to Markdown.",
+          "stars_today": 3034,
+          "total_stars": 138487,
+          "language": "Python",
+          "topics": [],
+          "summary": "Markitdown is a Python tool designed to convert various file and office document formats into Markdown, simplifying content migration and standardization."
+        },
+        {
+          "full_name": "nesquena/hermes-webui",
+          "url": "https://github.com/nesquena/hermes-webui",
+          "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+          "stars_today": 945,
+          "total_stars": 11342,
+          "language": "Python",
+          "topics": [],
+          "summary": "Hermes WebUI provides a user-friendly web and mobile interface for interacting with the Hermes Agent."
+        },
+        {
+          "full_name": "supermemoryai/supermemory",
+          "url": "https://github.com/supermemoryai/supermemory",
+          "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+          "stars_today": 647,
+          "total_stars": 23990,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Supermemory is an extremely fast and scalable memory engine and application, providing a core Memory API designed specifically for the demands of the AI era."
+        },
+        {
+          "full_name": "harry0703/MoneyPrinterTurbo",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+          "stars_today": 3375,
+          "total_stars": 76858,
+          "language": "Python",
+          "topics": [],
+          "summary": "MoneyPrinterTurbo is a tool that leverages AI large language models to generate high-definition short videos with a single click."
+        },
+        {
+          "full_name": "D4Vinci/Scrapling",
+          "url": "https://github.com/D4Vinci/Scrapling",
+          "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+          "stars_today": 1486,
+          "total_stars": 58061,
+          "language": "Python",
+          "topics": [],
+          "summary": "Scrapling is an adaptive web scraping framework designed to efficiently manage tasks ranging from single HTTP requests to large-scale website crawling operations."
+        },
+        {
+          "full_name": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "description": "The design language that makes your AI harness better at design.",
+          "stars_today": 485,
+          "total_stars": 32718,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Impeccable is a design language that enhances AI's design capabilities through a structured and refined approach."
+        },
+        {
+          "full_name": "p-e-w/heretic",
+          "url": "https://github.com/p-e-w/heretic",
+          "description": "Fully automatic censorship removal for language models",
+          "stars_today": 249,
+          "total_stars": 23040,
+          "language": "Python",
+          "topics": [],
+          "summary": "Heretic is a tool designed for the fully automatic removal of censorship mechanisms within language models."
+        },
+        {
+          "full_name": "EveryInc/compound-engineering-plugin",
+          "url": "https://github.com/EveryInc/compound-engineering-plugin",
+          "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+          "stars_today": 417,
+          "total_stars": 19113,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "The Compound Engineering Plugin for Claude Code, Codex, and Cursor facilitates integrated development workflows by providing official plugin functionality across various AI coding environments."
+        },
+        {
+          "full_name": "TauricResearch/TradingAgents",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+          "stars_today": 299,
+          "total_stars": 81786,
+          "language": "Python",
+          "topics": [],
+          "summary": "TradingAgents is a multi-agent LLM framework designed for financial trading, enabling complex, autonomous trading strategies through coordinated AI agents."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 6,
+    "papers_after_llm_filter": 1,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 53
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.00563v1",
+      "title": "A Practical Upper Bound on Selection Bias Effects in Medical Prediction Models",
+      "authors": [
+        "Kara Liu",
+        "Maggie Wang",
+        "Russ B. Altman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces a novel, practical upper bound to estimate the worst-case performance of medical prediction models when deployed in a target population affected by selection bias. The method is significant because it only requires partial knowledge of the selection mechanism and target data, making it applicable in realistic scenarios where full distribution knowledge is unavailable. This provides practitioners with a reliable pre-deployment assessment of model generalizability and potential risks.",
+      "url": "http://arxiv.org/abs/2606.00563v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.00563v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.00563v1/x1.png",
+      "figure_caption": "Figure 1 . Pipeline illustrating how our method estimates a generalization bound under limited observation of the target-data, thereby enabling better informed decisions of model deployment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.00563v1",
+      "title": "A Practical Upper Bound on Selection Bias Effects in Medical Prediction Models",
+      "authors": [
+        "Kara Liu",
+        "Maggie Wang",
+        "Russ B. Altman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces a novel, practical upper bound to estimate the worst-case performance of medical prediction models when deployed in a target population affected by selection bias. The method is significant because it only requires partial knowledge of the selection mechanism and target data, making it applicable in realistic scenarios where full distribution knowledge is unavailable. This provides practitioners with a reliable pre-deployment assessment of model generalizability and potential risks.",
+      "url": "http://arxiv.org/abs/2606.00563v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.00563v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.00563v1/x1.png",
+      "figure_caption": "Figure 1 . Pipeline illustrating how our method estimates a generalization bound under limited observation of the target-data, thereby enabling better informed decisions of model deployment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48359102,
+      "title": "The newest Instagram “exploit” is the goofiest I've seen",
+      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+      "score": 1311,
+      "created_at": "2026-06-01T16:31:42Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48359102",
+      "summary": "A recent, unusual Instagram \"exploit\" involved a bizarre account takeover process that Meta's security team mishandled, leading to a confusing and somewhat comical situation."
+    },
+    {
+      "id": 48358646,
+      "title": "Anthropic confidentially submits draft S-1 to the SEC",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "score": 448,
+      "created_at": "2026-06-01T16:00:40Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48358646",
+      "summary": "AI company Anthropic has confidentially submitted a draft S-1 registration statement to the U.S. Securities and Exchange Commission (SEC), signaling a potential initial public offering."
+    },
+    {
+      "id": 48359232,
+      "title": "AI Agent Guidelines for CS336 at Stanford",
+      "url": "https://github.com/stanford-cs336/assignment1-basics/blob/main/CLAUDE.md",
+      "score": 316,
+      "created_at": "2026-06-01T16:41:49Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48359232",
+      "summary": "Stanford's CS336 course has released specific guidelines detailing the acceptable and prohibited uses of AI agents like Claude for completing assignment one."
+    },
+    {
+      "id": 48359130,
+      "title": "DuckDuckGo makes its 'no-AI' search engine easier to access as its traffic booms",
+      "url": "https://techcrunch.com/2026/06/01/duckduckgo-makes-its-no-ai-search-engine-easier-to-access-as-its-traffic-booms/",
+      "score": 282,
+      "created_at": "2026-06-01T16:33:59Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48359130",
+      "summary": "DuckDuckGo is enhancing access to its non-AI search engine amidst a surge in user traffic, positioning itself as an alternative to AI-driven search."
+    },
+    {
+      "id": 48358667,
+      "title": "Florida sues OpenAI and Sam Altman over AI risks",
+      "url": "https://www.politico.com/news/2026/06/01/openai-hit-with-florida-lawsuit-00944215",
+      "score": 177,
+      "created_at": "2026-06-01T16:02:04Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48358667",
+      "summary": "Florida is suing OpenAI and CEO Sam Altman, alleging the company's artificial intelligence poses risks to the state's residents."
+    },
+    {
+      "id": 48357725,
+      "title": "Ask HN: Who is hiring? (June 2026)",
+      "url": "",
+      "score": 155,
+      "created_at": "2026-06-01T15:00:48Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48357725",
+      "summary": "This \"Ask HN\" thread from June 2026 serves as a community forum for companies to announce job openings and for individuals to seek employment opportunities."
+    },
+    {
+      "id": 48356654,
+      "title": "Nvidia Cosmos 3",
+      "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3/",
+      "score": 143,
+      "created_at": "2026-06-01T13:32:44Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48356654",
+      "summary": "Nvidia Cosmos 3 is a new platform enabling developers to create and train physical AI reasoning and action models within a simulated world environment."
+    },
+    {
+      "id": 48355751,
+      "title": "When AI Crosses the Line: The Matplotlib Incident",
+      "url": "https://members.sigmazero.cc/posts/when-ai-crosses-159174096?postId=when-ai-crosses-159174096",
+      "score": 130,
+      "created_at": "2026-06-01T12:08:23Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48355751",
+      "summary": "The Matplotlib incident involved an AI system generating code that inadvertently included malicious or unauthorized functionality, highlighting ethical and security risks when AI tools are used in software development."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "stars_today": 3034,
+      "total_stars": 138487,
+      "language": "Python",
+      "topics": [],
+      "summary": "Markitdown is a Python tool designed to convert various file and office document formats into Markdown, simplifying content migration and standardization."
+    },
+    {
+      "full_name": "nesquena/hermes-webui",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "stars_today": 945,
+      "total_stars": 11342,
+      "language": "Python",
+      "topics": [],
+      "summary": "Hermes WebUI provides a user-friendly web and mobile interface for interacting with the Hermes Agent."
+    },
+    {
+      "full_name": "supermemoryai/supermemory",
+      "url": "https://github.com/supermemoryai/supermemory",
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "stars_today": 647,
+      "total_stars": 23990,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Supermemory is an extremely fast and scalable memory engine and application, providing a core Memory API designed specifically for the demands of the AI era."
+    },
+    {
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "stars_today": 3375,
+      "total_stars": 76858,
+      "language": "Python",
+      "topics": [],
+      "summary": "MoneyPrinterTurbo is a tool that leverages AI large language models to generate high-definition short videos with a single click."
+    },
+    {
+      "full_name": "D4Vinci/Scrapling",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "stars_today": 1486,
+      "total_stars": 58061,
+      "language": "Python",
+      "topics": [],
+      "summary": "Scrapling is an adaptive web scraping framework designed to efficiently manage tasks ranging from single HTTP requests to large-scale website crawling operations."
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design language that makes your AI harness better at design.",
+      "stars_today": 485,
+      "total_stars": 32718,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Impeccable is a design language that enhances AI's design capabilities through a structured and refined approach."
+    },
+    {
+      "full_name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Fully automatic censorship removal for language models",
+      "stars_today": 249,
+      "total_stars": 23040,
+      "language": "Python",
+      "topics": [],
+      "summary": "Heretic is a tool designed for the fully automatic removal of censorship mechanisms within language models."
+    },
+    {
+      "full_name": "EveryInc/compound-engineering-plugin",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin",
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "stars_today": 417,
+      "total_stars": 19113,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "The Compound Engineering Plugin for Claude Code, Codex, and Cursor facilitates integrated development workflows by providing official plugin functionality across various AI coding environments."
+    },
+    {
+      "full_name": "TauricResearch/TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "stars_today": 299,
+      "total_stars": 81786,
+      "language": "Python",
+      "topics": [],
+      "summary": "TradingAgents is a multi-agent LLM framework designed for financial trading, enabling complex, autonomous trading strategies through coordinated AI agents."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
