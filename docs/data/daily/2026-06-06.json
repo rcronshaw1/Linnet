@@ -1,0 +1,650 @@
+{
+  "date": "2026-06-06",
+  "generated_at": "2026-06-06T01:13:01.042239+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.06407v1",
+          "title": "A Vision-language Framework for Comparative Reasoning in Radiology",
+          "authors": [
+            "Tengfei Zhang",
+            "Ziheng Zhao",
+            "Lisong Dai",
+            "Xiaoman Zhang",
+            "Pengcheng Qiu"
+          ],
+          "categories": [
+            "eess.IV",
+            "cs.CV",
+            "cs.IR",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces **MedReCo**, a vision-language framework designed to address the lack of comparative reasoning in current medical AI, which mirrors real-world radiological practice. The core method formulates comparison as an entity-aware cross-image reasoning task, supporting both reference case retrieval and temporal interpretation. The key contribution is the creation of **MedReCo-DB**, a large-scale, richly annotated comparative imaging dataset derived from routine clinical data to supervise and evaluate this novel reasoning capability.",
+          "url": "http://arxiv.org/abs/2606.06407v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06407v1",
+          "score": 10.0,
+          "figure_url": "https://arxiv.org/html/2606.06407v1/x1.png",
+          "figure_caption": "Overview of this study. a, Radiological comparison is formulated around temporal follow-up and reference-case reasoning. b, MedReCo uses an entity-conditioned visual representation to support both retrieval and vision–language generation. c, MedReCo-DB integrates multi-modal imaging data with entity-level clinical annotations. d, The benchmark includes both prior–current temporal comparisons and cross-case reference comparisons. e, Representative retrieval results evaluate entity-conditioned reference matching. f, Representative VQA results evaluate entity-specific comparative reasoning.",
+          "primary_category": "eess.IV",
+          "primary_category_anchor": "eess-iv",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.06379v1",
+          "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+          "authors": [
+            "Qiwei Zeng",
+            "Hao Wang",
+            "Jinghao Lin",
+            "Shuchang Ye",
+            "Yuezhe Yang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "EasyLens is a training-free, plug-and-play method designed to amplify the representation of subtle lesions in frozen medical Vision-Language Models (VLMs). It achieves this by generating an explicit \"lesion-aware\" visual prompt that guides the VLM's attention towards weak lesion cues without requiring any additional training or model fine-tuning. This contribution enhances the VLM's sensitivity to subtle pathologies, improving clinical utility across various frozen models.",
+          "url": "http://arxiv.org/abs/2606.06379v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+          "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06094v1",
+          "title": "Integrating Mechanistic and Data-Driven Models for Neurological Disorders through Differentiable Programming",
+          "authors": [
+            "Shah Pallav Dhanendrakumar",
+            "Saikat Pal",
+            "Sitikantha Roy"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "math.DS",
+            "physics.med-ph"
+          ],
+          "abstract": "This paper reviews hybrid modeling strategies that integrate mechanistic (physics-based) models with data-driven deep learning techniques for neurological disorders. The core method involves combining the scientific insight of mechanistic models with the speed and scalability of AI, using architectures like parallel, series, and parallel-series configurations. The contribution is a structured overview highlighting key approaches such as residual modeling and Neural ODEs to overcome the limitations of purely mechanistic or purely data-driven approaches.",
+          "url": "http://arxiv.org/abs/2606.06094v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06094v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06328v1",
+          "title": "PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data",
+          "authors": [
+            "Ziwen Kan",
+            "Wugeng Zheng",
+            "Tianlong Chen",
+            "Song Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "PAMF addresses incomplete multimodal time series data by explicitly estimating missing values, distinguishing between within-modality and modality-level missingness. The core method integrates a prior-aware fusion mechanism that jointly learns the imputation and the downstream task, allowing the task to guide the imputation process for more informative representations. This results in a unified framework that handles both structural missingness patterns effectively.",
+          "url": "http://arxiv.org/abs/2606.06328v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06328v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 5,
+        "papers_after_llm_filter": 4,
+        "count": 4
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48413464,
+          "title": "Astronauts told to return to ISS after sheltering over air leak repairs",
+          "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
+          "score": 354,
+          "created_at": "2026-06-05T15:00:31Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48413464",
+          "summary": "Astronauts have been instructed to return to the International Space Station (ISS) after completing repairs related to a minor air leak."
+        },
+        {
+          "id": 48414653,
+          "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+          "score": 255,
+          "created_at": "2026-06-05T16:18:48Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48414653",
+          "summary": "Google has released Gemma 4 QAT models, which utilize Quantization-Aware Training to significantly optimize model compression for improved efficiency on mobile and laptop devices."
+        },
+        {
+          "id": 48408442,
+          "title": "Fine-tuning an LLM to write docs like it's 1995",
+          "url": "https://passo.uno/fine-tuning-docs-llm/",
+          "score": 175,
+          "created_at": "2026-06-05T05:46:06Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48408442",
+          "summary": "A tech article details the process of fine-tuning a Large Language Model to generate technical documentation with the distinct style and formatting characteristic of the mid-1990s."
+        },
+        {
+          "id": 48417916,
+          "title": "Hacker News, Sans AI",
+          "url": "https://elijahpotter.dev/articles/hacker-news-sans-AI",
+          "score": 142,
+          "created_at": "2026-06-05T20:38:40Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48417916",
+          "summary": "This article explores how to use Hacker News without AI-generated content, focusing on manual curation and filtering to maintain the original community experience."
+        },
+        {
+          "id": 48413629,
+          "title": "Ask HN: What is your (AI) dev tech stack / workflow?",
+          "url": "",
+          "score": 113,
+          "created_at": "2026-06-05T15:13:54Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48413629",
+          "summary": "A Hacker News thread is asking developers to share their current technology stacks and workflows specifically for building and deploying Artificial Intelligence applications."
+        },
+        {
+          "id": 48408031,
+          "title": "The Pentagon is running an AI propaganda mill targeting Latin America",
+          "url": "https://theintercept.com/2026/06/02/la-tilde-propaganda-latin-america-pentagon/",
+          "score": 110,
+          "created_at": "2026-06-05T04:38:41Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48408031",
+          "summary": "The Pentagon is reportedly operating an AI-driven propaganda operation targeting Latin America, utilizing automated tools for influence campaigns."
+        },
+        {
+          "id": 48409955,
+          "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+          "url": "https://github.com/zdk/lowfat",
+          "score": 109,
+          "created_at": "2026-06-05T09:10:42Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48409955",
+          "summary": "Lowfat is a pluggable command-line interface filter designed to significantly reduce the number of tokens processed by Large Language Models, achieving a reported saving of 91.8%."
+        }
+      ],
+      "meta": {
+        "count": 7
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "NousResearch/hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "description": "The agent that grows with you",
+          "stars_today": 1845,
+          "total_stars": 183145,
+          "language": "Python",
+          "topics": [],
+          "summary": "Hermes Agent is a modular, extensible framework designed to facilitate the development and deployment of sophisticated AI agents that evolve and adapt over time."
+        },
+        {
+          "full_name": "chopratejas/headroom",
+          "url": "https://github.com/chopratejas/headroom",
+          "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+          "stars_today": 2473,
+          "total_stars": 14518,
+          "language": "Python",
+          "topics": [],
+          "summary": "Headroom is a compression tool that significantly reduces token count (60-95%) for LLM inputs like outputs, logs, files, and RAG chunks, functioning as a library, proxy, or MCP server while maintaining answer accuracy."
+        },
+        {
+          "full_name": "CopilotKit/CopilotKit",
+          "url": "https://github.com/CopilotKit/CopilotKit",
+          "description": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
+          "stars_today": 366,
+          "total_stars": 32686,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "CopilotKit provides a frontend stack for building AI agents and generative user interfaces using React and Angular, centered around the AG-UI Protocol."
+        },
+        {
+          "full_name": "lfnovo/open-notebook",
+          "url": "https://github.com/lfnovo/open-notebook",
+          "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+          "stars_today": 1152,
+          "total_stars": 26015,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "This open-source repository, Open Notebook, provides a flexible and feature-rich alternative implementation of the Notebook LM concept."
+        },
+        {
+          "full_name": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "stars_today": 1361,
+          "total_stars": 208368,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "ECC is an agent harness performance optimization system designed to enhance the capabilities of various code-focused AI models like Claude Code and Codex through integrated skills, instincts, memory, security, and research-first development."
+        },
+        {
+          "full_name": "Panniantong/Agent-Reach",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+          "stars_today": 148,
+          "total_stars": 21571,
+          "language": "Python",
+          "topics": [],
+          "summary": "Agent-Reach provides a unified command-line interface for AI agents to read and search content across major platforms like Twitter, Reddit, YouTube, and GitHub without incurring API fees."
+        },
+        {
+          "full_name": "NVIDIA/cosmos",
+          "url": "https://github.com/NVIDIA/cosmos",
+          "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+          "stars_today": 479,
+          "total_stars": 9418,
+          "language": "Jupyter Notebook",
+          "topics": [],
+          "summary": "NVIDIA Cosmos is an open platform providing world models, datasets, and tools to enable developers in building Physical AI for applications like robotics and autonomous vehicles."
+        },
+        {
+          "full_name": "666ghj/MiroFish",
+          "url": "https://github.com/666ghj/MiroFish",
+          "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+          "stars_today": 320,
+          "total_stars": 64706,
+          "language": "Python",
+          "topics": [],
+          "summary": "MiroFish is a simple, universal swarm intelligence engine designed to predict a wide range of outcomes using collective intelligence principles."
+        },
+        {
+          "full_name": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "stars_today": 731,
+          "total_stars": 28215,
+          "language": "Python",
+          "topics": [],
+          "summary": "This AI agent skill researches current information across multiple platforms like Reddit, X, and YouTube to synthesize a grounded summary on any given topic."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 5,
+    "papers_after_llm_filter": 4,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 15
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.06407v1",
+      "title": "A Vision-language Framework for Comparative Reasoning in Radiology",
+      "authors": [
+        "Tengfei Zhang",
+        "Ziheng Zhao",
+        "Lisong Dai",
+        "Xiaoman Zhang",
+        "Pengcheng Qiu"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **MedReCo**, a vision-language framework designed to address the lack of comparative reasoning in current medical AI, which mirrors real-world radiological practice. The core method formulates comparison as an entity-aware cross-image reasoning task, supporting both reference case retrieval and temporal interpretation. The key contribution is the creation of **MedReCo-DB**, a large-scale, richly annotated comparative imaging dataset derived from routine clinical data to supervise and evaluate this novel reasoning capability.",
+      "url": "http://arxiv.org/abs/2606.06407v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06407v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.06407v1/x1.png",
+      "figure_caption": "Overview of this study. a, Radiological comparison is formulated around temporal follow-up and reference-case reasoning. b, MedReCo uses an entity-conditioned visual representation to support both retrieval and vision–language generation. c, MedReCo-DB integrates multi-modal imaging data with entity-level clinical annotations. d, The benchmark includes both prior–current temporal comparisons and cross-case reference comparisons. e, Representative retrieval results evaluate entity-conditioned reference matching. f, Representative VQA results evaluate entity-specific comparative reasoning.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.06379v1",
+      "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+      "authors": [
+        "Qiwei Zeng",
+        "Hao Wang",
+        "Jinghao Lin",
+        "Shuchang Ye",
+        "Yuezhe Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "EasyLens is a training-free, plug-and-play method designed to amplify the representation of subtle lesions in frozen medical Vision-Language Models (VLMs). It achieves this by generating an explicit \"lesion-aware\" visual prompt that guides the VLM's attention towards weak lesion cues without requiring any additional training or model fine-tuning. This contribution enhances the VLM's sensitivity to subtle pathologies, improving clinical utility across various frozen models.",
+      "url": "http://arxiv.org/abs/2606.06379v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+      "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06094v1",
+      "title": "Integrating Mechanistic and Data-Driven Models for Neurological Disorders through Differentiable Programming",
+      "authors": [
+        "Shah Pallav Dhanendrakumar",
+        "Saikat Pal",
+        "Sitikantha Roy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "math.DS",
+        "physics.med-ph"
+      ],
+      "abstract": "This paper reviews hybrid modeling strategies that integrate mechanistic (physics-based) models with data-driven deep learning techniques for neurological disorders. The core method involves combining the scientific insight of mechanistic models with the speed and scalability of AI, using architectures like parallel, series, and parallel-series configurations. The contribution is a structured overview highlighting key approaches such as residual modeling and Neural ODEs to overcome the limitations of purely mechanistic or purely data-driven approaches.",
+      "url": "http://arxiv.org/abs/2606.06094v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06094v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06328v1",
+      "title": "PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data",
+      "authors": [
+        "Ziwen Kan",
+        "Wugeng Zheng",
+        "Tianlong Chen",
+        "Song Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "PAMF addresses incomplete multimodal time series data by explicitly estimating missing values, distinguishing between within-modality and modality-level missingness. The core method integrates a prior-aware fusion mechanism that jointly learns the imputation and the downstream task, allowing the task to guide the imputation process for more informative representations. This results in a unified framework that handles both structural missingness patterns effectively.",
+      "url": "http://arxiv.org/abs/2606.06328v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06328v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.06407v1",
+      "title": "A Vision-language Framework for Comparative Reasoning in Radiology",
+      "authors": [
+        "Tengfei Zhang",
+        "Ziheng Zhao",
+        "Lisong Dai",
+        "Xiaoman Zhang",
+        "Pengcheng Qiu"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **MedReCo**, a vision-language framework designed to address the lack of comparative reasoning in current medical AI, which mirrors real-world radiological practice. The core method formulates comparison as an entity-aware cross-image reasoning task, supporting both reference case retrieval and temporal interpretation. The key contribution is the creation of **MedReCo-DB**, a large-scale, richly annotated comparative imaging dataset derived from routine clinical data to supervise and evaluate this novel reasoning capability.",
+      "url": "http://arxiv.org/abs/2606.06407v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06407v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.06407v1/x1.png",
+      "figure_caption": "Overview of this study. a, Radiological comparison is formulated around temporal follow-up and reference-case reasoning. b, MedReCo uses an entity-conditioned visual representation to support both retrieval and vision–language generation. c, MedReCo-DB integrates multi-modal imaging data with entity-level clinical annotations. d, The benchmark includes both prior–current temporal comparisons and cross-case reference comparisons. e, Representative retrieval results evaluate entity-conditioned reference matching. f, Representative VQA results evaluate entity-specific comparative reasoning.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.06379v1",
+      "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+      "authors": [
+        "Qiwei Zeng",
+        "Hao Wang",
+        "Jinghao Lin",
+        "Shuchang Ye",
+        "Yuezhe Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "EasyLens is a training-free, plug-and-play method designed to amplify the representation of subtle lesions in frozen medical Vision-Language Models (VLMs). It achieves this by generating an explicit \"lesion-aware\" visual prompt that guides the VLM's attention towards weak lesion cues without requiring any additional training or model fine-tuning. This contribution enhances the VLM's sensitivity to subtle pathologies, improving clinical utility across various frozen models.",
+      "url": "http://arxiv.org/abs/2606.06379v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+      "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06094v1",
+      "title": "Integrating Mechanistic and Data-Driven Models for Neurological Disorders through Differentiable Programming",
+      "authors": [
+        "Shah Pallav Dhanendrakumar",
+        "Saikat Pal",
+        "Sitikantha Roy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "math.DS",
+        "physics.med-ph"
+      ],
+      "abstract": "This paper reviews hybrid modeling strategies that integrate mechanistic (physics-based) models with data-driven deep learning techniques for neurological disorders. The core method involves combining the scientific insight of mechanistic models with the speed and scalability of AI, using architectures like parallel, series, and parallel-series configurations. The contribution is a structured overview highlighting key approaches such as residual modeling and Neural ODEs to overcome the limitations of purely mechanistic or purely data-driven approaches.",
+      "url": "http://arxiv.org/abs/2606.06094v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06094v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06328v1",
+      "title": "PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data",
+      "authors": [
+        "Ziwen Kan",
+        "Wugeng Zheng",
+        "Tianlong Chen",
+        "Song Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "PAMF addresses incomplete multimodal time series data by explicitly estimating missing values, distinguishing between within-modality and modality-level missingness. The core method integrates a prior-aware fusion mechanism that jointly learns the imputation and the downstream task, allowing the task to guide the imputation process for more informative representations. This results in a unified framework that handles both structural missingness patterns effectively.",
+      "url": "http://arxiv.org/abs/2606.06328v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06328v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48413464,
+      "title": "Astronauts told to return to ISS after sheltering over air leak repairs",
+      "url": "https://www.bbc.com/news/live/c4g44ew3g1kt",
+      "score": 354,
+      "created_at": "2026-06-05T15:00:31Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48413464",
+      "summary": "Astronauts have been instructed to return to the International Space Station (ISS) after completing repairs related to a minor air leak."
+    },
+    {
+      "id": 48414653,
+      "title": "Gemma 4 QAT models: Optimizing compression for mobile and laptop efficiency",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/",
+      "score": 255,
+      "created_at": "2026-06-05T16:18:48Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48414653",
+      "summary": "Google has released Gemma 4 QAT models, which utilize Quantization-Aware Training to significantly optimize model compression for improved efficiency on mobile and laptop devices."
+    },
+    {
+      "id": 48408442,
+      "title": "Fine-tuning an LLM to write docs like it's 1995",
+      "url": "https://passo.uno/fine-tuning-docs-llm/",
+      "score": 175,
+      "created_at": "2026-06-05T05:46:06Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48408442",
+      "summary": "A tech article details the process of fine-tuning a Large Language Model to generate technical documentation with the distinct style and formatting characteristic of the mid-1990s."
+    },
+    {
+      "id": 48417916,
+      "title": "Hacker News, Sans AI",
+      "url": "https://elijahpotter.dev/articles/hacker-news-sans-AI",
+      "score": 142,
+      "created_at": "2026-06-05T20:38:40Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48417916",
+      "summary": "This article explores how to use Hacker News without AI-generated content, focusing on manual curation and filtering to maintain the original community experience."
+    },
+    {
+      "id": 48413629,
+      "title": "Ask HN: What is your (AI) dev tech stack / workflow?",
+      "url": "",
+      "score": 113,
+      "created_at": "2026-06-05T15:13:54Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48413629",
+      "summary": "A Hacker News thread is asking developers to share their current technology stacks and workflows specifically for building and deploying Artificial Intelligence applications."
+    },
+    {
+      "id": 48408031,
+      "title": "The Pentagon is running an AI propaganda mill targeting Latin America",
+      "url": "https://theintercept.com/2026/06/02/la-tilde-propaganda-latin-america-pentagon/",
+      "score": 110,
+      "created_at": "2026-06-05T04:38:41Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48408031",
+      "summary": "The Pentagon is reportedly operating an AI-driven propaganda operation targeting Latin America, utilizing automated tools for influence campaigns."
+    },
+    {
+      "id": 48409955,
+      "title": "Show HN: Lowfat – pluggable CLI filter that saved 91.8% of my LLM tokens",
+      "url": "https://github.com/zdk/lowfat",
+      "score": 109,
+      "created_at": "2026-06-05T09:10:42Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48409955",
+      "summary": "Lowfat is a pluggable command-line interface filter designed to significantly reduce the number of tokens processed by Large Language Models, achieving a reported saving of 91.8%."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "stars_today": 1845,
+      "total_stars": 183145,
+      "language": "Python",
+      "topics": [],
+      "summary": "Hermes Agent is a modular, extensible framework designed to facilitate the development and deployment of sophisticated AI agents that evolve and adapt over time."
+    },
+    {
+      "full_name": "chopratejas/headroom",
+      "url": "https://github.com/chopratejas/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "stars_today": 2473,
+      "total_stars": 14518,
+      "language": "Python",
+      "topics": [],
+      "summary": "Headroom is a compression tool that significantly reduces token count (60-95%) for LLM inputs like outputs, logs, files, and RAG chunks, functioning as a library, proxy, or MCP server while maintaining answer accuracy."
+    },
+    {
+      "full_name": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "description": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
+      "stars_today": 366,
+      "total_stars": 32686,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "CopilotKit provides a frontend stack for building AI agents and generative user interfaces using React and Angular, centered around the AG-UI Protocol."
+    },
+    {
+      "full_name": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "stars_today": 1152,
+      "total_stars": 26015,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "This open-source repository, Open Notebook, provides a flexible and feature-rich alternative implementation of the Notebook LM concept."
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars_today": 1361,
+      "total_stars": 208368,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "ECC is an agent harness performance optimization system designed to enhance the capabilities of various code-focused AI models like Claude Code and Codex through integrated skills, instincts, memory, security, and research-first development."
+    },
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "stars_today": 148,
+      "total_stars": 21571,
+      "language": "Python",
+      "topics": [],
+      "summary": "Agent-Reach provides a unified command-line interface for AI agents to read and search content across major platforms like Twitter, Reddit, YouTube, and GitHub without incurring API fees."
+    },
+    {
+      "full_name": "NVIDIA/cosmos",
+      "url": "https://github.com/NVIDIA/cosmos",
+      "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "stars_today": 479,
+      "total_stars": 9418,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "summary": "NVIDIA Cosmos is an open platform providing world models, datasets, and tools to enable developers in building Physical AI for applications like robotics and autonomous vehicles."
+    },
+    {
+      "full_name": "666ghj/MiroFish",
+      "url": "https://github.com/666ghj/MiroFish",
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "stars_today": 320,
+      "total_stars": 64706,
+      "language": "Python",
+      "topics": [],
+      "summary": "MiroFish is a simple, universal swarm intelligence engine designed to predict a wide range of outcomes using collective intelligence principles."
+    },
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "stars_today": 731,
+      "total_stars": 28215,
+      "language": "Python",
+      "topics": [],
+      "summary": "This AI agent skill researches current information across multiple platforms like Reddit, X, and YouTube to synthesize a grounded summary on any given topic."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
