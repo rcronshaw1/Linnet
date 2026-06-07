@@ -1,0 +1,650 @@
+{
+  "date": "2026-06-07",
+  "generated_at": "2026-06-07T01:21:09.742116+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.06407v1",
+          "title": "A Vision-language Framework for Comparative Reasoning in Radiology",
+          "authors": [
+            "Tengfei Zhang",
+            "Ziheng Zhao",
+            "Lisong Dai",
+            "Xiaoman Zhang",
+            "Pengcheng Qiu"
+          ],
+          "categories": [
+            "eess.IV",
+            "cs.CV",
+            "cs.IR",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces **MedReCo**, a vision-language framework designed to address the gap between isolated image interpretation and real-world radiological practice by enabling **entity-aware comparative reasoning**. The core method involves formulating comparison as an entity-conditioned cross-image reasoning task, supported by the large-scale **MedReCo-DB** resource derived from routine image-report pairs. The contribution lies in providing a system capable of both reference case retrieval and temporal comparative interpretation based on specific anatomical or pathological entities.",
+          "url": "http://arxiv.org/abs/2606.06407v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06407v1",
+          "score": 10.0,
+          "figure_url": "https://arxiv.org/html/2606.06407v1/x1.png",
+          "figure_caption": "Overview of this study. a, Radiological comparison is formulated around temporal follow-up and reference-case reasoning. b, MedReCo uses an entity-conditioned visual representation to support both retrieval and vision–language generation. c, MedReCo-DB integrates multi-modal imaging data with entity-level clinical annotations. d, The benchmark includes both prior–current temporal comparisons and cross-case reference comparisons. e, Representative retrieval results evaluate entity-conditioned reference matching. f, Representative VQA results evaluate entity-specific comparative reasoning.",
+          "primary_category": "eess.IV",
+          "primary_category_anchor": "eess-iv",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.06379v1",
+          "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+          "authors": [
+            "Qiwei Zeng",
+            "Hao Wang",
+            "Jinghao Lin",
+            "Shuchang Ye",
+            "Yuezhe Yang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "EasyLens is a training-free, plug-and-play method designed to enhance the sensitivity of frozen medical Vision-Language Models (VLMs) to subtle lesions. It achieves this by amplifying the representation of weak lesion cues within the image tokens before they are processed by the VLM, without requiring any additional training or model fine-tuning. This approach significantly improves lesion detection and interpretation capabilities by ensuring subtle visual evidence is not lost during global representation aggregation.",
+          "url": "http://arxiv.org/abs/2606.06379v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+          "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06094v1",
+          "title": "Integrating Mechanistic and Data-Driven Models for Neurological Disorders through Differentiable Programming",
+          "authors": [
+            "Shah Pallav Dhanendrakumar",
+            "Saikat Pal",
+            "Sitikantha Roy"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "math.DS",
+            "physics.med-ph"
+          ],
+          "abstract": "This paper proposes integrating mechanistic and data-driven models using differentiable programming to overcome the limitations of each approach in modeling neurological disorders. The core method involves hybrid architectures (parallel, series, parallel-series) that leverage techniques like residual modeling and Neural ODEs to combine the scientific insight of physics-based models with the speed and scalability of deep learning. The contribution is a structured overview and framework for building these interpretable, efficient, and generalizable hybrid models for clinical applications.",
+          "url": "http://arxiv.org/abs/2606.06094v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06094v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06328v1",
+          "title": "PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data",
+          "authors": [
+            "Ziwen Kan",
+            "Wugeng Zheng",
+            "Tianlong Chen",
+            "Song Wang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "PAMF addresses incomplete multimodal time series data by explicitly estimating missing values, distinguishing between within-modality and modality-level missingness. Its core method integrates a prior-aware fusion mechanism that learns instance-specific missing information and jointly optimizes imputation with the downstream task. This approach contributes a more informed and task-relevant reconstruction of missing data compared to methods that treat missingness uniformly or implicitly.",
+          "url": "http://arxiv.org/abs/2606.06328v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06328v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 5,
+        "papers_after_llm_filter": 4,
+        "count": 4
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48421442,
+          "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+          "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+          "score": 1364,
+          "created_at": "2026-06-06T04:38:36Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48421442",
+          "summary": "The S\\&P 500 index has rejected SpaceX's inclusion and will not waive its profitability rule for AI companies like OpenAI and Anthropic to enter the index."
+        },
+        {
+          "id": 48427643,
+          "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+          "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+          "score": 406,
+          "created_at": "2026-06-06T18:35:27Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48427643",
+          "summary": "Meta confirmed that thousands of Instagram accounts were compromised due to attackers exploiting vulnerabilities in its AI chatbot."
+        },
+        {
+          "id": 48420827,
+          "title": "Ask HN: Why is the HN crowd so anti-AI?",
+          "url": "",
+          "score": 385,
+          "created_at": "2026-06-06T02:31:51Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48420827",
+          "summary": "The Hacker News community is actively discussing and debating the reasons behind a perceived widespread skepticism or opposition towards artificial intelligence among its user base."
+        },
+        {
+          "id": 48424605,
+          "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
+          "url": "https://twitter.com/lemire/status/2062880075117113739",
+          "score": 225,
+          "created_at": "2026-06-06T12:52:18Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48424605",
+          "summary": "Nvidia is reportedly proposing a powerful new CPU system architecture specifically designed for Windows personal computers."
+        },
+        {
+          "id": 48422993,
+          "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
+          "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
+          "score": 199,
+          "created_at": "2026-06-06T09:17:49Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48422993",
+          "summary": "Smart TVs are increasingly being exploited as nodes in the \"AIScraping Economy,\" potentially harvesting user data for AI training without explicit consent."
+        },
+        {
+          "id": 48426022,
+          "title": "Police in England and Wales told to halt AI use in court statements",
+          "url": "https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241",
+          "score": 144,
+          "created_at": "2026-06-06T15:35:49Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48426022",
+          "summary": "Police forces in England and Wales have been instructed to immediately stop using artificial intelligence to draft court statements due to concerns over accuracy and reliability."
+        },
+        {
+          "id": 48425031,
+          "title": "US House lawmakers release draft bill to prohibit state AI rules",
+          "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/",
+          "score": 111,
+          "created_at": "2026-06-06T13:40:22Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48425031",
+          "summary": "US House lawmakers have introduced a draft bill aiming to prevent individual states from enacting their own regulations concerning artificial intelligence."
+        }
+      ],
+      "meta": {
+        "count": 7
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "stars_today": 439,
+          "total_stars": 28824,
+          "language": "Python",
+          "topics": [],
+          "summary": "This AI agent skill researches current information across multiple platforms like Reddit, X, and YouTube to synthesize a grounded summary on any given topic."
+        },
+        {
+          "full_name": "CopilotKit/CopilotKit",
+          "url": "https://github.com/CopilotKit/CopilotKit",
+          "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
+          "stars_today": 631,
+          "total_stars": 33218,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "CopilotKit provides a frontend stack for building AI agents and generative user interfaces across various platforms like React, Angular, and mobile, utilizing the AG-UI Protocol."
+        },
+        {
+          "full_name": "MemPalace/mempalace",
+          "url": "https://github.com/MemPalace/mempalace",
+          "description": "The best-benchmarked open-source AI memory system. And it's free.",
+          "stars_today": 446,
+          "total_stars": 54293,
+          "language": "Python",
+          "topics": [],
+          "summary": "MemPalace is a free, open-source AI memory system offering the best-benchmarked performance for managing and utilizing AI memory."
+        },
+        {
+          "full_name": "danielmiessler/Personal_AI_Infrastructure",
+          "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+          "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+          "stars_today": 70,
+          "total_stars": 14963,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "This repository provides agentic AI infrastructure designed to significantly enhance human capabilities through autonomous, intelligent systems."
+        },
+        {
+          "full_name": "openai/plugins",
+          "url": "https://github.com/openai/plugins",
+          "description": "OpenAI Plugins",
+          "stars_today": 213,
+          "total_stars": 1779,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "The OpenAI Plugins repository provides the necessary specifications and examples for developers to create plugins that extend the capabilities of large language models like ChatGPT."
+        },
+        {
+          "full_name": "Panniantong/Agent-Reach",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+          "stars_today": 683,
+          "total_stars": 22336,
+          "language": "Python",
+          "topics": [],
+          "summary": "Agent-Reach provides a unified command-line interface for AI agents to read and search content across major platforms like Twitter, Reddit, and YouTube without incurring API fees."
+        },
+        {
+          "full_name": "sveltejs/svelte",
+          "url": "https://github.com/sveltejs/svelte",
+          "description": "web development for the rest of us",
+          "stars_today": 25,
+          "total_stars": 86990,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Svelte is a compiler that shifts work from the browser to the build step, creating highly performant, small-footprint web applications with a focus on developer experience."
+        },
+        {
+          "full_name": "nginx/nginx",
+          "url": "https://github.com/nginx/nginx",
+          "description": "The official NGINX Open Source repository.",
+          "stars_today": 20,
+          "total_stars": 30692,
+          "language": "C",
+          "topics": [],
+          "summary": "The official NGINX repository provides the source code for the high-performance, open-source web server, reverse proxy, load balancer, and HTTP cache."
+        },
+        {
+          "full_name": "aquasecurity/trivy",
+          "url": "https://github.com/aquasecurity/trivy",
+          "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+          "stars_today": 159,
+          "total_stars": 36004,
+          "language": "Go",
+          "topics": [],
+          "summary": "Trivy is a comprehensive security scanner that efficiently finds vulnerabilities, misconfigurations, secrets, and generates SBOMs across containers, Kubernetes, code repositories, and cloud environments."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 5,
+    "papers_after_llm_filter": 4,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 18
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.06407v1",
+      "title": "A Vision-language Framework for Comparative Reasoning in Radiology",
+      "authors": [
+        "Tengfei Zhang",
+        "Ziheng Zhao",
+        "Lisong Dai",
+        "Xiaoman Zhang",
+        "Pengcheng Qiu"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **MedReCo**, a vision-language framework designed to address the gap between isolated image interpretation and real-world radiological practice by enabling **entity-aware comparative reasoning**. The core method involves formulating comparison as an entity-conditioned cross-image reasoning task, supported by the large-scale **MedReCo-DB** resource derived from routine image-report pairs. The contribution lies in providing a system capable of both reference case retrieval and temporal comparative interpretation based on specific anatomical or pathological entities.",
+      "url": "http://arxiv.org/abs/2606.06407v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06407v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.06407v1/x1.png",
+      "figure_caption": "Overview of this study. a, Radiological comparison is formulated around temporal follow-up and reference-case reasoning. b, MedReCo uses an entity-conditioned visual representation to support both retrieval and vision–language generation. c, MedReCo-DB integrates multi-modal imaging data with entity-level clinical annotations. d, The benchmark includes both prior–current temporal comparisons and cross-case reference comparisons. e, Representative retrieval results evaluate entity-conditioned reference matching. f, Representative VQA results evaluate entity-specific comparative reasoning.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.06379v1",
+      "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+      "authors": [
+        "Qiwei Zeng",
+        "Hao Wang",
+        "Jinghao Lin",
+        "Shuchang Ye",
+        "Yuezhe Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "EasyLens is a training-free, plug-and-play method designed to enhance the sensitivity of frozen medical Vision-Language Models (VLMs) to subtle lesions. It achieves this by amplifying the representation of weak lesion cues within the image tokens before they are processed by the VLM, without requiring any additional training or model fine-tuning. This approach significantly improves lesion detection and interpretation capabilities by ensuring subtle visual evidence is not lost during global representation aggregation.",
+      "url": "http://arxiv.org/abs/2606.06379v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+      "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06094v1",
+      "title": "Integrating Mechanistic and Data-Driven Models for Neurological Disorders through Differentiable Programming",
+      "authors": [
+        "Shah Pallav Dhanendrakumar",
+        "Saikat Pal",
+        "Sitikantha Roy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "math.DS",
+        "physics.med-ph"
+      ],
+      "abstract": "This paper proposes integrating mechanistic and data-driven models using differentiable programming to overcome the limitations of each approach in modeling neurological disorders. The core method involves hybrid architectures (parallel, series, parallel-series) that leverage techniques like residual modeling and Neural ODEs to combine the scientific insight of physics-based models with the speed and scalability of deep learning. The contribution is a structured overview and framework for building these interpretable, efficient, and generalizable hybrid models for clinical applications.",
+      "url": "http://arxiv.org/abs/2606.06094v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06094v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06328v1",
+      "title": "PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data",
+      "authors": [
+        "Ziwen Kan",
+        "Wugeng Zheng",
+        "Tianlong Chen",
+        "Song Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "PAMF addresses incomplete multimodal time series data by explicitly estimating missing values, distinguishing between within-modality and modality-level missingness. Its core method integrates a prior-aware fusion mechanism that learns instance-specific missing information and jointly optimizes imputation with the downstream task. This approach contributes a more informed and task-relevant reconstruction of missing data compared to methods that treat missingness uniformly or implicitly.",
+      "url": "http://arxiv.org/abs/2606.06328v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06328v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.06407v1",
+      "title": "A Vision-language Framework for Comparative Reasoning in Radiology",
+      "authors": [
+        "Tengfei Zhang",
+        "Ziheng Zhao",
+        "Lisong Dai",
+        "Xiaoman Zhang",
+        "Pengcheng Qiu"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **MedReCo**, a vision-language framework designed to address the gap between isolated image interpretation and real-world radiological practice by enabling **entity-aware comparative reasoning**. The core method involves formulating comparison as an entity-conditioned cross-image reasoning task, supported by the large-scale **MedReCo-DB** resource derived from routine image-report pairs. The contribution lies in providing a system capable of both reference case retrieval and temporal comparative interpretation based on specific anatomical or pathological entities.",
+      "url": "http://arxiv.org/abs/2606.06407v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06407v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.06407v1/x1.png",
+      "figure_caption": "Overview of this study. a, Radiological comparison is formulated around temporal follow-up and reference-case reasoning. b, MedReCo uses an entity-conditioned visual representation to support both retrieval and vision–language generation. c, MedReCo-DB integrates multi-modal imaging data with entity-level clinical annotations. d, The benchmark includes both prior–current temporal comparisons and cross-case reference comparisons. e, Representative retrieval results evaluate entity-conditioned reference matching. f, Representative VQA results evaluate entity-specific comparative reasoning.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.06379v1",
+      "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+      "authors": [
+        "Qiwei Zeng",
+        "Hao Wang",
+        "Jinghao Lin",
+        "Shuchang Ye",
+        "Yuezhe Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "EasyLens is a training-free, plug-and-play method designed to enhance the sensitivity of frozen medical Vision-Language Models (VLMs) to subtle lesions. It achieves this by amplifying the representation of weak lesion cues within the image tokens before they are processed by the VLM, without requiring any additional training or model fine-tuning. This approach significantly improves lesion detection and interpretation capabilities by ensuring subtle visual evidence is not lost during global representation aggregation.",
+      "url": "http://arxiv.org/abs/2606.06379v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+      "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06094v1",
+      "title": "Integrating Mechanistic and Data-Driven Models for Neurological Disorders through Differentiable Programming",
+      "authors": [
+        "Shah Pallav Dhanendrakumar",
+        "Saikat Pal",
+        "Sitikantha Roy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "math.DS",
+        "physics.med-ph"
+      ],
+      "abstract": "This paper proposes integrating mechanistic and data-driven models using differentiable programming to overcome the limitations of each approach in modeling neurological disorders. The core method involves hybrid architectures (parallel, series, parallel-series) that leverage techniques like residual modeling and Neural ODEs to combine the scientific insight of physics-based models with the speed and scalability of deep learning. The contribution is a structured overview and framework for building these interpretable, efficient, and generalizable hybrid models for clinical applications.",
+      "url": "http://arxiv.org/abs/2606.06094v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06094v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06328v1",
+      "title": "PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data",
+      "authors": [
+        "Ziwen Kan",
+        "Wugeng Zheng",
+        "Tianlong Chen",
+        "Song Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "PAMF addresses incomplete multimodal time series data by explicitly estimating missing values, distinguishing between within-modality and modality-level missingness. Its core method integrates a prior-aware fusion mechanism that learns instance-specific missing information and jointly optimizes imputation with the downstream task. This approach contributes a more informed and task-relevant reconstruction of missing data compared to methods that treat missingness uniformly or implicitly.",
+      "url": "http://arxiv.org/abs/2606.06328v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06328v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48421442,
+      "title": "S&P 500 rejects SpaceX, also blocking entry for OpenAI and Anthropic",
+      "url": "https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/",
+      "score": 1364,
+      "created_at": "2026-06-06T04:38:36Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48421442",
+      "summary": "The S\\&P 500 index has rejected SpaceX's inclusion and will not waive its profitability rule for AI companies like OpenAI and Anthropic to enter the index."
+    },
+    {
+      "id": 48427643,
+      "title": "Meta confirms 1000s of Instagram accounts were hacked by abusing its AI chatbot",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/",
+      "score": 406,
+      "created_at": "2026-06-06T18:35:27Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48427643",
+      "summary": "Meta confirmed that thousands of Instagram accounts were compromised due to attackers exploiting vulnerabilities in its AI chatbot."
+    },
+    {
+      "id": 48420827,
+      "title": "Ask HN: Why is the HN crowd so anti-AI?",
+      "url": "",
+      "score": 385,
+      "created_at": "2026-06-06T02:31:51Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48420827",
+      "summary": "The Hacker News community is actively discussing and debating the reasons behind a perceived widespread skepticism or opposition towards artificial intelligence among its user base."
+    },
+    {
+      "id": 48424605,
+      "title": "Nvidia is proposing a beast of a CPU system for Windows PCs",
+      "url": "https://twitter.com/lemire/status/2062880075117113739",
+      "score": 225,
+      "created_at": "2026-06-06T12:52:18Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48424605",
+      "summary": "Nvidia is reportedly proposing a powerful new CPU system architecture specifically designed for Windows personal computers."
+    },
+    {
+      "id": 48422993,
+      "title": "The Smart TV in Your LivingRoom Is a Node in the AIScraping Economy",
+      "url": "https://blog.includesecurity.com/2026/06/the-smart-tv-in-your-livingroom-is-a-node-in-the-aiscraping-economy/",
+      "score": 199,
+      "created_at": "2026-06-06T09:17:49Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48422993",
+      "summary": "Smart TVs are increasingly being exploited as nodes in the \"AIScraping Economy,\" potentially harvesting user data for AI training without explicit consent."
+    },
+    {
+      "id": 48426022,
+      "title": "Police in England and Wales told to halt AI use in court statements",
+      "url": "https://www.ft.com/content/229e5949-3ebc-4151-8a86-a01b5e259241",
+      "score": 144,
+      "created_at": "2026-06-06T15:35:49Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48426022",
+      "summary": "Police forces in England and Wales have been instructed to immediately stop using artificial intelligence to draft court statements due to concerns over accuracy and reliability."
+    },
+    {
+      "id": 48425031,
+      "title": "US House lawmakers release draft bill to prohibit state AI rules",
+      "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04/",
+      "score": 111,
+      "created_at": "2026-06-06T13:40:22Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48425031",
+      "summary": "US House lawmakers have introduced a draft bill aiming to prevent individual states from enacting their own regulations concerning artificial intelligence."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "stars_today": 439,
+      "total_stars": 28824,
+      "language": "Python",
+      "topics": [],
+      "summary": "This AI agent skill researches current information across multiple platforms like Reddit, X, and YouTube to synthesize a grounded summary on any given topic."
+    },
+    {
+      "full_name": "CopilotKit/CopilotKit",
+      "url": "https://github.com/CopilotKit/CopilotKit",
+      "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
+      "stars_today": 631,
+      "total_stars": 33218,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "CopilotKit provides a frontend stack for building AI agents and generative user interfaces across various platforms like React, Angular, and mobile, utilizing the AG-UI Protocol."
+    },
+    {
+      "full_name": "MemPalace/mempalace",
+      "url": "https://github.com/MemPalace/mempalace",
+      "description": "The best-benchmarked open-source AI memory system. And it's free.",
+      "stars_today": 446,
+      "total_stars": 54293,
+      "language": "Python",
+      "topics": [],
+      "summary": "MemPalace is a free, open-source AI memory system offering the best-benchmarked performance for managing and utilizing AI memory."
+    },
+    {
+      "full_name": "danielmiessler/Personal_AI_Infrastructure",
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "stars_today": 70,
+      "total_stars": 14963,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "This repository provides agentic AI infrastructure designed to significantly enhance human capabilities through autonomous, intelligent systems."
+    },
+    {
+      "full_name": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "description": "OpenAI Plugins",
+      "stars_today": 213,
+      "total_stars": 1779,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "The OpenAI Plugins repository provides the necessary specifications and examples for developers to create plugins that extend the capabilities of large language models like ChatGPT."
+    },
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "stars_today": 683,
+      "total_stars": 22336,
+      "language": "Python",
+      "topics": [],
+      "summary": "Agent-Reach provides a unified command-line interface for AI agents to read and search content across major platforms like Twitter, Reddit, and YouTube without incurring API fees."
+    },
+    {
+      "full_name": "sveltejs/svelte",
+      "url": "https://github.com/sveltejs/svelte",
+      "description": "web development for the rest of us",
+      "stars_today": 25,
+      "total_stars": 86990,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Svelte is a compiler that shifts work from the browser to the build step, creating highly performant, small-footprint web applications with a focus on developer experience."
+    },
+    {
+      "full_name": "nginx/nginx",
+      "url": "https://github.com/nginx/nginx",
+      "description": "The official NGINX Open Source repository.",
+      "stars_today": 20,
+      "total_stars": 30692,
+      "language": "C",
+      "topics": [],
+      "summary": "The official NGINX repository provides the source code for the high-performance, open-source web server, reverse proxy, load balancer, and HTTP cache."
+    },
+    {
+      "full_name": "aquasecurity/trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "stars_today": 159,
+      "total_stars": 36004,
+      "language": "Go",
+      "topics": [],
+      "summary": "Trivy is a comprehensive security scanner that efficiently finds vulnerabilities, misconfigurations, secrets, and generates SBOMs across containers, Kubernetes, code repositories, and cloud environments."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
