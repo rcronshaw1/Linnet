@@ -1,0 +1,752 @@
+{
+  "date": "2026-06-08",
+  "generated_at": "2026-06-08T01:21:15.539281+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.06983v1",
+          "title": "DaX: Learning General Pathology Representations Across Scales",
+          "authors": [
+            "Bokai Zhao",
+            "Yiyang Zhang",
+            "Long Bai",
+            "Tai Ma",
+            "Hanqing Chao"
+          ],
+          "categories": [
+            "cs.AI",
+            "eess.IV",
+            "cs.CV"
+          ],
+          "abstract": "DaX is a pathology vision foundation model that adapts DINOv3 self-supervised learning to whole-slide images (WSIs) by incorporating continuous magnification training and scale-invariant augmentations. Its core method aims to build robust, generalizable representations by linking local cellular details with global tissue architecture across varying input scales. The contribution is a highly adaptable foundation model and a comprehensive WSI-level benchmark spanning 161 diverse clinical tasks.",
+          "url": "http://arxiv.org/abs/2606.06983v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06983v1",
+          "score": 9.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.07368v1",
+          "title": "Mitosis Detection in the Wild: Multi-Tumor and Context-Aware Generalization in the MIDOG 2025 Challenge",
+          "authors": [
+            "Marc Aubreville",
+            "Jonas Ammeling",
+            "Sweta Banerjee",
+            "Viktoria Weiss",
+            "Taryn A. Donovan"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces the MIDOG 2025 challenge, designed to test mitosis detection models against unprecedented biological and contextual diversity across various tumor types and scanning platforms. The core method involves a comprehensive test dataset requiring detection in random and challenging tissue areas, moving beyond traditional hotspot-focused evaluation. The main contribution is establishing a rigorous benchmark for real-world generalization in mitosis detection, including an auxiliary track for classifying atypical mitotic figures.",
+          "url": "http://arxiv.org/abs/2606.07368v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.07368v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.07368v1/x2.png",
+          "figure_caption": "Domains of the test set of the MIDOG 2025 challenge. For each domain, both the abbreviation chosen as well as the full name is given. Shown are four random samples from within the hotspot regions of interest.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.07141v1",
+          "title": "REMEDI: A Benchmark for Retention and Unlearning Evaluation in Multi-label Clinical Disease Inference",
+          "authors": [
+            "Anurag Sharma",
+            "Sai Teja Chunchu",
+            "Prasenjit Mitra",
+            "Sandipan Sikdar",
+            "Koustav Rudra"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "REMEDI is introduced as a novel benchmark specifically designed to evaluate machine unlearning methods in the critical domain of multi-label clinical disease inference. Its core contribution is providing a realistic evaluation platform that incorporates complex real-world factors like label correlations and longitudinal data structure, addressing the limitations of existing synthetic benchmarks. This allows for a clearer assessment of how effectively privacy-preserving unlearning techniques function within sensitive medical AI systems.",
+          "url": "http://arxiv.org/abs/2606.07141v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.07141v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.07141v1/x1.png",
+          "figure_caption": "Figure 1 . REMEDI provides three kinds of forget sets to measure robustness to varying sizes of forget sets: (1) Distinct instances, (2) Concurrent instances, and (3) Large-scale instances. #forget represents the number of instances in the forget set. Large-scale instances are % of the train set.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06950v1",
+          "title": "When is 3D Worth It? A Resource-Performance Frontier for CNNs and Transformers in Lung CT",
+          "authors": [
+            "Md Enamul Hoq",
+            "Sharafat Hossain",
+            "Imraul Emmaka",
+            "Linda Larson-Prior",
+            "Lawrence Tarbox"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper systematically compares the resource-performance trade-offs of 2D, 2.5D, and 3D input dimensionalities for CNNs and Transformers on lung CT analysis. The core contribution is establishing a resource-performance frontier and failure-mode taxonomy, revealing that the 2.5D CNN offers the most favorable discrimination-stability trade-off, while 3D models and Transformers exhibit instability or degenerate performance.",
+          "url": "http://arxiv.org/abs/2606.06950v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06950v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.06950v1/x1.png",
+          "figure_caption": "Study design and resource–performance frontier. A lung-focused QC pipeline yields one canonical volume per patient; a leakage-free patient-level split feeds three inputs that differ only in dimensionality (2D, 2.5D, 3D) into matched CNN and ViT backbones, which are evaluated for discrimination, operating behavior, and computational cost. The 2.5D CNN gives the most favorable trade-off.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.07237v1",
+          "title": "When Large Language Models Fail in Healthcare: Evaluating Sensitivity to Prompt Variations",
+          "authors": [
+            "Mahdi Alkaeed"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.LG"
+          ],
+          "abstract": "This paper systematically evaluates the robustness of general and medical Large Language Models (LLMs) to prompt variations using the MedMCQA benchmark. The core method involves categorizing and applying natural and adversarial prompt perturbations to assess changes in model consistency and accuracy for clinical reasoning tasks. The key contribution is demonstrating that even medical LLMs are highly sensitive to minor phrasing changes, revealing significant unpredictability that poses safety risks in healthcare applications.",
+          "url": "http://arxiv.org/abs/2606.07237v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.07237v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.07237v1/Pipeline.jpg",
+          "figure_caption": "This methodological pipeline outlines a comprehensive robustness evaluation framework for assessing the sensitivity and stability of healthcare LLMs using the MedMCQA benchmark, supported by advanced NLP tools (e.g., BioSyn, scispaCy) and biomedical metrics (e.g., BERTScore, USE) to quantify model resilience to input variations.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.06869v1",
+          "title": "Evidence-Based Intelligent Diagnostic and Therapeutic Visualization System with Large Language Models: Multi-Turn Interaction and Multimodal Treatment Plan Generation",
+          "authors": [
+            "Yunhan Wang",
+            "Yuda Wang",
+            "Zhiying Tu",
+            "Mingqiang Song",
+            "Li Song"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces an evidence-based intelligent visualization system for Traditional Chinese Medicine diagnosis and treatment, addressing the opacity of existing AI tools. The core method integrates a Neo4j knowledge graph with a four-stage symptom matching pipeline and a genetic algorithm-optimized proactive questioning strategy. The main contribution is a transparent, interactive diagnostic workflow that generates multimodal treatment plans incorporating visualizations and literature evidence.",
+          "url": "http://arxiv.org/abs/2606.06869v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.06869v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.06869v1/x1.png",
+          "figure_caption": "System overview. The left panel shows the multi-turn interactive consultation process: users describe symptoms in natural language, and the system progressively clarifies key differentiating information through knowledge-enhanced active questioning. The upper right panel illustrates the diagnostic reasoning process: four-layer progressive symptom matching combined with an information-gain-optimized questioning strategy performs candidate syndrome screening and convergence on a dynamic knowledge graph subgraph. The lower right panel shows multimodal diagnostic output: structured treatment plans, AI-generated treatment illustrations, evidence-based references, and an interactive three-dimensional acupoint model.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 8,
+        "papers_after_llm_filter": 6,
+        "count": 6
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48434312,
+          "title": "LLMs are eroding my software engineering career and I don't know what to do",
+          "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+          "score": 796,
+          "created_at": "2026-06-07T12:49:29Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48434312",
+          "summary": "A software engineer expresses anxiety and uncertainty about how the rapid advancement of Large Language Models (LLMs) is threatening the future viability and relevance of their career."
+        },
+        {
+          "id": 48433756,
+          "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+          "url": "https://github.com/devenjarvis/lathe",
+          "score": 242,
+          "created_at": "2026-06-07T11:16:46Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48433756",
+          "summary": "Lathe is a tool that leverages Large Language Models to help users learn the fundamentals of a new technical domain rather than simply generating immediate answers."
+        },
+        {
+          "id": 48431085,
+          "title": "How Liminalism Became the Defining Aesthetic of Our Time",
+          "url": "https://hyperallergic.com/how-liminalism-became-the-defining-aesthetic-of-our-time/",
+          "score": 168,
+          "created_at": "2026-06-07T02:12:19Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48431085",
+          "summary": "The article explores how liminalism, characterized by feelings of transition and in-betweenness, has emerged as the defining aesthetic reflecting contemporary societal unease and uncertainty."
+        },
+        {
+          "id": 48435371,
+          "title": "The OnlyFans Economy of American AI",
+          "url": "https://leoveanu.com/2026-06-06-qwen3.7max/",
+          "score": 135,
+          "created_at": "2026-06-07T14:47:17Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48435371",
+          "summary": "The story explores the emerging economic landscape where American AI models, particularly those like Qwen 3.7 Max, are increasingly relying on content generation and monetization strategies reminiscent of the OnlyFans platform."
+        },
+        {
+          "id": 48437568,
+          "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+          "url": "https://arxiv.org/abs/2605.31514",
+          "score": 101,
+          "created_at": "2026-06-07T18:54:55Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48437568",
+          "summary": "Researchers argue that if Large Language Models exhibit human-like attributes, then the classic real-time strategy game *Age of Empires II* also possesses such qualities due to its complexity and emergent behavior."
+        }
+      ],
+      "meta": {
+        "count": 5
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "stars_today": 1111,
+          "total_stars": 31084,
+          "language": "Python",
+          "topics": [],
+          "summary": "This AI agent skill researches current information across Reddit, X, YouTube, HN, Polymarket, and the general web to synthesize a grounded summary on any given topic."
+        },
+        {
+          "full_name": "opencv/opencv",
+          "url": "https://github.com/opencv/opencv",
+          "description": "Open Source Computer Vision Library",
+          "stars_today": 65,
+          "total_stars": 88097,
+          "language": "C++",
+          "topics": [],
+          "summary": "OpenCV is a comprehensive, open-source computer vision library providing tools for real-time image processing, analysis, and machine learning applications."
+        },
+        {
+          "full_name": "Leonxlnx/taste-skill",
+          "url": "https://github.com/Leonxlnx/taste-skill",
+          "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+          "stars_today": 1103,
+          "total_stars": 36687,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Taste-Skill is a Python library designed to enhance AI outputs by providing mechanisms to prevent the generation of boring or generic content, thereby improving the quality and \"taste\" of the AI's responses."
+        },
+        {
+          "full_name": "NousResearch/hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "description": "The agent that grows with you",
+          "stars_today": 1112,
+          "total_stars": 185974,
+          "language": "Python",
+          "topics": [],
+          "summary": "Hermes Agent is a modular, extensible framework designed to facilitate the development and deployment of AI agents that continuously learn and adapt over time."
+        },
+        {
+          "full_name": "lfnovo/open-notebook",
+          "url": "https://github.com/lfnovo/open-notebook",
+          "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+          "stars_today": 554,
+          "total_stars": 27271,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "This repository provides an open-source, flexible implementation of NotebookLM, offering enhanced features for note-taking and knowledge management."
+        },
+        {
+          "full_name": "yikart/AiToEarn",
+          "url": "https://github.com/yikart/AiToEarn",
+          "description": "Let's use AI to Earn!",
+          "stars_today": 183,
+          "total_stars": 18774,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "AiToEarn is a GitHub repository focused on enabling users to earn through the application of Artificial Intelligence technologies."
+        },
+        {
+          "full_name": "aaif-goose/goose",
+          "url": "https://github.com/aaif-goose/goose",
+          "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+          "stars_today": 322,
+          "total_stars": 47522,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Goose is an open-source, extensible AI agent that goes beyond basic code suggestions, enabling users to install, execute, edit, and test code using any integrated Large Language Model."
+        },
+        {
+          "full_name": "Crosstalk-Solutions/project-nomad",
+          "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+          "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+          "stars_today": 309,
+          "total_stars": 29738,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Project N.O.M.A.D is a self-contained, offline survival computer providing critical tools, knowledge, and AI for empowerment anytime, anywhere."
+        },
+        {
+          "full_name": "ggml-org/llama.cpp",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "description": "LLM inference in C/C++",
+          "stars_today": 158,
+          "total_stars": 115338,
+          "language": "C++",
+          "topics": [],
+          "summary": "Llama.cpp is a high-performance C/C++ library for running large language model inference efficiently on consumer hardware, featuring quantization and broad model support."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 8,
+    "papers_after_llm_filter": 6,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 22
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.06983v1",
+      "title": "DaX: Learning General Pathology Representations Across Scales",
+      "authors": [
+        "Bokai Zhao",
+        "Yiyang Zhang",
+        "Long Bai",
+        "Tai Ma",
+        "Hanqing Chao"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "DaX is a pathology vision foundation model that adapts DINOv3 self-supervised learning to whole-slide images (WSIs) by incorporating continuous magnification training and scale-invariant augmentations. Its core method aims to build robust, generalizable representations by linking local cellular details with global tissue architecture across varying input scales. The contribution is a highly adaptable foundation model and a comprehensive WSI-level benchmark spanning 161 diverse clinical tasks.",
+      "url": "http://arxiv.org/abs/2606.06983v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06983v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.07368v1",
+      "title": "Mitosis Detection in the Wild: Multi-Tumor and Context-Aware Generalization in the MIDOG 2025 Challenge",
+      "authors": [
+        "Marc Aubreville",
+        "Jonas Ammeling",
+        "Sweta Banerjee",
+        "Viktoria Weiss",
+        "Taryn A. Donovan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces the MIDOG 2025 challenge, designed to test mitosis detection models against unprecedented biological and contextual diversity across various tumor types and scanning platforms. The core method involves a comprehensive test dataset requiring detection in random and challenging tissue areas, moving beyond traditional hotspot-focused evaluation. The main contribution is establishing a rigorous benchmark for real-world generalization in mitosis detection, including an auxiliary track for classifying atypical mitotic figures.",
+      "url": "http://arxiv.org/abs/2606.07368v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07368v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.07368v1/x2.png",
+      "figure_caption": "Domains of the test set of the MIDOG 2025 challenge. For each domain, both the abbreviation chosen as well as the full name is given. Shown are four random samples from within the hotspot regions of interest.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.07141v1",
+      "title": "REMEDI: A Benchmark for Retention and Unlearning Evaluation in Multi-label Clinical Disease Inference",
+      "authors": [
+        "Anurag Sharma",
+        "Sai Teja Chunchu",
+        "Prasenjit Mitra",
+        "Sandipan Sikdar",
+        "Koustav Rudra"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "REMEDI is introduced as a novel benchmark specifically designed to evaluate machine unlearning methods in the critical domain of multi-label clinical disease inference. Its core contribution is providing a realistic evaluation platform that incorporates complex real-world factors like label correlations and longitudinal data structure, addressing the limitations of existing synthetic benchmarks. This allows for a clearer assessment of how effectively privacy-preserving unlearning techniques function within sensitive medical AI systems.",
+      "url": "http://arxiv.org/abs/2606.07141v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07141v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.07141v1/x1.png",
+      "figure_caption": "Figure 1 . REMEDI provides three kinds of forget sets to measure robustness to varying sizes of forget sets: (1) Distinct instances, (2) Concurrent instances, and (3) Large-scale instances. #forget represents the number of instances in the forget set. Large-scale instances are % of the train set.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06950v1",
+      "title": "When is 3D Worth It? A Resource-Performance Frontier for CNNs and Transformers in Lung CT",
+      "authors": [
+        "Md Enamul Hoq",
+        "Sharafat Hossain",
+        "Imraul Emmaka",
+        "Linda Larson-Prior",
+        "Lawrence Tarbox"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper systematically compares the resource-performance trade-offs of 2D, 2.5D, and 3D input dimensionalities for CNNs and Transformers on lung CT analysis. The core contribution is establishing a resource-performance frontier and failure-mode taxonomy, revealing that the 2.5D CNN offers the most favorable discrimination-stability trade-off, while 3D models and Transformers exhibit instability or degenerate performance.",
+      "url": "http://arxiv.org/abs/2606.06950v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06950v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.06950v1/x1.png",
+      "figure_caption": "Study design and resource–performance frontier. A lung-focused QC pipeline yields one canonical volume per patient; a leakage-free patient-level split feeds three inputs that differ only in dimensionality (2D, 2.5D, 3D) into matched CNN and ViT backbones, which are evaluated for discrimination, operating behavior, and computational cost. The 2.5D CNN gives the most favorable trade-off.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.07237v1",
+      "title": "When Large Language Models Fail in Healthcare: Evaluating Sensitivity to Prompt Variations",
+      "authors": [
+        "Mahdi Alkaeed"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "This paper systematically evaluates the robustness of general and medical Large Language Models (LLMs) to prompt variations using the MedMCQA benchmark. The core method involves categorizing and applying natural and adversarial prompt perturbations to assess changes in model consistency and accuracy for clinical reasoning tasks. The key contribution is demonstrating that even medical LLMs are highly sensitive to minor phrasing changes, revealing significant unpredictability that poses safety risks in healthcare applications.",
+      "url": "http://arxiv.org/abs/2606.07237v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07237v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.07237v1/Pipeline.jpg",
+      "figure_caption": "This methodological pipeline outlines a comprehensive robustness evaluation framework for assessing the sensitivity and stability of healthcare LLMs using the MedMCQA benchmark, supported by advanced NLP tools (e.g., BioSyn, scispaCy) and biomedical metrics (e.g., BERTScore, USE) to quantify model resilience to input variations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06869v1",
+      "title": "Evidence-Based Intelligent Diagnostic and Therapeutic Visualization System with Large Language Models: Multi-Turn Interaction and Multimodal Treatment Plan Generation",
+      "authors": [
+        "Yunhan Wang",
+        "Yuda Wang",
+        "Zhiying Tu",
+        "Mingqiang Song",
+        "Li Song"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces an evidence-based intelligent visualization system for Traditional Chinese Medicine diagnosis and treatment, addressing the opacity of existing AI tools. The core method integrates a Neo4j knowledge graph with a four-stage symptom matching pipeline and a genetic algorithm-optimized proactive questioning strategy. The main contribution is a transparent, interactive diagnostic workflow that generates multimodal treatment plans incorporating visualizations and literature evidence.",
+      "url": "http://arxiv.org/abs/2606.06869v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06869v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06869v1/x1.png",
+      "figure_caption": "System overview. The left panel shows the multi-turn interactive consultation process: users describe symptoms in natural language, and the system progressively clarifies key differentiating information through knowledge-enhanced active questioning. The upper right panel illustrates the diagnostic reasoning process: four-layer progressive symptom matching combined with an information-gain-optimized questioning strategy performs candidate syndrome screening and convergence on a dynamic knowledge graph subgraph. The lower right panel shows multimodal diagnostic output: structured treatment plans, AI-generated treatment illustrations, evidence-based references, and an interactive three-dimensional acupoint model.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.06983v1",
+      "title": "DaX: Learning General Pathology Representations Across Scales",
+      "authors": [
+        "Bokai Zhao",
+        "Yiyang Zhang",
+        "Long Bai",
+        "Tai Ma",
+        "Hanqing Chao"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "DaX is a pathology vision foundation model that adapts DINOv3 self-supervised learning to whole-slide images (WSIs) by incorporating continuous magnification training and scale-invariant augmentations. Its core method aims to build robust, generalizable representations by linking local cellular details with global tissue architecture across varying input scales. The contribution is a highly adaptable foundation model and a comprehensive WSI-level benchmark spanning 161 diverse clinical tasks.",
+      "url": "http://arxiv.org/abs/2606.06983v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06983v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.07368v1",
+      "title": "Mitosis Detection in the Wild: Multi-Tumor and Context-Aware Generalization in the MIDOG 2025 Challenge",
+      "authors": [
+        "Marc Aubreville",
+        "Jonas Ammeling",
+        "Sweta Banerjee",
+        "Viktoria Weiss",
+        "Taryn A. Donovan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces the MIDOG 2025 challenge, designed to test mitosis detection models against unprecedented biological and contextual diversity across various tumor types and scanning platforms. The core method involves a comprehensive test dataset requiring detection in random and challenging tissue areas, moving beyond traditional hotspot-focused evaluation. The main contribution is establishing a rigorous benchmark for real-world generalization in mitosis detection, including an auxiliary track for classifying atypical mitotic figures.",
+      "url": "http://arxiv.org/abs/2606.07368v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07368v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.07368v1/x2.png",
+      "figure_caption": "Domains of the test set of the MIDOG 2025 challenge. For each domain, both the abbreviation chosen as well as the full name is given. Shown are four random samples from within the hotspot regions of interest.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.07141v1",
+      "title": "REMEDI: A Benchmark for Retention and Unlearning Evaluation in Multi-label Clinical Disease Inference",
+      "authors": [
+        "Anurag Sharma",
+        "Sai Teja Chunchu",
+        "Prasenjit Mitra",
+        "Sandipan Sikdar",
+        "Koustav Rudra"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "REMEDI is introduced as a novel benchmark specifically designed to evaluate machine unlearning methods in the critical domain of multi-label clinical disease inference. Its core contribution is providing a realistic evaluation platform that incorporates complex real-world factors like label correlations and longitudinal data structure, addressing the limitations of existing synthetic benchmarks. This allows for a clearer assessment of how effectively privacy-preserving unlearning techniques function within sensitive medical AI systems.",
+      "url": "http://arxiv.org/abs/2606.07141v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07141v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.07141v1/x1.png",
+      "figure_caption": "Figure 1 . REMEDI provides three kinds of forget sets to measure robustness to varying sizes of forget sets: (1) Distinct instances, (2) Concurrent instances, and (3) Large-scale instances. #forget represents the number of instances in the forget set. Large-scale instances are % of the train set.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06950v1",
+      "title": "When is 3D Worth It? A Resource-Performance Frontier for CNNs and Transformers in Lung CT",
+      "authors": [
+        "Md Enamul Hoq",
+        "Sharafat Hossain",
+        "Imraul Emmaka",
+        "Linda Larson-Prior",
+        "Lawrence Tarbox"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper systematically compares the resource-performance trade-offs of 2D, 2.5D, and 3D input dimensionalities for CNNs and Transformers on lung CT analysis. The core contribution is establishing a resource-performance frontier and failure-mode taxonomy, revealing that the 2.5D CNN offers the most favorable discrimination-stability trade-off, while 3D models and Transformers exhibit instability or degenerate performance.",
+      "url": "http://arxiv.org/abs/2606.06950v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06950v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.06950v1/x1.png",
+      "figure_caption": "Study design and resource–performance frontier. A lung-focused QC pipeline yields one canonical volume per patient; a leakage-free patient-level split feeds three inputs that differ only in dimensionality (2D, 2.5D, 3D) into matched CNN and ViT backbones, which are evaluated for discrimination, operating behavior, and computational cost. The 2.5D CNN gives the most favorable trade-off.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.07237v1",
+      "title": "When Large Language Models Fail in Healthcare: Evaluating Sensitivity to Prompt Variations",
+      "authors": [
+        "Mahdi Alkaeed"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "This paper systematically evaluates the robustness of general and medical Large Language Models (LLMs) to prompt variations using the MedMCQA benchmark. The core method involves categorizing and applying natural and adversarial prompt perturbations to assess changes in model consistency and accuracy for clinical reasoning tasks. The key contribution is demonstrating that even medical LLMs are highly sensitive to minor phrasing changes, revealing significant unpredictability that poses safety risks in healthcare applications.",
+      "url": "http://arxiv.org/abs/2606.07237v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07237v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.07237v1/Pipeline.jpg",
+      "figure_caption": "This methodological pipeline outlines a comprehensive robustness evaluation framework for assessing the sensitivity and stability of healthcare LLMs using the MedMCQA benchmark, supported by advanced NLP tools (e.g., BioSyn, scispaCy) and biomedical metrics (e.g., BERTScore, USE) to quantify model resilience to input variations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06869v1",
+      "title": "Evidence-Based Intelligent Diagnostic and Therapeutic Visualization System with Large Language Models: Multi-Turn Interaction and Multimodal Treatment Plan Generation",
+      "authors": [
+        "Yunhan Wang",
+        "Yuda Wang",
+        "Zhiying Tu",
+        "Mingqiang Song",
+        "Li Song"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces an evidence-based intelligent visualization system for Traditional Chinese Medicine diagnosis and treatment, addressing the opacity of existing AI tools. The core method integrates a Neo4j knowledge graph with a four-stage symptom matching pipeline and a genetic algorithm-optimized proactive questioning strategy. The main contribution is a transparent, interactive diagnostic workflow that generates multimodal treatment plans incorporating visualizations and literature evidence.",
+      "url": "http://arxiv.org/abs/2606.06869v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06869v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06869v1/x1.png",
+      "figure_caption": "System overview. The left panel shows the multi-turn interactive consultation process: users describe symptoms in natural language, and the system progressively clarifies key differentiating information through knowledge-enhanced active questioning. The upper right panel illustrates the diagnostic reasoning process: four-layer progressive symptom matching combined with an information-gain-optimized questioning strategy performs candidate syndrome screening and convergence on a dynamic knowledge graph subgraph. The lower right panel shows multimodal diagnostic output: structured treatment plans, AI-generated treatment illustrations, evidence-based references, and an interactive three-dimensional acupoint model.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48434312,
+      "title": "LLMs are eroding my software engineering career and I don't know what to do",
+      "url": "https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/",
+      "score": 796,
+      "created_at": "2026-06-07T12:49:29Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48434312",
+      "summary": "A software engineer expresses anxiety and uncertainty about how the rapid advancement of Large Language Models (LLMs) is threatening the future viability and relevance of their career."
+    },
+    {
+      "id": 48433756,
+      "title": "Show HN: Lathe – Use LLMs to learn a new domain, not skip past it",
+      "url": "https://github.com/devenjarvis/lathe",
+      "score": 242,
+      "created_at": "2026-06-07T11:16:46Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48433756",
+      "summary": "Lathe is a tool that leverages Large Language Models to help users learn the fundamentals of a new technical domain rather than simply generating immediate answers."
+    },
+    {
+      "id": 48431085,
+      "title": "How Liminalism Became the Defining Aesthetic of Our Time",
+      "url": "https://hyperallergic.com/how-liminalism-became-the-defining-aesthetic-of-our-time/",
+      "score": 168,
+      "created_at": "2026-06-07T02:12:19Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48431085",
+      "summary": "The article explores how liminalism, characterized by feelings of transition and in-betweenness, has emerged as the defining aesthetic reflecting contemporary societal unease and uncertainty."
+    },
+    {
+      "id": 48435371,
+      "title": "The OnlyFans Economy of American AI",
+      "url": "https://leoveanu.com/2026-06-06-qwen3.7max/",
+      "score": 135,
+      "created_at": "2026-06-07T14:47:17Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48435371",
+      "summary": "The story explores the emerging economic landscape where American AI models, particularly those like Qwen 3.7 Max, are increasingly relying on content generation and monetization strategies reminiscent of the OnlyFans platform."
+    },
+    {
+      "id": 48437568,
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "url": "https://arxiv.org/abs/2605.31514",
+      "score": 101,
+      "created_at": "2026-06-07T18:54:55Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48437568",
+      "summary": "Researchers argue that if Large Language Models exhibit human-like attributes, then the classic real-time strategy game *Age of Empires II* also possesses such qualities due to its complexity and emergent behavior."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "stars_today": 1111,
+      "total_stars": 31084,
+      "language": "Python",
+      "topics": [],
+      "summary": "This AI agent skill researches current information across Reddit, X, YouTube, HN, Polymarket, and the general web to synthesize a grounded summary on any given topic."
+    },
+    {
+      "full_name": "opencv/opencv",
+      "url": "https://github.com/opencv/opencv",
+      "description": "Open Source Computer Vision Library",
+      "stars_today": 65,
+      "total_stars": 88097,
+      "language": "C++",
+      "topics": [],
+      "summary": "OpenCV is a comprehensive, open-source computer vision library providing tools for real-time image processing, analysis, and machine learning applications."
+    },
+    {
+      "full_name": "Leonxlnx/taste-skill",
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "stars_today": 1103,
+      "total_stars": 36687,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Taste-Skill is a Python library designed to enhance AI outputs by providing mechanisms to prevent the generation of boring or generic content, thereby improving the quality and \"taste\" of the AI's responses."
+    },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "stars_today": 1112,
+      "total_stars": 185974,
+      "language": "Python",
+      "topics": [],
+      "summary": "Hermes Agent is a modular, extensible framework designed to facilitate the development and deployment of AI agents that continuously learn and adapt over time."
+    },
+    {
+      "full_name": "lfnovo/open-notebook",
+      "url": "https://github.com/lfnovo/open-notebook",
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "stars_today": 554,
+      "total_stars": 27271,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "This repository provides an open-source, flexible implementation of NotebookLM, offering enhanced features for note-taking and knowledge management."
+    },
+    {
+      "full_name": "yikart/AiToEarn",
+      "url": "https://github.com/yikart/AiToEarn",
+      "description": "Let's use AI to Earn!",
+      "stars_today": 183,
+      "total_stars": 18774,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "AiToEarn is a GitHub repository focused on enabling users to earn through the application of Artificial Intelligence technologies."
+    },
+    {
+      "full_name": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "stars_today": 322,
+      "total_stars": 47522,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Goose is an open-source, extensible AI agent that goes beyond basic code suggestions, enabling users to install, execute, edit, and test code using any integrated Large Language Model."
+    },
+    {
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "stars_today": 309,
+      "total_stars": 29738,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Project N.O.M.A.D is a self-contained, offline survival computer providing critical tools, knowledge, and AI for empowerment anytime, anywhere."
+    },
+    {
+      "full_name": "ggml-org/llama.cpp",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "stars_today": 158,
+      "total_stars": 115338,
+      "language": "C++",
+      "topics": [],
+      "summary": "Llama.cpp is a high-performance C/C++ library for running large language model inference efficiently on consumer hardware, featuring quantization and broad model support."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
