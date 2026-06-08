@@ -1,0 +1,227 @@
+{
+  "period": "2026-W24",
+  "summary": "The past week in medical AI research showed strong momentum in **improving model reliability, addressing subtle visual findings, and advancing multimodal reasoning capabilities.**\n\n**Popular Directions and Notable Advances:**\n\n1.  **Vision-Language Reasoning & Interpretation:** There is a significant focus on moving beyond single-image diagnosis. The introduction of **MedReCo** highlights a push toward **comparative reasoning** in radiology, mirroring clinical workflows by enabling entity-aware comparison across different studies or time points, supported by a new large-scale dataset.\n2.  **Enhancing Existing Models (Plug-and-Play):** The trend of improving frozen models without retraining is evident with **EasyLens**. This training-free approach specifically targets the critical issue of **subtle lesion detection** by amplifying weak visual cues before VLM processing, boosting clinical utility without intensive fine-tuning.\n3.  **Robustness and Reliability:** A key advance in deployment readiness came from developing practical tools to assess model risk. The paper on **Selection Bias Effects** provides a novel, practical upper bound to estimate worst-case performance in target populations, a crucial step for real-world clinical adoption where dataset shifts are common.\n4.  **Handling Complex Data Structures:** Research on incomplete data continued with **PAMF**, which introduced a joint imputation and task learning framework for **multimodal time series**, distinguishing between different types of missingness to ensure task-relevant data reconstruction.\n5.  **Hybrid Modeling:** The theme of integrating domain knowledge and data-driven power was reinforced by the review on **Mechanistic and Data-Driven Models for Neurology**, advocating for architectures (using techniques like Neural ODEs) that combine physics-based insight with deep learning scalability.\n\n**Significant Shift:** The week emphasizes **utility-focused improvements**—making deployments safer (bias bounds), enhancing sensitivity to difficult cases (EasyLens), and enabling higher-level reasoning (MedReCo).",
+  "top_papers": [
+    {
+      "id": "2606.06407v1",
+      "title": "A Vision-language Framework for Comparative Reasoning in Radiology",
+      "authors": [
+        "Tengfei Zhang",
+        "Ziheng Zhao",
+        "Lisong Dai",
+        "Xiaoman Zhang",
+        "Pengcheng Qiu"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **MedReCo**, a vision-language framework designed to address the lack of comparative reasoning in current medical AI, which mirrors real-world radiological practice. The core method formulates comparison as an entity-aware cross-image reasoning task, supporting both reference case retrieval and temporal interpretation. The key contribution is the creation of **MedReCo-DB**, a large-scale, richly annotated comparative imaging dataset derived from routine clinical data to supervise and evaluate this novel reasoning capability.",
+      "url": "http://arxiv.org/abs/2606.06407v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06407v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.06407v1/x1.png",
+      "figure_caption": "Overview of this study. a, Radiological comparison is formulated around temporal follow-up and reference-case reasoning. b, MedReCo uses an entity-conditioned visual representation to support both retrieval and vision–language generation. c, MedReCo-DB integrates multi-modal imaging data with entity-level clinical annotations. d, The benchmark includes both prior–current temporal comparisons and cross-case reference comparisons. e, Representative retrieval results evaluate entity-conditioned reference matching. f, Representative VQA results evaluate entity-specific comparative reasoning.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.06407v1",
+      "title": "A Vision-language Framework for Comparative Reasoning in Radiology",
+      "authors": [
+        "Tengfei Zhang",
+        "Ziheng Zhao",
+        "Lisong Dai",
+        "Xiaoman Zhang",
+        "Pengcheng Qiu"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **MedReCo**, a vision-language framework designed to address the gap between isolated image interpretation and real-world radiological practice by enabling **entity-aware comparative reasoning**. The core method involves formulating comparison as an entity-conditioned cross-image reasoning task, supported by the large-scale **MedReCo-DB** resource derived from routine image-report pairs. The contribution lies in providing a system capable of both reference case retrieval and temporal comparative interpretation based on specific anatomical or pathological entities.",
+      "url": "http://arxiv.org/abs/2606.06407v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06407v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.06407v1/x1.png",
+      "figure_caption": "Overview of this study. a, Radiological comparison is formulated around temporal follow-up and reference-case reasoning. b, MedReCo uses an entity-conditioned visual representation to support both retrieval and vision–language generation. c, MedReCo-DB integrates multi-modal imaging data with entity-level clinical annotations. d, The benchmark includes both prior–current temporal comparisons and cross-case reference comparisons. e, Representative retrieval results evaluate entity-conditioned reference matching. f, Representative VQA results evaluate entity-specific comparative reasoning.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.06379v1",
+      "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+      "authors": [
+        "Qiwei Zeng",
+        "Hao Wang",
+        "Jinghao Lin",
+        "Shuchang Ye",
+        "Yuezhe Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "EasyLens is a training-free, plug-and-play method designed to amplify the representation of subtle lesions in frozen medical Vision-Language Models (VLMs). It achieves this by generating an explicit \"lesion-aware\" visual prompt that guides the VLM's attention towards weak lesion cues without requiring any additional training or model fine-tuning. This contribution enhances the VLM's sensitivity to subtle pathologies, improving clinical utility across various frozen models.",
+      "url": "http://arxiv.org/abs/2606.06379v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+      "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06379v1",
+      "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+      "authors": [
+        "Qiwei Zeng",
+        "Hao Wang",
+        "Jinghao Lin",
+        "Shuchang Ye",
+        "Yuezhe Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "EasyLens is a training-free, plug-and-play method designed to enhance the sensitivity of frozen medical Vision-Language Models (VLMs) to subtle lesions. It achieves this by amplifying the representation of weak lesion cues within the image tokens before they are processed by the VLM, without requiring any additional training or model fine-tuning. This approach significantly improves lesion detection and interpretation capabilities by ensuring subtle visual evidence is not lost during global representation aggregation.",
+      "url": "http://arxiv.org/abs/2606.06379v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+      "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.00563v1",
+      "title": "A Practical Upper Bound on Selection Bias Effects in Medical Prediction Models",
+      "authors": [
+        "Kara Liu",
+        "Maggie Wang",
+        "Russ B. Altman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces a novel, practical upper bound to estimate the worst-case performance of medical prediction models when deployed in a target population affected by selection bias. The method is significant because it only requires partial knowledge of the selection mechanism and target data, making it applicable in realistic scenarios where full distribution knowledge is unavailable. This provides practitioners with a reliable pre-deployment assessment of model generalizability and potential risks.",
+      "url": "http://arxiv.org/abs/2606.00563v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.00563v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.00563v1/x1.png",
+      "figure_caption": "Figure 1 . Pipeline illustrating how our method estimates a generalization bound under limited observation of the target-data, thereby enabling better informed decisions of model deployment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06094v1",
+      "title": "Integrating Mechanistic and Data-Driven Models for Neurological Disorders through Differentiable Programming",
+      "authors": [
+        "Shah Pallav Dhanendrakumar",
+        "Saikat Pal",
+        "Sitikantha Roy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "math.DS",
+        "physics.med-ph"
+      ],
+      "abstract": "This paper reviews hybrid modeling strategies that integrate mechanistic (physics-based) models with data-driven deep learning techniques for neurological disorders. The core method involves combining the scientific insight of mechanistic models with the speed and scalability of AI, using architectures like parallel, series, and parallel-series configurations. The contribution is a structured overview highlighting key approaches such as residual modeling and Neural ODEs to overcome the limitations of purely mechanistic or purely data-driven approaches.",
+      "url": "http://arxiv.org/abs/2606.06094v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06094v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06094v1",
+      "title": "Integrating Mechanistic and Data-Driven Models for Neurological Disorders through Differentiable Programming",
+      "authors": [
+        "Shah Pallav Dhanendrakumar",
+        "Saikat Pal",
+        "Sitikantha Roy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "math.DS",
+        "physics.med-ph"
+      ],
+      "abstract": "This paper proposes integrating mechanistic and data-driven models using differentiable programming to overcome the limitations of each approach in modeling neurological disorders. The core method involves hybrid architectures (parallel, series, parallel-series) that leverage techniques like residual modeling and Neural ODEs to combine the scientific insight of physics-based models with the speed and scalability of deep learning. The contribution is a structured overview and framework for building these interpretable, efficient, and generalizable hybrid models for clinical applications.",
+      "url": "http://arxiv.org/abs/2606.06094v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06094v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06328v1",
+      "title": "PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data",
+      "authors": [
+        "Ziwen Kan",
+        "Wugeng Zheng",
+        "Tianlong Chen",
+        "Song Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "PAMF addresses incomplete multimodal time series data by explicitly estimating missing values, distinguishing between within-modality and modality-level missingness. The core method integrates a prior-aware fusion mechanism that jointly learns the imputation and the downstream task, allowing the task to guide the imputation process for more informative representations. This results in a unified framework that handles both structural missingness patterns effectively.",
+      "url": "http://arxiv.org/abs/2606.06328v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06328v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06328v1",
+      "title": "PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data",
+      "authors": [
+        "Ziwen Kan",
+        "Wugeng Zheng",
+        "Tianlong Chen",
+        "Song Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "PAMF addresses incomplete multimodal time series data by explicitly estimating missing values, distinguishing between within-modality and modality-level missingness. Its core method integrates a prior-aware fusion mechanism that learns instance-specific missing information and jointly optimizes imputation with the downstream task. This approach contributes a more informed and task-relevant reconstruction of missing data compared to methods that treat missingness uniformly or implicitly.",
+      "url": "http://arxiv.org/abs/2606.06328v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06328v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "new_jobs": [],
+  "trending_keywords": [],
+  "keyword_frequency": {},
+  "daily_refs": [
+    "2026-06-01",
+    "2026-06-02",
+    "2026-06-03",
+    "2026-06-04",
+    "2026-06-05",
+    "2026-06-06",
+    "2026-06-07"
+  ]
+}
