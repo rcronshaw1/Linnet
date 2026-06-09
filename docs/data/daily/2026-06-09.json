@@ -1,0 +1,590 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09T01:12:12.984240+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.08364v1",
+          "title": "Self-Supervised Vision Transformers for CBCT-Based Detection of Temporomandibular Joint Osteoarthritis",
+          "authors": [
+            "Shradhdha Trivedi",
+            "Vrundan Sojitra",
+            "Mariela Padilla"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper investigates the transferability of DINO self-supervised vision transformers for detecting temporomandibular joint osteoarthritis (TMJ OA) from cone-beam CT (CBCT) images. The core method involves using a Vision Transformer (ViT) backbone to encode individual slices, followed by attention-based Multiple Instance Learning (MIL) for patient-level classification. The key contribution is demonstrating that partially unfreezing the final two transformer blocks significantly boosts performance, achieving an AUC of 0.902, which outperforms fully frozen or fully fine-tuned models.",
+          "url": "http://arxiv.org/abs/2606.08364v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.08364v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.08364v1/pipeline.png",
+          "figure_caption": "Proposed pipeline. (1) A 3D CBCT volume ( H × W × D H\\!\\( \\times \\)\\!W\\!\\( \\times \\)\\!D ) is input. (2) N N axial slices are extracted from the TMJ region. (3) Each slice is independently encoded by a shared pretrained DINO-family ViT backbone (weights partially adapted). (4) Per-slice [CLS] embeddings ( N × D N\\!\\( \\times \\)\\!D ) are formed. (5) Attention-based MIL aggregation learns to up-weight diagnostically informative slices. (6) A linear classifier outputs binary TMJ OA probability.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.08247v1",
+          "title": "AeroSpectra Sentinel: An Auditable LLM Prompt-Chaining Decision-Support Workflow for Acute Asthma Risk Assessment from Respiratory Sounds and Clinical Signals",
+          "authors": [
+            "Aueaphum Aueawatthanaphisut"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG",
+            "eess.AS",
+            "eess.SP"
+          ],
+          "abstract": "AeroSpectra Sentinel introduces an auditable, multi-stage decision-support workflow for acute asthma risk assessment, integrating respiratory sound analysis with clinical signals. The core method employs a five-stage LLM prompt-chaining process following initial acoustic feature extraction and lightweight ML screening. This approach aims to provide transparent clinical reasoning and safe escalation logic beyond traditional audio-only classifiers.",
+          "url": "http://arxiv.org/abs/2606.08247v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.08247v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.08247v1/figures/8e3aa907-cb16-4e28-ac03-fbb4969fae25.png",
+          "figure_caption": "End-to-end system architecture of AeroSpectra Sentinel. Respiratory audio is transformed into spectral evidence, machine-learning outputs, clinical risk drivers, and an auditable LLM-based report.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.08483v1",
+          "title": "Testing the Black Box: Structural Barriers to Independent Evaluation of Consumer-Facing Health LLMs",
+          "authors": [
+            "Rahul Gorijavolu",
+            "Kaushik Madapati",
+            "Pritika Vig",
+            "Rawan Abulibdeh",
+            "Nikhil Jaiswal"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper investigates response variation and sycophancy in consumer-facing health LLMs by simulating diverse user profiles reflecting real-world social contexts and health beliefs. The core method involved crafting multi-turn prompts based on validated instruments to elicit clinically meaningful differences in model output across these simulated users. The primary contribution is highlighting significant, linked structural barriers encountered during this independent evaluation, suggesting difficulties in reliably assessing these models' behavior under ordinary patient use.",
+          "url": "http://arxiv.org/abs/2606.08483v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.08483v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.08483v1/figure1.png",
+          "figure_caption": "Structural barriers to independent evaluation of consumer-facing health LLMs. Independent evaluation depends on five linked stages: (1) designing prompts that elicit clinically meaningful variation, (2) simulating user profiles that reflect real-world social and behavioural contexts, (3) accessing systems under browser-like conditions, (4) judging whether observed differences represent benign personalisation, sycophancy, bias, or safety-relevant variation, and (5) repeating the analysis despite frequent model updates. Failure at any stage limits what researchers, clinicians, or regulators can verify.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 5,
+        "papers_after_llm_filter": 3,
+        "count": 3
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48449084,
+          "title": "Siri AI",
+          "url": "https://www.apple.com/apple-intelligence/",
+          "score": 391,
+          "created_at": "2026-06-08T18:17:53Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48449084",
+          "summary": "Apple has unveiled \"Apple Intelligence,\" a suite of new generative AI features deeply integrated across its operating systems, including a significantly upgraded Siri."
+        },
+        {
+          "id": 48446893,
+          "title": "AI is slowing down",
+          "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+          "score": 377,
+          "created_at": "2026-06-08T15:46:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48446893",
+          "summary": "The core content suggests that the rapid pace of Artificial Intelligence development is currently experiencing a slowdown."
+        },
+        {
+          "id": 48450142,
+          "title": "Apple reveals new AI architecture built around Google Gemini models",
+          "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+          "score": 320,
+          "created_at": "2026-06-08T19:14:47Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48450142",
+          "summary": "Apple has unveiled a novel AI architecture that integrates and is built around Google's Gemini models."
+        },
+        {
+          "id": 48449665,
+          "title": "Apple Core AI Framework",
+          "url": "https://developer.apple.com/documentation/coreai/",
+          "score": 177,
+          "created_at": "2026-06-08T18:47:38Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48449665",
+          "summary": "Apple's Core ML framework allows developers to integrate trained machine learning models directly into their iOS, macOS, watchOS, and tvOS applications for on-device inference."
+        },
+        {
+          "id": 48449187,
+          "title": "Ask HN: What are tools you have made for yourself since the advent of AI?",
+          "url": "",
+          "score": 140,
+          "created_at": "2026-06-08T18:22:39Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48449187",
+          "summary": "Hacker News users are sharing personal tools and projects they have developed specifically in response to the rise of artificial intelligence."
+        },
+        {
+          "id": 48443258,
+          "title": "Replies to comments on my \"LLMs are eroding my career\" post",
+          "url": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post/",
+          "score": 134,
+          "created_at": "2026-06-08T09:52:03Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48443258",
+          "summary": "The author addresses reader feedback and further discusses their concerns about Large Language Models negatively impacting their professional career."
+        },
+        {
+          "id": 48450065,
+          "title": "Why are cells small?",
+          "url": "https://burrito.bio/essays/what-limits-a-cells-size",
+          "score": 105,
+          "created_at": "2026-06-08T19:10:27Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48450065",
+          "summary": "The core content explores the biological reasons and physical constraints that determine the optimal small size of cells."
+        },
+        {
+          "id": 48445171,
+          "title": "Launch HN: Intuned (YC S22) – Build and run reliable browser automations as code",
+          "url": "https://intunedhq.com",
+          "score": 101,
+          "created_at": "2026-06-08T13:35:27Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48445171",
+          "summary": "Intuned, a Y Combinator S22 company, offers a platform to build and execute reliable browser automations directly as code."
+        }
+      ],
+      "meta": {
+        "count": 8
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "stars_today": 3558,
+          "total_stars": 34567,
+          "language": "Python",
+          "topics": [],
+          "summary": "This AI agent skill researches current information across multiple platforms like Reddit, X, and YouTube to synthesize a grounded summary on any given topic."
+        },
+        {
+          "full_name": "RyanCodrai/turbovec",
+          "url": "https://github.com/RyanCodrai/turbovec",
+          "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+          "stars_today": 1729,
+          "total_stars": 8903,
+          "language": "Python",
+          "topics": [],
+          "summary": "Turbovec is a high-performance vector index, built in Rust with Python bindings, leveraging the TurboQuant framework for efficient vector operations."
+        },
+        {
+          "full_name": "google/skills",
+          "url": "https://github.com/google/skills",
+          "description": "Agent Skills for Google products and technologies",
+          "stars_today": 461,
+          "total_stars": 12418,
+          "language": "Python",
+          "topics": [],
+          "summary": "The Google Skills repository provides a collection of agent skills designed to integrate and enhance functionality across various Google products and technologies."
+        },
+        {
+          "full_name": "refactoringhq/tolaria",
+          "url": "https://github.com/refactoringhq/tolaria",
+          "description": "Desktop app to manage markdown knowledge bases",
+          "stars_today": 651,
+          "total_stars": 13583,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Tolaria is a desktop application designed to manage markdown-based knowledge bases, offering features for organization and access to your notes."
+        },
+        {
+          "full_name": "Panniantong/Agent-Reach",
+          "url": "https://github.com/Panniantong/Agent-Reach",
+          "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+          "stars_today": 679,
+          "total_stars": 24176,
+          "language": "Python",
+          "topics": [],
+          "summary": "Agent-Reach provides a unified command-line interface for AI agents to read and search content across major platforms like Twitter, Reddit, YouTube, and GitHub without incurring API fees."
+        },
+        {
+          "full_name": "danielmiessler/Personal_AI_Infrastructure",
+          "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+          "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+          "stars_today": 62,
+          "total_stars": 15428,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "This repository provides agentic AI infrastructure designed to significantly amplify human capabilities through automated, intelligent systems."
+        },
+        {
+          "full_name": "santifer/career-ops",
+          "url": "https://github.com/santifer/career-ops",
+          "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+          "stars_today": 308,
+          "total_stars": 50535,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Career-Ops is an AI-powered job search system utilizing Claude Code, featuring 14 skill modes, a Go dashboard, PDF generation, and batch processing capabilities."
+        },
+        {
+          "full_name": "phuryn/pm-skills",
+          "url": "https://github.com/phuryn/pm-skills",
+          "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "stars_today": 164,
+          "total_stars": 12686,
+          "language": "",
+          "topics": [],
+          "summary": "This repository, \"pm-skills,\" functions as a marketplace offering over 100 agentic skills, commands, and plugins to support Product Management workflows across discovery, strategy, execution, launch, and growth phases."
+        },
+        {
+          "full_name": "openai/plugins",
+          "url": "https://github.com/openai/plugins",
+          "description": "OpenAI Plugins",
+          "stars_today": 296,
+          "total_stars": 2323,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "The OpenAI Plugins repository provides the necessary framework and specifications for developers to create and integrate custom functionalities, extending the capabilities of large language models like ChatGPT."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 5,
+    "papers_after_llm_filter": 3,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 18
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.08364v1",
+      "title": "Self-Supervised Vision Transformers for CBCT-Based Detection of Temporomandibular Joint Osteoarthritis",
+      "authors": [
+        "Shradhdha Trivedi",
+        "Vrundan Sojitra",
+        "Mariela Padilla"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates the transferability of DINO self-supervised vision transformers for detecting temporomandibular joint osteoarthritis (TMJ OA) from cone-beam CT (CBCT) images. The core method involves using a Vision Transformer (ViT) backbone to encode individual slices, followed by attention-based Multiple Instance Learning (MIL) for patient-level classification. The key contribution is demonstrating that partially unfreezing the final two transformer blocks significantly boosts performance, achieving an AUC of 0.902, which outperforms fully frozen or fully fine-tuned models.",
+      "url": "http://arxiv.org/abs/2606.08364v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.08364v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.08364v1/pipeline.png",
+      "figure_caption": "Proposed pipeline. (1) A 3D CBCT volume ( H × W × D H\\!\\( \\times \\)\\!W\\!\\( \\times \\)\\!D ) is input. (2) N N axial slices are extracted from the TMJ region. (3) Each slice is independently encoded by a shared pretrained DINO-family ViT backbone (weights partially adapted). (4) Per-slice [CLS] embeddings ( N × D N\\!\\( \\times \\)\\!D ) are formed. (5) Attention-based MIL aggregation learns to up-weight diagnostically informative slices. (6) A linear classifier outputs binary TMJ OA probability.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.08247v1",
+      "title": "AeroSpectra Sentinel: An Auditable LLM Prompt-Chaining Decision-Support Workflow for Acute Asthma Risk Assessment from Respiratory Sounds and Clinical Signals",
+      "authors": [
+        "Aueaphum Aueawatthanaphisut"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "eess.AS",
+        "eess.SP"
+      ],
+      "abstract": "AeroSpectra Sentinel introduces an auditable, multi-stage decision-support workflow for acute asthma risk assessment, integrating respiratory sound analysis with clinical signals. The core method employs a five-stage LLM prompt-chaining process following initial acoustic feature extraction and lightweight ML screening. This approach aims to provide transparent clinical reasoning and safe escalation logic beyond traditional audio-only classifiers.",
+      "url": "http://arxiv.org/abs/2606.08247v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.08247v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.08247v1/figures/8e3aa907-cb16-4e28-ac03-fbb4969fae25.png",
+      "figure_caption": "End-to-end system architecture of AeroSpectra Sentinel. Respiratory audio is transformed into spectral evidence, machine-learning outputs, clinical risk drivers, and an auditable LLM-based report.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.08483v1",
+      "title": "Testing the Black Box: Structural Barriers to Independent Evaluation of Consumer-Facing Health LLMs",
+      "authors": [
+        "Rahul Gorijavolu",
+        "Kaushik Madapati",
+        "Pritika Vig",
+        "Rawan Abulibdeh",
+        "Nikhil Jaiswal"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates response variation and sycophancy in consumer-facing health LLMs by simulating diverse user profiles reflecting real-world social contexts and health beliefs. The core method involved crafting multi-turn prompts based on validated instruments to elicit clinically meaningful differences in model output across these simulated users. The primary contribution is highlighting significant, linked structural barriers encountered during this independent evaluation, suggesting difficulties in reliably assessing these models' behavior under ordinary patient use.",
+      "url": "http://arxiv.org/abs/2606.08483v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.08483v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.08483v1/figure1.png",
+      "figure_caption": "Structural barriers to independent evaluation of consumer-facing health LLMs. Independent evaluation depends on five linked stages: (1) designing prompts that elicit clinically meaningful variation, (2) simulating user profiles that reflect real-world social and behavioural contexts, (3) accessing systems under browser-like conditions, (4) judging whether observed differences represent benign personalisation, sycophancy, bias, or safety-relevant variation, and (5) repeating the analysis despite frequent model updates. Failure at any stage limits what researchers, clinicians, or regulators can verify.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.08364v1",
+      "title": "Self-Supervised Vision Transformers for CBCT-Based Detection of Temporomandibular Joint Osteoarthritis",
+      "authors": [
+        "Shradhdha Trivedi",
+        "Vrundan Sojitra",
+        "Mariela Padilla"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates the transferability of DINO self-supervised vision transformers for detecting temporomandibular joint osteoarthritis (TMJ OA) from cone-beam CT (CBCT) images. The core method involves using a Vision Transformer (ViT) backbone to encode individual slices, followed by attention-based Multiple Instance Learning (MIL) for patient-level classification. The key contribution is demonstrating that partially unfreezing the final two transformer blocks significantly boosts performance, achieving an AUC of 0.902, which outperforms fully frozen or fully fine-tuned models.",
+      "url": "http://arxiv.org/abs/2606.08364v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.08364v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.08364v1/pipeline.png",
+      "figure_caption": "Proposed pipeline. (1) A 3D CBCT volume ( H × W × D H\\!\\( \\times \\)\\!W\\!\\( \\times \\)\\!D ) is input. (2) N N axial slices are extracted from the TMJ region. (3) Each slice is independently encoded by a shared pretrained DINO-family ViT backbone (weights partially adapted). (4) Per-slice [CLS] embeddings ( N × D N\\!\\( \\times \\)\\!D ) are formed. (5) Attention-based MIL aggregation learns to up-weight diagnostically informative slices. (6) A linear classifier outputs binary TMJ OA probability.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.08247v1",
+      "title": "AeroSpectra Sentinel: An Auditable LLM Prompt-Chaining Decision-Support Workflow for Acute Asthma Risk Assessment from Respiratory Sounds and Clinical Signals",
+      "authors": [
+        "Aueaphum Aueawatthanaphisut"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "eess.AS",
+        "eess.SP"
+      ],
+      "abstract": "AeroSpectra Sentinel introduces an auditable, multi-stage decision-support workflow for acute asthma risk assessment, integrating respiratory sound analysis with clinical signals. The core method employs a five-stage LLM prompt-chaining process following initial acoustic feature extraction and lightweight ML screening. This approach aims to provide transparent clinical reasoning and safe escalation logic beyond traditional audio-only classifiers.",
+      "url": "http://arxiv.org/abs/2606.08247v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.08247v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.08247v1/figures/8e3aa907-cb16-4e28-ac03-fbb4969fae25.png",
+      "figure_caption": "End-to-end system architecture of AeroSpectra Sentinel. Respiratory audio is transformed into spectral evidence, machine-learning outputs, clinical risk drivers, and an auditable LLM-based report.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.08483v1",
+      "title": "Testing the Black Box: Structural Barriers to Independent Evaluation of Consumer-Facing Health LLMs",
+      "authors": [
+        "Rahul Gorijavolu",
+        "Kaushik Madapati",
+        "Pritika Vig",
+        "Rawan Abulibdeh",
+        "Nikhil Jaiswal"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates response variation and sycophancy in consumer-facing health LLMs by simulating diverse user profiles reflecting real-world social contexts and health beliefs. The core method involved crafting multi-turn prompts based on validated instruments to elicit clinically meaningful differences in model output across these simulated users. The primary contribution is highlighting significant, linked structural barriers encountered during this independent evaluation, suggesting difficulties in reliably assessing these models' behavior under ordinary patient use.",
+      "url": "http://arxiv.org/abs/2606.08483v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.08483v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.08483v1/figure1.png",
+      "figure_caption": "Structural barriers to independent evaluation of consumer-facing health LLMs. Independent evaluation depends on five linked stages: (1) designing prompts that elicit clinically meaningful variation, (2) simulating user profiles that reflect real-world social and behavioural contexts, (3) accessing systems under browser-like conditions, (4) judging whether observed differences represent benign personalisation, sycophancy, bias, or safety-relevant variation, and (5) repeating the analysis despite frequent model updates. Failure at any stage limits what researchers, clinicians, or regulators can verify.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48449084,
+      "title": "Siri AI",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "score": 391,
+      "created_at": "2026-06-08T18:17:53Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48449084",
+      "summary": "Apple has unveiled \"Apple Intelligence,\" a suite of new generative AI features deeply integrated across its operating systems, including a significantly upgraded Siri."
+    },
+    {
+      "id": 48446893,
+      "title": "AI is slowing down",
+      "url": "https://www.wheresyoured.at/ai-is-slowing-down/",
+      "score": 377,
+      "created_at": "2026-06-08T15:46:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48446893",
+      "summary": "The core content suggests that the rapid pace of Artificial Intelligence development is currently experiencing a slowdown."
+    },
+    {
+      "id": 48450142,
+      "title": "Apple reveals new AI architecture built around Google Gemini models",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/",
+      "score": 320,
+      "created_at": "2026-06-08T19:14:47Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48450142",
+      "summary": "Apple has unveiled a novel AI architecture that integrates and is built around Google's Gemini models."
+    },
+    {
+      "id": 48449665,
+      "title": "Apple Core AI Framework",
+      "url": "https://developer.apple.com/documentation/coreai/",
+      "score": 177,
+      "created_at": "2026-06-08T18:47:38Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48449665",
+      "summary": "Apple's Core ML framework allows developers to integrate trained machine learning models directly into their iOS, macOS, watchOS, and tvOS applications for on-device inference."
+    },
+    {
+      "id": 48449187,
+      "title": "Ask HN: What are tools you have made for yourself since the advent of AI?",
+      "url": "",
+      "score": 140,
+      "created_at": "2026-06-08T18:22:39Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48449187",
+      "summary": "Hacker News users are sharing personal tools and projects they have developed specifically in response to the rise of artificial intelligence."
+    },
+    {
+      "id": 48443258,
+      "title": "Replies to comments on my \"LLMs are eroding my career\" post",
+      "url": "https://human-in-the-loop.bearblog.dev/replies-to-comments-on-my-llms-are-eroding-my-career-post/",
+      "score": 134,
+      "created_at": "2026-06-08T09:52:03Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48443258",
+      "summary": "The author addresses reader feedback and further discusses their concerns about Large Language Models negatively impacting their professional career."
+    },
+    {
+      "id": 48450065,
+      "title": "Why are cells small?",
+      "url": "https://burrito.bio/essays/what-limits-a-cells-size",
+      "score": 105,
+      "created_at": "2026-06-08T19:10:27Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48450065",
+      "summary": "The core content explores the biological reasons and physical constraints that determine the optimal small size of cells."
+    },
+    {
+      "id": 48445171,
+      "title": "Launch HN: Intuned (YC S22) – Build and run reliable browser automations as code",
+      "url": "https://intunedhq.com",
+      "score": 101,
+      "created_at": "2026-06-08T13:35:27Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48445171",
+      "summary": "Intuned, a Y Combinator S22 company, offers a platform to build and execute reliable browser automations directly as code."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "stars_today": 3558,
+      "total_stars": 34567,
+      "language": "Python",
+      "topics": [],
+      "summary": "This AI agent skill researches current information across multiple platforms like Reddit, X, and YouTube to synthesize a grounded summary on any given topic."
+    },
+    {
+      "full_name": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "stars_today": 1729,
+      "total_stars": 8903,
+      "language": "Python",
+      "topics": [],
+      "summary": "Turbovec is a high-performance vector index, built in Rust with Python bindings, leveraging the TurboQuant framework for efficient vector operations."
+    },
+    {
+      "full_name": "google/skills",
+      "url": "https://github.com/google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "stars_today": 461,
+      "total_stars": 12418,
+      "language": "Python",
+      "topics": [],
+      "summary": "The Google Skills repository provides a collection of agent skills designed to integrate and enhance functionality across various Google products and technologies."
+    },
+    {
+      "full_name": "refactoringhq/tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "stars_today": 651,
+      "total_stars": 13583,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Tolaria is a desktop application designed to manage markdown-based knowledge bases, offering features for organization and access to your notes."
+    },
+    {
+      "full_name": "Panniantong/Agent-Reach",
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "stars_today": 679,
+      "total_stars": 24176,
+      "language": "Python",
+      "topics": [],
+      "summary": "Agent-Reach provides a unified command-line interface for AI agents to read and search content across major platforms like Twitter, Reddit, YouTube, and GitHub without incurring API fees."
+    },
+    {
+      "full_name": "danielmiessler/Personal_AI_Infrastructure",
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "stars_today": 62,
+      "total_stars": 15428,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "This repository provides agentic AI infrastructure designed to significantly amplify human capabilities through automated, intelligent systems."
+    },
+    {
+      "full_name": "santifer/career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "stars_today": 308,
+      "total_stars": 50535,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Career-Ops is an AI-powered job search system utilizing Claude Code, featuring 14 skill modes, a Go dashboard, PDF generation, and batch processing capabilities."
+    },
+    {
+      "full_name": "phuryn/pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "stars_today": 164,
+      "total_stars": 12686,
+      "language": "",
+      "topics": [],
+      "summary": "This repository, \"pm-skills,\" functions as a marketplace offering over 100 agentic skills, commands, and plugins to support Product Management workflows across discovery, strategy, execution, launch, and growth phases."
+    },
+    {
+      "full_name": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "description": "OpenAI Plugins",
+      "stars_today": 296,
+      "total_stars": 2323,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "The OpenAI Plugins repository provides the necessary framework and specifications for developers to create and integrate custom functionalities, extending the capabilities of large language models like ChatGPT."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
