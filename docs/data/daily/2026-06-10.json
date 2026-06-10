@@ -1,0 +1,554 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T01:18:10.246788+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.10713v1",
+          "title": "++nnU-Net: Scaling nnU-Net with Prefix-Based Data Augmentation",
+          "authors": [
+            "Ana Sofia Santos",
+            "André Ferreira",
+            "Gijs Luijten",
+            "Naida Solak",
+            "Lisle Faray de Paiva"
+          ],
+          "categories": [
+            "cs.AI",
+            "eess.IV",
+            "cs.CV",
+            "cs.LG"
+          ],
+          "abstract": "The ++nnU-Net introduces a novel, prefix-based data augmentation module that integrates a two-stage image registration process *before* standard preprocessing and training. This method generates anatomically feasible synthetic training data by warping original images and applying corresponding transformations to their segmentations. The contribution is an enhanced nnU-Net framework that effectively increases data diversity to improve segmentation performance, as demonstrated across five 2D datasets.",
+          "url": "http://arxiv.org/abs/2606.10713v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.10713v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.10713v1/Figure1.png",
+          "figure_caption": "Overview of the augmentation pipeline: (a) data are converted to NIfTI format, renamed, stored in respective image and segmentation directories and split in training and test cohorts; (b) initial stages of the data augmentation process; (c) iteration process between images to be registered and respective transformation to generate segmentation masks; (d) final step of conversion to 3D format before training by nnU-Net.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.10796v1",
+          "title": "Dep-LLM: Training-Free Depression Diagnosis via Evidence-Guided Structured Multi-factor with Reliable LLM Reasoning",
+          "authors": [
+            "Yiqing Lyu",
+            "Xianbing Zhao",
+            "Buzhou Tang",
+            "Ronghuan Jiang"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "Dep-LLM is a training-free framework for depression diagnosis that leverages frozen, off-the-shelf Large Language Models (LLMs) to overcome data scarcity and complex reasoning challenges. It employs a Chain-of-Thought (CoT) module to structurally decompose long clinical interviews into five clinically aligned themes, generating evidence-grounded rationales for each factor. This approach mimics expert reasoning to produce reliable, multi-factor-based diagnoses without requiring any model fine-tuning.",
+          "url": "http://arxiv.org/abs/2606.10796v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.10796v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.10796v1/x1.png",
+          "figure_caption": "Dep-LLM decomposes and analyzes dialogues via structural multi-factor schema and verifies their reliability by confidence mechanism. Without extra training, Dep-LLM outperforms zero-shot settings on a range of foundation LLMs.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 5,
+        "papers_after_llm_filter": 2,
+        "count": 2
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48457830,
+          "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+          "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+          "score": 526,
+          "created_at": "2026-06-09T07:33:16Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48457830",
+          "summary": "Microsoft's open-source tools were compromised in a hack designed to steal the login credentials of AI developers."
+        },
+        {
+          "id": 48458586,
+          "title": "Cleaning up after AI rockstar developers",
+          "url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
+          "score": 444,
+          "created_at": "2026-06-09T09:10:10Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48458586",
+          "summary": "The article discusses the need to manage and clean up the often messy, complex code left behind by highly productive but sometimes undisciplined \"rockstar\" AI developers."
+        },
+        {
+          "id": 48465675,
+          "title": "CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs",
+          "url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
+          "score": 404,
+          "created_at": "2026-06-09T18:45:59Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48465675",
+          "summary": "The core argument is that CEOs viewing Artificial Intelligence as a direct replacement for their employees demonstrate poor leadership."
+        },
+        {
+          "id": 48463024,
+          "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
+          "url": "https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/",
+          "score": 352,
+          "created_at": "2026-06-09T16:13:10Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48463024",
+          "summary": "Apple will not launch Siri in the EU because it failed to secure an exemption from new EU digital market regulations."
+        },
+        {
+          "id": 48462823,
+          "title": "'Sloppenheimer:' Amazon employees mock the company's AI on Slack",
+          "url": "https://www.404media.co/sloppenheimer-amazon-employees-mock-the-companys-ai-on-slack/",
+          "score": 181,
+          "created_at": "2026-06-09T15:59:41Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48462823",
+          "summary": "Amazon employees are reportedly using the internal codename \"Sloppenheimer\" to mock the company's new AI tools on Slack, suggesting they are underperforming."
+        },
+        {
+          "id": 48466277,
+          "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+          "url": "https://aarushgupta.io/posts/kan-fpga/",
+          "score": 152,
+          "created_at": "2026-06-09T19:21:45Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48466277",
+          "summary": "This tech news details the implementation of ultrafast machine learning using Kolmogorov-Arnold Networks (KANs) accelerated on Field-Programmable Gate Arrays (FPGAs)."
+        },
+        {
+          "id": 48464333,
+          "title": "Where is the AI jobs crisis?",
+          "url": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
+          "score": 136,
+          "created_at": "2026-06-09T17:29:17Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48464333",
+          "summary": "Despite widespread fears, the anticipated AI-driven mass job displacement has not materialized, with current data suggesting AI is augmenting rather than eliminating most roles."
+        },
+        {
+          "id": 48465702,
+          "title": "Ask HN: Are you still using a Vision Pro?",
+          "url": "",
+          "score": 131,
+          "created_at": "2026-06-09T18:47:52Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48465702",
+          "summary": "A Hacker News thread is gauging current user engagement and long-term adoption rates for the Apple Vision Pro headset."
+        },
+        {
+          "id": 48462062,
+          "title": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms?",
+          "url": "https://arxiv.org/abs/2603.24647",
+          "score": 102,
+          "created_at": "2026-06-09T15:01:15Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48462062",
+          "summary": "This research investigates whether Large Language Models (LLMs) can effectively outperform traditional algorithms in the complex task of hyperparameter optimization for machine learning models."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "stars_today": 3191,
+          "total_stars": 37383,
+          "language": "Python",
+          "topics": [],
+          "summary": "This AI agent skill researches current information across major platforms like Reddit, X, and YouTube to synthesize grounded summaries on any given topic."
+        },
+        {
+          "full_name": "RyanCodrai/turbovec",
+          "url": "https://github.com/RyanCodrai/turbovec",
+          "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+          "stars_today": 1801,
+          "total_stars": 10192,
+          "language": "Python",
+          "topics": [],
+          "summary": "TurboVec is a Rust-based vector index leveraging TurboQuant, offering high-performance vector search capabilities accessible via Python bindings."
+        },
+        {
+          "full_name": "roboflow/supervision",
+          "url": "https://github.com/roboflow/supervision",
+          "description": "We write your reusable computer vision tools. 💜",
+          "stars_today": 733,
+          "total_stars": 43005,
+          "language": "Python",
+          "topics": [],
+          "summary": "Supervision provides reusable Python tools for computer vision tasks, offering functionalities like bounding box manipulation, image preprocessing, and visualization utilities."
+        },
+        {
+          "full_name": "opencv/opencv",
+          "url": "https://github.com/opencv/opencv",
+          "description": "Open Source Computer Vision Library",
+          "stars_today": 102,
+          "total_stars": 88648,
+          "language": "C++",
+          "topics": [],
+          "summary": "OpenCV is a comprehensive, open-source computer vision library providing a vast collection of algorithms for real-time image processing, analysis, and machine learning tasks."
+        },
+        {
+          "full_name": "refactoringhq/tolaria",
+          "url": "https://github.com/refactoringhq/tolaria",
+          "description": "Desktop app to manage markdown knowledge bases",
+          "stars_today": 829,
+          "total_stars": 14338,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Tolaria is a desktop application designed to efficiently manage and organize knowledge bases composed of Markdown files."
+        },
+        {
+          "full_name": "aaif-goose/goose",
+          "url": "https://github.com/aaif-goose/goose",
+          "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+          "stars_today": 489,
+          "total_stars": 48500,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Goose is an open-source, extensible AI agent that allows users to install, execute, edit, and test code using any large language model, going beyond simple code suggestions."
+        },
+        {
+          "full_name": "Andyyyy64/whichllm",
+          "url": "https://github.com/Andyyyy64/whichllm",
+          "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+          "stars_today": 633,
+          "total_stars": 4105,
+          "language": "Python",
+          "topics": [],
+          "summary": "This repository provides a single-command tool to instantly benchmark and rank local Large Language Models based on real, recency-aware performance metrics specific to the user's hardware, rather than just parameter count."
+        },
+        {
+          "full_name": "TapXWorld/ChinaTextbook",
+          "url": "https://github.com/TapXWorld/ChinaTextbook",
+          "description": "所有小初高、大学PDF教材。",
+          "stars_today": 519,
+          "total_stars": 73484,
+          "language": "Roff",
+          "topics": [],
+          "summary": "This repository serves as a centralized collection of PDF textbooks for all levels of Chinese education, spanning primary, secondary, and university curricula."
+        },
+        {
+          "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+          "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+          "stars_today": 79,
+          "total_stars": 139164,
+          "language": "",
+          "topics": [],
+          "summary": "This repository centralizes and shares system prompts, internal tools, and AI models for numerous AI coding assistants and tools like Devin, Cursor, Perplexity, and various VS Code extensions."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 5,
+    "papers_after_llm_filter": 2,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 17
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.10713v1",
+      "title": "++nnU-Net: Scaling nnU-Net with Prefix-Based Data Augmentation",
+      "authors": [
+        "Ana Sofia Santos",
+        "André Ferreira",
+        "Gijs Luijten",
+        "Naida Solak",
+        "Lisle Faray de Paiva"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "The ++nnU-Net introduces a novel, prefix-based data augmentation module that integrates a two-stage image registration process *before* standard preprocessing and training. This method generates anatomically feasible synthetic training data by warping original images and applying corresponding transformations to their segmentations. The contribution is an enhanced nnU-Net framework that effectively increases data diversity to improve segmentation performance, as demonstrated across five 2D datasets.",
+      "url": "http://arxiv.org/abs/2606.10713v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.10713v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.10713v1/Figure1.png",
+      "figure_caption": "Overview of the augmentation pipeline: (a) data are converted to NIfTI format, renamed, stored in respective image and segmentation directories and split in training and test cohorts; (b) initial stages of the data augmentation process; (c) iteration process between images to be registered and respective transformation to generate segmentation masks; (d) final step of conversion to 3D format before training by nnU-Net.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.10796v1",
+      "title": "Dep-LLM: Training-Free Depression Diagnosis via Evidence-Guided Structured Multi-factor with Reliable LLM Reasoning",
+      "authors": [
+        "Yiqing Lyu",
+        "Xianbing Zhao",
+        "Buzhou Tang",
+        "Ronghuan Jiang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Dep-LLM is a training-free framework for depression diagnosis that leverages frozen, off-the-shelf Large Language Models (LLMs) to overcome data scarcity and complex reasoning challenges. It employs a Chain-of-Thought (CoT) module to structurally decompose long clinical interviews into five clinically aligned themes, generating evidence-grounded rationales for each factor. This approach mimics expert reasoning to produce reliable, multi-factor-based diagnoses without requiring any model fine-tuning.",
+      "url": "http://arxiv.org/abs/2606.10796v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.10796v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.10796v1/x1.png",
+      "figure_caption": "Dep-LLM decomposes and analyzes dialogues via structural multi-factor schema and verifies their reliability by confidence mechanism. Without extra training, Dep-LLM outperforms zero-shot settings on a range of foundation LLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.10713v1",
+      "title": "++nnU-Net: Scaling nnU-Net with Prefix-Based Data Augmentation",
+      "authors": [
+        "Ana Sofia Santos",
+        "André Ferreira",
+        "Gijs Luijten",
+        "Naida Solak",
+        "Lisle Faray de Paiva"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "The ++nnU-Net introduces a novel, prefix-based data augmentation module that integrates a two-stage image registration process *before* standard preprocessing and training. This method generates anatomically feasible synthetic training data by warping original images and applying corresponding transformations to their segmentations. The contribution is an enhanced nnU-Net framework that effectively increases data diversity to improve segmentation performance, as demonstrated across five 2D datasets.",
+      "url": "http://arxiv.org/abs/2606.10713v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.10713v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.10713v1/Figure1.png",
+      "figure_caption": "Overview of the augmentation pipeline: (a) data are converted to NIfTI format, renamed, stored in respective image and segmentation directories and split in training and test cohorts; (b) initial stages of the data augmentation process; (c) iteration process between images to be registered and respective transformation to generate segmentation masks; (d) final step of conversion to 3D format before training by nnU-Net.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.10796v1",
+      "title": "Dep-LLM: Training-Free Depression Diagnosis via Evidence-Guided Structured Multi-factor with Reliable LLM Reasoning",
+      "authors": [
+        "Yiqing Lyu",
+        "Xianbing Zhao",
+        "Buzhou Tang",
+        "Ronghuan Jiang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Dep-LLM is a training-free framework for depression diagnosis that leverages frozen, off-the-shelf Large Language Models (LLMs) to overcome data scarcity and complex reasoning challenges. It employs a Chain-of-Thought (CoT) module to structurally decompose long clinical interviews into five clinically aligned themes, generating evidence-grounded rationales for each factor. This approach mimics expert reasoning to produce reliable, multi-factor-based diagnoses without requiring any model fine-tuning.",
+      "url": "http://arxiv.org/abs/2606.10796v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.10796v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.10796v1/x1.png",
+      "figure_caption": "Dep-LLM decomposes and analyzes dialogues via structural multi-factor schema and verifies their reliability by confidence mechanism. Without extra training, Dep-LLM outperforms zero-shot settings on a range of foundation LLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48457830,
+      "title": "Microsoft's open source tools were hacked to steal passwords of AI developers",
+      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/",
+      "score": 526,
+      "created_at": "2026-06-09T07:33:16Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48457830",
+      "summary": "Microsoft's open-source tools were compromised in a hack designed to steal the login credentials of AI developers."
+    },
+    {
+      "id": 48458586,
+      "title": "Cleaning up after AI rockstar developers",
+      "url": "https://www.codingwithjesse.com/blog/rockstar-developers/",
+      "score": 444,
+      "created_at": "2026-06-09T09:10:10Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48458586",
+      "summary": "The article discusses the need to manage and clean up the often messy, complex code left behind by highly productive but sometimes undisciplined \"rockstar\" AI developers."
+    },
+    {
+      "id": 48465675,
+      "title": "CEOs Who Think AI Replaces Their Employees Are Just Bad CEOs",
+      "url": "https://www.techdirt.com/2026/06/09/ceos-who-think-ai-replaces-their-employees-are-just-bad-ceos/",
+      "score": 404,
+      "created_at": "2026-06-09T18:45:59Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48465675",
+      "summary": "The core argument is that CEOs viewing Artificial Intelligence as a direct replacement for their employees demonstrate poor leadership."
+    },
+    {
+      "id": 48463024,
+      "title": "Apple decided not to roll out Siri in EU after denied request for exemption",
+      "url": "https://www.reuters.com/business/apple-failed-make-its-ai-tool-comply-eu-regulations-eu-commission-says-2026-06-09/",
+      "score": 352,
+      "created_at": "2026-06-09T16:13:10Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48463024",
+      "summary": "Apple will not launch Siri in the EU because it failed to secure an exemption from new EU digital market regulations."
+    },
+    {
+      "id": 48462823,
+      "title": "'Sloppenheimer:' Amazon employees mock the company's AI on Slack",
+      "url": "https://www.404media.co/sloppenheimer-amazon-employees-mock-the-companys-ai-on-slack/",
+      "score": 181,
+      "created_at": "2026-06-09T15:59:41Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48462823",
+      "summary": "Amazon employees are reportedly using the internal codename \"Sloppenheimer\" to mock the company's new AI tools on Slack, suggesting they are underperforming."
+    },
+    {
+      "id": 48466277,
+      "title": "Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks",
+      "url": "https://aarushgupta.io/posts/kan-fpga/",
+      "score": 152,
+      "created_at": "2026-06-09T19:21:45Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48466277",
+      "summary": "This tech news details the implementation of ultrafast machine learning using Kolmogorov-Arnold Networks (KANs) accelerated on Field-Programmable Gate Arrays (FPGAs)."
+    },
+    {
+      "id": 48464333,
+      "title": "Where is the AI jobs crisis?",
+      "url": "https://www.apollo.com/wealth/the-daily-spark/where-is-the-ai-jobs-crisis",
+      "score": 136,
+      "created_at": "2026-06-09T17:29:17Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48464333",
+      "summary": "Despite widespread fears, the anticipated AI-driven mass job displacement has not materialized, with current data suggesting AI is augmenting rather than eliminating most roles."
+    },
+    {
+      "id": 48465702,
+      "title": "Ask HN: Are you still using a Vision Pro?",
+      "url": "",
+      "score": 131,
+      "created_at": "2026-06-09T18:47:52Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48465702",
+      "summary": "A Hacker News thread is gauging current user engagement and long-term adoption rates for the Apple Vision Pro headset."
+    },
+    {
+      "id": 48462062,
+      "title": "Can LLMs Beat Classical Hyperparameter Optimization Algorithms?",
+      "url": "https://arxiv.org/abs/2603.24647",
+      "score": 102,
+      "created_at": "2026-06-09T15:01:15Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48462062",
+      "summary": "This research investigates whether Large Language Models (LLMs) can effectively outperform traditional algorithms in the complex task of hyperparameter optimization for machine learning models."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "stars_today": 3191,
+      "total_stars": 37383,
+      "language": "Python",
+      "topics": [],
+      "summary": "This AI agent skill researches current information across major platforms like Reddit, X, and YouTube to synthesize grounded summaries on any given topic."
+    },
+    {
+      "full_name": "RyanCodrai/turbovec",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "stars_today": 1801,
+      "total_stars": 10192,
+      "language": "Python",
+      "topics": [],
+      "summary": "TurboVec is a Rust-based vector index leveraging TurboQuant, offering high-performance vector search capabilities accessible via Python bindings."
+    },
+    {
+      "full_name": "roboflow/supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "stars_today": 733,
+      "total_stars": 43005,
+      "language": "Python",
+      "topics": [],
+      "summary": "Supervision provides reusable Python tools for computer vision tasks, offering functionalities like bounding box manipulation, image preprocessing, and visualization utilities."
+    },
+    {
+      "full_name": "opencv/opencv",
+      "url": "https://github.com/opencv/opencv",
+      "description": "Open Source Computer Vision Library",
+      "stars_today": 102,
+      "total_stars": 88648,
+      "language": "C++",
+      "topics": [],
+      "summary": "OpenCV is a comprehensive, open-source computer vision library providing a vast collection of algorithms for real-time image processing, analysis, and machine learning tasks."
+    },
+    {
+      "full_name": "refactoringhq/tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "stars_today": 829,
+      "total_stars": 14338,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Tolaria is a desktop application designed to efficiently manage and organize knowledge bases composed of Markdown files."
+    },
+    {
+      "full_name": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "stars_today": 489,
+      "total_stars": 48500,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Goose is an open-source, extensible AI agent that allows users to install, execute, edit, and test code using any large language model, going beyond simple code suggestions."
+    },
+    {
+      "full_name": "Andyyyy64/whichllm",
+      "url": "https://github.com/Andyyyy64/whichllm",
+      "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+      "stars_today": 633,
+      "total_stars": 4105,
+      "language": "Python",
+      "topics": [],
+      "summary": "This repository provides a single-command tool to instantly benchmark and rank local Large Language Models based on real, recency-aware performance metrics specific to the user's hardware, rather than just parameter count."
+    },
+    {
+      "full_name": "TapXWorld/ChinaTextbook",
+      "url": "https://github.com/TapXWorld/ChinaTextbook",
+      "description": "所有小初高、大学PDF教材。",
+      "stars_today": 519,
+      "total_stars": 73484,
+      "language": "Roff",
+      "topics": [],
+      "summary": "This repository serves as a centralized collection of PDF textbooks for all levels of Chinese education, spanning primary, secondary, and university curricula."
+    },
+    {
+      "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "stars_today": 79,
+      "total_stars": 139164,
+      "language": "",
+      "topics": [],
+      "summary": "This repository centralizes and shares system prompts, internal tools, and AI models for numerous AI coding assistants and tools like Devin, Cursor, Perplexity, and various VS Code extensions."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
