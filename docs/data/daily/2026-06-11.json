@@ -1,0 +1,821 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T01:20:13.025541+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.11675v1",
+          "title": "Lung-R1: A Knowledge Graph-Guided LLM for Pulmonary Diagnostic Reasoning",
+          "authors": [
+            "Haoyang Zeng",
+            "Yuanxi Fu",
+            "Rongzhen Li",
+            "Yuming Yang",
+            "Xiao Sun"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces **Lung-R1**, a Large Language Model specifically designed for pulmonary diagnostic reasoning, addressing the gap between general knowledge and patient-specific case analysis. The core method involves leveraging **LungKG**, a novel, structured pulmonary knowledge graph, to guide the LLM's adaptation and enable relation-aware reasoning over Electronic Medical Record (EMR) evidence. The contribution is a system that moves beyond simple knowledge recall to provide more reliable, evidence-grounded diagnostic support for complex pulmonary cases.",
+          "url": "http://arxiv.org/abs/2606.11675v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11675v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.11675v1/figures/emr_score_0_5_vs_parameters.png",
+          "figure_caption": "EMR diagnosis performance on the EMR Diagnosis task. Lung-R1 achieves state-of-the-art performance at 7B/14B scale.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11702v1",
+          "title": "MedCTA: A Benchmark for Clinical Tool Agents",
+          "authors": [
+            "Tajamul Ashraf",
+            "Hyewon Jeong",
+            "Fida Mohammad Thoker",
+            "Bernard Ghanem"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL",
+            "cs.CV"
+          ],
+          "abstract": "MedCTA is a new benchmark designed to evaluate the complex, multi-step reasoning and tool-use capabilities of medical AI agents using realistic, multimodal clinical data. It features 107 clinician-validated tasks requiring agents to retrieve, select, and reliably execute external tools to achieve a final clinical outcome. The benchmark's core contribution is enabling process-aware evaluation of planning and execution fidelity, revealing that current frontier models struggle significantly with multi-step clinical tool utilization.",
+          "url": "http://arxiv.org/abs/2606.11702v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11702v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.11702v1/x1.png",
+          "figure_caption": "MedCTA curation pipeline. ➊ Query construction: Annotators expand expert exemplars into structured, executable, and tool-aware clinical queries, followed by clinical verification for correctness and relevance. ➋ Tool chain construction: GPT-generated tool trajectories are refined and corrected by annotators. Technical verification ensures executability and format compliance, while clinical experts validate medical correctness and reasoning soundness.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11794v1",
+          "title": "Multimodal Ordinal Modeling of Alzheimer's Disease Severity Using Structural MRI and Clinical Data",
+          "authors": [
+            "Boris-Stephan Rauchmann",
+            "Jonathan Laib",
+            "Buse Ercik",
+            "Robert Perneczky",
+            "Sergio Altares-López"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces an attention-enhanced multimodal machine learning framework using ordinal regression to automate and improve the interpretability of Alzheimer's disease severity staging. The method integrates structural MRI data with clinical and genetic variables to predict disease severity levels more accurately than unimodal approaches. The core contribution is a robust, multimodal ordinal modeling technique that offers a scalable alternative to traditional, time-consuming clinical assessments.",
+          "url": "http://arxiv.org/abs/2606.11794v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11794v1",
+          "score": 9.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.12006v1",
+          "title": "Tabular Foundation Models for Clinical Survival Analysis via Survival-Aware Adaptation",
+          "authors": [
+            "Minh-Khoi Pham",
+            "Luca Cotugno",
+            "Alina Sirbu",
+            "Tai Tan Mai",
+            "Martin Crane"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper adapts existing tabular foundation models (like TabPFN) for clinical survival analysis, a task traditionally requiring extensive task-specific training. The core method involves attaching a lightweight, survival-aware head, such as a multi-task logistic regression, directly onto the pretrained representations of these models. This approach enables effective time-to-event prediction using general-purpose structured data knowledge without full retraining.",
+          "url": "http://arxiv.org/abs/2606.12006v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.12006v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11556v1",
+          "title": "Privacy-Preserving Federated Autoencoder for ECG Anomaly Detection on Edge Devices",
+          "authors": [
+            "Kaan Arda Akyol",
+            "Jakub Kacper Szeląg",
+            "Aydin Abadi",
+            "Maha Alghamdi",
+            "Ghadah Albalawi"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CR",
+            "cs.LG"
+          ],
+          "abstract": "This paper presents a federated learning framework for privacy-preserving, real-time ECG anomaly detection on edge devices. The core method combines multiple autoencoder architectures with client-side Differentially Private Stochastic Gradient Descent (DP-SGD) and post-training 8-bit quantization. The contribution lies in empirically characterizing the composition of these mechanisms and providing practical recommendations for deploying such secure, resource-constrained systems in clinical settings.",
+          "url": "http://arxiv.org/abs/2606.11556v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11556v1",
+          "score": 7.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.11775v1",
+          "title": "Magnitude-Based Features for Multispecies Spatial Data",
+          "authors": [
+            "Julia Sollberger",
+            "Joshua Bull",
+            "Sara Kališnik",
+            "Bernadette Stolz"
+          ],
+          "categories": [
+            "q-bio.QM",
+            "math.MG",
+            "stat.ML"
+          ],
+          "abstract": "This paper introduces **magnitude-based features** as a novel quantitative tool for analyzing multispecies spatial data, where interactions are key. Magnitude, an invariant of metric spaces, effectively captures spatial configuration and scale. The authors develop global and local magnitude feature vectors, demonstrating their utility in identifying distinct neighborhood types and spatial heterogeneity in both simulated and real-world cancer tissue data.",
+          "url": "http://arxiv.org/abs/2606.11775v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.11775v1",
+          "score": 7.0,
+          "figure_url": "https://arxiv.org/html/2606.11775v1/x1.png",
+          "figure_caption": "We test our approach on synthetic data generated from an agent based model of the tumour microenvironment (Bull & Byrne 2023 [ 5 ] ). Different combinations of parameter values c 1 / 2 c_{1/2} (half-maximal macrophage extravasation rate) and χ c m \\( \\chi^{m}_{c} \\) (chemotactic sensitivity of macrophages to CSF-1) lead to qualitatively different outcomes: elimination of tumour cells by macrophages (blue parameter regime), equilibrium between tumour cells and macrophages (yellow parameter regime), and escape of tumour cells towards blood vessels (red parameter regime). The pictured classification of qualitative regimes corresponds to the (subjective) classification in the original paper.",
+          "primary_category": "q-bio.QM",
+          "primary_category_anchor": "q-bio-qm",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 7,
+        "papers_after_llm_filter": 6,
+        "count": 6
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48470248,
+          "title": "German ruling declares Google liable for false answers in AI Overviews",
+          "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+          "score": 963,
+          "created_at": "2026-06-10T01:44:13Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48470248",
+          "summary": "A German court ruled that Google is legally responsible for false information generated by its AI Overviews, treating them as the company's own statements."
+        },
+        {
+          "id": 48477135,
+          "title": "I'm Eric Ries, author of \"The Lean Startup\" and new book \"Incorruptible\" – AMA",
+          "url": "",
+          "score": 516,
+          "created_at": "2026-06-10T14:47:52Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48477135",
+          "summary": "Eric Ries, author of \"The Lean Startup,\" is hosting an \"Ask Me Anything\" session to discuss his new book, \"Incorruptible.\""
+        },
+        {
+          "id": 48473166,
+          "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+          "url": "",
+          "score": 395,
+          "created_at": "2026-06-10T08:21:38Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48473166",
+          "summary": "AWS Bedrock will now require users to share data with Anthropic when utilizing the Mythos model and future Anthropic models hosted on the platform."
+        },
+        {
+          "id": 48478471,
+          "title": "DiffusionGemma: 4x Faster Text Generation",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+          "score": 281,
+          "created_at": "2026-06-10T16:09:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48478471",
+          "summary": "Google introduced DiffusionGemma, a new model that achieves up to four times faster text generation speeds compared to previous methods."
+        },
+        {
+          "id": 48470581,
+          "title": "Rich Sutton on AI creativity and discovery",
+          "url": "https://twitter.com/RichardSSutton/status/2061216087744946656",
+          "score": 197,
+          "created_at": "2026-06-10T02:25:24Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48470581",
+          "summary": "Rich Sutton discussed the nature of AI creativity and discovery, emphasizing that current AI systems excel at finding solutions within defined problem spaces."
+        },
+        {
+          "id": 48477400,
+          "title": "Apache Burr: Build reliable AI agents and applications",
+          "url": "https://burr.apache.org/",
+          "score": 172,
+          "created_at": "2026-06-10T15:01:06Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48477400",
+          "summary": "Apache Burr is a new project focused on providing tools and frameworks to help developers reliably build and deploy AI agents and applications."
+        },
+        {
+          "id": 48476136,
+          "title": "A €0.01 bank transfer could compromise a banking AI agent",
+          "url": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
+          "score": 165,
+          "created_at": "2026-06-10T13:39:11Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48476136",
+          "summary": "A tiny €0.01 bank transfer was exploited to compromise a banking AI agent, highlighting a critical security vulnerability that required immediate remediation."
+        },
+        {
+          "id": 48478469,
+          "title": "Show HN: Extend UI – open-source UI kit for modern document apps",
+          "url": "https://www.extend.ai/ui",
+          "score": 147,
+          "created_at": "2026-06-10T16:09:26Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48478469",
+          "summary": "Extend UI is a new open-source UI kit designed to help developers build modern, feature-rich user interfaces for document-centric applications."
+        },
+        {
+          "id": 48480719,
+          "title": "Policy on the AI Exponential",
+          "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+          "score": 130,
+          "created_at": "2026-06-10T18:36:04Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48480719",
+          "summary": "The article discusses the urgent need for thoughtful policy to manage the rapid, potentially transformative, and unpredictable advancements of artificial intelligence."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "description": "Production-grade engineering skills for AI coding agents.",
+          "stars_today": 821,
+          "total_stars": 51844,
+          "language": "Shell",
+          "topics": [],
+          "summary": "This repository provides production-grade engineering skills for AI coding agents, focusing on robust and practical capabilities for real-world application."
+        },
+        {
+          "full_name": "phuryn/pm-skills",
+          "url": "https://github.com/phuryn/pm-skills",
+          "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "stars_today": 804,
+          "total_stars": 14900,
+          "language": "",
+          "topics": [],
+          "summary": "This repository, \"pm-skills,\" functions as a marketplace offering over 100 agentic skills, commands, and plugins to support the entire product management lifecycle, from discovery and strategy through execution, launch, and growth."
+        },
+        {
+          "full_name": "refactoringhq/tolaria",
+          "url": "https://github.com/refactoringhq/tolaria",
+          "description": "Desktop app to manage markdown knowledge bases",
+          "stars_today": 612,
+          "total_stars": 14927,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Tolaria is a desktop application designed to efficiently manage and organize personal knowledge bases built using Markdown files."
+        },
+        {
+          "full_name": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "stars_today": 2535,
+          "total_stars": 39092,
+          "language": "Python",
+          "topics": [],
+          "summary": "This AI agent skill researches current information across major platforms like Reddit, X, and YouTube to synthesize a grounded summary on any given topic."
+        },
+        {
+          "full_name": "soxoj/maigret",
+          "url": "https://github.com/soxoj/maigret",
+          "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+          "stars_today": 318,
+          "total_stars": 32027,
+          "language": "Python",
+          "topics": [],
+          "summary": "Maigret is a tool that collects a dossier on a person by searching for a given username across over 3000 websites."
+        },
+        {
+          "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+          "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+          "stars_today": 393,
+          "total_stars": 139521,
+          "language": "",
+          "topics": [],
+          "summary": "This repository centralizes and shares system prompts, internal tools, and AI models for a wide array of code-focused AI assistants and development platforms like Cursor, Devin AI, Perplexity, and VSCode Agent."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 1104,
+          "total_stars": 223607,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Superpowers is an agentic skills framework and software development methodology designed to be a functional and effective approach to building software."
+        },
+        {
+          "full_name": "masterking32/MasterDnsVPN",
+          "url": "https://github.com/masterking32/MasterDnsVPN",
+          "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+          "stars_today": 354,
+          "total_stars": 5215,
+          "language": "Go",
+          "topics": [],
+          "summary": "MasterDnsVPN is an advanced DNS tunneling VPN designed for robust censorship bypass, featuring low-overhead ARQ, resolver load balancing, and enhanced stability for high packet-loss environments."
+        },
+        {
+          "full_name": "harry0703/MoneyPrinterTurbo",
+          "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+          "stars_today": 1389,
+          "total_stars": 85064,
+          "language": "Python",
+          "topics": [],
+          "summary": "MoneyPrinterTurbo is a tool that uses AI large language models to generate high-definition short videos with a single click."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 7,
+    "papers_after_llm_filter": 6,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 23
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.11675v1",
+      "title": "Lung-R1: A Knowledge Graph-Guided LLM for Pulmonary Diagnostic Reasoning",
+      "authors": [
+        "Haoyang Zeng",
+        "Yuanxi Fu",
+        "Rongzhen Li",
+        "Yuming Yang",
+        "Xiao Sun"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces **Lung-R1**, a Large Language Model specifically designed for pulmonary diagnostic reasoning, addressing the gap between general knowledge and patient-specific case analysis. The core method involves leveraging **LungKG**, a novel, structured pulmonary knowledge graph, to guide the LLM's adaptation and enable relation-aware reasoning over Electronic Medical Record (EMR) evidence. The contribution is a system that moves beyond simple knowledge recall to provide more reliable, evidence-grounded diagnostic support for complex pulmonary cases.",
+      "url": "http://arxiv.org/abs/2606.11675v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11675v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.11675v1/figures/emr_score_0_5_vs_parameters.png",
+      "figure_caption": "EMR diagnosis performance on the EMR Diagnosis task. Lung-R1 achieves state-of-the-art performance at 7B/14B scale.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11702v1",
+      "title": "MedCTA: A Benchmark for Clinical Tool Agents",
+      "authors": [
+        "Tajamul Ashraf",
+        "Hyewon Jeong",
+        "Fida Mohammad Thoker",
+        "Bernard Ghanem"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "MedCTA is a new benchmark designed to evaluate the complex, multi-step reasoning and tool-use capabilities of medical AI agents using realistic, multimodal clinical data. It features 107 clinician-validated tasks requiring agents to retrieve, select, and reliably execute external tools to achieve a final clinical outcome. The benchmark's core contribution is enabling process-aware evaluation of planning and execution fidelity, revealing that current frontier models struggle significantly with multi-step clinical tool utilization.",
+      "url": "http://arxiv.org/abs/2606.11702v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11702v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.11702v1/x1.png",
+      "figure_caption": "MedCTA curation pipeline. ➊ Query construction: Annotators expand expert exemplars into structured, executable, and tool-aware clinical queries, followed by clinical verification for correctness and relevance. ➋ Tool chain construction: GPT-generated tool trajectories are refined and corrected by annotators. Technical verification ensures executability and format compliance, while clinical experts validate medical correctness and reasoning soundness.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11794v1",
+      "title": "Multimodal Ordinal Modeling of Alzheimer's Disease Severity Using Structural MRI and Clinical Data",
+      "authors": [
+        "Boris-Stephan Rauchmann",
+        "Jonathan Laib",
+        "Buse Ercik",
+        "Robert Perneczky",
+        "Sergio Altares-López"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces an attention-enhanced multimodal machine learning framework using ordinal regression to automate and improve the interpretability of Alzheimer's disease severity staging. The method integrates structural MRI data with clinical and genetic variables to predict disease severity levels more accurately than unimodal approaches. The core contribution is a robust, multimodal ordinal modeling technique that offers a scalable alternative to traditional, time-consuming clinical assessments.",
+      "url": "http://arxiv.org/abs/2606.11794v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11794v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.12006v1",
+      "title": "Tabular Foundation Models for Clinical Survival Analysis via Survival-Aware Adaptation",
+      "authors": [
+        "Minh-Khoi Pham",
+        "Luca Cotugno",
+        "Alina Sirbu",
+        "Tai Tan Mai",
+        "Martin Crane"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper adapts existing tabular foundation models (like TabPFN) for clinical survival analysis, a task traditionally requiring extensive task-specific training. The core method involves attaching a lightweight, survival-aware head, such as a multi-task logistic regression, directly onto the pretrained representations of these models. This approach enables effective time-to-event prediction using general-purpose structured data knowledge without full retraining.",
+      "url": "http://arxiv.org/abs/2606.12006v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.12006v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11556v1",
+      "title": "Privacy-Preserving Federated Autoencoder for ECG Anomaly Detection on Edge Devices",
+      "authors": [
+        "Kaan Arda Akyol",
+        "Jakub Kacper Szeląg",
+        "Aydin Abadi",
+        "Maha Alghamdi",
+        "Ghadah Albalawi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "abstract": "This paper presents a federated learning framework for privacy-preserving, real-time ECG anomaly detection on edge devices. The core method combines multiple autoencoder architectures with client-side Differentially Private Stochastic Gradient Descent (DP-SGD) and post-training 8-bit quantization. The contribution lies in empirically characterizing the composition of these mechanisms and providing practical recommendations for deploying such secure, resource-constrained systems in clinical settings.",
+      "url": "http://arxiv.org/abs/2606.11556v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11556v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11775v1",
+      "title": "Magnitude-Based Features for Multispecies Spatial Data",
+      "authors": [
+        "Julia Sollberger",
+        "Joshua Bull",
+        "Sara Kališnik",
+        "Bernadette Stolz"
+      ],
+      "categories": [
+        "q-bio.QM",
+        "math.MG",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces **magnitude-based features** as a novel quantitative tool for analyzing multispecies spatial data, where interactions are key. Magnitude, an invariant of metric spaces, effectively captures spatial configuration and scale. The authors develop global and local magnitude feature vectors, demonstrating their utility in identifying distinct neighborhood types and spatial heterogeneity in both simulated and real-world cancer tissue data.",
+      "url": "http://arxiv.org/abs/2606.11775v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11775v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11775v1/x1.png",
+      "figure_caption": "We test our approach on synthetic data generated from an agent based model of the tumour microenvironment (Bull & Byrne 2023 [ 5 ] ). Different combinations of parameter values c 1 / 2 c_{1/2} (half-maximal macrophage extravasation rate) and χ c m \\( \\chi^{m}_{c} \\) (chemotactic sensitivity of macrophages to CSF-1) lead to qualitatively different outcomes: elimination of tumour cells by macrophages (blue parameter regime), equilibrium between tumour cells and macrophages (yellow parameter regime), and escape of tumour cells towards blood vessels (red parameter regime). The pictured classification of qualitative regimes corresponds to the (subjective) classification in the original paper.",
+      "primary_category": "q-bio.QM",
+      "primary_category_anchor": "q-bio-qm",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.11675v1",
+      "title": "Lung-R1: A Knowledge Graph-Guided LLM for Pulmonary Diagnostic Reasoning",
+      "authors": [
+        "Haoyang Zeng",
+        "Yuanxi Fu",
+        "Rongzhen Li",
+        "Yuming Yang",
+        "Xiao Sun"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces **Lung-R1**, a Large Language Model specifically designed for pulmonary diagnostic reasoning, addressing the gap between general knowledge and patient-specific case analysis. The core method involves leveraging **LungKG**, a novel, structured pulmonary knowledge graph, to guide the LLM's adaptation and enable relation-aware reasoning over Electronic Medical Record (EMR) evidence. The contribution is a system that moves beyond simple knowledge recall to provide more reliable, evidence-grounded diagnostic support for complex pulmonary cases.",
+      "url": "http://arxiv.org/abs/2606.11675v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11675v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.11675v1/figures/emr_score_0_5_vs_parameters.png",
+      "figure_caption": "EMR diagnosis performance on the EMR Diagnosis task. Lung-R1 achieves state-of-the-art performance at 7B/14B scale.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11702v1",
+      "title": "MedCTA: A Benchmark for Clinical Tool Agents",
+      "authors": [
+        "Tajamul Ashraf",
+        "Hyewon Jeong",
+        "Fida Mohammad Thoker",
+        "Bernard Ghanem"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "MedCTA is a new benchmark designed to evaluate the complex, multi-step reasoning and tool-use capabilities of medical AI agents using realistic, multimodal clinical data. It features 107 clinician-validated tasks requiring agents to retrieve, select, and reliably execute external tools to achieve a final clinical outcome. The benchmark's core contribution is enabling process-aware evaluation of planning and execution fidelity, revealing that current frontier models struggle significantly with multi-step clinical tool utilization.",
+      "url": "http://arxiv.org/abs/2606.11702v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11702v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.11702v1/x1.png",
+      "figure_caption": "MedCTA curation pipeline. ➊ Query construction: Annotators expand expert exemplars into structured, executable, and tool-aware clinical queries, followed by clinical verification for correctness and relevance. ➋ Tool chain construction: GPT-generated tool trajectories are refined and corrected by annotators. Technical verification ensures executability and format compliance, while clinical experts validate medical correctness and reasoning soundness.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11794v1",
+      "title": "Multimodal Ordinal Modeling of Alzheimer's Disease Severity Using Structural MRI and Clinical Data",
+      "authors": [
+        "Boris-Stephan Rauchmann",
+        "Jonathan Laib",
+        "Buse Ercik",
+        "Robert Perneczky",
+        "Sergio Altares-López"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces an attention-enhanced multimodal machine learning framework using ordinal regression to automate and improve the interpretability of Alzheimer's disease severity staging. The method integrates structural MRI data with clinical and genetic variables to predict disease severity levels more accurately than unimodal approaches. The core contribution is a robust, multimodal ordinal modeling technique that offers a scalable alternative to traditional, time-consuming clinical assessments.",
+      "url": "http://arxiv.org/abs/2606.11794v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11794v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.12006v1",
+      "title": "Tabular Foundation Models for Clinical Survival Analysis via Survival-Aware Adaptation",
+      "authors": [
+        "Minh-Khoi Pham",
+        "Luca Cotugno",
+        "Alina Sirbu",
+        "Tai Tan Mai",
+        "Martin Crane"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper adapts existing tabular foundation models (like TabPFN) for clinical survival analysis, a task traditionally requiring extensive task-specific training. The core method involves attaching a lightweight, survival-aware head, such as a multi-task logistic regression, directly onto the pretrained representations of these models. This approach enables effective time-to-event prediction using general-purpose structured data knowledge without full retraining.",
+      "url": "http://arxiv.org/abs/2606.12006v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.12006v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11556v1",
+      "title": "Privacy-Preserving Federated Autoencoder for ECG Anomaly Detection on Edge Devices",
+      "authors": [
+        "Kaan Arda Akyol",
+        "Jakub Kacper Szeląg",
+        "Aydin Abadi",
+        "Maha Alghamdi",
+        "Ghadah Albalawi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "abstract": "This paper presents a federated learning framework for privacy-preserving, real-time ECG anomaly detection on edge devices. The core method combines multiple autoencoder architectures with client-side Differentially Private Stochastic Gradient Descent (DP-SGD) and post-training 8-bit quantization. The contribution lies in empirically characterizing the composition of these mechanisms and providing practical recommendations for deploying such secure, resource-constrained systems in clinical settings.",
+      "url": "http://arxiv.org/abs/2606.11556v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11556v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11775v1",
+      "title": "Magnitude-Based Features for Multispecies Spatial Data",
+      "authors": [
+        "Julia Sollberger",
+        "Joshua Bull",
+        "Sara Kališnik",
+        "Bernadette Stolz"
+      ],
+      "categories": [
+        "q-bio.QM",
+        "math.MG",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces **magnitude-based features** as a novel quantitative tool for analyzing multispecies spatial data, where interactions are key. Magnitude, an invariant of metric spaces, effectively captures spatial configuration and scale. The authors develop global and local magnitude feature vectors, demonstrating their utility in identifying distinct neighborhood types and spatial heterogeneity in both simulated and real-world cancer tissue data.",
+      "url": "http://arxiv.org/abs/2606.11775v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11775v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11775v1/x1.png",
+      "figure_caption": "We test our approach on synthetic data generated from an agent based model of the tumour microenvironment (Bull & Byrne 2023 [ 5 ] ). Different combinations of parameter values c 1 / 2 c_{1/2} (half-maximal macrophage extravasation rate) and χ c m \\( \\chi^{m}_{c} \\) (chemotactic sensitivity of macrophages to CSF-1) lead to qualitatively different outcomes: elimination of tumour cells by macrophages (blue parameter regime), equilibrium between tumour cells and macrophages (yellow parameter regime), and escape of tumour cells towards blood vessels (red parameter regime). The pictured classification of qualitative regimes corresponds to the (subjective) classification in the original paper.",
+      "primary_category": "q-bio.QM",
+      "primary_category_anchor": "q-bio-qm",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48470248,
+      "title": "German ruling declares Google liable for false answers in AI Overviews",
+      "url": "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/",
+      "score": 963,
+      "created_at": "2026-06-10T01:44:13Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48470248",
+      "summary": "A German court ruled that Google is legally responsible for false information generated by its AI Overviews, treating them as the company's own statements."
+    },
+    {
+      "id": 48477135,
+      "title": "I'm Eric Ries, author of \"The Lean Startup\" and new book \"Incorruptible\" – AMA",
+      "url": "",
+      "score": 516,
+      "created_at": "2026-06-10T14:47:52Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48477135",
+      "summary": "Eric Ries, author of \"The Lean Startup,\" is hosting an \"Ask Me Anything\" session to discuss his new book, \"Incorruptible.\""
+    },
+    {
+      "id": 48473166,
+      "title": "AWS Bedrock to require sharing data with Anthropic for Mythos and future models",
+      "url": "",
+      "score": 395,
+      "created_at": "2026-06-10T08:21:38Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48473166",
+      "summary": "AWS Bedrock will now require users to share data with Anthropic when utilizing the Mythos model and future Anthropic models hosted on the platform."
+    },
+    {
+      "id": 48478471,
+      "title": "DiffusionGemma: 4x Faster Text Generation",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+      "score": 281,
+      "created_at": "2026-06-10T16:09:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48478471",
+      "summary": "Google introduced DiffusionGemma, a new model that achieves up to four times faster text generation speeds compared to previous methods."
+    },
+    {
+      "id": 48470581,
+      "title": "Rich Sutton on AI creativity and discovery",
+      "url": "https://twitter.com/RichardSSutton/status/2061216087744946656",
+      "score": 197,
+      "created_at": "2026-06-10T02:25:24Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48470581",
+      "summary": "Rich Sutton discussed the nature of AI creativity and discovery, emphasizing that current AI systems excel at finding solutions within defined problem spaces."
+    },
+    {
+      "id": 48477400,
+      "title": "Apache Burr: Build reliable AI agents and applications",
+      "url": "https://burr.apache.org/",
+      "score": 172,
+      "created_at": "2026-06-10T15:01:06Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48477400",
+      "summary": "Apache Burr is a new project focused on providing tools and frameworks to help developers reliably build and deploy AI agents and applications."
+    },
+    {
+      "id": 48476136,
+      "title": "A €0.01 bank transfer could compromise a banking AI agent",
+      "url": "https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/",
+      "score": 165,
+      "created_at": "2026-06-10T13:39:11Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48476136",
+      "summary": "A tiny €0.01 bank transfer was exploited to compromise a banking AI agent, highlighting a critical security vulnerability that required immediate remediation."
+    },
+    {
+      "id": 48478469,
+      "title": "Show HN: Extend UI – open-source UI kit for modern document apps",
+      "url": "https://www.extend.ai/ui",
+      "score": 147,
+      "created_at": "2026-06-10T16:09:26Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48478469",
+      "summary": "Extend UI is a new open-source UI kit designed to help developers build modern, feature-rich user interfaces for document-centric applications."
+    },
+    {
+      "id": 48480719,
+      "title": "Policy on the AI Exponential",
+      "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+      "score": 130,
+      "created_at": "2026-06-10T18:36:04Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48480719",
+      "summary": "The article discusses the urgent need for thoughtful policy to manage the rapid, potentially transformative, and unpredictable advancements of artificial intelligence."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars_today": 821,
+      "total_stars": 51844,
+      "language": "Shell",
+      "topics": [],
+      "summary": "This repository provides production-grade engineering skills for AI coding agents, focusing on robust and practical capabilities for real-world application."
+    },
+    {
+      "full_name": "phuryn/pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "stars_today": 804,
+      "total_stars": 14900,
+      "language": "",
+      "topics": [],
+      "summary": "This repository, \"pm-skills,\" functions as a marketplace offering over 100 agentic skills, commands, and plugins to support the entire product management lifecycle, from discovery and strategy through execution, launch, and growth."
+    },
+    {
+      "full_name": "refactoringhq/tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "stars_today": 612,
+      "total_stars": 14927,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Tolaria is a desktop application designed to efficiently manage and organize personal knowledge bases built using Markdown files."
+    },
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "stars_today": 2535,
+      "total_stars": 39092,
+      "language": "Python",
+      "topics": [],
+      "summary": "This AI agent skill researches current information across major platforms like Reddit, X, and YouTube to synthesize a grounded summary on any given topic."
+    },
+    {
+      "full_name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "stars_today": 318,
+      "total_stars": 32027,
+      "language": "Python",
+      "topics": [],
+      "summary": "Maigret is a tool that collects a dossier on a person by searching for a given username across over 3000 websites."
+    },
+    {
+      "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "stars_today": 393,
+      "total_stars": 139521,
+      "language": "",
+      "topics": [],
+      "summary": "This repository centralizes and shares system prompts, internal tools, and AI models for a wide array of code-focused AI assistants and development platforms like Cursor, Devin AI, Perplexity, and VSCode Agent."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 1104,
+      "total_stars": 223607,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Superpowers is an agentic skills framework and software development methodology designed to be a functional and effective approach to building software."
+    },
+    {
+      "full_name": "masterking32/MasterDnsVPN",
+      "url": "https://github.com/masterking32/MasterDnsVPN",
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "stars_today": 354,
+      "total_stars": 5215,
+      "language": "Go",
+      "topics": [],
+      "summary": "MasterDnsVPN is an advanced DNS tunneling VPN designed for robust censorship bypass, featuring low-overhead ARQ, resolver load balancing, and enhanced stability for high packet-loss environments."
+    },
+    {
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "stars_today": 1389,
+      "total_stars": 85064,
+      "language": "Python",
+      "topics": [],
+      "summary": "MoneyPrinterTurbo is a tool that uses AI large language models to generate high-definition short videos with a single click."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
