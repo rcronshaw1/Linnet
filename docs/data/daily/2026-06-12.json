@@ -1,0 +1,725 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T01:23:10.440123+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.13211v1",
+          "title": "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints",
+          "authors": [
+            "Omar Alshahrani",
+            "Muzammil Behzad"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper develops a unified, cross-modality analytical framework to systematically categorize, detect, and mitigate hallucinations (clinically plausible but incorrect outputs) in medical imaging AI. It synthesizes existing literature and regulatory guidance to establish a common taxonomy, compare hallucination rates between specialized and general models, and identify FDA-compatible mitigation strategies. The core contribution is providing a structured approach to address this critical failure mode under real-world clinical and regulatory constraints.",
+          "url": "http://arxiv.org/abs/2606.13211v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13211v1",
+          "score": 10.0,
+          "figure_url": "https://arxiv.org/html/2606.13211v1/fig1_prisma.png",
+          "figure_caption": "Study selection flow diagram for our structured narrative, illustrating record identification from PubMed, PMC, RSNA Journals, ACL Anthology, IEEE Xplore, and arXiv, as well as targeted retrieval of FDA regulatory guidance and benchmark dataset documentation. Screening was conducted through title/abstract and full-text stages using pre-specified inclusion and exclusion criteria. (Authors’ visualization based on data from the sources listed above.)",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.12953v1",
+          "title": "OpenMedQ: Broad Open Pretraining for Medical Vision-Language Models",
+          "authors": [
+            "Ibrahim Gulluk",
+            "Max Van Puyvelde",
+            "Olivier Gevaert"
+          ],
+          "categories": [
+            "cs.AI",
+            "eess.IV",
+            "cs.CV",
+            "cs.LG"
+          ],
+          "abstract": "OpenMedQ is a medical vision-language model pretrained on the largest publicly available, diverse medical dataset mix (~3.35M samples) spanning various modalities. Its core contribution is achieving state-of-the-art performance on benchmarks like PathVQA, significantly outperforming much larger models, and demonstrating strong transferability by yielding superior classification results across unseen medical tasks. The authors release the code to establish a strong, reproducible baseline for the community.",
+          "url": "http://arxiv.org/abs/2606.12953v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.12953v1",
+          "score": 10.0,
+          "figure_url": "https://arxiv.org/html/2606.12953v1/x1.png",
+          "figure_caption": "(a) Macro-F1 across 8 unseen medical classification benchmarks: all bars share an identical downstream recipe and differ only in the pretrained vision encoder. OpenMedQ attains the highest Mean (0.757). (b) OpenMedQ’s pretraining mix: 14 fully-open datasets ( ∼ 3.35 {\\( \\sim \\)}3.35 M pairs), colored by modality group.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13315v1",
+          "title": "Masked and Predictive Self-Supervised Foundation Models for 3D Brain MRI",
+          "authors": [
+            "Esra Ergün",
+            "Hersh Chandarana",
+            "Dan Sodickson",
+            "Gözde Ünal"
+          ],
+          "categories": [
+            "eess.IV",
+            "cs.CV"
+          ],
+          "abstract": "This paper investigates two self-supervised pretraining paradigms, Masked Autoencoders (MAE) and Joint Embedding Predictive Architectures (JEPA), for 3D brain MRI disease detection. The core contribution lies in enhancing these methods with novel auxiliary objectives: a spectral-domain reconstruction loss for MAE and variance-covariance regularization for JEPA, to better capture fine-grained anatomical details. This work systematically explores foundation models for MRI-based disease detection, moving beyond typical segmentation tasks.",
+          "url": "http://arxiv.org/abs/2606.13315v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13315v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.13315v1/brainfoundation.png",
+          "figure_caption": "Overview of the proposed MAE pretraining and downstream evaluation framework. Top: During pretraining, the encoder processes visible tokens from masked 3D MRI patches, and the lightweight decoder reconstructs the full volume. The reconstruction loss ℒ MAE \\( \\mathcal{L} \\)_{\\( \\text{MAE} \\)} is computed in the spatial domain, while the spectral loss ℒ spec \\( \\mathcal{L} \\)_{\\( \\text{spec} \\)} is computed in the Fourier domain by applying a 3D FFT and a high-pass filter to both the reconstructed and original volumes, encouraging the encoder to capture fine-grained, high-frequency anatomical structure. Bottom: During downstream adaptation, the pretrained encoder is coupled with an Attentive Classifier and evaluated under both frozen and fine-tuned settings for disease classification.",
+          "primary_category": "eess.IV",
+          "primary_category_anchor": "eess-iv",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.13135v1",
+          "title": "Cascade Classification of Dermoscopic Images of Skin Neoplasms with Controllable Sensitivity and External Clinical Validation",
+          "authors": [
+            "Elena S. Kozachok",
+            "Sergey S. Seregin",
+            "Aleksandr V. Kozachok",
+            "Ilya P. Latyshev",
+            "Oleg I. Samovarov"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "The core method compares four deep learning architectures (ViT, Swin, ConvNeXt, EfficientNetV2) using three classification schemes (binary, single-stage four-class, and a two-stage cascade) for dermoscopic images. The main contribution is demonstrating that while these models achieve high internal performance, the cascade approach, when tested on independent external clinical datasets (Russian practice), exhibits significant performance degradation, particularly in sensitivity and calibration, highlighting challenges in cross-dataset generalization.",
+          "url": "http://arxiv.org/abs/2606.13135v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13135v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13258v1",
+          "title": "MOSAIC: Modality-Specific Adaptation for Incremental Continual Learning in Parkinson's Disease Gait Assessment",
+          "authors": [
+            "Minlin Zeng",
+            "Zhipeng Zhou",
+            "Yang Qiu",
+            "Martin J. McKeown",
+            "Zhiqi Shen"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "MOSAIC is a continual learning framework designed for Parkinson's gait assessment where sensor modalities arrive incrementally. It addresses challenges like unreliable distillation and statistical shifts using three key components: Modality-Specific Warm-Up to stabilize new representations, a statistics-decoupled MSBN architecture, and a curriculum-guided objective for plasticity recovery. This approach effectively preserves knowledge from past sensors while integrating new ones without requiring historical data.",
+          "url": "http://arxiv.org/abs/2606.13258v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13258v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.13258v1/x1.png",
+          "figure_caption": "Illustration of the ”Teacher Misalignment” paradox in direct cross-modal KD. (a) Direct KD yields a pseudo-teacher with toxic, high-entropy outputs, whereas our Stage 1 Modality-Specific Warm-Up rapidly stabilizes the entropy into a legitimate anchor. (b) Forcing alignment with a high-entropy teacher causes catastrophic negative transfer, which our method successfully prevents.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13188v1",
+          "title": "Transformer-Guided Graph Attention for Direct Cardiac Mesh Reconstruction: A Structural Digital Twin Framework",
+          "authors": [
+            "Abhishek H S",
+            "Akash Ganamukhi",
+            "Abhimanyu Suresh",
+            "Aditya G Hiremath",
+            "Prasad B Honnavalli"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces an end-to-end framework that directly generates simulation-ready cardiac surface meshes from raw 3D medical images, bypassing slow manual segmentation and cleanup. The core method combines a 3D Swin Transformer for volumetric feature extraction with a Graph Attention Network (GAT) head that iteratively deforms a template mesh to match the patient's anatomy. This approach significantly streamlines the creation of patient-specific cardiac digital twins for precision cardiology.",
+          "url": "http://arxiv.org/abs/2606.13188v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13188v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.13188v1/images/fig21_dataset.jpeg",
+          "figure_caption": "Figure 1. Dataset examples: CT (top) and MRI (bottom) slices with annotations from MM-WHS 2017.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 12,
+        "papers_after_llm_filter": 6,
+        "count": 6
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48489229,
+          "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+          "score": 309,
+          "created_at": "2026-06-11T12:05:02Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48489229",
+          "summary": "Anthropic apologized for using \"invisible distillation\" to embed undisclosed safety guardrails within its Claude AI model, leading to unexpected behavior."
+        },
+        {
+          "id": 48487540,
+          "title": "Why AI hasn't replaced software engineers, and won't",
+          "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+          "score": 276,
+          "created_at": "2026-06-11T07:51:17Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48487540",
+          "summary": "AI tools currently augment, rather than replace, software engineers because complex problem-solving, architectural design, and nuanced understanding remain uniquely human skills."
+        },
+        {
+          "id": 48490057,
+          "title": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
+          "url": "https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6",
+          "score": 261,
+          "created_at": "2026-06-11T13:26:59Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48490057",
+          "summary": "A new report reveals that employees are spending over six hours weekly \"botsitting\" AI systems, leading to increased job frustration due to this hidden human labor."
+        },
+        {
+          "id": 48495575,
+          "title": "Shall we play a game? My AI nuclear simulation",
+          "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+          "score": 183,
+          "created_at": "2026-06-11T19:54:54Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48495575",
+          "summary": "A tech news story details the creation and implications of an AI-powered nuclear war simulation game developed by Kenneth Payne."
+        }
+      ],
+      "meta": {
+        "count": 4
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "apple/container",
+          "url": "https://github.com/apple/container",
+          "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+          "stars_today": 2430,
+          "total_stars": 32520,
+          "language": "Swift",
+          "topics": [],
+          "summary": "Apple/container is a Swift-based tool for creating and running lightweight Linux containers on a Mac, optimized specifically for Apple silicon."
+        },
+        {
+          "full_name": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "description": "Production-grade engineering skills for AI coding agents.",
+          "stars_today": 3278,
+          "total_stars": 54789,
+          "language": "Shell",
+          "topics": [],
+          "summary": "This repository provides production-grade engineering skills, such as advanced coding and debugging capabilities, designed to enhance the performance and reliability of AI coding agents."
+        },
+        {
+          "full_name": "maziyarpanahi/openmed",
+          "url": "https://github.com/maziyarpanahi/openmed",
+          "description": "open-source healthcare ai",
+          "stars_today": 426,
+          "total_stars": 2759,
+          "language": "Python",
+          "topics": [],
+          "summary": "OpenMed is an open-source healthcare AI project providing tools and resources for developing and deploying artificial intelligence solutions within the medical domain."
+        },
+        {
+          "full_name": "phuryn/pm-skills",
+          "url": "https://github.com/phuryn/pm-skills",
+          "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "stars_today": 1978,
+          "total_stars": 16232,
+          "language": "",
+          "topics": [],
+          "summary": "This repository, \"pm-skills,\" functions as a marketplace providing over 100 agentic skills, commands, and plugins to support the entire product management lifecycle, from discovery and strategy through execution, launch, and growth."
+        },
+        {
+          "full_name": "NVIDIA/SkillSpector",
+          "url": "https://github.com/NVIDIA/SkillSpector",
+          "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+          "stars_today": 319,
+          "total_stars": 2679,
+          "language": "Python",
+          "topics": [],
+          "summary": "SkillSpector is a security scanner designed to detect vulnerabilities, malicious patterns, and security risks within the skills of AI agents."
+        },
+        {
+          "full_name": "soxoj/maigret",
+          "url": "https://github.com/soxoj/maigret",
+          "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+          "stars_today": 661,
+          "total_stars": 32620,
+          "language": "Python",
+          "topics": [],
+          "summary": "Maigret is a tool that collects a dossier on a person by searching their username across over 3000 websites."
+        },
+        {
+          "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+          "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+          "stars_today": 368,
+          "total_stars": 139877,
+          "language": "",
+          "topics": [],
+          "summary": "This repository centralizes and shares system prompts, internal tools, and AI models for a wide array of coding and AI assistants, including popular tools like Cursor, Devin AI, NotionAI, and Perplexity."
+        },
+        {
+          "full_name": "refactoringhq/tolaria",
+          "url": "https://github.com/refactoringhq/tolaria",
+          "description": "Desktop app to manage markdown knowledge bases",
+          "stars_today": 604,
+          "total_stars": 15403,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Tolaria is a desktop application designed to efficiently manage and organize markdown-based knowledge bases."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 1322,
+          "total_stars": 224848,
+          "language": "Shell",
+          "topics": [],
+          "summary": "The **obra/superpowers** repository provides an agentic skills framework and software development methodology designed to be effective and functional."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 12,
+    "papers_after_llm_filter": 6,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 21
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.13211v1",
+      "title": "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints",
+      "authors": [
+        "Omar Alshahrani",
+        "Muzammil Behzad"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper develops a unified, cross-modality analytical framework to systematically categorize, detect, and mitigate hallucinations (clinically plausible but incorrect outputs) in medical imaging AI. It synthesizes existing literature and regulatory guidance to establish a common taxonomy, compare hallucination rates between specialized and general models, and identify FDA-compatible mitigation strategies. The core contribution is providing a structured approach to address this critical failure mode under real-world clinical and regulatory constraints.",
+      "url": "http://arxiv.org/abs/2606.13211v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13211v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.13211v1/fig1_prisma.png",
+      "figure_caption": "Study selection flow diagram for our structured narrative, illustrating record identification from PubMed, PMC, RSNA Journals, ACL Anthology, IEEE Xplore, and arXiv, as well as targeted retrieval of FDA regulatory guidance and benchmark dataset documentation. Screening was conducted through title/abstract and full-text stages using pre-specified inclusion and exclusion criteria. (Authors’ visualization based on data from the sources listed above.)",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.12953v1",
+      "title": "OpenMedQ: Broad Open Pretraining for Medical Vision-Language Models",
+      "authors": [
+        "Ibrahim Gulluk",
+        "Max Van Puyvelde",
+        "Olivier Gevaert"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "OpenMedQ is a medical vision-language model pretrained on the largest publicly available, diverse medical dataset mix (~3.35M samples) spanning various modalities. Its core contribution is achieving state-of-the-art performance on benchmarks like PathVQA, significantly outperforming much larger models, and demonstrating strong transferability by yielding superior classification results across unseen medical tasks. The authors release the code to establish a strong, reproducible baseline for the community.",
+      "url": "http://arxiv.org/abs/2606.12953v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.12953v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.12953v1/x1.png",
+      "figure_caption": "(a) Macro-F1 across 8 unseen medical classification benchmarks: all bars share an identical downstream recipe and differ only in the pretrained vision encoder. OpenMedQ attains the highest Mean (0.757). (b) OpenMedQ’s pretraining mix: 14 fully-open datasets ( ∼ 3.35 {\\( \\sim \\)}3.35 M pairs), colored by modality group.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13315v1",
+      "title": "Masked and Predictive Self-Supervised Foundation Models for 3D Brain MRI",
+      "authors": [
+        "Esra Ergün",
+        "Hersh Chandarana",
+        "Dan Sodickson",
+        "Gözde Ünal"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates two self-supervised pretraining paradigms, Masked Autoencoders (MAE) and Joint Embedding Predictive Architectures (JEPA), for 3D brain MRI disease detection. The core contribution lies in enhancing these methods with novel auxiliary objectives: a spectral-domain reconstruction loss for MAE and variance-covariance regularization for JEPA, to better capture fine-grained anatomical details. This work systematically explores foundation models for MRI-based disease detection, moving beyond typical segmentation tasks.",
+      "url": "http://arxiv.org/abs/2606.13315v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13315v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13315v1/brainfoundation.png",
+      "figure_caption": "Overview of the proposed MAE pretraining and downstream evaluation framework. Top: During pretraining, the encoder processes visible tokens from masked 3D MRI patches, and the lightweight decoder reconstructs the full volume. The reconstruction loss ℒ MAE \\( \\mathcal{L} \\)_{\\( \\text{MAE} \\)} is computed in the spatial domain, while the spectral loss ℒ spec \\( \\mathcal{L} \\)_{\\( \\text{spec} \\)} is computed in the Fourier domain by applying a 3D FFT and a high-pass filter to both the reconstructed and original volumes, encouraging the encoder to capture fine-grained, high-frequency anatomical structure. Bottom: During downstream adaptation, the pretrained encoder is coupled with an Attentive Classifier and evaluated under both frozen and fine-tuned settings for disease classification.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13135v1",
+      "title": "Cascade Classification of Dermoscopic Images of Skin Neoplasms with Controllable Sensitivity and External Clinical Validation",
+      "authors": [
+        "Elena S. Kozachok",
+        "Sergey S. Seregin",
+        "Aleksandr V. Kozachok",
+        "Ilya P. Latyshev",
+        "Oleg I. Samovarov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "The core method compares four deep learning architectures (ViT, Swin, ConvNeXt, EfficientNetV2) using three classification schemes (binary, single-stage four-class, and a two-stage cascade) for dermoscopic images. The main contribution is demonstrating that while these models achieve high internal performance, the cascade approach, when tested on independent external clinical datasets (Russian practice), exhibits significant performance degradation, particularly in sensitivity and calibration, highlighting challenges in cross-dataset generalization.",
+      "url": "http://arxiv.org/abs/2606.13135v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13135v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13258v1",
+      "title": "MOSAIC: Modality-Specific Adaptation for Incremental Continual Learning in Parkinson's Disease Gait Assessment",
+      "authors": [
+        "Minlin Zeng",
+        "Zhipeng Zhou",
+        "Yang Qiu",
+        "Martin J. McKeown",
+        "Zhiqi Shen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "MOSAIC is a continual learning framework designed for Parkinson's gait assessment where sensor modalities arrive incrementally. It addresses challenges like unreliable distillation and statistical shifts using three key components: Modality-Specific Warm-Up to stabilize new representations, a statistics-decoupled MSBN architecture, and a curriculum-guided objective for plasticity recovery. This approach effectively preserves knowledge from past sensors while integrating new ones without requiring historical data.",
+      "url": "http://arxiv.org/abs/2606.13258v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13258v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13258v1/x1.png",
+      "figure_caption": "Illustration of the ”Teacher Misalignment” paradox in direct cross-modal KD. (a) Direct KD yields a pseudo-teacher with toxic, high-entropy outputs, whereas our Stage 1 Modality-Specific Warm-Up rapidly stabilizes the entropy into a legitimate anchor. (b) Forcing alignment with a high-entropy teacher causes catastrophic negative transfer, which our method successfully prevents.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13188v1",
+      "title": "Transformer-Guided Graph Attention for Direct Cardiac Mesh Reconstruction: A Structural Digital Twin Framework",
+      "authors": [
+        "Abhishek H S",
+        "Akash Ganamukhi",
+        "Abhimanyu Suresh",
+        "Aditya G Hiremath",
+        "Prasad B Honnavalli"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces an end-to-end framework that directly generates simulation-ready cardiac surface meshes from raw 3D medical images, bypassing slow manual segmentation and cleanup. The core method combines a 3D Swin Transformer for volumetric feature extraction with a Graph Attention Network (GAT) head that iteratively deforms a template mesh to match the patient's anatomy. This approach significantly streamlines the creation of patient-specific cardiac digital twins for precision cardiology.",
+      "url": "http://arxiv.org/abs/2606.13188v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13188v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13188v1/images/fig21_dataset.jpeg",
+      "figure_caption": "Figure 1. Dataset examples: CT (top) and MRI (bottom) slices with annotations from MM-WHS 2017.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.13211v1",
+      "title": "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints",
+      "authors": [
+        "Omar Alshahrani",
+        "Muzammil Behzad"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper develops a unified, cross-modality analytical framework to systematically categorize, detect, and mitigate hallucinations (clinically plausible but incorrect outputs) in medical imaging AI. It synthesizes existing literature and regulatory guidance to establish a common taxonomy, compare hallucination rates between specialized and general models, and identify FDA-compatible mitigation strategies. The core contribution is providing a structured approach to address this critical failure mode under real-world clinical and regulatory constraints.",
+      "url": "http://arxiv.org/abs/2606.13211v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13211v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.13211v1/fig1_prisma.png",
+      "figure_caption": "Study selection flow diagram for our structured narrative, illustrating record identification from PubMed, PMC, RSNA Journals, ACL Anthology, IEEE Xplore, and arXiv, as well as targeted retrieval of FDA regulatory guidance and benchmark dataset documentation. Screening was conducted through title/abstract and full-text stages using pre-specified inclusion and exclusion criteria. (Authors’ visualization based on data from the sources listed above.)",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.12953v1",
+      "title": "OpenMedQ: Broad Open Pretraining for Medical Vision-Language Models",
+      "authors": [
+        "Ibrahim Gulluk",
+        "Max Van Puyvelde",
+        "Olivier Gevaert"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "OpenMedQ is a medical vision-language model pretrained on the largest publicly available, diverse medical dataset mix (~3.35M samples) spanning various modalities. Its core contribution is achieving state-of-the-art performance on benchmarks like PathVQA, significantly outperforming much larger models, and demonstrating strong transferability by yielding superior classification results across unseen medical tasks. The authors release the code to establish a strong, reproducible baseline for the community.",
+      "url": "http://arxiv.org/abs/2606.12953v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.12953v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.12953v1/x1.png",
+      "figure_caption": "(a) Macro-F1 across 8 unseen medical classification benchmarks: all bars share an identical downstream recipe and differ only in the pretrained vision encoder. OpenMedQ attains the highest Mean (0.757). (b) OpenMedQ’s pretraining mix: 14 fully-open datasets ( ∼ 3.35 {\\( \\sim \\)}3.35 M pairs), colored by modality group.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13315v1",
+      "title": "Masked and Predictive Self-Supervised Foundation Models for 3D Brain MRI",
+      "authors": [
+        "Esra Ergün",
+        "Hersh Chandarana",
+        "Dan Sodickson",
+        "Gözde Ünal"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates two self-supervised pretraining paradigms, Masked Autoencoders (MAE) and Joint Embedding Predictive Architectures (JEPA), for 3D brain MRI disease detection. The core contribution lies in enhancing these methods with novel auxiliary objectives: a spectral-domain reconstruction loss for MAE and variance-covariance regularization for JEPA, to better capture fine-grained anatomical details. This work systematically explores foundation models for MRI-based disease detection, moving beyond typical segmentation tasks.",
+      "url": "http://arxiv.org/abs/2606.13315v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13315v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13315v1/brainfoundation.png",
+      "figure_caption": "Overview of the proposed MAE pretraining and downstream evaluation framework. Top: During pretraining, the encoder processes visible tokens from masked 3D MRI patches, and the lightweight decoder reconstructs the full volume. The reconstruction loss ℒ MAE \\( \\mathcal{L} \\)_{\\( \\text{MAE} \\)} is computed in the spatial domain, while the spectral loss ℒ spec \\( \\mathcal{L} \\)_{\\( \\text{spec} \\)} is computed in the Fourier domain by applying a 3D FFT and a high-pass filter to both the reconstructed and original volumes, encouraging the encoder to capture fine-grained, high-frequency anatomical structure. Bottom: During downstream adaptation, the pretrained encoder is coupled with an Attentive Classifier and evaluated under both frozen and fine-tuned settings for disease classification.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13135v1",
+      "title": "Cascade Classification of Dermoscopic Images of Skin Neoplasms with Controllable Sensitivity and External Clinical Validation",
+      "authors": [
+        "Elena S. Kozachok",
+        "Sergey S. Seregin",
+        "Aleksandr V. Kozachok",
+        "Ilya P. Latyshev",
+        "Oleg I. Samovarov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "The core method compares four deep learning architectures (ViT, Swin, ConvNeXt, EfficientNetV2) using three classification schemes (binary, single-stage four-class, and a two-stage cascade) for dermoscopic images. The main contribution is demonstrating that while these models achieve high internal performance, the cascade approach, when tested on independent external clinical datasets (Russian practice), exhibits significant performance degradation, particularly in sensitivity and calibration, highlighting challenges in cross-dataset generalization.",
+      "url": "http://arxiv.org/abs/2606.13135v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13135v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13258v1",
+      "title": "MOSAIC: Modality-Specific Adaptation for Incremental Continual Learning in Parkinson's Disease Gait Assessment",
+      "authors": [
+        "Minlin Zeng",
+        "Zhipeng Zhou",
+        "Yang Qiu",
+        "Martin J. McKeown",
+        "Zhiqi Shen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "MOSAIC is a continual learning framework designed for Parkinson's gait assessment where sensor modalities arrive incrementally. It addresses challenges like unreliable distillation and statistical shifts using three key components: Modality-Specific Warm-Up to stabilize new representations, a statistics-decoupled MSBN architecture, and a curriculum-guided objective for plasticity recovery. This approach effectively preserves knowledge from past sensors while integrating new ones without requiring historical data.",
+      "url": "http://arxiv.org/abs/2606.13258v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13258v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13258v1/x1.png",
+      "figure_caption": "Illustration of the ”Teacher Misalignment” paradox in direct cross-modal KD. (a) Direct KD yields a pseudo-teacher with toxic, high-entropy outputs, whereas our Stage 1 Modality-Specific Warm-Up rapidly stabilizes the entropy into a legitimate anchor. (b) Forcing alignment with a high-entropy teacher causes catastrophic negative transfer, which our method successfully prevents.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13188v1",
+      "title": "Transformer-Guided Graph Attention for Direct Cardiac Mesh Reconstruction: A Structural Digital Twin Framework",
+      "authors": [
+        "Abhishek H S",
+        "Akash Ganamukhi",
+        "Abhimanyu Suresh",
+        "Aditya G Hiremath",
+        "Prasad B Honnavalli"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces an end-to-end framework that directly generates simulation-ready cardiac surface meshes from raw 3D medical images, bypassing slow manual segmentation and cleanup. The core method combines a 3D Swin Transformer for volumetric feature extraction with a Graph Attention Network (GAT) head that iteratively deforms a template mesh to match the patient's anatomy. This approach significantly streamlines the creation of patient-specific cardiac digital twins for precision cardiology.",
+      "url": "http://arxiv.org/abs/2606.13188v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13188v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13188v1/images/fig21_dataset.jpeg",
+      "figure_caption": "Figure 1. Dataset examples: CT (top) and MRI (bottom) slices with annotations from MM-WHS 2017.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48489229,
+      "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "score": 309,
+      "created_at": "2026-06-11T12:05:02Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48489229",
+      "summary": "Anthropic apologized for using \"invisible distillation\" to embed undisclosed safety guardrails within its Claude AI model, leading to unexpected behavior."
+    },
+    {
+      "id": 48487540,
+      "title": "Why AI hasn't replaced software engineers, and won't",
+      "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+      "score": 276,
+      "created_at": "2026-06-11T07:51:17Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48487540",
+      "summary": "AI tools currently augment, rather than replace, software engineers because complex problem-solving, architectural design, and nuanced understanding remain uniquely human skills."
+    },
+    {
+      "id": 48490057,
+      "title": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
+      "url": "https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6",
+      "score": 261,
+      "created_at": "2026-06-11T13:26:59Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48490057",
+      "summary": "A new report reveals that employees are spending over six hours weekly \"botsitting\" AI systems, leading to increased job frustration due to this hidden human labor."
+    },
+    {
+      "id": 48495575,
+      "title": "Shall we play a game? My AI nuclear simulation",
+      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
+      "score": 183,
+      "created_at": "2026-06-11T19:54:54Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48495575",
+      "summary": "A tech news story details the creation and implications of an AI-powered nuclear war simulation game developed by Kenneth Payne."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "apple/container",
+      "url": "https://github.com/apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "stars_today": 2430,
+      "total_stars": 32520,
+      "language": "Swift",
+      "topics": [],
+      "summary": "Apple/container is a Swift-based tool for creating and running lightweight Linux containers on a Mac, optimized specifically for Apple silicon."
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars_today": 3278,
+      "total_stars": 54789,
+      "language": "Shell",
+      "topics": [],
+      "summary": "This repository provides production-grade engineering skills, such as advanced coding and debugging capabilities, designed to enhance the performance and reliability of AI coding agents."
+    },
+    {
+      "full_name": "maziyarpanahi/openmed",
+      "url": "https://github.com/maziyarpanahi/openmed",
+      "description": "open-source healthcare ai",
+      "stars_today": 426,
+      "total_stars": 2759,
+      "language": "Python",
+      "topics": [],
+      "summary": "OpenMed is an open-source healthcare AI project providing tools and resources for developing and deploying artificial intelligence solutions within the medical domain."
+    },
+    {
+      "full_name": "phuryn/pm-skills",
+      "url": "https://github.com/phuryn/pm-skills",
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "stars_today": 1978,
+      "total_stars": 16232,
+      "language": "",
+      "topics": [],
+      "summary": "This repository, \"pm-skills,\" functions as a marketplace providing over 100 agentic skills, commands, and plugins to support the entire product management lifecycle, from discovery and strategy through execution, launch, and growth."
+    },
+    {
+      "full_name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "stars_today": 319,
+      "total_stars": 2679,
+      "language": "Python",
+      "topics": [],
+      "summary": "SkillSpector is a security scanner designed to detect vulnerabilities, malicious patterns, and security risks within the skills of AI agents."
+    },
+    {
+      "full_name": "soxoj/maigret",
+      "url": "https://github.com/soxoj/maigret",
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "stars_today": 661,
+      "total_stars": 32620,
+      "language": "Python",
+      "topics": [],
+      "summary": "Maigret is a tool that collects a dossier on a person by searching their username across over 3000 websites."
+    },
+    {
+      "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "stars_today": 368,
+      "total_stars": 139877,
+      "language": "",
+      "topics": [],
+      "summary": "This repository centralizes and shares system prompts, internal tools, and AI models for a wide array of coding and AI assistants, including popular tools like Cursor, Devin AI, NotionAI, and Perplexity."
+    },
+    {
+      "full_name": "refactoringhq/tolaria",
+      "url": "https://github.com/refactoringhq/tolaria",
+      "description": "Desktop app to manage markdown knowledge bases",
+      "stars_today": 604,
+      "total_stars": 15403,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Tolaria is a desktop application designed to efficiently manage and organize markdown-based knowledge bases."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 1322,
+      "total_stars": 224848,
+      "language": "Shell",
+      "topics": [],
+      "summary": "The **obra/superpowers** repository provides an agentic skills framework and software development methodology designed to be effective and functional."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
