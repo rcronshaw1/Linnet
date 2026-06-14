@@ -1,0 +1,779 @@
+{
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14T01:23:45.777699+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.13211v1",
+          "title": "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints",
+          "authors": [
+            "Omar Alshahrani",
+            "Muzammil Behzad"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "This paper introduces a cross-modality analytical framework to systematically address the critical failure mode of \"hallucination\" (clinically plausible but incorrect outputs) in medical imaging AI. It unifies existing taxonomies, analyzes why medical-specialized models exhibit less hallucination than general models, and evaluates mitigation strategies for compliance with FDA regulatory constraints. The core contribution is a structured synthesis guiding the safe deployment of medical AI by understanding and controlling these dangerous errors.",
+          "url": "http://arxiv.org/abs/2606.13211v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13211v1",
+          "score": 10.0,
+          "figure_url": "https://arxiv.org/html/2606.13211v1/fig1_prisma.png",
+          "figure_caption": "Study selection flow diagram for our structured narrative, illustrating record identification from PubMed, PMC, RSNA Journals, ACL Anthology, IEEE Xplore, and arXiv, as well as targeted retrieval of FDA regulatory guidance and benchmark dataset documentation. Screening was conducted through title/abstract and full-text stages using pre-specified inclusion and exclusion criteria. (Authors’ visualization based on data from the sources listed above.)",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13572v1",
+          "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+          "authors": [
+            "Tanmoy Kanti Halder",
+            "Akash Ghosh",
+            "Subhadip Baidya",
+            "Arijit Roy",
+            "Sriparna Saha"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CL"
+          ],
+          "abstract": "ArogyaSutra is a multi-agent framework designed to enhance multimodal medical reasoning in Indic languages. It addresses the limitations of English-centric models by integrating tool grounding and dual-memory mechanisms for step-wise reasoning, leveraging the newly created ArogyaBodha dataset of multilingual medical Q&A. This framework aims to provide equitable, AI-driven healthcare assistance for complex queries involving text and medical images in low-resource settings.",
+          "url": "http://arxiv.org/abs/2606.13572v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13572v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.13572v1/img/actor-critic_2.jpg",
+          "figure_caption": "Overview of the ArogyaSutra framework. ArogyaSutra employs an actor–critic architecture enhanced with tool-based image grounding and adaptive code-switching. The Actor first processes the input prompt and identifies the need for visual grounding, invoking appropriate tool agents to extract clinically relevant information from medical images before generating an answer with its associated reasoning. This output is then passed to the Critic for evaluation. If the response is correct, the Critic approves and outputs the final answer and reasoning. Otherwise, it consults an error detector (GPT-4o-mini) to identify the source of failure. Language-related errors trigger code-switching by translating the query into English, while reasoning-related errors are handled by incorporating summaries of past and current mistakes from long-term and short-term memory. The refined query is then fed back to the Actor for iterative refinement.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13315v1",
+          "title": "Masked and Predictive Self-Supervised Foundation Models for 3D Brain MRI",
+          "authors": [
+            "Esra Ergün",
+            "Hersh Chandarana",
+            "Dan Sodickson",
+            "Gözde Ünal"
+          ],
+          "categories": [
+            "eess.IV",
+            "cs.CV"
+          ],
+          "abstract": "This paper investigates two self-supervised pretraining methods, MAE and JEPA, for 3D brain MRI foundation models specifically targeting disease detection. The core contribution lies in introducing novel auxiliary objectives: a spectral-domain reconstruction loss for MAE and variance-covariance regularization for JEPA, to improve sensitivity to fine anatomical details. This work systematically explores these paradigms for disease detection using heterogeneous, contrast-agnostic MRI data.",
+          "url": "http://arxiv.org/abs/2606.13315v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13315v1",
+          "score": 9.0,
+          "figure_url": "https://arxiv.org/html/2606.13315v1/brainfoundation.png",
+          "figure_caption": "Overview of the proposed MAE pretraining and downstream evaluation framework. Top: During pretraining, the encoder processes visible tokens from masked 3D MRI patches, and the lightweight decoder reconstructs the full volume. The reconstruction loss ℒ MAE \\( \\mathcal{L} \\)_{\\( \\text{MAE} \\)} is computed in the spatial domain, while the spectral loss ℒ spec \\( \\mathcal{L} \\)_{\\( \\text{spec} \\)} is computed in the Fourier domain by applying a 3D FFT and a high-pass filter to both the reconstructed and original volumes, encouraging the encoder to capture fine-grained, high-frequency anatomical structure. Bottom: During downstream adaptation, the pretrained encoder is coupled with an Attentive Classifier and evaluated under both frozen and fine-tuned settings for disease classification.",
+          "primary_category": "eess.IV",
+          "primary_category_anchor": "eess-iv",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.13135v1",
+          "title": "Cascade Classification of Dermoscopic Images of Skin Neoplasms with Controllable Sensitivity and External Clinical Validation",
+          "authors": [
+            "Elena S. Kozachok",
+            "Sergey S. Seregin",
+            "Aleksandr V. Kozachok",
+            "Ilya P. Latyshev",
+            "Oleg I. Samovarov"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "The paper compares four deep learning architectures using three classification schemes (binary, single-stage four-class, and a two-stage cascade) for dermoscopic skin cancer images. The core contribution is demonstrating that a two-stage cascade approach, while performing well internally, suffers a significant drop in performance and calibration (ECE increase) when externally validated on independent Russian clinical datasets. This highlights challenges in generalizing AI models trained on open data to diverse clinical settings.",
+          "url": "http://arxiv.org/abs/2606.13135v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13135v1",
+          "score": 8.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13258v1",
+          "title": "MOSAIC: Modality-Specific Adaptation for Incremental Continual Learning in Parkinson's Disease Gait Assessment",
+          "authors": [
+            "Minlin Zeng",
+            "Zhipeng Zhou",
+            "Yang Qiu",
+            "Martin J. McKeown",
+            "Zhiqi Shen"
+          ],
+          "categories": [
+            "cs.AI"
+          ],
+          "abstract": "MOSAIC is a continual learning framework designed for Parkinson's gait assessment where sensor modalities arrive incrementally. It addresses challenges like unreliable distillation and statistical shifts using three key components: Modality-Specific Warm-Up to stabilize new representations, a statistics-decoupled MSBN architecture, and a curriculum-guided objective for plasticity recovery. The core contribution is enabling robust, incremental learning across heterogeneous sensor data streams common in clinical settings.",
+          "url": "http://arxiv.org/abs/2606.13258v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13258v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.13258v1/x1.png",
+          "figure_caption": "Illustration of the ”Teacher Misalignment” paradox in direct cross-modal KD. (a) Direct KD yields a pseudo-teacher with toxic, high-entropy outputs, whereas our Stage 1 Modality-Specific Warm-Up rapidly stabilizes the entropy into a legitimate anchor. (b) Forcing alignment with a high-entropy teacher causes catastrophic negative transfer, which our method successfully prevents.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.13188v1",
+          "title": "Transformer-Guided Graph Attention for Direct Cardiac Mesh Reconstruction: A Structural Digital Twin Framework",
+          "authors": [
+            "Abhishek H S",
+            "Akash Ganamukhi",
+            "Abhimanyu Suresh",
+            "Aditya G Hiremath",
+            "Prasad B Honnavalli"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces a novel end-to-end framework that directly reconstructs patient-specific, simulation-ready cardiac surface meshes from raw 3D medical images (CT/MRI). The core method combines a 3D Swin Transformer for volumetric feature extraction with a Graph Attention Network (GAT) that iteratively deforms a template mesh to match the cardiac boundary. This approach bypasses the slow, manual steps of traditional segmentation and mesh generation, offering a fast and consistent path toward structural digital twins for precision cardiology.",
+          "url": "http://arxiv.org/abs/2606.13188v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13188v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.13188v1/images/fig21_dataset.jpeg",
+          "figure_caption": "Figure 1. Dataset examples: CT (top) and MRI (bottom) slices with annotations from MM-WHS 2017.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 10,
+        "papers_after_llm_filter": 6,
+        "count": 6
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48511908,
+          "title": "Open source AI must win",
+          "url": "https://opensourceaimustwin.com/?share=v2",
+          "score": 1512,
+          "created_at": "2026-06-13T02:14:24Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48511908",
+          "summary": "The core message of the linked tech news story is a strong advocacy for the success and dominance of open-source Artificial Intelligence development."
+        },
+        {
+          "id": 48519092,
+          "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+          "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+          "score": 526,
+          "created_at": "2026-06-13T16:57:49Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48519092",
+          "summary": "Amazon CEO's discussions with U.S. officials reportedly spurred a regulatory crackdown on AI models developed by Anthropic."
+        },
+        {
+          "id": 48518684,
+          "title": "GLM 5.2 Is Out",
+          "url": "https://twitter.com/jietang/status/2065784751345287314",
+          "score": 329,
+          "created_at": "2026-06-13T16:18:31Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48518684",
+          "summary": "GLM 5.2, a new version of the language model, has been officially released."
+        },
+        {
+          "id": 48516504,
+          "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
+          "url": "https://github.com/tensorzero/tensorzero",
+          "score": 237,
+          "created_at": "2026-06-13T12:10:47Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48516504",
+          "summary": "An open-source AI tool repository, TensorZero, which recently secured \\$7.3 million in seed funding, was abruptly archived overnight."
+        },
+        {
+          "id": 48518969,
+          "title": "AI coding at home without going broke",
+          "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+          "score": 226,
+          "created_at": "2026-06-13T16:45:03Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48518969",
+          "summary": "The article details how developers can effectively utilize AI coding tools at home without incurring excessive costs."
+        },
+        {
+          "id": 48520807,
+          "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
+          "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
+          "score": 217,
+          "created_at": "2026-06-13T19:54:55Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48520807",
+          "summary": "A Derbyshire police officer is under investigation for allegedly using artificial intelligence to fabricate evidence in several ongoing cases."
+        },
+        {
+          "id": 48515385,
+          "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
+          "url": "https://github.com/Paca-AI/paca",
+          "score": 134,
+          "created_at": "2026-06-13T09:44:25Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48515385",
+          "summary": "Paca is a new, lightweight alternative to Jira designed specifically to facilitate seamless collaboration between humans and artificial intelligence."
+        }
+      ],
+      "meta": {
+        "count": 7
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "iptv-org/iptv",
+          "url": "https://github.com/iptv-org/iptv",
+          "description": "Collection of publicly available IPTV channels from all over the world",
+          "stars_today": 530,
+          "total_stars": 119135,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "The `iptv-org/iptv` repository serves as a comprehensive, community-maintained collection of publicly accessible IPTV channel playlists from around the globe."
+        },
+        {
+          "full_name": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "description": "Production-grade engineering skills for AI coding agents.",
+          "stars_today": 1514,
+          "total_stars": 58400,
+          "language": "Shell",
+          "topics": [],
+          "summary": "This repository provides production-grade engineering skills designed to enhance the capabilities of AI coding agents."
+        },
+        {
+          "full_name": "chatwoot/chatwoot",
+          "url": "https://github.com/chatwoot/chatwoot",
+          "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+          "stars_today": 83,
+          "total_stars": 30865,
+          "language": "Ruby",
+          "topics": [],
+          "summary": "Chatwoot is an open-source, omni-channel customer support platform offering live chat and email capabilities as a direct alternative to proprietary solutions like Intercom and Zendesk."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 924,
+          "total_stars": 226945,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Superpowers is an agentic skills framework and software development methodology designed to be a practical and effective system for building software."
+        },
+        {
+          "full_name": "apple/container",
+          "url": "https://github.com/apple/container",
+          "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+          "stars_today": 1487,
+          "total_stars": 36318,
+          "language": "Swift",
+          "topics": [],
+          "summary": "Apple/container is a Swift-written tool for creating and running lightweight Linux containers on a Mac, optimized specifically for Apple silicon performance."
+        },
+        {
+          "full_name": "music-assistant/server",
+          "url": "https://github.com/music-assistant/server",
+          "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+          "stars_today": 270,
+          "total_stars": 2005,
+          "language": "Python",
+          "topics": [],
+          "summary": "The Music Assistant server is the core, always-on backend for the open-source media manager, enabling connection and control across streaming services and various connected speakers."
+        },
+        {
+          "full_name": "kenn-io/agentsview",
+          "url": "https://github.com/kenn-io/agentsview",
+          "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+          "stars_today": 190,
+          "total_stars": 2366,
+          "language": "Go",
+          "topics": [],
+          "summary": "Agentsview provides local-first session intelligence and analytics for various coding agents like Claude Code and Codex, offering a significantly faster alternative to ccusage."
+        },
+        {
+          "full_name": "LMCache/LMCache",
+          "url": "https://github.com/LMCache/LMCache",
+          "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+          "stars_today": 238,
+          "total_stars": 8893,
+          "language": "Python",
+          "topics": [],
+          "summary": "LMCache is a high-performance KV cache layer designed to significantly accelerate Large Language Models (LLMs) by optimizing key-value memory management."
+        },
+        {
+          "full_name": "microsoft/PowerToys",
+          "url": "https://github.com/microsoft/PowerToys",
+          "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+          "stars_today": 370,
+          "total_stars": 134675,
+          "language": "C",
+          "topics": [],
+          "summary": "Microsoft PowerToys is a suite of utilities that enhances Windows productivity and customization through various tools like FancyZones, PowerRename, and Color Picker."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 10,
+    "papers_after_llm_filter": 6,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 20
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.13211v1",
+      "title": "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints",
+      "authors": [
+        "Omar Alshahrani",
+        "Muzammil Behzad"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a cross-modality analytical framework to systematically address the critical failure mode of \"hallucination\" (clinically plausible but incorrect outputs) in medical imaging AI. It unifies existing taxonomies, analyzes why medical-specialized models exhibit less hallucination than general models, and evaluates mitigation strategies for compliance with FDA regulatory constraints. The core contribution is a structured synthesis guiding the safe deployment of medical AI by understanding and controlling these dangerous errors.",
+      "url": "http://arxiv.org/abs/2606.13211v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13211v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.13211v1/fig1_prisma.png",
+      "figure_caption": "Study selection flow diagram for our structured narrative, illustrating record identification from PubMed, PMC, RSNA Journals, ACL Anthology, IEEE Xplore, and arXiv, as well as targeted retrieval of FDA regulatory guidance and benchmark dataset documentation. Screening was conducted through title/abstract and full-text stages using pre-specified inclusion and exclusion criteria. (Authors’ visualization based on data from the sources listed above.)",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13572v1",
+      "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+      "authors": [
+        "Tanmoy Kanti Halder",
+        "Akash Ghosh",
+        "Subhadip Baidya",
+        "Arijit Roy",
+        "Sriparna Saha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "ArogyaSutra is a multi-agent framework designed to enhance multimodal medical reasoning in Indic languages. It addresses the limitations of English-centric models by integrating tool grounding and dual-memory mechanisms for step-wise reasoning, leveraging the newly created ArogyaBodha dataset of multilingual medical Q&A. This framework aims to provide equitable, AI-driven healthcare assistance for complex queries involving text and medical images in low-resource settings.",
+      "url": "http://arxiv.org/abs/2606.13572v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13572v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13572v1/img/actor-critic_2.jpg",
+      "figure_caption": "Overview of the ArogyaSutra framework. ArogyaSutra employs an actor–critic architecture enhanced with tool-based image grounding and adaptive code-switching. The Actor first processes the input prompt and identifies the need for visual grounding, invoking appropriate tool agents to extract clinically relevant information from medical images before generating an answer with its associated reasoning. This output is then passed to the Critic for evaluation. If the response is correct, the Critic approves and outputs the final answer and reasoning. Otherwise, it consults an error detector (GPT-4o-mini) to identify the source of failure. Language-related errors trigger code-switching by translating the query into English, while reasoning-related errors are handled by incorporating summaries of past and current mistakes from long-term and short-term memory. The refined query is then fed back to the Actor for iterative refinement.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13315v1",
+      "title": "Masked and Predictive Self-Supervised Foundation Models for 3D Brain MRI",
+      "authors": [
+        "Esra Ergün",
+        "Hersh Chandarana",
+        "Dan Sodickson",
+        "Gözde Ünal"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates two self-supervised pretraining methods, MAE and JEPA, for 3D brain MRI foundation models specifically targeting disease detection. The core contribution lies in introducing novel auxiliary objectives: a spectral-domain reconstruction loss for MAE and variance-covariance regularization for JEPA, to improve sensitivity to fine anatomical details. This work systematically explores these paradigms for disease detection using heterogeneous, contrast-agnostic MRI data.",
+      "url": "http://arxiv.org/abs/2606.13315v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13315v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13315v1/brainfoundation.png",
+      "figure_caption": "Overview of the proposed MAE pretraining and downstream evaluation framework. Top: During pretraining, the encoder processes visible tokens from masked 3D MRI patches, and the lightweight decoder reconstructs the full volume. The reconstruction loss ℒ MAE \\( \\mathcal{L} \\)_{\\( \\text{MAE} \\)} is computed in the spatial domain, while the spectral loss ℒ spec \\( \\mathcal{L} \\)_{\\( \\text{spec} \\)} is computed in the Fourier domain by applying a 3D FFT and a high-pass filter to both the reconstructed and original volumes, encouraging the encoder to capture fine-grained, high-frequency anatomical structure. Bottom: During downstream adaptation, the pretrained encoder is coupled with an Attentive Classifier and evaluated under both frozen and fine-tuned settings for disease classification.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13135v1",
+      "title": "Cascade Classification of Dermoscopic Images of Skin Neoplasms with Controllable Sensitivity and External Clinical Validation",
+      "authors": [
+        "Elena S. Kozachok",
+        "Sergey S. Seregin",
+        "Aleksandr V. Kozachok",
+        "Ilya P. Latyshev",
+        "Oleg I. Samovarov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "The paper compares four deep learning architectures using three classification schemes (binary, single-stage four-class, and a two-stage cascade) for dermoscopic skin cancer images. The core contribution is demonstrating that a two-stage cascade approach, while performing well internally, suffers a significant drop in performance and calibration (ECE increase) when externally validated on independent Russian clinical datasets. This highlights challenges in generalizing AI models trained on open data to diverse clinical settings.",
+      "url": "http://arxiv.org/abs/2606.13135v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13135v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13258v1",
+      "title": "MOSAIC: Modality-Specific Adaptation for Incremental Continual Learning in Parkinson's Disease Gait Assessment",
+      "authors": [
+        "Minlin Zeng",
+        "Zhipeng Zhou",
+        "Yang Qiu",
+        "Martin J. McKeown",
+        "Zhiqi Shen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "MOSAIC is a continual learning framework designed for Parkinson's gait assessment where sensor modalities arrive incrementally. It addresses challenges like unreliable distillation and statistical shifts using three key components: Modality-Specific Warm-Up to stabilize new representations, a statistics-decoupled MSBN architecture, and a curriculum-guided objective for plasticity recovery. The core contribution is enabling robust, incremental learning across heterogeneous sensor data streams common in clinical settings.",
+      "url": "http://arxiv.org/abs/2606.13258v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13258v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13258v1/x1.png",
+      "figure_caption": "Illustration of the ”Teacher Misalignment” paradox in direct cross-modal KD. (a) Direct KD yields a pseudo-teacher with toxic, high-entropy outputs, whereas our Stage 1 Modality-Specific Warm-Up rapidly stabilizes the entropy into a legitimate anchor. (b) Forcing alignment with a high-entropy teacher causes catastrophic negative transfer, which our method successfully prevents.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13188v1",
+      "title": "Transformer-Guided Graph Attention for Direct Cardiac Mesh Reconstruction: A Structural Digital Twin Framework",
+      "authors": [
+        "Abhishek H S",
+        "Akash Ganamukhi",
+        "Abhimanyu Suresh",
+        "Aditya G Hiremath",
+        "Prasad B Honnavalli"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces a novel end-to-end framework that directly reconstructs patient-specific, simulation-ready cardiac surface meshes from raw 3D medical images (CT/MRI). The core method combines a 3D Swin Transformer for volumetric feature extraction with a Graph Attention Network (GAT) that iteratively deforms a template mesh to match the cardiac boundary. This approach bypasses the slow, manual steps of traditional segmentation and mesh generation, offering a fast and consistent path toward structural digital twins for precision cardiology.",
+      "url": "http://arxiv.org/abs/2606.13188v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13188v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13188v1/images/fig21_dataset.jpeg",
+      "figure_caption": "Figure 1. Dataset examples: CT (top) and MRI (bottom) slices with annotations from MM-WHS 2017.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.13211v1",
+      "title": "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints",
+      "authors": [
+        "Omar Alshahrani",
+        "Muzammil Behzad"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a cross-modality analytical framework to systematically address the critical failure mode of \"hallucination\" (clinically plausible but incorrect outputs) in medical imaging AI. It unifies existing taxonomies, analyzes why medical-specialized models exhibit less hallucination than general models, and evaluates mitigation strategies for compliance with FDA regulatory constraints. The core contribution is a structured synthesis guiding the safe deployment of medical AI by understanding and controlling these dangerous errors.",
+      "url": "http://arxiv.org/abs/2606.13211v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13211v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.13211v1/fig1_prisma.png",
+      "figure_caption": "Study selection flow diagram for our structured narrative, illustrating record identification from PubMed, PMC, RSNA Journals, ACL Anthology, IEEE Xplore, and arXiv, as well as targeted retrieval of FDA regulatory guidance and benchmark dataset documentation. Screening was conducted through title/abstract and full-text stages using pre-specified inclusion and exclusion criteria. (Authors’ visualization based on data from the sources listed above.)",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13572v1",
+      "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+      "authors": [
+        "Tanmoy Kanti Halder",
+        "Akash Ghosh",
+        "Subhadip Baidya",
+        "Arijit Roy",
+        "Sriparna Saha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "ArogyaSutra is a multi-agent framework designed to enhance multimodal medical reasoning in Indic languages. It addresses the limitations of English-centric models by integrating tool grounding and dual-memory mechanisms for step-wise reasoning, leveraging the newly created ArogyaBodha dataset of multilingual medical Q&A. This framework aims to provide equitable, AI-driven healthcare assistance for complex queries involving text and medical images in low-resource settings.",
+      "url": "http://arxiv.org/abs/2606.13572v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13572v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13572v1/img/actor-critic_2.jpg",
+      "figure_caption": "Overview of the ArogyaSutra framework. ArogyaSutra employs an actor–critic architecture enhanced with tool-based image grounding and adaptive code-switching. The Actor first processes the input prompt and identifies the need for visual grounding, invoking appropriate tool agents to extract clinically relevant information from medical images before generating an answer with its associated reasoning. This output is then passed to the Critic for evaluation. If the response is correct, the Critic approves and outputs the final answer and reasoning. Otherwise, it consults an error detector (GPT-4o-mini) to identify the source of failure. Language-related errors trigger code-switching by translating the query into English, while reasoning-related errors are handled by incorporating summaries of past and current mistakes from long-term and short-term memory. The refined query is then fed back to the Actor for iterative refinement.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13315v1",
+      "title": "Masked and Predictive Self-Supervised Foundation Models for 3D Brain MRI",
+      "authors": [
+        "Esra Ergün",
+        "Hersh Chandarana",
+        "Dan Sodickson",
+        "Gözde Ünal"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates two self-supervised pretraining methods, MAE and JEPA, for 3D brain MRI foundation models specifically targeting disease detection. The core contribution lies in introducing novel auxiliary objectives: a spectral-domain reconstruction loss for MAE and variance-covariance regularization for JEPA, to improve sensitivity to fine anatomical details. This work systematically explores these paradigms for disease detection using heterogeneous, contrast-agnostic MRI data.",
+      "url": "http://arxiv.org/abs/2606.13315v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13315v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13315v1/brainfoundation.png",
+      "figure_caption": "Overview of the proposed MAE pretraining and downstream evaluation framework. Top: During pretraining, the encoder processes visible tokens from masked 3D MRI patches, and the lightweight decoder reconstructs the full volume. The reconstruction loss ℒ MAE \\( \\mathcal{L} \\)_{\\( \\text{MAE} \\)} is computed in the spatial domain, while the spectral loss ℒ spec \\( \\mathcal{L} \\)_{\\( \\text{spec} \\)} is computed in the Fourier domain by applying a 3D FFT and a high-pass filter to both the reconstructed and original volumes, encouraging the encoder to capture fine-grained, high-frequency anatomical structure. Bottom: During downstream adaptation, the pretrained encoder is coupled with an Attentive Classifier and evaluated under both frozen and fine-tuned settings for disease classification.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13135v1",
+      "title": "Cascade Classification of Dermoscopic Images of Skin Neoplasms with Controllable Sensitivity and External Clinical Validation",
+      "authors": [
+        "Elena S. Kozachok",
+        "Sergey S. Seregin",
+        "Aleksandr V. Kozachok",
+        "Ilya P. Latyshev",
+        "Oleg I. Samovarov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "The paper compares four deep learning architectures using three classification schemes (binary, single-stage four-class, and a two-stage cascade) for dermoscopic skin cancer images. The core contribution is demonstrating that a two-stage cascade approach, while performing well internally, suffers a significant drop in performance and calibration (ECE increase) when externally validated on independent Russian clinical datasets. This highlights challenges in generalizing AI models trained on open data to diverse clinical settings.",
+      "url": "http://arxiv.org/abs/2606.13135v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13135v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13258v1",
+      "title": "MOSAIC: Modality-Specific Adaptation for Incremental Continual Learning in Parkinson's Disease Gait Assessment",
+      "authors": [
+        "Minlin Zeng",
+        "Zhipeng Zhou",
+        "Yang Qiu",
+        "Martin J. McKeown",
+        "Zhiqi Shen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "MOSAIC is a continual learning framework designed for Parkinson's gait assessment where sensor modalities arrive incrementally. It addresses challenges like unreliable distillation and statistical shifts using three key components: Modality-Specific Warm-Up to stabilize new representations, a statistics-decoupled MSBN architecture, and a curriculum-guided objective for plasticity recovery. The core contribution is enabling robust, incremental learning across heterogeneous sensor data streams common in clinical settings.",
+      "url": "http://arxiv.org/abs/2606.13258v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13258v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13258v1/x1.png",
+      "figure_caption": "Illustration of the ”Teacher Misalignment” paradox in direct cross-modal KD. (a) Direct KD yields a pseudo-teacher with toxic, high-entropy outputs, whereas our Stage 1 Modality-Specific Warm-Up rapidly stabilizes the entropy into a legitimate anchor. (b) Forcing alignment with a high-entropy teacher causes catastrophic negative transfer, which our method successfully prevents.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13188v1",
+      "title": "Transformer-Guided Graph Attention for Direct Cardiac Mesh Reconstruction: A Structural Digital Twin Framework",
+      "authors": [
+        "Abhishek H S",
+        "Akash Ganamukhi",
+        "Abhimanyu Suresh",
+        "Aditya G Hiremath",
+        "Prasad B Honnavalli"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces a novel end-to-end framework that directly reconstructs patient-specific, simulation-ready cardiac surface meshes from raw 3D medical images (CT/MRI). The core method combines a 3D Swin Transformer for volumetric feature extraction with a Graph Attention Network (GAT) that iteratively deforms a template mesh to match the cardiac boundary. This approach bypasses the slow, manual steps of traditional segmentation and mesh generation, offering a fast and consistent path toward structural digital twins for precision cardiology.",
+      "url": "http://arxiv.org/abs/2606.13188v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13188v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13188v1/images/fig21_dataset.jpeg",
+      "figure_caption": "Figure 1. Dataset examples: CT (top) and MRI (bottom) slices with annotations from MM-WHS 2017.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48511908,
+      "title": "Open source AI must win",
+      "url": "https://opensourceaimustwin.com/?share=v2",
+      "score": 1512,
+      "created_at": "2026-06-13T02:14:24Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48511908",
+      "summary": "The core message of the linked tech news story is a strong advocacy for the success and dominance of open-source Artificial Intelligence development."
+    },
+    {
+      "id": 48519092,
+      "title": "Amazon CEO's talks with U.S. officials triggered crackdown on Anthropic models",
+      "url": "https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578?st=Yct6gx&reflink=desktopwebshare_permalink",
+      "score": 526,
+      "created_at": "2026-06-13T16:57:49Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48519092",
+      "summary": "Amazon CEO's discussions with U.S. officials reportedly spurred a regulatory crackdown on AI models developed by Anthropic."
+    },
+    {
+      "id": 48518684,
+      "title": "GLM 5.2 Is Out",
+      "url": "https://twitter.com/jietang/status/2065784751345287314",
+      "score": 329,
+      "created_at": "2026-06-13T16:18:31Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48518684",
+      "summary": "GLM 5.2, a new version of the language model, has been officially released."
+    },
+    {
+      "id": 48516504,
+      "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
+      "url": "https://github.com/tensorzero/tensorzero",
+      "score": 237,
+      "created_at": "2026-06-13T12:10:47Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48516504",
+      "summary": "An open-source AI tool repository, TensorZero, which recently secured \\$7.3 million in seed funding, was abruptly archived overnight."
+    },
+    {
+      "id": 48518969,
+      "title": "AI coding at home without going broke",
+      "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
+      "score": 226,
+      "created_at": "2026-06-13T16:45:03Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48518969",
+      "summary": "The article details how developers can effectively utilize AI coding tools at home without incurring excessive costs."
+    },
+    {
+      "id": 48520807,
+      "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
+      "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
+      "score": 217,
+      "created_at": "2026-06-13T19:54:55Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48520807",
+      "summary": "A Derbyshire police officer is under investigation for allegedly using artificial intelligence to fabricate evidence in several ongoing cases."
+    },
+    {
+      "id": 48515385,
+      "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
+      "url": "https://github.com/Paca-AI/paca",
+      "score": 134,
+      "created_at": "2026-06-13T09:44:25Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48515385",
+      "summary": "Paca is a new, lightweight alternative to Jira designed specifically to facilitate seamless collaboration between humans and artificial intelligence."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "iptv-org/iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "stars_today": 530,
+      "total_stars": 119135,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "The `iptv-org/iptv` repository serves as a comprehensive, community-maintained collection of publicly accessible IPTV channel playlists from around the globe."
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars_today": 1514,
+      "total_stars": 58400,
+      "language": "Shell",
+      "topics": [],
+      "summary": "This repository provides production-grade engineering skills designed to enhance the capabilities of AI coding agents."
+    },
+    {
+      "full_name": "chatwoot/chatwoot",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "stars_today": 83,
+      "total_stars": 30865,
+      "language": "Ruby",
+      "topics": [],
+      "summary": "Chatwoot is an open-source, omni-channel customer support platform offering live chat and email capabilities as a direct alternative to proprietary solutions like Intercom and Zendesk."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 924,
+      "total_stars": 226945,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Superpowers is an agentic skills framework and software development methodology designed to be a practical and effective system for building software."
+    },
+    {
+      "full_name": "apple/container",
+      "url": "https://github.com/apple/container",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "stars_today": 1487,
+      "total_stars": 36318,
+      "language": "Swift",
+      "topics": [],
+      "summary": "Apple/container is a Swift-written tool for creating and running lightweight Linux containers on a Mac, optimized specifically for Apple silicon performance."
+    },
+    {
+      "full_name": "music-assistant/server",
+      "url": "https://github.com/music-assistant/server",
+      "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+      "stars_today": 270,
+      "total_stars": 2005,
+      "language": "Python",
+      "topics": [],
+      "summary": "The Music Assistant server is the core, always-on backend for the open-source media manager, enabling connection and control across streaming services and various connected speakers."
+    },
+    {
+      "full_name": "kenn-io/agentsview",
+      "url": "https://github.com/kenn-io/agentsview",
+      "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+      "stars_today": 190,
+      "total_stars": 2366,
+      "language": "Go",
+      "topics": [],
+      "summary": "Agentsview provides local-first session intelligence and analytics for various coding agents like Claude Code and Codex, offering a significantly faster alternative to ccusage."
+    },
+    {
+      "full_name": "LMCache/LMCache",
+      "url": "https://github.com/LMCache/LMCache",
+      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+      "stars_today": 238,
+      "total_stars": 8893,
+      "language": "Python",
+      "topics": [],
+      "summary": "LMCache is a high-performance KV cache layer designed to significantly accelerate Large Language Models (LLMs) by optimizing key-value memory management."
+    },
+    {
+      "full_name": "microsoft/PowerToys",
+      "url": "https://github.com/microsoft/PowerToys",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "stars_today": 370,
+      "total_stars": 134675,
+      "language": "C",
+      "topics": [],
+      "summary": "Microsoft PowerToys is a suite of utilities that enhances Windows productivity and customization through various tools like FancyZones, PowerRename, and Color Picker."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
