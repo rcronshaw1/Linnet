@@ -1,0 +1,596 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T01:26:21.014231+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [
+        {
+          "id": "2606.13919v1",
+          "title": "GMN4AD: Graph Matching Network for Alzheimer's Disease Diagnosis with Test-Time Domain Adaptation using Multi-centered Structure Magnetic Resonance Imaging",
+          "authors": [
+            "Chen Zhao",
+            "Huan Huang",
+            "Yixin Xie",
+            "Jiajing Huang",
+            "Weihua Zhou"
+          ],
+          "categories": [
+            "cs.AI",
+            "eess.IV",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces GMN4AD, a Graph Matching Network designed to improve Alzheimer's Disease diagnosis using structural MRI by explicitly modeling interactions between heterogeneous brain graphs. The core method leverages graph matching to capture crucial cross-graph relationships, overcoming limitations of independent graph analysis. A key contribution is the integration of a test-time domain adaptation strategy to enhance robustness against multi-centered site heterogeneity.",
+          "url": "http://arxiv.org/abs/2606.13919v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.13919v1",
+          "score": 9.0,
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.14568v1",
+          "title": "Trimodal Glioma Representation Alignment via Volumetric Contrastive Learning",
+          "authors": [
+            "Denise Marini",
+            "Eleonora Grassucci",
+            "Danilo Comminiello"
+          ],
+          "categories": [
+            "eess.IV",
+            "cs.CV"
+          ],
+          "abstract": "This paper introduces GLORIA, a novel trimodal framework that aligns information from histopathology, mRNA expression, and MRI for glioma prognosis. It uses modality-specific encoders and a Gramian contrastive loss to project these heterogeneous data into a shared latent space. The aligned representations are then fused via a cross-modal gating module for joint optimization of glioma grading and survival prediction.",
+          "url": "http://arxiv.org/abs/2606.14568v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14568v1",
+          "score": 9.0,
+          "primary_category": "eess.IV",
+          "primary_category_anchor": "eess-iv",
+          "primary_category_rank": 2
+        },
+        {
+          "id": "2606.14608v1",
+          "title": "Expert-Driven Survival Machines: Improving Stratification and Interpretability in Multiple Clinical Cohorts",
+          "authors": [
+            "Farica Zhuang",
+            "Zixuan Wen",
+            "Christos Davatzikos",
+            "Li Shen"
+          ],
+          "categories": [
+            "cs.AI",
+            "cs.LG"
+          ],
+          "abstract": "This paper introduces AdaCSM, a Mixture-of-Experts (MoE) framework designed to improve survival prediction by modeling heterogeneous patient data across multiple clinical cohorts. The core method uses a routing-based expert mechanism to dynamically assign patients to specialized risk predictors, allowing for individualized feature representations rather than a single common one. This approach enhances risk stratification accuracy and provides greater interpretability by explicitly clustering patients into specialized survival subtypes.",
+          "url": "http://arxiv.org/abs/2606.14608v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14608v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.14608v1/x1.png",
+          "figure_caption": "Figure 1 . AdaCSM pipeline. The model uses a top‑K routing mechanism to assign each input to a subset of experts, which are subsequently processed by a Weibull‑based Deep Clustering Survival Machine. Expert outputs are combined through mixture weights produced by the router, enabling adaptive modeling of heterogeneous risk patterns.",
+          "primary_category": "cs.AI",
+          "primary_category_anchor": "cs-ai",
+          "primary_category_rank": 0
+        },
+        {
+          "id": "2606.14603v1",
+          "title": "Towards In Silico Cancer Therapy Design: An Agent-Based Approach for GPU-Accelerated Molecular Pathway Simulation",
+          "authors": [
+            "Stefano Maestri"
+          ],
+          "categories": [
+            "q-bio.QM",
+            "cs.CE",
+            "q-bio.MN"
+          ],
+          "abstract": "This paper introduces a GPU-accelerated agent-based simulator for modeling complex molecular pathways in cancer therapy design. The core method represents individual molecules as autonomous agents interacting spatially within a 3D environment, leveraging FLAME GPU 2 for efficient simulation of millions of agents. The contribution is an efficient computational tool capable of analyzing signaling pathways and evaluating therapeutic interventions *in silico*.",
+          "url": "http://arxiv.org/abs/2606.14603v1",
+          "pdf_url": "https://arxiv.org/pdf/2606.14603v1",
+          "score": 8.0,
+          "figure_url": "https://arxiv.org/html/2606.14603v1/interface.png",
+          "figure_caption": "The simulator interface during a running simulation. The left panel displays the 3D visualisation of the simulation environment, highlighting molecules by compartment (orange for cytoplasm, yellow for nucleus). The right panel shows the real-time concentration plot of cytoplasmic phosphorylated cFos (pcFosc), a downstream product of the MAPK/ERK signalling pathway, reflecting the accumulation and phosphorylation of cFos until a steady-state level is reached. This example, based on Nakakuki et al. [ undefh ] , is discussed in Section 3.4 and demonstrates the simulator’s ability to reproduce gene expression dynamics and compartmental processes. It also highlights the capability to perform simulations in a fully three-dimensional environment without requiring spatial slicing.",
+          "primary_category": "q-bio.QM",
+          "primary_category_anchor": "q-bio-qm",
+          "primary_category_rank": 1
+        }
+      ],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 6,
+        "papers_after_llm_filter": 4,
+        "count": 4
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48527700,
+          "title": "Not everyone is using AI for everything",
+          "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+          "score": 422,
+          "created_at": "2026-06-14T14:44:29Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48527700",
+          "summary": "Despite widespread awareness, many people are only using AI tools for specific, limited tasks rather than integrating them into every aspect of their digital lives."
+        },
+        {
+          "id": 48528371,
+          "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+          "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+          "score": 273,
+          "created_at": "2026-06-14T15:37:31Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48528371",
+          "summary": "A \"homegrown\" large language model developed in Rio de Janeiro appears to be a merge of an existing, publicly available model, according to an issue raised on its GitHub repository."
+        },
+        {
+          "id": 48528729,
+          "title": "Linux 7.1",
+          "url": "https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u",
+          "score": 230,
+          "created_at": "2026-06-14T16:01:30Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48528729",
+          "summary": "The Linux 7.1 kernel has been released, bringing updates and new features to the open-source operating system."
+        },
+        {
+          "id": 48533504,
+          "title": "Did Anthropic ask for this?",
+          "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
+          "score": 151,
+          "created_at": "2026-06-14T22:23:05Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48533504",
+          "summary": "The tech news story likely discusses whether Anthropic, the AI company, was responsible for or requested a specific event or development related to AI."
+        },
+        {
+          "id": 48527297,
+          "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+          "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+          "score": 121,
+          "created_at": "2026-06-14T14:01:35Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48527297",
+          "summary": "KPMG withdrew a report about AI usage after discovering it contained apparent factual errors or \"hallucinations\" generated by the artificial intelligence."
+        }
+      ],
+      "meta": {
+        "count": 5
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "iptv-org/iptv",
+          "url": "https://github.com/iptv-org/iptv",
+          "description": "Collection of publicly available IPTV channels from all over the world",
+          "stars_today": 1528,
+          "total_stars": 121014,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "The `iptv-org/iptv` repository serves as a comprehensive, community-maintained collection of publicly accessible IPTV channel lists from around the globe."
+        },
+        {
+          "full_name": "freeCodeCamp/freeCodeCamp",
+          "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+          "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+          "stars_today": 146,
+          "total_stars": 447218,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "The freeCodeCamp repository provides the open-source codebase and comprehensive curriculum for learning math, programming, and computer science entirely for free."
+        },
+        {
+          "full_name": "pytest-dev/pytest",
+          "url": "https://github.com/pytest-dev/pytest",
+          "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+          "stars_today": 14,
+          "total_stars": 14044,
+          "language": "Python",
+          "topics": [],
+          "summary": "Pytest is a powerful, scalable testing framework for Python that simplifies writing small tests while supporting complex functional testing needs."
+        },
+        {
+          "full_name": "swc-project/swc",
+          "url": "https://github.com/swc-project/swc",
+          "description": "Rust-based platform for the Web",
+          "stars_today": 163,
+          "total_stars": 33782,
+          "language": "Rust",
+          "topics": [],
+          "summary": "SWC is a super-fast Rust-based platform for the Web, primarily functioning as a next-generation compiler and bundler for JavaScript/TypeScript, offering features like fast compilation, minification, and code transformation."
+        },
+        {
+          "full_name": "chatwoot/chatwoot",
+          "url": "https://github.com/chatwoot/chatwoot",
+          "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+          "stars_today": 400,
+          "total_stars": 31238,
+          "language": "Ruby",
+          "topics": [],
+          "summary": "Chatwoot is an open-source, omni-channel customer support platform offering live chat and email capabilities as a direct alternative to proprietary solutions like Intercom and Zendesk."
+        },
+        {
+          "full_name": "NVIDIA/SkillSpector",
+          "url": "https://github.com/NVIDIA/SkillSpector",
+          "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+          "stars_today": 964,
+          "total_stars": 5319,
+          "language": "Python",
+          "topics": [],
+          "summary": "SkillSpector is a security scanner for AI agent skills, designed to detect vulnerabilities, malicious patterns, and security risks within those capabilities."
+        },
+        {
+          "full_name": "meshery/meshery",
+          "url": "https://github.com/meshery/meshery",
+          "description": "Meshery, the cloud native manager",
+          "stars_today": 20,
+          "total_stars": 10405,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Meshery is a cloud-native manager that provides a unified platform for designing, deploying, managing, and observing service meshes and cloud-native infrastructure across various environments."
+        },
+        {
+          "full_name": "cypress-io/cypress",
+          "url": "https://github.com/cypress-io/cypress",
+          "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+          "stars_today": 39,
+          "total_stars": 49948,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Cypress is a next-generation front-end testing tool that provides a fast, easy, and reliable way to test anything running in a browser."
+        },
+        {
+          "full_name": "GorvGoyl/Clone-Wars",
+          "url": "https://github.com/GorvGoyl/Clone-Wars",
+          "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
+          "stars_today": 269,
+          "total_stars": 35479,
+          "language": "",
+          "topics": [],
+          "summary": "This repository provides over 100 open-source clones of popular websites like Airbnb and Netflix, detailing their source code, demo links, technology stacks, and GitHub star counts."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 6,
+    "papers_after_llm_filter": 4,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 19
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [
+    {
+      "id": "2606.13919v1",
+      "title": "GMN4AD: Graph Matching Network for Alzheimer's Disease Diagnosis with Test-Time Domain Adaptation using Multi-centered Structure Magnetic Resonance Imaging",
+      "authors": [
+        "Chen Zhao",
+        "Huan Huang",
+        "Yixin Xie",
+        "Jiajing Huang",
+        "Weihua Zhou"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces GMN4AD, a Graph Matching Network designed to improve Alzheimer's Disease diagnosis using structural MRI by explicitly modeling interactions between heterogeneous brain graphs. The core method leverages graph matching to capture crucial cross-graph relationships, overcoming limitations of independent graph analysis. A key contribution is the integration of a test-time domain adaptation strategy to enhance robustness against multi-centered site heterogeneity.",
+      "url": "http://arxiv.org/abs/2606.13919v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13919v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14568v1",
+      "title": "Trimodal Glioma Representation Alignment via Volumetric Contrastive Learning",
+      "authors": [
+        "Denise Marini",
+        "Eleonora Grassucci",
+        "Danilo Comminiello"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces GLORIA, a novel trimodal framework that aligns information from histopathology, mRNA expression, and MRI for glioma prognosis. It uses modality-specific encoders and a Gramian contrastive loss to project these heterogeneous data into a shared latent space. The aligned representations are then fused via a cross-modal gating module for joint optimization of glioma grading and survival prediction.",
+      "url": "http://arxiv.org/abs/2606.14568v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14568v1",
+      "score": 9.0,
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.14608v1",
+      "title": "Expert-Driven Survival Machines: Improving Stratification and Interpretability in Multiple Clinical Cohorts",
+      "authors": [
+        "Farica Zhuang",
+        "Zixuan Wen",
+        "Christos Davatzikos",
+        "Li Shen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces AdaCSM, a Mixture-of-Experts (MoE) framework designed to improve survival prediction by modeling heterogeneous patient data across multiple clinical cohorts. The core method uses a routing-based expert mechanism to dynamically assign patients to specialized risk predictors, allowing for individualized feature representations rather than a single common one. This approach enhances risk stratification accuracy and provides greater interpretability by explicitly clustering patients into specialized survival subtypes.",
+      "url": "http://arxiv.org/abs/2606.14608v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14608v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14608v1/x1.png",
+      "figure_caption": "Figure 1 . AdaCSM pipeline. The model uses a top‑K routing mechanism to assign each input to a subset of experts, which are subsequently processed by a Weibull‑based Deep Clustering Survival Machine. Expert outputs are combined through mixture weights produced by the router, enabling adaptive modeling of heterogeneous risk patterns.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14603v1",
+      "title": "Towards In Silico Cancer Therapy Design: An Agent-Based Approach for GPU-Accelerated Molecular Pathway Simulation",
+      "authors": [
+        "Stefano Maestri"
+      ],
+      "categories": [
+        "q-bio.QM",
+        "cs.CE",
+        "q-bio.MN"
+      ],
+      "abstract": "This paper introduces a GPU-accelerated agent-based simulator for modeling complex molecular pathways in cancer therapy design. The core method represents individual molecules as autonomous agents interacting spatially within a 3D environment, leveraging FLAME GPU 2 for efficient simulation of millions of agents. The contribution is an efficient computational tool capable of analyzing signaling pathways and evaluating therapeutic interventions *in silico*.",
+      "url": "http://arxiv.org/abs/2606.14603v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14603v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14603v1/interface.png",
+      "figure_caption": "The simulator interface during a running simulation. The left panel displays the 3D visualisation of the simulation environment, highlighting molecules by compartment (orange for cytoplasm, yellow for nucleus). The right panel shows the real-time concentration plot of cytoplasmic phosphorylated cFos (pcFosc), a downstream product of the MAPK/ERK signalling pathway, reflecting the accumulation and phosphorylation of cFos until a steady-state level is reached. This example, based on Nakakuki et al. [ undefh ] , is discussed in Section 3.4 and demonstrates the simulator’s ability to reproduce gene expression dynamics and compartmental processes. It also highlights the capability to perform simulations in a fully three-dimensional environment without requiring spatial slicing.",
+      "primary_category": "q-bio.QM",
+      "primary_category_anchor": "q-bio-qm",
+      "primary_category_rank": 1
+    }
+  ],
+  "papers": [
+    {
+      "id": "2606.13919v1",
+      "title": "GMN4AD: Graph Matching Network for Alzheimer's Disease Diagnosis with Test-Time Domain Adaptation using Multi-centered Structure Magnetic Resonance Imaging",
+      "authors": [
+        "Chen Zhao",
+        "Huan Huang",
+        "Yixin Xie",
+        "Jiajing Huang",
+        "Weihua Zhou"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces GMN4AD, a Graph Matching Network designed to improve Alzheimer's Disease diagnosis using structural MRI by explicitly modeling interactions between heterogeneous brain graphs. The core method leverages graph matching to capture crucial cross-graph relationships, overcoming limitations of independent graph analysis. A key contribution is the integration of a test-time domain adaptation strategy to enhance robustness against multi-centered site heterogeneity.",
+      "url": "http://arxiv.org/abs/2606.13919v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13919v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14568v1",
+      "title": "Trimodal Glioma Representation Alignment via Volumetric Contrastive Learning",
+      "authors": [
+        "Denise Marini",
+        "Eleonora Grassucci",
+        "Danilo Comminiello"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces GLORIA, a novel trimodal framework that aligns information from histopathology, mRNA expression, and MRI for glioma prognosis. It uses modality-specific encoders and a Gramian contrastive loss to project these heterogeneous data into a shared latent space. The aligned representations are then fused via a cross-modal gating module for joint optimization of glioma grading and survival prediction.",
+      "url": "http://arxiv.org/abs/2606.14568v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14568v1",
+      "score": 9.0,
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.14608v1",
+      "title": "Expert-Driven Survival Machines: Improving Stratification and Interpretability in Multiple Clinical Cohorts",
+      "authors": [
+        "Farica Zhuang",
+        "Zixuan Wen",
+        "Christos Davatzikos",
+        "Li Shen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces AdaCSM, a Mixture-of-Experts (MoE) framework designed to improve survival prediction by modeling heterogeneous patient data across multiple clinical cohorts. The core method uses a routing-based expert mechanism to dynamically assign patients to specialized risk predictors, allowing for individualized feature representations rather than a single common one. This approach enhances risk stratification accuracy and provides greater interpretability by explicitly clustering patients into specialized survival subtypes.",
+      "url": "http://arxiv.org/abs/2606.14608v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14608v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14608v1/x1.png",
+      "figure_caption": "Figure 1 . AdaCSM pipeline. The model uses a top‑K routing mechanism to assign each input to a subset of experts, which are subsequently processed by a Weibull‑based Deep Clustering Survival Machine. Expert outputs are combined through mixture weights produced by the router, enabling adaptive modeling of heterogeneous risk patterns.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14603v1",
+      "title": "Towards In Silico Cancer Therapy Design: An Agent-Based Approach for GPU-Accelerated Molecular Pathway Simulation",
+      "authors": [
+        "Stefano Maestri"
+      ],
+      "categories": [
+        "q-bio.QM",
+        "cs.CE",
+        "q-bio.MN"
+      ],
+      "abstract": "This paper introduces a GPU-accelerated agent-based simulator for modeling complex molecular pathways in cancer therapy design. The core method represents individual molecules as autonomous agents interacting spatially within a 3D environment, leveraging FLAME GPU 2 for efficient simulation of millions of agents. The contribution is an efficient computational tool capable of analyzing signaling pathways and evaluating therapeutic interventions *in silico*.",
+      "url": "http://arxiv.org/abs/2606.14603v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14603v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14603v1/interface.png",
+      "figure_caption": "The simulator interface during a running simulation. The left panel displays the 3D visualisation of the simulation environment, highlighting molecules by compartment (orange for cytoplasm, yellow for nucleus). The right panel shows the real-time concentration plot of cytoplasmic phosphorylated cFos (pcFosc), a downstream product of the MAPK/ERK signalling pathway, reflecting the accumulation and phosphorylation of cFos until a steady-state level is reached. This example, based on Nakakuki et al. [ undefh ] , is discussed in Section 3.4 and demonstrates the simulator’s ability to reproduce gene expression dynamics and compartmental processes. It also highlights the capability to perform simulations in a fully three-dimensional environment without requiring spatial slicing.",
+      "primary_category": "q-bio.QM",
+      "primary_category_anchor": "q-bio-qm",
+      "primary_category_rank": 1
+    }
+  ],
+  "hacker_news": [
+    {
+      "id": 48527700,
+      "title": "Not everyone is using AI for everything",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+      "score": 422,
+      "created_at": "2026-06-14T14:44:29Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48527700",
+      "summary": "Despite widespread awareness, many people are only using AI tools for specific, limited tasks rather than integrating them into every aspect of their digital lives."
+    },
+    {
+      "id": 48528371,
+      "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+      "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+      "score": 273,
+      "created_at": "2026-06-14T15:37:31Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48528371",
+      "summary": "A \"homegrown\" large language model developed in Rio de Janeiro appears to be a merge of an existing, publicly available model, according to an issue raised on its GitHub repository."
+    },
+    {
+      "id": 48528729,
+      "title": "Linux 7.1",
+      "url": "https://lore.kernel.org/lkml/CAHk-=wi4BF4bMhZNZ1tqs+FFV4OuZRe3ZqdWB+LxRLmRweUzQw@mail.gmail.com/T/#u",
+      "score": 230,
+      "created_at": "2026-06-14T16:01:30Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48528729",
+      "summary": "The Linux 7.1 kernel has been released, bringing updates and new features to the open-source operating system."
+    },
+    {
+      "id": 48533504,
+      "title": "Did Anthropic ask for this?",
+      "url": "https://www.verysane.ai/p/did-anthropic-ask-for-this",
+      "score": 151,
+      "created_at": "2026-06-14T22:23:05Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48533504",
+      "summary": "The tech news story likely discusses whether Anthropic, the AI company, was responsible for or requested a specific event or development related to AI."
+    },
+    {
+      "id": 48527297,
+      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "score": 121,
+      "created_at": "2026-06-14T14:01:35Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48527297",
+      "summary": "KPMG withdrew a report about AI usage after discovering it contained apparent factual errors or \"hallucinations\" generated by the artificial intelligence."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "iptv-org/iptv",
+      "url": "https://github.com/iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "stars_today": 1528,
+      "total_stars": 121014,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "The `iptv-org/iptv` repository serves as a comprehensive, community-maintained collection of publicly accessible IPTV channel lists from around the globe."
+    },
+    {
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "stars_today": 146,
+      "total_stars": 447218,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "The freeCodeCamp repository provides the open-source codebase and comprehensive curriculum for learning math, programming, and computer science entirely for free."
+    },
+    {
+      "full_name": "pytest-dev/pytest",
+      "url": "https://github.com/pytest-dev/pytest",
+      "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+      "stars_today": 14,
+      "total_stars": 14044,
+      "language": "Python",
+      "topics": [],
+      "summary": "Pytest is a powerful, scalable testing framework for Python that simplifies writing small tests while supporting complex functional testing needs."
+    },
+    {
+      "full_name": "swc-project/swc",
+      "url": "https://github.com/swc-project/swc",
+      "description": "Rust-based platform for the Web",
+      "stars_today": 163,
+      "total_stars": 33782,
+      "language": "Rust",
+      "topics": [],
+      "summary": "SWC is a super-fast Rust-based platform for the Web, primarily functioning as a next-generation compiler and bundler for JavaScript/TypeScript, offering features like fast compilation, minification, and code transformation."
+    },
+    {
+      "full_name": "chatwoot/chatwoot",
+      "url": "https://github.com/chatwoot/chatwoot",
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "stars_today": 400,
+      "total_stars": 31238,
+      "language": "Ruby",
+      "topics": [],
+      "summary": "Chatwoot is an open-source, omni-channel customer support platform offering live chat and email capabilities as a direct alternative to proprietary solutions like Intercom and Zendesk."
+    },
+    {
+      "full_name": "NVIDIA/SkillSpector",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "stars_today": 964,
+      "total_stars": 5319,
+      "language": "Python",
+      "topics": [],
+      "summary": "SkillSpector is a security scanner for AI agent skills, designed to detect vulnerabilities, malicious patterns, and security risks within those capabilities."
+    },
+    {
+      "full_name": "meshery/meshery",
+      "url": "https://github.com/meshery/meshery",
+      "description": "Meshery, the cloud native manager",
+      "stars_today": 20,
+      "total_stars": 10405,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Meshery is a cloud-native manager that provides a unified platform for designing, deploying, managing, and observing service meshes and cloud-native infrastructure across various environments."
+    },
+    {
+      "full_name": "cypress-io/cypress",
+      "url": "https://github.com/cypress-io/cypress",
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "stars_today": 39,
+      "total_stars": 49948,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Cypress is a next-generation front-end testing tool that provides a fast, easy, and reliable way to test anything running in a browser."
+    },
+    {
+      "full_name": "GorvGoyl/Clone-Wars",
+      "url": "https://github.com/GorvGoyl/Clone-Wars",
+      "description": "100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
+      "stars_today": 269,
+      "total_stars": 35479,
+      "language": "",
+      "topics": [],
+      "summary": "This repository provides over 100 open-source clones of popular websites like Airbnb and Netflix, detailing their source code, demo links, technology stacks, and GitHub star counts."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
