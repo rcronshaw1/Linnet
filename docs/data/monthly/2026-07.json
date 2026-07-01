@@ -1,0 +1,1138 @@
+{
+  "period": "2026-07",
+  "summary": "## Monthly Trends Summary: Medical AI Research (Past 30 Days)\n\nThe past 30 days show a clear crystallization in medical AI research, with significant focus on **robustness, generalization, and the integration of structured knowledge (Knowledge Graphs and Mechanistic Models)** alongside large language models (LLMs) and vision models.\n\n### Key Research Direction Shifts & Popular Trends:\n\n1.  **Focus on Robustness and Generalization:** There is a strong emphasis on testing models against real-world failures. Papers address:\n    *   **Hallucination (Imaging):** Establishing taxonomies and mitigation strategies under regulatory constraints (e.g., FDA compliance).\n    *   **Prompt Sensitivity (LLMs):** Demonstrating that even medical LLMs fail unpredictably when prompts are varied, highlighting safety concerns.\n    *   **External Validation:** Explicitly showing performance degradation (e.g., poor calibration) when models trained on open datasets are externally validated in new clinical settings (e.g., Russian datasets for dermatology).\n\n2.  **Knowledge Integration and Hybrid Modeling:** Purely data-driven approaches are increasingly being augmented with structured knowledge:\n    *   **Mechanistic/Data Hybrids:** Reviewing frameworks that combine physics-based models (like Neural ODEs) with deep learning for neurological disorders, aiming for interpretability and scientific grounding.\n    *   **Knowledge Graphs (KGs) with LLMs:** Systems like **Lung-R1** and **ArogyaSutra** demonstrate using KGs (**LungKG**) to ground LLM reasoning, enabling reliable, evidence-based diagnostics in specific domains (pulmonary) or languages (Indic).\n\n3.  **Advanced Vision-Language Model (VLM) Enhancements:** Research is moving beyond basic image description to complex reasoning and subtle feature detection:\n    *   **Comparative Reasoning:** The introduction of **MedReCo** framework and dataset tackles the critical gap of comparing temporal or reference images, mimicking expert radiological workflow.\n    *   **Subtle Lesion Amplification:** Training-free techniques like **EasyLens** show efforts to enhance VLM sensitivity to fine details without expensive fine-tuning.\n\n4.  **Foundation Models Across Modalities:** The concept of foundation models is expanding beyond natural language and standard vision into specialized areas:\n    *   **Pathology & MRI:** Development of self-supervised foundation models like **DaX** (for WSIs) and enhanced MAE/JEPA approaches for 3D brain MRI, often incorporating novel objectives (e.g., spectral loss) to capture fine anatomy.\n    *   **Tabular Data:** Adapting general tabular foundation models for complex survival analysis using light-weight heads.\n\n5.  **Workflow Automation and Agentic Systems:** AI is being developed for multi-step clinical processes:\n    *   The introduction of **MedCTA** (Clinical Tool Agents benchmark) and systems like **AeroSpectra Sentinel** (LLM prompt-chaining for decision support) indicate a strong trend toward evaluating AI agents capable of planning and utilizing external tools reliably.\n\n### Notable Groups/Labs:\n\nWhile specific institutional affiliations were not fully detailed, groups driving innovation appear focused on:\n*   **LLM Robustness & Safety:** Labs actively testing for prompt sensitivity, hallucination, and developing structured reasoning pipelines (e.g., **Dep-LLM**, **ArogyaSutra** teams).\n*   **Medical Imaging Foundation Models:** Research enhancing self-supervised learning for specialized medical data (e.g., **DaX**, 3D MRI studies).\n*   **Cardiovascular Simulation:** Groups pioneering direct mesh reconstruction for digital twins (**Transformer-Guided Graph Attention**).\n\n### Trends to Watch Next Month:\n\n1.  **Regulatory Compliance Focus:** Given the strong emphasis on hallucination frameworks and FDA-compatible mitigations, expect further practical research demonstrating how specific architectural choices (e.g., specialized vs. general LLMs) impact regulatory acceptance and deployment safety.\n2.  **Multimodal Continual Learning:** The **MOSAIC** framework for Parkinson's gait assessment highlights the need to handle data arriving incrementally from new sensors. Expect growing interest in continual learning methodologies designed to maintain performance across evolving clinical datasets and sensor modalities.\n3.  **Agent Benchmarking Maturation:** With the introduction of **MedCTA**, the next phase will likely involve open competitions or challenges focusing on agentic reasoning, where success hinges not just on prediction accuracy but on the fidelity of tool execution across multi-step tasks.\n4.  **Domain-Specific LLM Architectures:** The success of KG-guided models (**Lung-R1**) suggests a move away from purely frozen, general-purpose LLMs toward lightweight, integrated architectures that specialize LLM reasoning via structured memory access for high-stakes diagnostic tasks.",
+  "top_papers": [
+    {
+      "id": "2606.06407v1",
+      "title": "A Vision-language Framework for Comparative Reasoning in Radiology",
+      "authors": [
+        "Tengfei Zhang",
+        "Ziheng Zhao",
+        "Lisong Dai",
+        "Xiaoman Zhang",
+        "Pengcheng Qiu"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **MedReCo**, a vision-language framework designed to address the lack of comparative reasoning in current medical AI, which mirrors real-world radiological practice. The core method formulates comparison as an entity-aware cross-image reasoning task, supporting both reference case retrieval and temporal interpretation. The key contribution is the creation of **MedReCo-DB**, a large-scale, richly annotated comparative imaging dataset derived from routine clinical data to supervise and evaluate this novel reasoning capability.",
+      "url": "http://arxiv.org/abs/2606.06407v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06407v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.06407v1/x1.png",
+      "figure_caption": "Overview of this study. a, Radiological comparison is formulated around temporal follow-up and reference-case reasoning. b, MedReCo uses an entity-conditioned visual representation to support both retrieval and vision–language generation. c, MedReCo-DB integrates multi-modal imaging data with entity-level clinical annotations. d, The benchmark includes both prior–current temporal comparisons and cross-case reference comparisons. e, Representative retrieval results evaluate entity-conditioned reference matching. f, Representative VQA results evaluate entity-specific comparative reasoning.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.06407v1",
+      "title": "A Vision-language Framework for Comparative Reasoning in Radiology",
+      "authors": [
+        "Tengfei Zhang",
+        "Ziheng Zhao",
+        "Lisong Dai",
+        "Xiaoman Zhang",
+        "Pengcheng Qiu"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces **MedReCo**, a vision-language framework designed to address the gap between isolated image interpretation and real-world radiological practice by enabling **entity-aware comparative reasoning**. The core method involves formulating comparison as an entity-conditioned cross-image reasoning task, supported by the large-scale **MedReCo-DB** resource derived from routine image-report pairs. The contribution lies in providing a system capable of both reference case retrieval and temporal comparative interpretation based on specific anatomical or pathological entities.",
+      "url": "http://arxiv.org/abs/2606.06407v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06407v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.06407v1/x1.png",
+      "figure_caption": "Overview of this study. a, Radiological comparison is formulated around temporal follow-up and reference-case reasoning. b, MedReCo uses an entity-conditioned visual representation to support both retrieval and vision–language generation. c, MedReCo-DB integrates multi-modal imaging data with entity-level clinical annotations. d, The benchmark includes both prior–current temporal comparisons and cross-case reference comparisons. e, Representative retrieval results evaluate entity-conditioned reference matching. f, Representative VQA results evaluate entity-specific comparative reasoning.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13211v1",
+      "title": "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints",
+      "authors": [
+        "Omar Alshahrani",
+        "Muzammil Behzad"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper develops a unified, cross-modality analytical framework to systematically categorize, detect, and mitigate hallucinations (clinically plausible but incorrect outputs) in medical imaging AI. It synthesizes existing literature and regulatory guidance to establish a common taxonomy, compare hallucination rates between specialized and general models, and identify FDA-compatible mitigation strategies. The core contribution is providing a structured approach to address this critical failure mode under real-world clinical and regulatory constraints.",
+      "url": "http://arxiv.org/abs/2606.13211v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13211v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.13211v1/fig1_prisma.png",
+      "figure_caption": "Study selection flow diagram for our structured narrative, illustrating record identification from PubMed, PMC, RSNA Journals, ACL Anthology, IEEE Xplore, and arXiv, as well as targeted retrieval of FDA regulatory guidance and benchmark dataset documentation. Screening was conducted through title/abstract and full-text stages using pre-specified inclusion and exclusion criteria. (Authors’ visualization based on data from the sources listed above.)",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.12953v1",
+      "title": "OpenMedQ: Broad Open Pretraining for Medical Vision-Language Models",
+      "authors": [
+        "Ibrahim Gulluk",
+        "Max Van Puyvelde",
+        "Olivier Gevaert"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "OpenMedQ is a medical vision-language model pretrained on the largest publicly available, diverse medical dataset mix (~3.35M samples) spanning various modalities. Its core contribution is achieving state-of-the-art performance on benchmarks like PathVQA, significantly outperforming much larger models, and demonstrating strong transferability by yielding superior classification results across unseen medical tasks. The authors release the code to establish a strong, reproducible baseline for the community.",
+      "url": "http://arxiv.org/abs/2606.12953v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.12953v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.12953v1/x1.png",
+      "figure_caption": "(a) Macro-F1 across 8 unseen medical classification benchmarks: all bars share an identical downstream recipe and differ only in the pretrained vision encoder. OpenMedQ attains the highest Mean (0.757). (b) OpenMedQ’s pretraining mix: 14 fully-open datasets ( ∼ 3.35 {\\( \\sim \\)}3.35 M pairs), colored by modality group.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13211v1",
+      "title": "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints",
+      "authors": [
+        "Omar Alshahrani",
+        "Muzammil Behzad"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper develops a unified, cross-modality analytical framework to systematically categorize, detect, and mitigate hallucinations (clinically plausible but false outputs) in medical imaging AI. The core contribution is synthesizing existing taxonomies, comparing specialized versus general models regarding hallucination rates, and identifying effective mitigation strategies compliant with FDA regulatory constraints. This provides a structured approach to address a critical clinical failure mode in deployed medical AI.",
+      "url": "http://arxiv.org/abs/2606.13211v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13211v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.13211v1/fig1_prisma.png",
+      "figure_caption": "Study selection flow diagram for our structured narrative, illustrating record identification from PubMed, PMC, RSNA Journals, ACL Anthology, IEEE Xplore, and arXiv, as well as targeted retrieval of FDA regulatory guidance and benchmark dataset documentation. Screening was conducted through title/abstract and full-text stages using pre-specified inclusion and exclusion criteria. (Authors’ visualization based on data from the sources listed above.)",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13211v1",
+      "title": "Hallucination in Medical Imaging AI: A Cross-Modality Analytical Framework for Taxonomy, Detection, and Mitigation under Regulatory Constraints",
+      "authors": [
+        "Omar Alshahrani",
+        "Muzammil Behzad"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces a cross-modality analytical framework to systematically address the critical failure mode of \"hallucination\" (clinically plausible but incorrect outputs) in medical imaging AI. It unifies existing taxonomies, analyzes why medical-specialized models exhibit less hallucination than general models, and evaluates mitigation strategies for compliance with FDA regulatory constraints. The core contribution is a structured synthesis guiding the safe deployment of medical AI by understanding and controlling these dangerous errors.",
+      "url": "http://arxiv.org/abs/2606.13211v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13211v1",
+      "score": 10.0,
+      "figure_url": "https://arxiv.org/html/2606.13211v1/fig1_prisma.png",
+      "figure_caption": "Study selection flow diagram for our structured narrative, illustrating record identification from PubMed, PMC, RSNA Journals, ACL Anthology, IEEE Xplore, and arXiv, as well as targeted retrieval of FDA regulatory guidance and benchmark dataset documentation. Screening was conducted through title/abstract and full-text stages using pre-specified inclusion and exclusion criteria. (Authors’ visualization based on data from the sources listed above.)",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06379v1",
+      "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+      "authors": [
+        "Qiwei Zeng",
+        "Hao Wang",
+        "Jinghao Lin",
+        "Shuchang Ye",
+        "Yuezhe Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "EasyLens is a training-free, plug-and-play method designed to amplify the representation of subtle lesions in frozen medical Vision-Language Models (VLMs). It achieves this by generating an explicit \"lesion-aware\" visual prompt that guides the VLM's attention towards weak lesion cues without requiring any additional training or model fine-tuning. This contribution enhances the VLM's sensitivity to subtle pathologies, improving clinical utility across various frozen models.",
+      "url": "http://arxiv.org/abs/2606.06379v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+      "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06379v1",
+      "title": "EasyLens: A Training-Free Plug-and-Play Subtle-Lesion Representation Amplifier for Medical Vision-Language Models",
+      "authors": [
+        "Qiwei Zeng",
+        "Hao Wang",
+        "Jinghao Lin",
+        "Shuchang Ye",
+        "Yuezhe Yang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "EasyLens is a training-free, plug-and-play method designed to enhance the sensitivity of frozen medical Vision-Language Models (VLMs) to subtle lesions. It achieves this by amplifying the representation of weak lesion cues within the image tokens before they are processed by the VLM, without requiring any additional training or model fine-tuning. This approach significantly improves lesion detection and interpretation capabilities by ensuring subtle visual evidence is not lost during global representation aggregation.",
+      "url": "http://arxiv.org/abs/2606.06379v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06379v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.06379v1/x1.png",
+      "figure_caption": "EasyLens brings weak subtle-lesion cues into focus in frozen medical VLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06983v1",
+      "title": "DaX: Learning General Pathology Representations Across Scales",
+      "authors": [
+        "Bokai Zhao",
+        "Yiyang Zhang",
+        "Long Bai",
+        "Tai Ma",
+        "Hanqing Chao"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "DaX is a pathology vision foundation model that adapts DINOv3 self-supervised learning to whole-slide images (WSIs) by incorporating continuous magnification training and scale-invariant augmentations. Its core method aims to build robust, generalizable representations by linking local cellular details with global tissue architecture across varying input scales. The contribution is a highly adaptable foundation model and a comprehensive WSI-level benchmark spanning 161 diverse clinical tasks.",
+      "url": "http://arxiv.org/abs/2606.06983v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06983v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.07368v1",
+      "title": "Mitosis Detection in the Wild: Multi-Tumor and Context-Aware Generalization in the MIDOG 2025 Challenge",
+      "authors": [
+        "Marc Aubreville",
+        "Jonas Ammeling",
+        "Sweta Banerjee",
+        "Viktoria Weiss",
+        "Taryn A. Donovan"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces the MIDOG 2025 challenge, designed to test mitosis detection models against unprecedented biological and contextual diversity across various tumor types and scanning platforms. The core method involves a comprehensive test dataset requiring detection in random and challenging tissue areas, moving beyond traditional hotspot-focused evaluation. The main contribution is establishing a rigorous benchmark for real-world generalization in mitosis detection, including an auxiliary track for classifying atypical mitotic figures.",
+      "url": "http://arxiv.org/abs/2606.07368v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07368v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.07368v1/x2.png",
+      "figure_caption": "Domains of the test set of the MIDOG 2025 challenge. For each domain, both the abbreviation chosen as well as the full name is given. Shown are four random samples from within the hotspot regions of interest.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.07141v1",
+      "title": "REMEDI: A Benchmark for Retention and Unlearning Evaluation in Multi-label Clinical Disease Inference",
+      "authors": [
+        "Anurag Sharma",
+        "Sai Teja Chunchu",
+        "Prasenjit Mitra",
+        "Sandipan Sikdar",
+        "Koustav Rudra"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "REMEDI is introduced as a novel benchmark specifically designed to evaluate machine unlearning methods in the critical domain of multi-label clinical disease inference. Its core contribution is providing a realistic evaluation platform that incorporates complex real-world factors like label correlations and longitudinal data structure, addressing the limitations of existing synthetic benchmarks. This allows for a clearer assessment of how effectively privacy-preserving unlearning techniques function within sensitive medical AI systems.",
+      "url": "http://arxiv.org/abs/2606.07141v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07141v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.07141v1/x1.png",
+      "figure_caption": "Figure 1 . REMEDI provides three kinds of forget sets to measure robustness to varying sizes of forget sets: (1) Distinct instances, (2) Concurrent instances, and (3) Large-scale instances. #forget represents the number of instances in the forget set. Large-scale instances are % of the train set.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06950v1",
+      "title": "When is 3D Worth It? A Resource-Performance Frontier for CNNs and Transformers in Lung CT",
+      "authors": [
+        "Md Enamul Hoq",
+        "Sharafat Hossain",
+        "Imraul Emmaka",
+        "Linda Larson-Prior",
+        "Lawrence Tarbox"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper systematically compares the resource-performance trade-offs of 2D, 2.5D, and 3D input dimensionalities for CNNs and Transformers on lung CT analysis. The core contribution is establishing a resource-performance frontier and failure-mode taxonomy, revealing that the 2.5D CNN offers the most favorable discrimination-stability trade-off, while 3D models and Transformers exhibit instability or degenerate performance.",
+      "url": "http://arxiv.org/abs/2606.06950v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06950v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.06950v1/x1.png",
+      "figure_caption": "Study design and resource–performance frontier. A lung-focused QC pipeline yields one canonical volume per patient; a leakage-free patient-level split feeds three inputs that differ only in dimensionality (2D, 2.5D, 3D) into matched CNN and ViT backbones, which are evaluated for discrimination, operating behavior, and computational cost. The 2.5D CNN gives the most favorable trade-off.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.07237v1",
+      "title": "When Large Language Models Fail in Healthcare: Evaluating Sensitivity to Prompt Variations",
+      "authors": [
+        "Mahdi Alkaeed"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "This paper systematically evaluates the robustness of general and medical Large Language Models (LLMs) to prompt variations using the MedMCQA benchmark. The core method involves categorizing and applying natural and adversarial prompt perturbations to assess changes in model consistency and accuracy for clinical reasoning tasks. The key contribution is demonstrating that even medical LLMs are highly sensitive to minor phrasing changes, revealing significant unpredictability that poses safety risks in healthcare applications.",
+      "url": "http://arxiv.org/abs/2606.07237v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.07237v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.07237v1/Pipeline.jpg",
+      "figure_caption": "This methodological pipeline outlines a comprehensive robustness evaluation framework for assessing the sensitivity and stability of healthcare LLMs using the MedMCQA benchmark, supported by advanced NLP tools (e.g., BioSyn, scispaCy) and biomedical metrics (e.g., BERTScore, USE) to quantify model resilience to input variations.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.08364v1",
+      "title": "Self-Supervised Vision Transformers for CBCT-Based Detection of Temporomandibular Joint Osteoarthritis",
+      "authors": [
+        "Shradhdha Trivedi",
+        "Vrundan Sojitra",
+        "Mariela Padilla"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates the transferability of DINO self-supervised vision transformers for detecting temporomandibular joint osteoarthritis (TMJ OA) from cone-beam CT (CBCT) images. The core method involves using a Vision Transformer (ViT) backbone to encode individual slices, followed by attention-based Multiple Instance Learning (MIL) for patient-level classification. The key contribution is demonstrating that partially unfreezing the final two transformer blocks significantly boosts performance, achieving an AUC of 0.902, which outperforms fully frozen or fully fine-tuned models.",
+      "url": "http://arxiv.org/abs/2606.08364v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.08364v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.08364v1/pipeline.png",
+      "figure_caption": "Proposed pipeline. (1) A 3D CBCT volume ( H × W × D H\\!\\( \\times \\)\\!W\\!\\( \\times \\)\\!D ) is input. (2) N N axial slices are extracted from the TMJ region. (3) Each slice is independently encoded by a shared pretrained DINO-family ViT backbone (weights partially adapted). (4) Per-slice [CLS] embeddings ( N × D N\\!\\( \\times \\)\\!D ) are formed. (5) Attention-based MIL aggregation learns to up-weight diagnostically informative slices. (6) A linear classifier outputs binary TMJ OA probability.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.10713v1",
+      "title": "++nnU-Net: Scaling nnU-Net with Prefix-Based Data Augmentation",
+      "authors": [
+        "Ana Sofia Santos",
+        "André Ferreira",
+        "Gijs Luijten",
+        "Naida Solak",
+        "Lisle Faray de Paiva"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV",
+        "cs.LG"
+      ],
+      "abstract": "The ++nnU-Net introduces a novel, prefix-based data augmentation module that integrates a two-stage image registration process *before* standard preprocessing and training. This method generates anatomically feasible synthetic training data by warping original images and applying corresponding transformations to their segmentations. The contribution is an enhanced nnU-Net framework that effectively increases data diversity to improve segmentation performance, as demonstrated across five 2D datasets.",
+      "url": "http://arxiv.org/abs/2606.10713v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.10713v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.10713v1/Figure1.png",
+      "figure_caption": "Overview of the augmentation pipeline: (a) data are converted to NIfTI format, renamed, stored in respective image and segmentation directories and split in training and test cohorts; (b) initial stages of the data augmentation process; (c) iteration process between images to be registered and respective transformation to generate segmentation masks; (d) final step of conversion to 3D format before training by nnU-Net.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11675v1",
+      "title": "Lung-R1: A Knowledge Graph-Guided LLM for Pulmonary Diagnostic Reasoning",
+      "authors": [
+        "Haoyang Zeng",
+        "Yuanxi Fu",
+        "Rongzhen Li",
+        "Yuming Yang",
+        "Xiao Sun"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces **Lung-R1**, a Large Language Model specifically designed for pulmonary diagnostic reasoning, addressing the gap between general knowledge and patient-specific case analysis. The core method involves leveraging **LungKG**, a novel, structured pulmonary knowledge graph, to guide the LLM's adaptation and enable relation-aware reasoning over Electronic Medical Record (EMR) evidence. The contribution is a system that moves beyond simple knowledge recall to provide more reliable, evidence-grounded diagnostic support for complex pulmonary cases.",
+      "url": "http://arxiv.org/abs/2606.11675v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11675v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.11675v1/figures/emr_score_0_5_vs_parameters.png",
+      "figure_caption": "EMR diagnosis performance on the EMR Diagnosis task. Lung-R1 achieves state-of-the-art performance at 7B/14B scale.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11702v1",
+      "title": "MedCTA: A Benchmark for Clinical Tool Agents",
+      "authors": [
+        "Tajamul Ashraf",
+        "Hyewon Jeong",
+        "Fida Mohammad Thoker",
+        "Bernard Ghanem"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.CV"
+      ],
+      "abstract": "MedCTA is a new benchmark designed to evaluate the complex, multi-step reasoning and tool-use capabilities of medical AI agents using realistic, multimodal clinical data. It features 107 clinician-validated tasks requiring agents to retrieve, select, and reliably execute external tools to achieve a final clinical outcome. The benchmark's core contribution is enabling process-aware evaluation of planning and execution fidelity, revealing that current frontier models struggle significantly with multi-step clinical tool utilization.",
+      "url": "http://arxiv.org/abs/2606.11702v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11702v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.11702v1/x1.png",
+      "figure_caption": "MedCTA curation pipeline. ➊ Query construction: Annotators expand expert exemplars into structured, executable, and tool-aware clinical queries, followed by clinical verification for correctness and relevance. ➋ Tool chain construction: GPT-generated tool trajectories are refined and corrected by annotators. Technical verification ensures executability and format compliance, while clinical experts validate medical correctness and reasoning soundness.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11794v1",
+      "title": "Multimodal Ordinal Modeling of Alzheimer's Disease Severity Using Structural MRI and Clinical Data",
+      "authors": [
+        "Boris-Stephan Rauchmann",
+        "Jonathan Laib",
+        "Buse Ercik",
+        "Robert Perneczky",
+        "Sergio Altares-López"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces an attention-enhanced multimodal machine learning framework using ordinal regression to automate and improve the interpretability of Alzheimer's disease severity staging. The method integrates structural MRI data with clinical and genetic variables to predict disease severity levels more accurately than unimodal approaches. The core contribution is a robust, multimodal ordinal modeling technique that offers a scalable alternative to traditional, time-consuming clinical assessments.",
+      "url": "http://arxiv.org/abs/2606.11794v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11794v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13315v1",
+      "title": "Masked and Predictive Self-Supervised Foundation Models for 3D Brain MRI",
+      "authors": [
+        "Esra Ergün",
+        "Hersh Chandarana",
+        "Dan Sodickson",
+        "Gözde Ünal"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates two self-supervised pretraining paradigms, Masked Autoencoders (MAE) and Joint Embedding Predictive Architectures (JEPA), for 3D brain MRI disease detection. The core contribution lies in enhancing these methods with novel auxiliary objectives: a spectral-domain reconstruction loss for MAE and variance-covariance regularization for JEPA, to better capture fine-grained anatomical details. This work systematically explores foundation models for MRI-based disease detection, moving beyond typical segmentation tasks.",
+      "url": "http://arxiv.org/abs/2606.13315v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13315v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13315v1/brainfoundation.png",
+      "figure_caption": "Overview of the proposed MAE pretraining and downstream evaluation framework. Top: During pretraining, the encoder processes visible tokens from masked 3D MRI patches, and the lightweight decoder reconstructs the full volume. The reconstruction loss ℒ MAE \\( \\mathcal{L} \\)_{\\( \\text{MAE} \\)} is computed in the spatial domain, while the spectral loss ℒ spec \\( \\mathcal{L} \\)_{\\( \\text{spec} \\)} is computed in the Fourier domain by applying a 3D FFT and a high-pass filter to both the reconstructed and original volumes, encouraging the encoder to capture fine-grained, high-frequency anatomical structure. Bottom: During downstream adaptation, the pretrained encoder is coupled with an Attentive Classifier and evaluated under both frozen and fine-tuned settings for disease classification.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13572v1",
+      "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+      "authors": [
+        "Tanmoy Kanti Halder",
+        "Akash Ghosh",
+        "Subhadip Baidya",
+        "Arijit Roy",
+        "Sriparna Saha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "ArogyaSutra introduces a multi-agent framework utilizing an actor-critic approach with tool grounding and dual-memory mechanisms for step-wise reasoning in multimodal medical contexts. Its core contribution is enabling robust reasoning in Indic languages by leveraging the large-scale, multilingual multimodal medical dataset, ArogyaBodha, to bridge the gap left by English-centric models in low-resource healthcare settings.",
+      "url": "http://arxiv.org/abs/2606.13572v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13572v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13572v1/img/actor-critic_2.jpg",
+      "figure_caption": "Overview of the ArogyaSutra framework. ArogyaSutra employs an actor–critic architecture enhanced with tool-based image grounding and adaptive code-switching. The Actor first processes the input prompt and identifies the need for visual grounding, invoking appropriate tool agents to extract clinically relevant information from medical images before generating an answer with its associated reasoning. This output is then passed to the Critic for evaluation. If the response is correct, the Critic approves and outputs the final answer and reasoning. Otherwise, it consults an error detector (GPT-4o-mini) to identify the source of failure. Language-related errors trigger code-switching by translating the query into English, while reasoning-related errors are handled by incorporating summaries of past and current mistakes from long-term and short-term memory. The refined query is then fed back to the Actor for iterative refinement.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13315v1",
+      "title": "Masked and Predictive Self-Supervised Foundation Models for 3D Brain MRI",
+      "authors": [
+        "Esra Ergün",
+        "Hersh Chandarana",
+        "Dan Sodickson",
+        "Gözde Ünal"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates two self-supervised pretraining methods, Masked Autoencoders (MAE) and Joint Embedding Predictive Architectures (JEPA), for 3D brain MRI disease detection. The core contribution lies in introducing novel auxiliary objectives: a spectral-domain reconstruction loss for MAE and variance-covariance regularization for JEPA, to improve sensitivity to fine anatomical details. This work systematically explores these foundation models for disease detection using contrast-agnostic pretraining on heterogeneous MRI data.",
+      "url": "http://arxiv.org/abs/2606.13315v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13315v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13315v1/brainfoundation.png",
+      "figure_caption": "Overview of the proposed MAE pretraining and downstream evaluation framework. Top: During pretraining, the encoder processes visible tokens from masked 3D MRI patches, and the lightweight decoder reconstructs the full volume. The reconstruction loss ℒ MAE \\( \\mathcal{L} \\)_{\\( \\text{MAE} \\)} is computed in the spatial domain, while the spectral loss ℒ spec \\( \\mathcal{L} \\)_{\\( \\text{spec} \\)} is computed in the Fourier domain by applying a 3D FFT and a high-pass filter to both the reconstructed and original volumes, encouraging the encoder to capture fine-grained, high-frequency anatomical structure. Bottom: During downstream adaptation, the pretrained encoder is coupled with an Attentive Classifier and evaluated under both frozen and fine-tuned settings for disease classification.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13572v1",
+      "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+      "authors": [
+        "Tanmoy Kanti Halder",
+        "Akash Ghosh",
+        "Subhadip Baidya",
+        "Arijit Roy",
+        "Sriparna Saha"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "ArogyaSutra is a multi-agent framework designed to enhance multimodal medical reasoning in Indic languages. It addresses the limitations of English-centric models by integrating tool grounding and dual-memory mechanisms for step-wise reasoning, leveraging the newly created ArogyaBodha dataset of multilingual medical Q&A. This framework aims to provide equitable, AI-driven healthcare assistance for complex queries involving text and medical images in low-resource settings.",
+      "url": "http://arxiv.org/abs/2606.13572v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13572v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13572v1/img/actor-critic_2.jpg",
+      "figure_caption": "Overview of the ArogyaSutra framework. ArogyaSutra employs an actor–critic architecture enhanced with tool-based image grounding and adaptive code-switching. The Actor first processes the input prompt and identifies the need for visual grounding, invoking appropriate tool agents to extract clinically relevant information from medical images before generating an answer with its associated reasoning. This output is then passed to the Critic for evaluation. If the response is correct, the Critic approves and outputs the final answer and reasoning. Otherwise, it consults an error detector (GPT-4o-mini) to identify the source of failure. Language-related errors trigger code-switching by translating the query into English, while reasoning-related errors are handled by incorporating summaries of past and current mistakes from long-term and short-term memory. The refined query is then fed back to the Actor for iterative refinement.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13315v1",
+      "title": "Masked and Predictive Self-Supervised Foundation Models for 3D Brain MRI",
+      "authors": [
+        "Esra Ergün",
+        "Hersh Chandarana",
+        "Dan Sodickson",
+        "Gözde Ünal"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper investigates two self-supervised pretraining methods, MAE and JEPA, for 3D brain MRI foundation models specifically targeting disease detection. The core contribution lies in introducing novel auxiliary objectives: a spectral-domain reconstruction loss for MAE and variance-covariance regularization for JEPA, to improve sensitivity to fine anatomical details. This work systematically explores these paradigms for disease detection using heterogeneous, contrast-agnostic MRI data.",
+      "url": "http://arxiv.org/abs/2606.13315v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13315v1",
+      "score": 9.0,
+      "figure_url": "https://arxiv.org/html/2606.13315v1/brainfoundation.png",
+      "figure_caption": "Overview of the proposed MAE pretraining and downstream evaluation framework. Top: During pretraining, the encoder processes visible tokens from masked 3D MRI patches, and the lightweight decoder reconstructs the full volume. The reconstruction loss ℒ MAE \\( \\mathcal{L} \\)_{\\( \\text{MAE} \\)} is computed in the spatial domain, while the spectral loss ℒ spec \\( \\mathcal{L} \\)_{\\( \\text{spec} \\)} is computed in the Fourier domain by applying a 3D FFT and a high-pass filter to both the reconstructed and original volumes, encouraging the encoder to capture fine-grained, high-frequency anatomical structure. Bottom: During downstream adaptation, the pretrained encoder is coupled with an Attentive Classifier and evaluated under both frozen and fine-tuned settings for disease classification.",
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.13919v1",
+      "title": "GMN4AD: Graph Matching Network for Alzheimer's Disease Diagnosis with Test-Time Domain Adaptation using Multi-centered Structure Magnetic Resonance Imaging",
+      "authors": [
+        "Chen Zhao",
+        "Huan Huang",
+        "Yixin Xie",
+        "Jiajing Huang",
+        "Weihua Zhou"
+      ],
+      "categories": [
+        "cs.AI",
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces GMN4AD, a Graph Matching Network designed to improve Alzheimer's Disease diagnosis using structural MRI by explicitly modeling interactions between heterogeneous brain graphs. The core method leverages graph matching to capture crucial cross-graph relationships, overcoming limitations of independent graph analysis. A key contribution is the integration of a test-time domain adaptation strategy to enhance robustness against multi-centered site heterogeneity.",
+      "url": "http://arxiv.org/abs/2606.13919v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13919v1",
+      "score": 9.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14568v1",
+      "title": "Trimodal Glioma Representation Alignment via Volumetric Contrastive Learning",
+      "authors": [
+        "Denise Marini",
+        "Eleonora Grassucci",
+        "Danilo Comminiello"
+      ],
+      "categories": [
+        "eess.IV",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces GLORIA, a novel trimodal framework that aligns information from histopathology, mRNA expression, and MRI for glioma prognosis. It uses modality-specific encoders and a Gramian contrastive loss to project these heterogeneous data into a shared latent space. The aligned representations are then fused via a cross-modal gating module for joint optimization of glioma grading and survival prediction.",
+      "url": "http://arxiv.org/abs/2606.14568v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14568v1",
+      "score": 9.0,
+      "primary_category": "eess.IV",
+      "primary_category_anchor": "eess-iv",
+      "primary_category_rank": 2
+    },
+    {
+      "id": "2606.00563v1",
+      "title": "A Practical Upper Bound on Selection Bias Effects in Medical Prediction Models",
+      "authors": [
+        "Kara Liu",
+        "Maggie Wang",
+        "Russ B. Altman"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces a novel, practical upper bound to estimate the worst-case performance of medical prediction models when deployed in a target population affected by selection bias. The method is significant because it only requires partial knowledge of the selection mechanism and target data, making it applicable in realistic scenarios where full distribution knowledge is unavailable. This provides practitioners with a reliable pre-deployment assessment of model generalizability and potential risks.",
+      "url": "http://arxiv.org/abs/2606.00563v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.00563v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.00563v1/x1.png",
+      "figure_caption": "Figure 1 . Pipeline illustrating how our method estimates a generalization bound under limited observation of the target-data, thereby enabling better informed decisions of model deployment.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06094v1",
+      "title": "Integrating Mechanistic and Data-Driven Models for Neurological Disorders through Differentiable Programming",
+      "authors": [
+        "Shah Pallav Dhanendrakumar",
+        "Saikat Pal",
+        "Sitikantha Roy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "math.DS",
+        "physics.med-ph"
+      ],
+      "abstract": "This paper reviews hybrid modeling strategies that integrate mechanistic (physics-based) models with data-driven deep learning techniques for neurological disorders. The core method involves combining the scientific insight of mechanistic models with the speed and scalability of AI, using architectures like parallel, series, and parallel-series configurations. The contribution is a structured overview highlighting key approaches such as residual modeling and Neural ODEs to overcome the limitations of purely mechanistic or purely data-driven approaches.",
+      "url": "http://arxiv.org/abs/2606.06094v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06094v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06094v1",
+      "title": "Integrating Mechanistic and Data-Driven Models for Neurological Disorders through Differentiable Programming",
+      "authors": [
+        "Shah Pallav Dhanendrakumar",
+        "Saikat Pal",
+        "Sitikantha Roy"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "math.DS",
+        "physics.med-ph"
+      ],
+      "abstract": "This paper proposes integrating mechanistic and data-driven models using differentiable programming to overcome the limitations of each approach in modeling neurological disorders. The core method involves hybrid architectures (parallel, series, parallel-series) that leverage techniques like residual modeling and Neural ODEs to combine the scientific insight of physics-based models with the speed and scalability of deep learning. The contribution is a structured overview and framework for building these interpretable, efficient, and generalizable hybrid models for clinical applications.",
+      "url": "http://arxiv.org/abs/2606.06094v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06094v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.08247v1",
+      "title": "AeroSpectra Sentinel: An Auditable LLM Prompt-Chaining Decision-Support Workflow for Acute Asthma Risk Assessment from Respiratory Sounds and Clinical Signals",
+      "authors": [
+        "Aueaphum Aueawatthanaphisut"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "eess.AS",
+        "eess.SP"
+      ],
+      "abstract": "AeroSpectra Sentinel introduces an auditable, multi-stage decision-support workflow for acute asthma risk assessment, integrating respiratory sound analysis with clinical signals. The core method employs a five-stage LLM prompt-chaining process following initial acoustic feature extraction and lightweight ML screening. This approach aims to provide transparent clinical reasoning and safe escalation logic beyond traditional audio-only classifiers.",
+      "url": "http://arxiv.org/abs/2606.08247v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.08247v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.08247v1/figures/8e3aa907-cb16-4e28-ac03-fbb4969fae25.png",
+      "figure_caption": "End-to-end system architecture of AeroSpectra Sentinel. Respiratory audio is transformed into spectral evidence, machine-learning outputs, clinical risk drivers, and an auditable LLM-based report.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.08483v1",
+      "title": "Testing the Black Box: Structural Barriers to Independent Evaluation of Consumer-Facing Health LLMs",
+      "authors": [
+        "Rahul Gorijavolu",
+        "Kaushik Madapati",
+        "Pritika Vig",
+        "Rawan Abulibdeh",
+        "Nikhil Jaiswal"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper investigates response variation and sycophancy in consumer-facing health LLMs by simulating diverse user profiles reflecting real-world social contexts and health beliefs. The core method involved crafting multi-turn prompts based on validated instruments to elicit clinically meaningful differences in model output across these simulated users. The primary contribution is highlighting significant, linked structural barriers encountered during this independent evaluation, suggesting difficulties in reliably assessing these models' behavior under ordinary patient use.",
+      "url": "http://arxiv.org/abs/2606.08483v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.08483v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.08483v1/figure1.png",
+      "figure_caption": "Structural barriers to independent evaluation of consumer-facing health LLMs. Independent evaluation depends on five linked stages: (1) designing prompts that elicit clinically meaningful variation, (2) simulating user profiles that reflect real-world social and behavioural contexts, (3) accessing systems under browser-like conditions, (4) judging whether observed differences represent benign personalisation, sycophancy, bias, or safety-relevant variation, and (5) repeating the analysis despite frequent model updates. Failure at any stage limits what researchers, clinicians, or regulators can verify.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.12006v1",
+      "title": "Tabular Foundation Models for Clinical Survival Analysis via Survival-Aware Adaptation",
+      "authors": [
+        "Minh-Khoi Pham",
+        "Luca Cotugno",
+        "Alina Sirbu",
+        "Tai Tan Mai",
+        "Martin Crane"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper adapts existing tabular foundation models (like TabPFN) for clinical survival analysis, a task traditionally requiring extensive task-specific training. The core method involves attaching a lightweight, survival-aware head, such as a multi-task logistic regression, directly onto the pretrained representations of these models. This approach enables effective time-to-event prediction using general-purpose structured data knowledge without full retraining.",
+      "url": "http://arxiv.org/abs/2606.12006v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.12006v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13135v1",
+      "title": "Cascade Classification of Dermoscopic Images of Skin Neoplasms with Controllable Sensitivity and External Clinical Validation",
+      "authors": [
+        "Elena S. Kozachok",
+        "Sergey S. Seregin",
+        "Aleksandr V. Kozachok",
+        "Ilya P. Latyshev",
+        "Oleg I. Samovarov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "The core method compares four deep learning architectures (ViT, Swin, ConvNeXt, EfficientNetV2) using three classification schemes (binary, single-stage four-class, and a two-stage cascade) for dermoscopic images. The main contribution is demonstrating that while these models achieve high internal performance, the cascade approach, when tested on independent external clinical datasets (Russian practice), exhibits significant performance degradation, particularly in sensitivity and calibration, highlighting challenges in cross-dataset generalization.",
+      "url": "http://arxiv.org/abs/2606.13135v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13135v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13258v1",
+      "title": "MOSAIC: Modality-Specific Adaptation for Incremental Continual Learning in Parkinson's Disease Gait Assessment",
+      "authors": [
+        "Minlin Zeng",
+        "Zhipeng Zhou",
+        "Yang Qiu",
+        "Martin J. McKeown",
+        "Zhiqi Shen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "MOSAIC is a continual learning framework designed for Parkinson's gait assessment where sensor modalities arrive incrementally. It addresses challenges like unreliable distillation and statistical shifts using three key components: Modality-Specific Warm-Up to stabilize new representations, a statistics-decoupled MSBN architecture, and a curriculum-guided objective for plasticity recovery. This approach effectively preserves knowledge from past sensors while integrating new ones without requiring historical data.",
+      "url": "http://arxiv.org/abs/2606.13258v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13258v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13258v1/x1.png",
+      "figure_caption": "Illustration of the ”Teacher Misalignment” paradox in direct cross-modal KD. (a) Direct KD yields a pseudo-teacher with toxic, high-entropy outputs, whereas our Stage 1 Modality-Specific Warm-Up rapidly stabilizes the entropy into a legitimate anchor. (b) Forcing alignment with a high-entropy teacher causes catastrophic negative transfer, which our method successfully prevents.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13188v1",
+      "title": "Transformer-Guided Graph Attention for Direct Cardiac Mesh Reconstruction: A Structural Digital Twin Framework",
+      "authors": [
+        "Abhishek H S",
+        "Akash Ganamukhi",
+        "Abhimanyu Suresh",
+        "Aditya G Hiremath",
+        "Prasad B Honnavalli"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces an end-to-end framework that directly generates simulation-ready cardiac surface meshes from raw 3D medical images, bypassing slow manual segmentation and cleanup. The core method combines a 3D Swin Transformer for volumetric feature extraction with a Graph Attention Network (GAT) head that iteratively deforms a template mesh to match the patient's anatomy. This approach significantly streamlines the creation of patient-specific cardiac digital twins for precision cardiology.",
+      "url": "http://arxiv.org/abs/2606.13188v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13188v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13188v1/images/fig21_dataset.jpeg",
+      "figure_caption": "Figure 1. Dataset examples: CT (top) and MRI (bottom) slices with annotations from MM-WHS 2017.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13135v1",
+      "title": "Cascade Classification of Dermoscopic Images of Skin Neoplasms with Controllable Sensitivity and External Clinical Validation",
+      "authors": [
+        "Elena S. Kozachok",
+        "Sergey S. Seregin",
+        "Aleksandr V. Kozachok",
+        "Ilya P. Latyshev",
+        "Oleg I. Samovarov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "The paper compares deep learning architectures (ViT, Swin, ConvNeXt, EfficientNet) using binary, single-stage four-class, and a two-stage cascade classification scheme for dermoscopic skin cancer images. The core contribution is demonstrating that the two-stage cascade approach, while performing well internally, exhibits significant performance degradation and poor calibration (high Expected Calibration Error) when externally validated on independent Russian clinical datasets, highlighting generalization challenges.",
+      "url": "http://arxiv.org/abs/2606.13135v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13135v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13258v1",
+      "title": "MOSAIC: Modality-Specific Adaptation for Incremental Continual Learning in Parkinson's Disease Gait Assessment",
+      "authors": [
+        "Minlin Zeng",
+        "Zhipeng Zhou",
+        "Yang Qiu",
+        "Martin J. McKeown",
+        "Zhiqi Shen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "MOSAIC is a continual learning framework designed for Parkinson's disease gait assessment where sensor modalities arrive incrementally. It addresses challenges like unreliable distillation and statistical shifts by introducing Modality-Specific Warm-Up and a statistics-decoupled MSBN architecture. The core contribution is a method that effectively integrates new sensor data while preserving performance on previously learned modalities, crucial for real-world, evolving clinical systems.",
+      "url": "http://arxiv.org/abs/2606.13258v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13258v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13258v1/x1.png",
+      "figure_caption": "Illustration of the ”Teacher Misalignment” paradox in direct cross-modal KD. (a) Direct KD yields a pseudo-teacher with toxic, high-entropy outputs, whereas our Stage 1 Modality-Specific Warm-Up rapidly stabilizes the entropy into a legitimate anchor. (b) Forcing alignment with a high-entropy teacher causes catastrophic negative transfer, which our method successfully prevents.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13188v1",
+      "title": "Transformer-Guided Graph Attention for Direct Cardiac Mesh Reconstruction: A Structural Digital Twin Framework",
+      "authors": [
+        "Abhishek H S",
+        "Akash Ganamukhi",
+        "Abhimanyu Suresh",
+        "Aditya G Hiremath",
+        "Prasad B Honnavalli"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces a novel end-to-end framework for direct cardiac mesh reconstruction, bypassing slow, manual segmentation and meshing steps. It utilizes a 3D Swin Transformer to extract volumetric features, which then guide a Graph Attention Network (GAT) to iteratively deform a template mesh directly onto the patient's cardiac surface from raw 3D images. The core contribution is streamlining the creation of simulation-ready cardiac digital twins for precision cardiology.",
+      "url": "http://arxiv.org/abs/2606.13188v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13188v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13188v1/images/fig21_dataset.jpeg",
+      "figure_caption": "Figure 1. Dataset examples: CT (top) and MRI (bottom) slices with annotations from MM-WHS 2017.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13135v1",
+      "title": "Cascade Classification of Dermoscopic Images of Skin Neoplasms with Controllable Sensitivity and External Clinical Validation",
+      "authors": [
+        "Elena S. Kozachok",
+        "Sergey S. Seregin",
+        "Aleksandr V. Kozachok",
+        "Ilya P. Latyshev",
+        "Oleg I. Samovarov"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "The paper compares four deep learning architectures using three classification schemes (binary, single-stage four-class, and a two-stage cascade) for dermoscopic skin cancer images. The core contribution is demonstrating that a two-stage cascade approach, while performing well internally, suffers a significant drop in performance and calibration (ECE increase) when externally validated on independent Russian clinical datasets. This highlights challenges in generalizing AI models trained on open data to diverse clinical settings.",
+      "url": "http://arxiv.org/abs/2606.13135v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13135v1",
+      "score": 8.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13258v1",
+      "title": "MOSAIC: Modality-Specific Adaptation for Incremental Continual Learning in Parkinson's Disease Gait Assessment",
+      "authors": [
+        "Minlin Zeng",
+        "Zhipeng Zhou",
+        "Yang Qiu",
+        "Martin J. McKeown",
+        "Zhiqi Shen"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "MOSAIC is a continual learning framework designed for Parkinson's gait assessment where sensor modalities arrive incrementally. It addresses challenges like unreliable distillation and statistical shifts using three key components: Modality-Specific Warm-Up to stabilize new representations, a statistics-decoupled MSBN architecture, and a curriculum-guided objective for plasticity recovery. The core contribution is enabling robust, incremental learning across heterogeneous sensor data streams common in clinical settings.",
+      "url": "http://arxiv.org/abs/2606.13258v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13258v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13258v1/x1.png",
+      "figure_caption": "Illustration of the ”Teacher Misalignment” paradox in direct cross-modal KD. (a) Direct KD yields a pseudo-teacher with toxic, high-entropy outputs, whereas our Stage 1 Modality-Specific Warm-Up rapidly stabilizes the entropy into a legitimate anchor. (b) Forcing alignment with a high-entropy teacher causes catastrophic negative transfer, which our method successfully prevents.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.13188v1",
+      "title": "Transformer-Guided Graph Attention for Direct Cardiac Mesh Reconstruction: A Structural Digital Twin Framework",
+      "authors": [
+        "Abhishek H S",
+        "Akash Ganamukhi",
+        "Abhimanyu Suresh",
+        "Aditya G Hiremath",
+        "Prasad B Honnavalli"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "This paper introduces a novel end-to-end framework that directly reconstructs patient-specific, simulation-ready cardiac surface meshes from raw 3D medical images (CT/MRI). The core method combines a 3D Swin Transformer for volumetric feature extraction with a Graph Attention Network (GAT) that iteratively deforms a template mesh to match the cardiac boundary. This approach bypasses the slow, manual steps of traditional segmentation and mesh generation, offering a fast and consistent path toward structural digital twins for precision cardiology.",
+      "url": "http://arxiv.org/abs/2606.13188v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.13188v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.13188v1/images/fig21_dataset.jpeg",
+      "figure_caption": "Figure 1. Dataset examples: CT (top) and MRI (bottom) slices with annotations from MM-WHS 2017.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14608v1",
+      "title": "Expert-Driven Survival Machines: Improving Stratification and Interpretability in Multiple Clinical Cohorts",
+      "authors": [
+        "Farica Zhuang",
+        "Zixuan Wen",
+        "Christos Davatzikos",
+        "Li Shen"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "This paper introduces AdaCSM, a Mixture-of-Experts (MoE) framework designed to improve survival prediction by modeling heterogeneous patient data across multiple clinical cohorts. The core method uses a routing-based expert mechanism to dynamically assign patients to specialized risk predictors, allowing for individualized feature representations rather than a single common one. This approach enhances risk stratification accuracy and provides greater interpretability by explicitly clustering patients into specialized survival subtypes.",
+      "url": "http://arxiv.org/abs/2606.14608v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14608v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14608v1/x1.png",
+      "figure_caption": "Figure 1 . AdaCSM pipeline. The model uses a top‑K routing mechanism to assign each input to a subset of experts, which are subsequently processed by a Weibull‑based Deep Clustering Survival Machine. Expert outputs are combined through mixture weights produced by the router, enabling adaptive modeling of heterogeneous risk patterns.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.14603v1",
+      "title": "Towards In Silico Cancer Therapy Design: An Agent-Based Approach for GPU-Accelerated Molecular Pathway Simulation",
+      "authors": [
+        "Stefano Maestri"
+      ],
+      "categories": [
+        "q-bio.QM",
+        "cs.CE",
+        "q-bio.MN"
+      ],
+      "abstract": "This paper introduces a GPU-accelerated agent-based simulator for modeling complex molecular pathways in cancer therapy design. The core method represents individual molecules as autonomous agents interacting spatially within a 3D environment, leveraging FLAME GPU 2 for efficient simulation of millions of agents. The contribution is an efficient computational tool capable of analyzing signaling pathways and evaluating therapeutic interventions *in silico*.",
+      "url": "http://arxiv.org/abs/2606.14603v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.14603v1",
+      "score": 8.0,
+      "figure_url": "https://arxiv.org/html/2606.14603v1/interface.png",
+      "figure_caption": "The simulator interface during a running simulation. The left panel displays the 3D visualisation of the simulation environment, highlighting molecules by compartment (orange for cytoplasm, yellow for nucleus). The right panel shows the real-time concentration plot of cytoplasmic phosphorylated cFos (pcFosc), a downstream product of the MAPK/ERK signalling pathway, reflecting the accumulation and phosphorylation of cFos until a steady-state level is reached. This example, based on Nakakuki et al. [ undefh ] , is discussed in Section 3.4 and demonstrates the simulator’s ability to reproduce gene expression dynamics and compartmental processes. It also highlights the capability to perform simulations in a fully three-dimensional environment without requiring spatial slicing.",
+      "primary_category": "q-bio.QM",
+      "primary_category_anchor": "q-bio-qm",
+      "primary_category_rank": 1
+    },
+    {
+      "id": "2606.06328v1",
+      "title": "PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data",
+      "authors": [
+        "Ziwen Kan",
+        "Wugeng Zheng",
+        "Tianlong Chen",
+        "Song Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "PAMF addresses incomplete multimodal time series data by explicitly estimating missing values, distinguishing between within-modality and modality-level missingness. The core method integrates a prior-aware fusion mechanism that jointly learns the imputation and the downstream task, allowing the task to guide the imputation process for more informative representations. This results in a unified framework that handles both structural missingness patterns effectively.",
+      "url": "http://arxiv.org/abs/2606.06328v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06328v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06328v1",
+      "title": "PAMF: Prior-Aware Multimodal Fusion for Incomplete Time Series Data",
+      "authors": [
+        "Ziwen Kan",
+        "Wugeng Zheng",
+        "Tianlong Chen",
+        "Song Wang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "PAMF addresses incomplete multimodal time series data by explicitly estimating missing values, distinguishing between within-modality and modality-level missingness. Its core method integrates a prior-aware fusion mechanism that learns instance-specific missing information and jointly optimizes imputation with the downstream task. This approach contributes a more informed and task-relevant reconstruction of missing data compared to methods that treat missingness uniformly or implicitly.",
+      "url": "http://arxiv.org/abs/2606.06328v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06328v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.06869v1",
+      "title": "Evidence-Based Intelligent Diagnostic and Therapeutic Visualization System with Large Language Models: Multi-Turn Interaction and Multimodal Treatment Plan Generation",
+      "authors": [
+        "Yunhan Wang",
+        "Yuda Wang",
+        "Zhiying Tu",
+        "Mingqiang Song",
+        "Li Song"
+      ],
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "This paper introduces an evidence-based intelligent visualization system for Traditional Chinese Medicine diagnosis and treatment, addressing the opacity of existing AI tools. The core method integrates a Neo4j knowledge graph with a four-stage symptom matching pipeline and a genetic algorithm-optimized proactive questioning strategy. The main contribution is a transparent, interactive diagnostic workflow that generates multimodal treatment plans incorporating visualizations and literature evidence.",
+      "url": "http://arxiv.org/abs/2606.06869v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.06869v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.06869v1/x1.png",
+      "figure_caption": "System overview. The left panel shows the multi-turn interactive consultation process: users describe symptoms in natural language, and the system progressively clarifies key differentiating information through knowledge-enhanced active questioning. The upper right panel illustrates the diagnostic reasoning process: four-layer progressive symptom matching combined with an information-gain-optimized questioning strategy performs candidate syndrome screening and convergence on a dynamic knowledge graph subgraph. The lower right panel shows multimodal diagnostic output: structured treatment plans, AI-generated treatment illustrations, evidence-based references, and an interactive three-dimensional acupoint model.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.10796v1",
+      "title": "Dep-LLM: Training-Free Depression Diagnosis via Evidence-Guided Structured Multi-factor with Reliable LLM Reasoning",
+      "authors": [
+        "Yiqing Lyu",
+        "Xianbing Zhao",
+        "Buzhou Tang",
+        "Ronghuan Jiang"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Dep-LLM is a training-free framework for depression diagnosis that leverages frozen, off-the-shelf Large Language Models (LLMs) to overcome data scarcity and complex reasoning challenges. It employs a Chain-of-Thought (CoT) module to structurally decompose long clinical interviews into five clinically aligned themes, generating evidence-grounded rationales for each factor. This approach mimics expert reasoning to produce reliable, multi-factor-based diagnoses without requiring any model fine-tuning.",
+      "url": "http://arxiv.org/abs/2606.10796v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.10796v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.10796v1/x1.png",
+      "figure_caption": "Dep-LLM decomposes and analyzes dialogues via structural multi-factor schema and verifies their reliability by confidence mechanism. Without extra training, Dep-LLM outperforms zero-shot settings on a range of foundation LLMs.",
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11556v1",
+      "title": "Privacy-Preserving Federated Autoencoder for ECG Anomaly Detection on Edge Devices",
+      "authors": [
+        "Kaan Arda Akyol",
+        "Jakub Kacper Szeląg",
+        "Aydin Abadi",
+        "Maha Alghamdi",
+        "Ghadah Albalawi"
+      ],
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "abstract": "This paper presents a federated learning framework for privacy-preserving, real-time ECG anomaly detection on edge devices. The core method combines multiple autoencoder architectures with client-side Differentially Private Stochastic Gradient Descent (DP-SGD) and post-training 8-bit quantization. The contribution lies in empirically characterizing the composition of these mechanisms and providing practical recommendations for deploying such secure, resource-constrained systems in clinical settings.",
+      "url": "http://arxiv.org/abs/2606.11556v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11556v1",
+      "score": 7.0,
+      "primary_category": "cs.AI",
+      "primary_category_anchor": "cs-ai",
+      "primary_category_rank": 0
+    },
+    {
+      "id": "2606.11775v1",
+      "title": "Magnitude-Based Features for Multispecies Spatial Data",
+      "authors": [
+        "Julia Sollberger",
+        "Joshua Bull",
+        "Sara Kališnik",
+        "Bernadette Stolz"
+      ],
+      "categories": [
+        "q-bio.QM",
+        "math.MG",
+        "stat.ML"
+      ],
+      "abstract": "This paper introduces **magnitude-based features** as a novel quantitative tool for analyzing multispecies spatial data, where interactions are key. Magnitude, an invariant of metric spaces, effectively captures spatial configuration and scale. The authors develop global and local magnitude feature vectors, demonstrating their utility in identifying distinct neighborhood types and spatial heterogeneity in both simulated and real-world cancer tissue data.",
+      "url": "http://arxiv.org/abs/2606.11775v1",
+      "pdf_url": "https://arxiv.org/pdf/2606.11775v1",
+      "score": 7.0,
+      "figure_url": "https://arxiv.org/html/2606.11775v1/x1.png",
+      "figure_caption": "We test our approach on synthetic data generated from an agent based model of the tumour microenvironment (Bull & Byrne 2023 [ 5 ] ). Different combinations of parameter values c 1 / 2 c_{1/2} (half-maximal macrophage extravasation rate) and χ c m \\( \\chi^{m}_{c} \\) (chemotactic sensitivity of macrophages to CSF-1) lead to qualitatively different outcomes: elimination of tumour cells by macrophages (blue parameter regime), equilibrium between tumour cells and macrophages (yellow parameter regime), and escape of tumour cells towards blood vessels (red parameter regime). The pictured classification of qualitative regimes corresponds to the (subjective) classification in the original paper.",
+      "primary_category": "q-bio.QM",
+      "primary_category_anchor": "q-bio-qm",
+      "primary_category_rank": 1
+    }
+  ],
+  "new_jobs": [],
+  "trending_keywords": [],
+  "keyword_frequency": {},
+  "daily_refs": [
+    "2026-06-01",
+    "2026-06-02",
+    "2026-06-03",
+    "2026-06-04",
+    "2026-06-05",
+    "2026-06-06",
+    "2026-06-07",
+    "2026-06-08",
+    "2026-06-09",
+    "2026-06-10",
+    "2026-06-11",
+    "2026-06-12",
+    "2026-06-13",
+    "2026-06-14",
+    "2026-06-15",
+    "2026-06-16",
+    "2026-06-17",
+    "2026-06-18",
+    "2026-06-19",
+    "2026-06-20",
+    "2026-06-21",
+    "2026-06-22",
+    "2026-06-23",
+    "2026-06-24",
+    "2026-06-25",
+    "2026-06-26",
+    "2026-06-27",
+    "2026-06-28",
+    "2026-06-29",
+    "2026-06-30"
+  ]
+}
