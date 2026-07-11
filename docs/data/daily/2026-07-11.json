@@ -1,0 +1,296 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T03:32:54.668032+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 8,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48856904,
+          "title": "AI-generated videos to maximally drive a target brain region",
+          "url": "https://nevo-project.epfl.ch/",
+          "score": 269,
+          "created_at": "2026-07-10T07:39:11Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48856904",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48863707,
+          "title": "How the terrorist group Boko Haram uses frontier AI",
+          "url": "https://casp.ac/reports/ai-enabled-terrorism",
+          "score": 190,
+          "created_at": "2026-07-10T18:49:26Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48863707",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48864507,
+          "title": "Please don't discontinue Gemini 2.5 Flash",
+          "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
+          "score": 116,
+          "created_at": "2026-07-10T20:00:28Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48864507",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 3
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "wonderwhy-er/DesktopCommanderMCP",
+          "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+          "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+          "stars_today": 328,
+          "total_stars": 7373,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "oven-sh/bun",
+          "url": "https://github.com/oven-sh/bun",
+          "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+          "stars_today": 209,
+          "total_stars": 94292,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "abseil/abseil-cpp",
+          "url": "https://github.com/abseil/abseil-cpp",
+          "description": "Abseil Common Libraries (C++)",
+          "stars_today": 89,
+          "total_stars": 17535,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "description": "Production-grade engineering skills for AI coding agents.",
+          "stars_today": 1116,
+          "total_stars": 76888,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "jbeder/yaml-cpp",
+          "url": "https://github.com/jbeder/yaml-cpp",
+          "description": "A YAML parser and emitter in C++",
+          "stars_today": 69,
+          "total_stars": 6088,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "description": "Skills for Real Engineers. Straight from my .claude directory.",
+          "stars_today": 1712,
+          "total_stars": 164778,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 1013,
+          "total_stars": 251858,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "microsoft/TypeScript",
+          "url": "https://github.com/microsoft/TypeScript",
+          "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+          "stars_today": 177,
+          "total_stars": 109795,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "catchorg/Catch2",
+          "url": "https://github.com/catchorg/Catch2",
+          "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+          "stars_today": 76,
+          "total_stars": 20623,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 8,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 104
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 48856904,
+      "title": "AI-generated videos to maximally drive a target brain region",
+      "url": "https://nevo-project.epfl.ch/",
+      "score": 269,
+      "created_at": "2026-07-10T07:39:11Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48856904",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48863707,
+      "title": "How the terrorist group Boko Haram uses frontier AI",
+      "url": "https://casp.ac/reports/ai-enabled-terrorism",
+      "score": 190,
+      "created_at": "2026-07-10T18:49:26Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48863707",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48864507,
+      "title": "Please don't discontinue Gemini 2.5 Flash",
+      "url": "https://discuss.ai.google.dev/t/please-dont-discontinue-gemini-2-5-flash/174246",
+      "score": 116,
+      "created_at": "2026-07-10T20:00:28Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48864507",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "stars_today": 328,
+      "total_stars": 7373,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "oven-sh/bun",
+      "url": "https://github.com/oven-sh/bun",
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "stars_today": 209,
+      "total_stars": 94292,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "abseil/abseil-cpp",
+      "url": "https://github.com/abseil/abseil-cpp",
+      "description": "Abseil Common Libraries (C++)",
+      "stars_today": 89,
+      "total_stars": 17535,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars_today": 1116,
+      "total_stars": 76888,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "jbeder/yaml-cpp",
+      "url": "https://github.com/jbeder/yaml-cpp",
+      "description": "A YAML parser and emitter in C++",
+      "stars_today": 69,
+      "total_stars": 6088,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "stars_today": 1712,
+      "total_stars": 164778,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 1013,
+      "total_stars": 251858,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "microsoft/TypeScript",
+      "url": "https://github.com/microsoft/TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "stars_today": 177,
+      "total_stars": 109795,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "catchorg/Catch2",
+      "url": "https://github.com/catchorg/Catch2",
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+      "stars_today": 76,
+      "total_stars": 20623,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
