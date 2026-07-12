@@ -1,0 +1,332 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T03:44:42.859565+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 8,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48870381,
+          "title": "Ghost Font: A font that humans can read but AI cannot",
+          "url": "https://www.mixfont.com/ghost-font",
+          "score": 201,
+          "created_at": "2026-07-11T09:36:53Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48870381",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48874200,
+          "title": "AI 2040 and the cult of intelligence",
+          "url": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+          "score": 185,
+          "created_at": "2026-07-11T18:04:01Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48874200",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48873836,
+          "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+          "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+          "score": 179,
+          "created_at": "2026-07-11T17:21:49Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48873836",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48876441,
+          "title": "Stop Telling Me to Ask an LLM",
+          "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
+          "score": 170,
+          "created_at": "2026-07-11T22:28:48Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48876441",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48876505,
+          "title": "Mesh LLM: distributed AI computing on iroh",
+          "url": "https://www.iroh.computer/blog/mesh-llm",
+          "score": 135,
+          "created_at": "2026-07-11T22:38:57Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48876505",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 5
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "catchorg/Catch2",
+          "url": "https://github.com/catchorg/Catch2",
+          "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+          "stars_today": 113,
+          "total_stars": 21099,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "abseil/abseil-cpp",
+          "url": "https://github.com/abseil/abseil-cpp",
+          "description": "Abseil Common Libraries (C++)",
+          "stars_today": 118,
+          "total_stars": 17829,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "davila7/claude-code-templates",
+          "url": "https://github.com/davila7/claude-code-templates",
+          "description": "CLI tool for configuring and monitoring Claude Code",
+          "stars_today": 232,
+          "total_stars": 29051,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+          "stars_today": 340,
+          "total_stars": 7107,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "hashicorp/terraform",
+          "url": "https://github.com/hashicorp/terraform",
+          "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+          "stars_today": 229,
+          "total_stars": 49387,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "zeux/meshoptimizer",
+          "url": "https://github.com/zeux/meshoptimizer",
+          "description": "Mesh optimization library that makes meshes smaller and faster to render",
+          "stars_today": 110,
+          "total_stars": 8149,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "openai/plugins",
+          "url": "https://github.com/openai/plugins",
+          "description": "OpenAI Plugins",
+          "stars_today": 29,
+          "total_stars": 4442,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "wonderwhy-er/DesktopCommanderMCP",
+          "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+          "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+          "stars_today": 909,
+          "total_stars": 7799,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "chriskohlhoff/asio",
+          "url": "https://github.com/chriskohlhoff/asio",
+          "description": "Asio C++ Library",
+          "stars_today": 76,
+          "total_stars": 6142,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 8,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 116
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 48870381,
+      "title": "Ghost Font: A font that humans can read but AI cannot",
+      "url": "https://www.mixfont.com/ghost-font",
+      "score": 201,
+      "created_at": "2026-07-11T09:36:53Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48870381",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48874200,
+      "title": "AI 2040 and the cult of intelligence",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+      "score": 185,
+      "created_at": "2026-07-11T18:04:01Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48874200",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48873836,
+      "title": "Nvidia, CoreWeave, and Nebius: Inside the Circular Financing of the GPU Boom",
+      "url": "https://io-fund.com/ai-stocks/nvidia-coreweave-nebius-circular-financing-gpu-boom",
+      "score": 179,
+      "created_at": "2026-07-11T17:21:49Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48873836",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48876441,
+      "title": "Stop Telling Me to Ask an LLM",
+      "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
+      "score": 170,
+      "created_at": "2026-07-11T22:28:48Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48876441",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48876505,
+      "title": "Mesh LLM: distributed AI computing on iroh",
+      "url": "https://www.iroh.computer/blog/mesh-llm",
+      "score": 135,
+      "created_at": "2026-07-11T22:38:57Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48876505",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "catchorg/Catch2",
+      "url": "https://github.com/catchorg/Catch2",
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+      "stars_today": 113,
+      "total_stars": 21099,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "abseil/abseil-cpp",
+      "url": "https://github.com/abseil/abseil-cpp",
+      "description": "Abseil Common Libraries (C++)",
+      "stars_today": 118,
+      "total_stars": 17829,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "stars_today": 232,
+      "total_stars": 29051,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "stars_today": 340,
+      "total_stars": 7107,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "hashicorp/terraform",
+      "url": "https://github.com/hashicorp/terraform",
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "stars_today": 229,
+      "total_stars": 49387,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "zeux/meshoptimizer",
+      "url": "https://github.com/zeux/meshoptimizer",
+      "description": "Mesh optimization library that makes meshes smaller and faster to render",
+      "stars_today": 110,
+      "total_stars": 8149,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "openai/plugins",
+      "url": "https://github.com/openai/plugins",
+      "description": "OpenAI Plugins",
+      "stars_today": 29,
+      "total_stars": 4442,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "stars_today": 909,
+      "total_stars": 7799,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "chriskohlhoff/asio",
+      "url": "https://github.com/chriskohlhoff/asio",
+      "description": "Asio C++ Library",
+      "stars_today": 76,
+      "total_stars": 6142,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
