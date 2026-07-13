@@ -1,0 +1,350 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T03:48:00.371224+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 10,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48883275,
+          "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+          "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+          "score": 493,
+          "created_at": "2026-07-12T18:25:51Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48883275",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48883343,
+          "title": "I love LLMs, I hate hype",
+          "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+          "score": 356,
+          "created_at": "2026-07-12T18:31:56Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48883343",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48878126,
+          "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
+          "url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
+          "score": 189,
+          "created_at": "2026-07-12T04:00:14Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48878126",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48886741,
+          "title": "Ask HN: Add flag for AI-generated articles",
+          "url": "",
+          "score": 167,
+          "created_at": "2026-07-13T01:24:20Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48886741",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48882716,
+          "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+          "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+          "score": 153,
+          "created_at": "2026-07-12T17:13:07Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48882716",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48881043,
+          "title": "AI boosts research careers but narrow the span of ideas explored: study",
+          "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+          "score": 142,
+          "created_at": "2026-07-12T13:26:13Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48881043",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 6
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "Dicklesworthstone/destructive_command_guard",
+          "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+          "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+          "stars_today": 444,
+          "total_stars": 3083,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "wonderwhy-er/DesktopCommanderMCP",
+          "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+          "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+          "stars_today": 210,
+          "total_stars": 8031,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "HKUDS/Vibe-Trading",
+          "url": "https://github.com/HKUDS/Vibe-Trading",
+          "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+          "stars_today": 768,
+          "total_stars": 20738,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "PrefectHQ/prefect",
+          "url": "https://github.com/PrefectHQ/prefect",
+          "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+          "stars_today": 66,
+          "total_stars": 23202,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Shubhamsaboo/awesome-llm-apps",
+          "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+          "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+          "stars_today": 408,
+          "total_stars": 118740,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "anthropics/claude-cookbooks",
+          "url": "https://github.com/anthropics/claude-cookbooks",
+          "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+          "stars_today": 459,
+          "total_stars": 48517,
+          "language": "Jupyter Notebook",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "home-assistant/core",
+          "url": "https://github.com/home-assistant/core",
+          "description": "🏡 Open source home automation that puts local control and privacy first.",
+          "stars_today": 400,
+          "total_stars": 89138,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Crosstalk-Solutions/project-nomad",
+          "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+          "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+          "stars_today": 125,
+          "total_stars": 33864,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "ColeMurray/background-agents",
+          "url": "https://github.com/ColeMurray/background-agents",
+          "description": "An open-source background agents coding system",
+          "stars_today": 16,
+          "total_stars": 2298,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 10,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 134
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 48883275,
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "score": 493,
+      "created_at": "2026-07-12T18:25:51Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48883275",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48883343,
+      "title": "I love LLMs, I hate hype",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
+      "score": 356,
+      "created_at": "2026-07-12T18:31:56Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48883343",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48878126,
+      "title": "Under federal rule, colleges must leave grads better off or lose financial aid",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5835631/turner-camhi-do-no-harm-college-loans",
+      "score": 189,
+      "created_at": "2026-07-12T04:00:14Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48878126",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48886741,
+      "title": "Ask HN: Add flag for AI-generated articles",
+      "url": "",
+      "score": 167,
+      "created_at": "2026-07-13T01:24:20Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48886741",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48882716,
+      "title": "Migrating a production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "url": "https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6",
+      "score": 153,
+      "created_at": "2026-07-12T17:13:07Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48882716",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48881043,
+      "title": "AI boosts research careers but narrow the span of ideas explored: study",
+      "url": "https://spectrum.ieee.org/ai-science-research-flattens-discovery",
+      "score": 142,
+      "created_at": "2026-07-12T13:26:13Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48881043",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "Dicklesworthstone/destructive_command_guard",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "stars_today": 444,
+      "total_stars": 3083,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "stars_today": 210,
+      "total_stars": 8031,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "HKUDS/Vibe-Trading",
+      "url": "https://github.com/HKUDS/Vibe-Trading",
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "stars_today": 768,
+      "total_stars": 20738,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "PrefectHQ/prefect",
+      "url": "https://github.com/PrefectHQ/prefect",
+      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+      "stars_today": 66,
+      "total_stars": 23202,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "stars_today": 408,
+      "total_stars": 118740,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "stars_today": 459,
+      "total_stars": 48517,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "home-assistant/core",
+      "url": "https://github.com/home-assistant/core",
+      "description": "🏡 Open source home automation that puts local control and privacy first.",
+      "stars_today": 400,
+      "total_stars": 89138,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "stars_today": 125,
+      "total_stars": 33864,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "ColeMurray/background-agents",
+      "url": "https://github.com/ColeMurray/background-agents",
+      "description": "An open-source background agents coding system",
+      "stars_today": 16,
+      "total_stars": 2298,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
