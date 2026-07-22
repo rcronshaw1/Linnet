@@ -1,0 +1,404 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T03:34:38.903836+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 13,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 48993414,
+          "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+          "score": 633,
+          "created_at": "2026-07-21T15:17:16Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48993414",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48989701,
+          "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
+          "url": "https://qwen.ai/blog?id=qwen-image-3.0",
+          "score": 548,
+          "created_at": "2026-07-21T08:44:23Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48989701",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48999291,
+          "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+          "url": "https://fireworks.ai/blog/kimik3-fable",
+          "score": 373,
+          "created_at": "2026-07-21T22:35:24Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48999291",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48987863,
+          "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+          "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+          "score": 355,
+          "created_at": "2026-07-21T03:56:03Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48987863",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48995213,
+          "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+          "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+          "score": 261,
+          "created_at": "2026-07-21T17:14:06Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48995213",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48995261,
+          "title": "Laguna S 2.1",
+          "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+          "score": 252,
+          "created_at": "2026-07-21T17:17:06Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48995261",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48996652,
+          "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+          "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+          "score": 166,
+          "created_at": "2026-07-21T19:04:39Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48996652",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48996197,
+          "title": "AI makes programming differently difficult",
+          "url": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
+          "score": 143,
+          "created_at": "2026-07-21T18:30:21Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48996197",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 48998404,
+          "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+          "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+          "score": 135,
+          "created_at": "2026-07-21T21:13:20Z",
+          "comments_url": "https://news.ycombinator.com/item?id=48998404",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "koala73/worldmonitor",
+          "url": "https://github.com/koala73/worldmonitor",
+          "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+          "stars_today": 1295,
+          "total_stars": 65887,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "bojieli/ai-agent-book",
+          "url": "https://github.com/bojieli/ai-agent-book",
+          "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+          "stars_today": 4624,
+          "total_stars": 15245,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "tirth8205/code-review-graph",
+          "url": "https://github.com/tirth8205/code-review-graph",
+          "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+          "stars_today": 1925,
+          "total_stars": 24710,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "ayghri/i-have-adhd",
+          "url": "https://github.com/ayghri/i-have-adhd",
+          "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+          "stars_today": 1866,
+          "total_stars": 7060,
+          "language": "",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "earthtojake/text-to-cad",
+          "url": "https://github.com/earthtojake/text-to-cad",
+          "description": "A collection of agent skills for CAD, robotics and hardware design",
+          "stars_today": 291,
+          "total_stars": 9237,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "1jehuang/jcode",
+          "url": "https://github.com/1jehuang/jcode",
+          "description": "The most intelligent agent harness for code",
+          "stars_today": 843,
+          "total_stars": 10402,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "oblien/openship",
+          "url": "https://github.com/oblien/openship",
+          "description": "Self-hosted deployment platform",
+          "stars_today": 1562,
+          "total_stars": 6354,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "AstrBotDevs/AstrBot",
+          "url": "https://github.com/AstrBotDevs/AstrBot",
+          "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+          "stars_today": 416,
+          "total_stars": 37535,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "every-app/open-seo",
+          "url": "https://github.com/every-app/open-seo",
+          "description": "Open source alternative to Semrush and Ahrefs",
+          "stars_today": 849,
+          "total_stars": 6656,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 13,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 166
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 48993414,
+      "title": "Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "score": 633,
+      "created_at": "2026-07-21T15:17:16Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48993414",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48989701,
+      "title": "Qwen-Image-3.0: Rich Content, Authentic Details, Deep Knowledge",
+      "url": "https://qwen.ai/blog?id=qwen-image-3.0",
+      "score": 548,
+      "created_at": "2026-07-21T08:44:23Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48989701",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48999291,
+      "title": "Kimi K3 Is Competitive with Fable; Kimi K3 and Fable Is SoTA",
+      "url": "https://fireworks.ai/blog/kimik3-fable",
+      "score": 373,
+      "created_at": "2026-07-21T22:35:24Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48999291",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48987863,
+      "title": "Five US tech giants' hidden debts soar to $1.65T on opaque AI funding",
+      "url": "https://asia.nikkei.com/business/technology/five-us-tech-giants-hidden-debts-soar-to-1.65tn-on-opaque-ai-funding",
+      "score": 355,
+      "created_at": "2026-07-21T03:56:03Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48987863",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48995213,
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "url": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "score": 261,
+      "created_at": "2026-07-21T17:14:06Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48995213",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48995261,
+      "title": "Laguna S 2.1",
+      "url": "https://poolside.ai/blog/introducing-laguna-s-2-1",
+      "score": 252,
+      "created_at": "2026-07-21T17:17:06Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48995261",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48996652,
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "url": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "score": 166,
+      "created_at": "2026-07-21T19:04:39Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48996652",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48996197,
+      "title": "AI makes programming differently difficult",
+      "url": "https://cacm.acm.org/opinion/ai-didnt-make-programming-easier-it-just-made-it-differently-difficult/",
+      "score": 143,
+      "created_at": "2026-07-21T18:30:21Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48996197",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 48998404,
+      "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
+      "url": "https://www.tryai.dev/blog/ai-drawing-arena-colored-pencils-claude-gpt-grok",
+      "score": 135,
+      "created_at": "2026-07-21T21:13:20Z",
+      "comments_url": "https://news.ycombinator.com/item?id=48998404",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "stars_today": 1295,
+      "total_stars": 65887,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "bojieli/ai-agent-book",
+      "url": "https://github.com/bojieli/ai-agent-book",
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "stars_today": 4624,
+      "total_stars": 15245,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "tirth8205/code-review-graph",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "stars_today": 1925,
+      "total_stars": 24710,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "stars_today": 1866,
+      "total_stars": 7060,
+      "language": "",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "stars_today": 291,
+      "total_stars": 9237,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "The most intelligent agent harness for code",
+      "stars_today": 843,
+      "total_stars": 10402,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "oblien/openship",
+      "url": "https://github.com/oblien/openship",
+      "description": "Self-hosted deployment platform",
+      "stars_today": 1562,
+      "total_stars": 6354,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "AstrBotDevs/AstrBot",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "stars_today": 416,
+      "total_stars": 37535,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "every-app/open-seo",
+      "url": "https://github.com/every-app/open-seo",
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "stars_today": 849,
+      "total_stars": 6656,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
