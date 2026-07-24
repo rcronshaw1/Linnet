@@ -1,0 +1,386 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T03:34:56.081798+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 5,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49023016,
+          "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+          "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+          "score": 773,
+          "created_at": "2026-07-23T15:18:40Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49023016",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49020999,
+          "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+          "url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+          "score": 625,
+          "created_at": "2026-07-23T13:09:10Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49020999",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49020868,
+          "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
+          "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
+          "score": 281,
+          "created_at": "2026-07-23T13:00:03Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49020868",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49026810,
+          "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+          "url": "",
+          "score": 263,
+          "created_at": "2026-07-23T19:26:01Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49026810",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49021006,
+          "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
+          "url": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/",
+          "score": 257,
+          "created_at": "2026-07-23T13:10:02Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49021006",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49024643,
+          "title": "The arguments against open source AI are bad",
+          "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+          "score": 219,
+          "created_at": "2026-07-23T16:49:57Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49024643",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49021597,
+          "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
+          "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+          "score": 195,
+          "created_at": "2026-07-23T13:51:36Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49021597",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49022911,
+          "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+          "url": "https://github.com/palmier-io/palmier-pro",
+          "score": 129,
+          "created_at": "2026-07-23T15:11:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49022911",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 8
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "block/buzz",
+          "url": "https://github.com/block/buzz",
+          "description": "A hive mind communication platform",
+          "stars_today": 2162,
+          "total_stars": 7257,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "koala73/worldmonitor",
+          "url": "https://github.com/koala73/worldmonitor",
+          "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+          "stars_today": 3175,
+          "total_stars": 71864,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "shiyu-coder/Kronos",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+          "stars_today": 401,
+          "total_stars": 33137,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Pumpkin-MC/Pumpkin",
+          "url": "https://github.com/Pumpkin-MC/Pumpkin",
+          "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+          "stars_today": 565,
+          "total_stars": 8981,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "citrolabs/ego-lite",
+          "url": "https://github.com/citrolabs/ego-lite",
+          "description": "The best browser for both you and your AI agents work in parallel.",
+          "stars_today": 247,
+          "total_stars": 1775,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "chrislgarry/Apollo-11",
+          "url": "https://github.com/chrislgarry/Apollo-11",
+          "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+          "stars_today": 592,
+          "total_stars": 71144,
+          "language": "Assembly",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "diegosouzapw/OmniRoute",
+          "url": "https://github.com/diegosouzapw/OmniRoute",
+          "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+          "stars_today": 1929,
+          "total_stars": 27411,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "ComposioHQ/awesome-claude-skills",
+          "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+          "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+          "stars_today": 636,
+          "total_stars": 69527,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "earthtojake/text-to-cad",
+          "url": "https://github.com/earthtojake/text-to-cad",
+          "description": "A collection of agent skills for CAD, robotics and hardware design",
+          "stars_today": 230,
+          "total_stars": 10066,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 5,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 112
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49023016,
+      "title": "Startup founders urge U.S. government not to shut off Chinese open weight AI",
+      "url": "https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992",
+      "score": 773,
+      "created_at": "2026-07-23T15:18:40Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49023016",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49020999,
+      "title": "AI Companies Are Trying to Hide a Staggering Amount of Debt",
+      "url": "https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet",
+      "score": 625,
+      "created_at": "2026-07-23T13:09:10Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49020999",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49020868,
+      "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
+      "url": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
+      "score": 281,
+      "created_at": "2026-07-23T13:00:03Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49020868",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49026810,
+      "title": "Show HN: Echo – Fable-level results at 1/3 the cost using open-weight models",
+      "url": "",
+      "score": 263,
+      "created_at": "2026-07-23T19:26:01Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49026810",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49021006,
+      "title": "Alphabet's cash burn raises alarm for Big Tech as AI spending climbs",
+      "url": "https://www.reuters.com/business/retail-consumer/alphabets-cash-burn-raises-alarm-big-tech-ai-spending-climbs-2026-07-23/",
+      "score": 257,
+      "created_at": "2026-07-23T13:10:02Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49021006",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49024643,
+      "title": "The arguments against open source AI are bad",
+      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "score": 219,
+      "created_at": "2026-07-23T16:49:57Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49024643",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49021597,
+      "title": "DARPA, U.S. Air Force fly AI-controlled F-16",
+      "url": "https://www.darpa.mil/news/2026/darpa-us-air-force-fly-ai-controlled-f-16",
+      "score": 195,
+      "created_at": "2026-07-23T13:51:36Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49021597",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49022911,
+      "title": "Show HN: Palmier Pro – Open-source macOS video editor built for AI",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "score": 129,
+      "created_at": "2026-07-23T15:11:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49022911",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "stars_today": 2162,
+      "total_stars": 7257,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "koala73/worldmonitor",
+      "url": "https://github.com/koala73/worldmonitor",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "stars_today": 3175,
+      "total_stars": 71864,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "stars_today": 401,
+      "total_stars": 33137,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "stars_today": 565,
+      "total_stars": 8981,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "The best browser for both you and your AI agents work in parallel.",
+      "stars_today": 247,
+      "total_stars": 1775,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "chrislgarry/Apollo-11",
+      "url": "https://github.com/chrislgarry/Apollo-11",
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "stars_today": 592,
+      "total_stars": 71144,
+      "language": "Assembly",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "stars_today": 1929,
+      "total_stars": 27411,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "stars_today": 636,
+      "total_stars": 69527,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "earthtojake/text-to-cad",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "stars_today": 230,
+      "total_stars": 10066,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
