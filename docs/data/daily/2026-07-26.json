@@ -1,0 +1,332 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T03:46:19.579197+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 5,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49048034,
+          "title": "Open-weight AI is having its Kubernetes moment",
+          "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+          "score": 330,
+          "created_at": "2026-07-25T14:49:49Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49048034",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49049693,
+          "title": "Show HN: Brolly, a plain-text weather forecast site",
+          "url": "https://brolly.sh/forecast/RWFP2qW8",
+          "score": 141,
+          "created_at": "2026-07-25T17:34:34Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49049693",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49044492,
+          "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities",
+          "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+          "score": 124,
+          "created_at": "2026-07-25T04:20:21Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49044492",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49050512,
+          "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+          "url": "https://github.com/slvDev/esp32-ai",
+          "score": 103,
+          "created_at": "2026-07-25T18:59:50Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49050512",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49050859,
+          "title": "LLM Usage in Debian: Three Proposals",
+          "url": "https://www.debian.org/vote/2026/vote_002",
+          "score": 101,
+          "created_at": "2026-07-25T19:44:39Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49050859",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 5
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "block/buzz",
+          "url": "https://github.com/block/buzz",
+          "description": "A hive mind communication platform",
+          "stars_today": 2491,
+          "total_stars": 12087,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+          "stars_today": 431,
+          "total_stars": 13060,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "citrolabs/ego-lite",
+          "url": "https://github.com/citrolabs/ego-lite",
+          "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+          "stars_today": 986,
+          "total_stars": 3680,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "ComposioHQ/awesome-claude-skills",
+          "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+          "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+          "stars_today": 577,
+          "total_stars": 70640,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "anthropics/claude-cookbooks",
+          "url": "https://github.com/anthropics/claude-cookbooks",
+          "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+          "stars_today": 132,
+          "total_stars": 49933,
+          "language": "Jupyter Notebook",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Automattic/harper",
+          "url": "https://github.com/Automattic/harper",
+          "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+          "stars_today": 503,
+          "total_stars": 13459,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "shiyu-coder/Kronos",
+          "url": "https://github.com/shiyu-coder/Kronos",
+          "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+          "stars_today": 319,
+          "total_stars": 33832,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 479,
+          "total_stars": 261154,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Pumpkin-MC/Pumpkin",
+          "url": "https://github.com/Pumpkin-MC/Pumpkin",
+          "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+          "stars_today": 358,
+          "total_stars": 9740,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 5,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 94
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49048034,
+      "title": "Open-weight AI is having its Kubernetes moment",
+      "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+      "score": 330,
+      "created_at": "2026-07-25T14:49:49Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49048034",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49049693,
+      "title": "Show HN: Brolly, a plain-text weather forecast site",
+      "url": "https://brolly.sh/forecast/RWFP2qW8",
+      "score": 141,
+      "created_at": "2026-07-25T17:34:34Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49049693",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49044492,
+      "title": "UK AISI / Caisi Preliminary Assessment of Kimi K3's Cyber Capabilities",
+      "url": "https://www.nist.gov/news-events/news/2026/07/uk-aisi-caisi-preliminary-assessment-kimi-k3s-cyber-capabilities",
+      "score": 124,
+      "created_at": "2026-07-25T04:20:21Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49044492",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49050512,
+      "title": "Running a 28.9M parameter LLM on an $8 microcontroller",
+      "url": "https://github.com/slvDev/esp32-ai",
+      "score": 103,
+      "created_at": "2026-07-25T18:59:50Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49050512",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49050859,
+      "title": "LLM Usage in Debian: Three Proposals",
+      "url": "https://www.debian.org/vote/2026/vote_002",
+      "score": 101,
+      "created_at": "2026-07-25T19:44:39Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49050859",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "stars_today": 2491,
+      "total_stars": 12087,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stars_today": 431,
+      "total_stars": 13060,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "citrolabs/ego-lite",
+      "url": "https://github.com/citrolabs/ego-lite",
+      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "stars_today": 986,
+      "total_stars": 3680,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "stars_today": 577,
+      "total_stars": 70640,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "stars_today": 132,
+      "total_stars": 49933,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Automattic/harper",
+      "url": "https://github.com/Automattic/harper",
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "stars_today": 503,
+      "total_stars": 13459,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "stars_today": 319,
+      "total_stars": 33832,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 479,
+      "total_stars": 261154,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Pumpkin-MC/Pumpkin",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin",
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "stars_today": 358,
+      "total_stars": 9740,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
