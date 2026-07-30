@@ -1,0 +1,332 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T03:16:15.487764+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 7,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49098510,
+          "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+          "url": "https://github.com/drumih/turbo-fieldfare",
+          "score": 673,
+          "created_at": "2026-07-29T15:05:43Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49098510",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49096188,
+          "title": "Document-borne AI worms can self-propagate through Copilot for Word",
+          "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+          "score": 352,
+          "created_at": "2026-07-29T11:44:33Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49096188",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49103285,
+          "title": "AI's top startups are barely publishing their research",
+          "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+          "score": 263,
+          "created_at": "2026-07-29T21:25:40Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49103285",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49098130,
+          "title": "Self-hosting Kimi K3: 20% more hardware cost, 20% better task resolution",
+          "url": "https://aistack.imec-int.com/blog/gpu-self-hosting",
+          "score": 125,
+          "created_at": "2026-07-29T14:38:35Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49098130",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49096953,
+          "title": "After the AI Crash",
+          "url": "https://potsandpansbyccg.com/2026/07/29/after-the-ai-crash/",
+          "score": 113,
+          "created_at": "2026-07-29T13:00:39Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49096953",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 5
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "opengeos/GeoLibre",
+          "url": "https://github.com/opengeos/GeoLibre",
+          "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+          "stars_today": 671,
+          "total_stars": 4132,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "moeru-ai/airi",
+          "url": "https://github.com/moeru-ai/airi",
+          "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+          "stars_today": 682,
+          "total_stars": 45467,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "stars_today": 857,
+          "total_stars": 235672,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "huggingface/speech-to-speech",
+          "url": "https://github.com/huggingface/speech-to-speech",
+          "description": "Build local voice agents with open-source models",
+          "stars_today": 827,
+          "total_stars": 7952,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "1jehuang/jcode",
+          "url": "https://github.com/1jehuang/jcode",
+          "description": "The most RAM efficient harness",
+          "stars_today": 640,
+          "total_stars": 13544,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "grokability/snipe-it",
+          "url": "https://github.com/grokability/snipe-it",
+          "description": "A free open source IT asset/license management system",
+          "stars_today": 164,
+          "total_stars": 14492,
+          "language": "PHP",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "deepfakes/faceswap",
+          "url": "https://github.com/deepfakes/faceswap",
+          "description": "Deepfakes Software For All",
+          "stars_today": 166,
+          "total_stars": 56383,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "microsoft/VibeVoice",
+          "url": "https://github.com/microsoft/VibeVoice",
+          "description": "Open-Source Frontier Voice AI",
+          "stars_today": 336,
+          "total_stars": 51380,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "different-ai/openwork",
+          "url": "https://github.com/different-ai/openwork",
+          "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+          "stars_today": 97,
+          "total_stars": 18028,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 7,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 107
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49098510,
+      "title": "Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "score": 673,
+      "created_at": "2026-07-29T15:05:43Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49098510",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49096188,
+      "title": "Document-borne AI worms can self-propagate through Copilot for Word",
+      "url": "https://enklypesalt.com/posts/context-collapse-part3-ai-worming-through-word/",
+      "score": 352,
+      "created_at": "2026-07-29T11:44:33Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49096188",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49103285,
+      "title": "AI's top startups are barely publishing their research",
+      "url": "https://www.science.org/content/article/ai-s-top-startups-are-barely-publishing-their-research",
+      "score": 263,
+      "created_at": "2026-07-29T21:25:40Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49103285",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49098130,
+      "title": "Self-hosting Kimi K3: 20% more hardware cost, 20% better task resolution",
+      "url": "https://aistack.imec-int.com/blog/gpu-self-hosting",
+      "score": 125,
+      "created_at": "2026-07-29T14:38:35Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49098130",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49096953,
+      "title": "After the AI Crash",
+      "url": "https://potsandpansbyccg.com/2026/07/29/after-the-ai-crash/",
+      "score": 113,
+      "created_at": "2026-07-29T13:00:39Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49096953",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "opengeos/GeoLibre",
+      "url": "https://github.com/opengeos/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "stars_today": 671,
+      "total_stars": 4132,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "stars_today": 682,
+      "total_stars": 45467,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars_today": 857,
+      "total_stars": 235672,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "stars_today": 827,
+      "total_stars": 7952,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "The most RAM efficient harness",
+      "stars_today": 640,
+      "total_stars": 13544,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "grokability/snipe-it",
+      "url": "https://github.com/grokability/snipe-it",
+      "description": "A free open source IT asset/license management system",
+      "stars_today": 164,
+      "total_stars": 14492,
+      "language": "PHP",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "deepfakes/faceswap",
+      "url": "https://github.com/deepfakes/faceswap",
+      "description": "Deepfakes Software For All",
+      "stars_today": 166,
+      "total_stars": 56383,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "stars_today": 336,
+      "total_stars": 51380,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "different-ai/openwork",
+      "url": "https://github.com/different-ai/openwork",
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "stars_today": 97,
+      "total_stars": 18028,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
