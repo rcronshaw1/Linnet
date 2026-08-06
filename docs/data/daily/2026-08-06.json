@@ -1,0 +1,422 @@
+{
+  "date": "2026-08-06",
+  "generated_at": "2026-08-06T03:28:27.892526+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 5,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49184755,
+          "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+          "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+          "score": 517,
+          "created_at": "2026-08-05T16:05:31Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49184755",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49184757,
+          "title": "Demis Hassabis is moving from CEO to Chairman at Google DeepMind",
+          "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+          "score": 369,
+          "created_at": "2026-08-05T16:05:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49184757",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49184746,
+          "title": "Jeff Dean leaving Alphabet",
+          "url": "https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html",
+          "score": 297,
+          "created_at": "2026-08-05T16:04:33Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49184746",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49187977,
+          "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+          "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+          "score": 258,
+          "created_at": "2026-08-05T19:47:26Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49187977",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49181083,
+          "title": "Position: LLMs Can't Jump",
+          "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+          "score": 248,
+          "created_at": "2026-08-05T11:01:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49181083",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49182041,
+          "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
+          "url": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/",
+          "score": 231,
+          "created_at": "2026-08-05T12:41:47Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49182041",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49187575,
+          "title": "Muse Code and Muse Spark 1.2",
+          "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+          "score": 200,
+          "created_at": "2026-08-05T19:15:52Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49187575",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49183750,
+          "title": "Oracle cut its Always Free ARM limits to 2 OCPU / 12GB, enforced Aug 18",
+          "url": "https://www.cnelecar.com/blog/oracle-always-free-arm-limits-cut-2026/",
+          "score": 177,
+          "created_at": "2026-08-05T14:46:36Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49183750",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49187061,
+          "title": "Born Against, or why hobby programming communities are against LLM usage",
+          "url": "https://blog.fogus.me/llm/born-against.html",
+          "score": 158,
+          "created_at": "2026-08-05T18:37:49Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49187061",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49181519,
+          "title": "Why Erdős Problems Are Falling to AI",
+          "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+          "score": 128,
+          "created_at": "2026-08-05T11:49:34Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49181519",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 10
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "cloudflare/computer",
+          "url": "https://github.com/cloudflare/computer",
+          "description": "Give your agent a computer 👾",
+          "stars_today": 891,
+          "total_stars": 3320,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "huangruiteng/loopx",
+          "url": "https://github.com/huangruiteng/loopx",
+          "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+          "stars_today": 326,
+          "total_stars": 2283,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "TencentCloud/TencentDB-Agent-Memory",
+          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+          "stars_today": 1892,
+          "total_stars": 15211,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "donnemartin/system-design-primer",
+          "url": "https://github.com/donnemartin/system-design-primer",
+          "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+          "stars_today": 303,
+          "total_stars": 361640,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "firecrawl/pdf-inspector",
+          "url": "https://github.com/firecrawl/pdf-inspector",
+          "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+          "stars_today": 1582,
+          "total_stars": 11588,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "esengine/DeepSeek-Reasonix",
+          "url": "https://github.com/esengine/DeepSeek-Reasonix",
+          "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+          "stars_today": 747,
+          "total_stars": 31754,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "description": "Production-grade engineering skills for AI coding agents.",
+          "stars_today": 226,
+          "total_stars": 82049,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 931,
+          "total_stars": 267398,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "roboflow/supervision",
+          "url": "https://github.com/roboflow/supervision",
+          "description": "We write your reusable computer vision tools. 💜",
+          "stars_today": 146,
+          "total_stars": 48973,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 5,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 124
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49184755,
+      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
+      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "score": 517,
+      "created_at": "2026-08-05T16:05:31Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49184755",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49184757,
+      "title": "Demis Hassabis is moving from CEO to Chairman at Google DeepMind",
+      "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+      "score": 369,
+      "created_at": "2026-08-05T16:05:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49184757",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49184746,
+      "title": "Jeff Dean leaving Alphabet",
+      "url": "https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html",
+      "score": 297,
+      "created_at": "2026-08-05T16:04:33Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49184746",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49187977,
+      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
+      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
+      "score": 258,
+      "created_at": "2026-08-05T19:47:26Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49187977",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49181083,
+      "title": "Position: LLMs Can't Jump",
+      "url": "https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DklU4737opt",
+      "score": 248,
+      "created_at": "2026-08-05T11:01:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49181083",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49182041,
+      "title": "TIME Is Serving AI Bots a Different Website, with Ads Built In",
+      "url": "https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/",
+      "score": 231,
+      "created_at": "2026-08-05T12:41:47Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49182041",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49187575,
+      "title": "Muse Code and Muse Spark 1.2",
+      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "score": 200,
+      "created_at": "2026-08-05T19:15:52Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49187575",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49183750,
+      "title": "Oracle cut its Always Free ARM limits to 2 OCPU / 12GB, enforced Aug 18",
+      "url": "https://www.cnelecar.com/blog/oracle-always-free-arm-limits-cut-2026/",
+      "score": 177,
+      "created_at": "2026-08-05T14:46:36Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49183750",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49187061,
+      "title": "Born Against, or why hobby programming communities are against LLM usage",
+      "url": "https://blog.fogus.me/llm/born-against.html",
+      "score": 158,
+      "created_at": "2026-08-05T18:37:49Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49187061",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49181519,
+      "title": "Why Erdős Problems Are Falling to AI",
+      "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/",
+      "score": 128,
+      "created_at": "2026-08-05T11:49:34Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49181519",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "cloudflare/computer",
+      "url": "https://github.com/cloudflare/computer",
+      "description": "Give your agent a computer 👾",
+      "stars_today": 891,
+      "total_stars": 3320,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "huangruiteng/loopx",
+      "url": "https://github.com/huangruiteng/loopx",
+      "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+      "stars_today": 326,
+      "total_stars": 2283,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "stars_today": 1892,
+      "total_stars": 15211,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "donnemartin/system-design-primer",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "stars_today": 303,
+      "total_stars": 361640,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "stars_today": 1582,
+      "total_stars": 11588,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "esengine/DeepSeek-Reasonix",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "stars_today": 747,
+      "total_stars": 31754,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars_today": 226,
+      "total_stars": 82049,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 931,
+      "total_stars": 267398,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "roboflow/supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "description": "We write your reusable computer vision tools. 💜",
+      "stars_today": 146,
+      "total_stars": 48973,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
