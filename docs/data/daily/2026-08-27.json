@@ -1,0 +1,422 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T09:24:09.868775+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 5,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49449507,
+          "title": "GLM-5.3-Flash",
+          "url": "https://z.ai/blog/glm-5.3-flash",
+          "score": 1026,
+          "created_at": "2026-08-26T14:08:50Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49449507",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49448210,
+          "title": "Qwen3.8-Flash-Next",
+          "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+          "score": 666,
+          "created_at": "2026-08-26T12:52:12Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49448210",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49458418,
+          "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+          "url": "https://github.com/SenteLabsAI/OpenExecutive",
+          "score": 576,
+          "created_at": "2026-08-27T01:46:22Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49458418",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49446422,
+          "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+          "score": 425,
+          "created_at": "2026-08-26T10:04:55Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49446422",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49451313,
+          "title": "The turbulent AI era is here",
+          "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+          "score": 243,
+          "created_at": "2026-08-26T15:55:15Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49451313",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49447600,
+          "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+          "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+          "score": 240,
+          "created_at": "2026-08-26T12:11:19Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49447600",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49450898,
+          "title": "It’s so hard to finish an idea that is not yours and is just suggested by AI",
+          "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
+          "score": 220,
+          "created_at": "2026-08-26T15:30:05Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49450898",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49448137,
+          "title": "Bill Gates: The turbulent AI era is here",
+          "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+          "score": 185,
+          "created_at": "2026-08-26T12:47:47Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49448137",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49446748,
+          "title": "U.S. gov't moves to suppress pushback on data centers",
+          "url": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
+          "score": 175,
+          "created_at": "2026-08-26T10:44:40Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49446748",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49450353,
+          "title": "GLM-5.3-Flash Intelligence, Performance and Price Analysis",
+          "url": "https://artificialanalysis.ai/models/glm-5-3-flash",
+          "score": 137,
+          "created_at": "2026-08-26T14:58:54Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49450353",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 10
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "tt-a1i/archify",
+          "url": "https://github.com/tt-a1i/archify",
+          "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+          "stars_today": 1035,
+          "total_stars": 20226,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "freestylefly/awesome-gpt-image-2",
+          "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+          "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+          "stars_today": 4050,
+          "total_stars": 22313,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "anthropics/claude-plugins-official",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+          "stars_today": 308,
+          "total_stars": 34476,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Alishahryar1/free-claude-code",
+          "url": "https://github.com/Alishahryar1/free-claude-code",
+          "description": "Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+          "stars_today": 536,
+          "total_stars": 50642,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "MadsLorentzen/ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+          "stars_today": 1300,
+          "total_stars": 36897,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "AgriciDaniel/claude-obsidian",
+          "url": "https://github.com/AgriciDaniel/claude-obsidian",
+          "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+          "stars_today": 810,
+          "total_stars": 13655,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "basecamp/omarchy",
+          "url": "https://github.com/basecamp/omarchy",
+          "description": "Beautiful, Modern & Opinionated Linux",
+          "stars_today": 1024,
+          "total_stars": 32282,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "rohitg00/ai-engineering-from-scratch",
+          "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "description": "Learn it. Build it. Ship it for others.",
+          "stars_today": 838,
+          "total_stars": 49832,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "tinyhumansai/openhuman",
+          "url": "https://github.com/tinyhumansai/openhuman",
+          "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+          "stars_today": 525,
+          "total_stars": 38400,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 5,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 117
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49449507,
+      "title": "GLM-5.3-Flash",
+      "url": "https://z.ai/blog/glm-5.3-flash",
+      "score": 1026,
+      "created_at": "2026-08-26T14:08:50Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49449507",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49448210,
+      "title": "Qwen3.8-Flash-Next",
+      "url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "score": 666,
+      "created_at": "2026-08-26T12:52:12Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49448210",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49458418,
+      "title": "CEO fired developers to make room for AI. Developers create open source AI CEO",
+      "url": "https://github.com/SenteLabsAI/OpenExecutive",
+      "score": 576,
+      "created_at": "2026-08-27T01:46:22Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49458418",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49446422,
+      "title": "Z.ai confirms Ox Alpha is a new GLM-series model and will release its weights",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+      "score": 425,
+      "created_at": "2026-08-26T10:04:55Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49446422",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49451313,
+      "title": "The turbulent AI era is here",
+      "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make",
+      "score": 243,
+      "created_at": "2026-08-26T15:55:15Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49451313",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49447600,
+      "title": "Fake US thinktank set up and funded by Israel sought to game AI for propaganda",
+      "url": "https://www.theguardian.com/world/2026/aug/26/fake-thinktank-israel-ai-propaganda",
+      "score": 240,
+      "created_at": "2026-08-26T12:11:19Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49447600",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49450898,
+      "title": "It’s so hard to finish an idea that is not yours and is just suggested by AI",
+      "url": "https://www.ssp.sh/brain/using-obsidian-with-ai/",
+      "score": 220,
+      "created_at": "2026-08-26T15:30:05Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49450898",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49448137,
+      "title": "Bill Gates: The turbulent AI era is here",
+      "url": "https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make",
+      "score": 185,
+      "created_at": "2026-08-26T12:47:47Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49448137",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49446748,
+      "title": "U.S. gov't moves to suppress pushback on data centers",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
+      "score": 175,
+      "created_at": "2026-08-26T10:44:40Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49446748",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49450353,
+      "title": "GLM-5.3-Flash Intelligence, Performance and Price Analysis",
+      "url": "https://artificialanalysis.ai/models/glm-5-3-flash",
+      "score": 137,
+      "created_at": "2026-08-26T14:58:54Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49450353",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "tt-a1i/archify",
+      "url": "https://github.com/tt-a1i/archify",
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "stars_today": 1035,
+      "total_stars": 20226,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "stars_today": 4050,
+      "total_stars": 22313,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "stars_today": 308,
+      "total_stars": 34476,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "stars_today": 536,
+      "total_stars": 50642,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "MadsLorentzen/ai-job-search",
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "stars_today": 1300,
+      "total_stars": 36897,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "AgriciDaniel/claude-obsidian",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "stars_today": 810,
+      "total_stars": 13655,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "basecamp/omarchy",
+      "url": "https://github.com/basecamp/omarchy",
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "stars_today": 1024,
+      "total_stars": 32282,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "stars_today": 838,
+      "total_stars": 49832,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "tinyhumansai/openhuman",
+      "url": "https://github.com/tinyhumansai/openhuman",
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "stars_today": 525,
+      "total_stars": 38400,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
