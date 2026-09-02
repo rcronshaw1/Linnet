@@ -1,0 +1,368 @@
+{
+  "date": "2026-09-02",
+  "generated_at": "2026-09-02T04:18:10.346646+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 4,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49519939,
+          "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+          "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+          "score": 595,
+          "created_at": "2026-09-01T09:52:45Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49519939",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49526069,
+          "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+          "url": "https://danluu.com/zitron/",
+          "score": 514,
+          "created_at": "2026-09-01T18:35:15Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49526069",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49523720,
+          "title": "Dwarf Fortress' creator says the industry's in shambles over AI",
+          "url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
+          "score": 210,
+          "created_at": "2026-09-01T15:53:42Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49523720",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49522897,
+          "title": "Ask HN: Who is hiring? (September 2026)",
+          "url": "",
+          "score": 200,
+          "created_at": "2026-09-01T15:01:17Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49522897",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49525160,
+          "title": "Atlas: A World Model for Spatial Intelligence",
+          "url": "https://www.worldlabs.ai/blog/atlas",
+          "score": 174,
+          "created_at": "2026-09-01T17:36:02Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49525160",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49521315,
+          "title": "EFF to Courts: Don't Rewrite Copyright over AI Hype",
+          "url": "https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype",
+          "score": 161,
+          "created_at": "2026-09-01T12:53:51Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49521315",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49518316,
+          "title": "AI Can Make You Suck Faster Too",
+          "url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
+          "score": 157,
+          "created_at": "2026-09-01T05:32:56Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49518316",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 7
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "Gitlawb/openclaude",
+          "url": "https://github.com/Gitlawb/openclaude",
+          "description": "runs anywhere. uses anything",
+          "stars_today": 80,
+          "total_stars": 31449,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Imbad0202/academic-research-skills",
+          "url": "https://github.com/Imbad0202/academic-research-skills",
+          "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+          "stars_today": 193,
+          "total_stars": 45050,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "THU-MAIC/OpenMAIC",
+          "url": "https://github.com/THU-MAIC/OpenMAIC",
+          "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+          "stars_today": 3128,
+          "total_stars": 29737,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "iv-org/invidious",
+          "url": "https://github.com/iv-org/invidious",
+          "description": "Invidious is an alternative front-end to YouTube",
+          "stars_today": 577,
+          "total_stars": 23820,
+          "language": "Crystal",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "jingyaogong/minimind",
+          "url": "https://github.com/jingyaogong/minimind",
+          "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+          "stars_today": 1005,
+          "total_stars": 57250,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "3b1b/manim",
+          "url": "https://github.com/3b1b/manim",
+          "description": "Animation engine for explanatory math videos",
+          "stars_today": 86,
+          "total_stars": 92640,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "firecrawl/pdf-inspector",
+          "url": "https://github.com/firecrawl/pdf-inspector",
+          "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+          "stars_today": 541,
+          "total_stars": 18037,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "browser-use/video-use",
+          "url": "https://github.com/browser-use/video-use",
+          "description": "Edit videos with coding agents",
+          "stars_today": 472,
+          "total_stars": 23087,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "K-Dense-AI/scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+          "stars_today": 912,
+          "total_stars": 41668,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 4,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 260
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49519939,
+      "title": "I trained a small transformer in 1.5hrs and it beats many LLMs",
+      "url": "https://mvakde.github.io/blog/44-on-arc-1/",
+      "score": 595,
+      "created_at": "2026-09-01T09:52:45Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49519939",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49526069,
+      "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
+      "url": "https://danluu.com/zitron/",
+      "score": 514,
+      "created_at": "2026-09-01T18:35:15Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49526069",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49523720,
+      "title": "Dwarf Fortress' creator says the industry's in shambles over AI",
+      "url": "https://www.pcgamer.com/gaming-industry/dwarf-fortress-creator-says-the-industrys-in-shambles-over-ai-and-layoff-happy-ceos-everyone-i-know-their-bosses-are-slowly-getting-psychosis/",
+      "score": 210,
+      "created_at": "2026-09-01T15:53:42Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49523720",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49522897,
+      "title": "Ask HN: Who is hiring? (September 2026)",
+      "url": "",
+      "score": 200,
+      "created_at": "2026-09-01T15:01:17Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49522897",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49525160,
+      "title": "Atlas: A World Model for Spatial Intelligence",
+      "url": "https://www.worldlabs.ai/blog/atlas",
+      "score": 174,
+      "created_at": "2026-09-01T17:36:02Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49525160",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49521315,
+      "title": "EFF to Courts: Don't Rewrite Copyright over AI Hype",
+      "url": "https://www.eff.org/deeplinks/2026/08/eff-courts-dont-rewrite-copyright-over-ai-hype",
+      "score": 161,
+      "created_at": "2026-09-01T12:53:51Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49521315",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49518316,
+      "title": "AI Can Make You Suck Faster Too",
+      "url": "https://www.hermit-tech.com/blog/ai-can-make-you-suck-faster-too",
+      "score": 157,
+      "created_at": "2026-09-01T05:32:56Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49518316",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "Gitlawb/openclaude",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "description": "runs anywhere. uses anything",
+      "stars_today": 80,
+      "total_stars": 31449,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Imbad0202/academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "stars_today": 193,
+      "total_stars": 45050,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "THU-MAIC/OpenMAIC",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "stars_today": 3128,
+      "total_stars": 29737,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "iv-org/invidious",
+      "url": "https://github.com/iv-org/invidious",
+      "description": "Invidious is an alternative front-end to YouTube",
+      "stars_today": 577,
+      "total_stars": 23820,
+      "language": "Crystal",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "stars_today": 1005,
+      "total_stars": 57250,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "3b1b/manim",
+      "url": "https://github.com/3b1b/manim",
+      "description": "Animation engine for explanatory math videos",
+      "stars_today": 86,
+      "total_stars": 92640,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "firecrawl/pdf-inspector",
+      "url": "https://github.com/firecrawl/pdf-inspector",
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "stars_today": 541,
+      "total_stars": 18037,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "stars_today": 472,
+      "total_stars": 23087,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "stars_today": 912,
+      "total_stars": 41668,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
