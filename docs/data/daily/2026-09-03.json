@@ -1,0 +1,368 @@
+{
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03T04:12:04.329844+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 6,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49537553,
+          "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+          "score": 878,
+          "created_at": "2026-09-02T15:12:40Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49537553",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49541256,
+          "title": "Muse Spark 1.3",
+          "url": "https://developer.meta.com/ai/models/muse-spark/",
+          "score": 443,
+          "created_at": "2026-09-02T19:35:04Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49541256",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49535284,
+          "title": "Can I opt out of my input or output data being used for training?",
+          "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+          "score": 392,
+          "created_at": "2026-09-02T12:30:39Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49535284",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49536375,
+          "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+          "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+          "score": 334,
+          "created_at": "2026-09-02T13:59:59Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49536375",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49534132,
+          "title": "Quasar 438B: Europe's Leading AI Model",
+          "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+          "score": 164,
+          "created_at": "2026-09-02T10:02:41Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49534132",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49536114,
+          "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+          "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+          "score": 160,
+          "created_at": "2026-09-02T13:43:14Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49536114",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49542443,
+          "title": "Mamdani Bans AI in NYC Schools",
+          "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+          "score": 150,
+          "created_at": "2026-09-02T20:57:04Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49542443",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 7
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "fmtlib/fmt",
+          "url": "https://github.com/fmtlib/fmt",
+          "description": "A modern formatting library",
+          "stars_today": 14,
+          "total_stars": 24390,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "google-research/timesfm",
+          "url": "https://github.com/google-research/timesfm",
+          "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+          "stars_today": 343,
+          "total_stars": 30034,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+          "stars_today": 1354,
+          "total_stars": 121955,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "stars_today": 832,
+          "total_stars": 15046,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "sngyai/Sequoia-X",
+          "url": "https://github.com/sngyai/Sequoia-X",
+          "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+          "stars_today": 63,
+          "total_stars": 6231,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "ChromeDevTools/chrome-devtools-mcp",
+          "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "description": "Chrome DevTools for coding agents",
+          "stars_today": 148,
+          "total_stars": 50704,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "NousResearch/hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "description": "The agent that grows with you",
+          "stars_today": 533,
+          "total_stars": 240234,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "superlinked/sie",
+          "url": "https://github.com/superlinked/sie",
+          "description": "Open-source inference server and production cluster for all the models your agent needs.",
+          "stars_today": 60,
+          "total_stars": 3106,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "pacifio/atlas",
+          "url": "https://github.com/pacifio/atlas",
+          "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+          "stars_today": 888,
+          "total_stars": 2980,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 6,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 156
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49537553,
+      "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "score": 878,
+      "created_at": "2026-09-02T15:12:40Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49537553",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49541256,
+      "title": "Muse Spark 1.3",
+      "url": "https://developer.meta.com/ai/models/muse-spark/",
+      "score": 443,
+      "created_at": "2026-09-02T19:35:04Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49541256",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49535284,
+      "title": "Can I opt out of my input or output data being used for training?",
+      "url": "https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training",
+      "score": 392,
+      "created_at": "2026-09-02T12:30:39Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49535284",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49536375,
+      "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
+      "url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
+      "score": 334,
+      "created_at": "2026-09-02T13:59:59Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49536375",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49534132,
+      "title": "Quasar 438B: Europe's Leading AI Model",
+      "url": "https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model",
+      "score": 164,
+      "created_at": "2026-09-02T10:02:41Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49534132",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49536114,
+      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "url": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+      "score": 160,
+      "created_at": "2026-09-02T13:43:14Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49536114",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49542443,
+      "title": "Mamdani Bans AI in NYC Schools",
+      "url": "https://www.nytimes.com/2026/09/01/nyregion/ai-ban-schools-nyc.html",
+      "score": 150,
+      "created_at": "2026-09-02T20:57:04Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49542443",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "fmtlib/fmt",
+      "url": "https://github.com/fmtlib/fmt",
+      "description": "A modern formatting library",
+      "stars_today": 14,
+      "total_stars": 24390,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "stars_today": 343,
+      "total_stars": 30034,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "stars_today": 1354,
+      "total_stars": 121955,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "stars_today": 832,
+      "total_stars": 15046,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "sngyai/Sequoia-X",
+      "url": "https://github.com/sngyai/Sequoia-X",
+      "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+      "stars_today": 63,
+      "total_stars": 6231,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "stars_today": 148,
+      "total_stars": 50704,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "stars_today": 533,
+      "total_stars": 240234,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "superlinked/sie",
+      "url": "https://github.com/superlinked/sie",
+      "description": "Open-source inference server and production cluster for all the models your agent needs.",
+      "stars_today": 60,
+      "total_stars": 3106,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "pacifio/atlas",
+      "url": "https://github.com/pacifio/atlas",
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "stars_today": 888,
+      "total_stars": 2980,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
