@@ -1,0 +1,368 @@
+{
+  "date": "2026-09-04",
+  "generated_at": "2026-09-04T04:18:39.883351+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 5,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49554520,
+          "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+          "url": "https://inference-docs.cerebras.ai/models/overview",
+          "score": 491,
+          "created_at": "2026-09-03T18:32:13Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49554520",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49551096,
+          "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
+          "url": "",
+          "score": 351,
+          "created_at": "2026-09-03T15:07:01Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49551096",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49548952,
+          "title": "Nvidia to acquire Hugging Face",
+          "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+          "score": 303,
+          "created_at": "2026-09-03T12:10:33Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49548952",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49551760,
+          "title": "K2 Horizon: A connected fleet of six open models",
+          "url": "https://ifm.ai/blog/k2/",
+          "score": 271,
+          "created_at": "2026-09-03T15:36:43Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49551760",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49554273,
+          "title": "OpenAI begins rolling out GPT-6 Astra",
+          "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+          "score": 252,
+          "created_at": "2026-09-03T18:18:22Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49554273",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49550375,
+          "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+          "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+          "score": 226,
+          "created_at": "2026-09-03T14:28:18Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49550375",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49551589,
+          "title": "Grok outage",
+          "url": "https://status.x.ai/",
+          "score": 157,
+          "created_at": "2026-09-03T15:26:01Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49551589",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 7
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "fmtlib/fmt",
+          "url": "https://github.com/fmtlib/fmt",
+          "description": "A modern formatting library",
+          "stars_today": 963,
+          "total_stars": 25183,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "description": "Skills for Real Engineers. Straight from my .agents directory.",
+          "stars_today": 1601,
+          "total_stars": 247813,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "NousResearch/hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "description": "The agent that grows with you",
+          "stars_today": 774,
+          "total_stars": 240956,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+          "stars_today": 2128,
+          "total_stars": 123696,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "description": "Public repository for Agent Skills",
+          "stars_today": 281,
+          "total_stars": 173737,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "stars_today": 751,
+          "total_stars": 247331,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "JuliusBrussee/caveman",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+          "stars_today": 543,
+          "total_stars": 103172,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "blader/humanizer",
+          "url": "https://github.com/blader/humanizer",
+          "description": "Agent skill that removes signs of AI-generated writing from text",
+          "stars_today": 1208,
+          "total_stars": 41678,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "google-research/timesfm",
+          "url": "https://github.com/google-research/timesfm",
+          "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+          "stars_today": 1618,
+          "total_stars": 30759,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 5,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 102
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49554520,
+      "title": "Qwen 3.8 27B available on Cerebras at 1500 tokens/s",
+      "url": "https://inference-docs.cerebras.ai/models/overview",
+      "score": 491,
+      "created_at": "2026-09-03T18:32:13Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49554520",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49551096,
+      "title": "Ask HN: Why were OpenAI, Claude, and Grok simultaneously down?",
+      "url": "",
+      "score": 351,
+      "created_at": "2026-09-03T15:07:01Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49551096",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49548952,
+      "title": "Nvidia to acquire Hugging Face",
+      "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html",
+      "score": 303,
+      "created_at": "2026-09-03T12:10:33Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49548952",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49551760,
+      "title": "K2 Horizon: A connected fleet of six open models",
+      "url": "https://ifm.ai/blog/k2/",
+      "score": 271,
+      "created_at": "2026-09-03T15:36:43Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49551760",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49554273,
+      "title": "OpenAI begins rolling out GPT-6 Astra",
+      "url": "https://www.cnbc.com/2026/09/03/open-ai-astra-gpt-6-cyber.html",
+      "score": 252,
+      "created_at": "2026-09-03T18:18:22Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49554273",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49550375,
+      "title": "Porting my 1993 Amiga game to Godot, with an LLM reading the 68000 assembly",
+      "url": "https://babyloniantwins.com/blog/porting-a-1993-amiga-game-to-godot/",
+      "score": 226,
+      "created_at": "2026-09-03T14:28:18Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49550375",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49551589,
+      "title": "Grok outage",
+      "url": "https://status.x.ai/",
+      "score": 157,
+      "created_at": "2026-09-03T15:26:01Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49551589",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "fmtlib/fmt",
+      "url": "https://github.com/fmtlib/fmt",
+      "description": "A modern formatting library",
+      "stars_today": 963,
+      "total_stars": 25183,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "stars_today": 1601,
+      "total_stars": 247813,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "stars_today": 774,
+      "total_stars": 240956,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "stars_today": 2128,
+      "total_stars": 123696,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stars_today": 281,
+      "total_stars": 173737,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars_today": 751,
+      "total_stars": 247331,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "stars_today": 543,
+      "total_stars": 103172,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "stars_today": 1208,
+      "total_stars": 41678,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "google-research/timesfm",
+      "url": "https://github.com/google-research/timesfm",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "stars_today": 1618,
+      "total_stars": 30759,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
