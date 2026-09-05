@@ -1,0 +1,332 @@
+{
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05T04:14:43.836121+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 5,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49563386,
+          "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+          "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+          "score": 371,
+          "created_at": "2026-09-04T11:59:15Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49563386",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49566137,
+          "title": "Corporate America is getting hooked on open-source AI",
+          "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+          "score": 278,
+          "created_at": "2026-09-04T15:33:45Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49566137",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49567437,
+          "title": "Show HN: Open-Source eInk Bike Computer",
+          "url": "https://opentrailpaper.com",
+          "score": 252,
+          "created_at": "2026-09-04T17:18:08Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49567437",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49569366,
+          "title": "Can AI design circuit boards yet?",
+          "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+          "score": 190,
+          "created_at": "2026-09-04T19:48:29Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49569366",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49570545,
+          "title": "GPT-6 Astra on OpenRouter",
+          "url": "https://openrouter.ai/openai/gpt-6-astra",
+          "score": 152,
+          "created_at": "2026-09-04T21:39:19Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49570545",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 5
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "description": "Skills for Real Engineers. Straight from my .agents directory.",
+          "stars_today": 2758,
+          "total_stars": 250638,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+          "stars_today": 1679,
+          "total_stars": 126355,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "fmtlib/fmt",
+          "url": "https://github.com/fmtlib/fmt",
+          "description": "A modern formatting library",
+          "stars_today": 688,
+          "total_stars": 25487,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "stars_today": 1135,
+          "total_stars": 248627,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "description": "Public repository for Agent Skills",
+          "stars_today": 511,
+          "total_stars": 174186,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "blader/humanizer",
+          "url": "https://github.com/blader/humanizer",
+          "description": "Agent skill that removes signs of AI-generated writing from text",
+          "stars_today": 1130,
+          "total_stars": 42828,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "NousResearch/hermes-agent",
+          "url": "https://github.com/NousResearch/hermes-agent",
+          "description": "The agent that grows with you",
+          "stars_today": 720,
+          "total_stars": 241565,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "JuliusBrussee/caveman",
+          "url": "https://github.com/JuliusBrussee/caveman",
+          "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+          "stars_today": 501,
+          "total_stars": 103619,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "magnitudedev/magnitude",
+          "url": "https://github.com/magnitudedev/magnitude",
+          "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+          "stars_today": 391,
+          "total_stars": 2582,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 5,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 93
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49563386,
+      "title": "Google AI Mode shows same products 21.6% more expensive than traditional search",
+      "url": "https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products",
+      "score": 371,
+      "created_at": "2026-09-04T11:59:15Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49563386",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49566137,
+      "title": "Corporate America is getting hooked on open-source AI",
+      "url": "https://www.nytimes.com/2026/09/04/technology/open-source-ai-anthropic-openai.html",
+      "score": 278,
+      "created_at": "2026-09-04T15:33:45Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49566137",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49567437,
+      "title": "Show HN: Open-Source eInk Bike Computer",
+      "url": "https://opentrailpaper.com",
+      "score": 252,
+      "created_at": "2026-09-04T17:18:08Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49567437",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49569366,
+      "title": "Can AI design circuit boards yet?",
+      "url": "https://eebench.org/blog/can-ai-design-circuit-boards-yet/",
+      "score": 190,
+      "created_at": "2026-09-04T19:48:29Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49569366",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49570545,
+      "title": "GPT-6 Astra on OpenRouter",
+      "url": "https://openrouter.ai/openai/gpt-6-astra",
+      "score": 152,
+      "created_at": "2026-09-04T21:39:19Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49570545",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "stars_today": 2758,
+      "total_stars": 250638,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "stars_today": 1679,
+      "total_stars": 126355,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "fmtlib/fmt",
+      "url": "https://github.com/fmtlib/fmt",
+      "description": "A modern formatting library",
+      "stars_today": 688,
+      "total_stars": 25487,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars_today": 1135,
+      "total_stars": 248627,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stars_today": 511,
+      "total_stars": 174186,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "blader/humanizer",
+      "url": "https://github.com/blader/humanizer",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "stars_today": 1130,
+      "total_stars": 42828,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "NousResearch/hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "stars_today": 720,
+      "total_stars": 241565,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "stars_today": 501,
+      "total_stars": 103619,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "magnitudedev/magnitude",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "stars_today": 391,
+      "total_stars": 2582,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
