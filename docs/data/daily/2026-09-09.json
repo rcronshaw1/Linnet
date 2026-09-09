@@ -1,0 +1,422 @@
+{
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09T04:28:18.783319+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 5,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49605767,
+          "title": "Mistral raises €3B",
+          "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+          "score": 812,
+          "created_at": "2026-09-08T05:06:23Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49605767",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49610538,
+          "title": "LibreOffice breaks download records after declaring it has no AI features",
+          "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+          "score": 656,
+          "created_at": "2026-09-08T14:05:57Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49610538",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49611251,
+          "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+          "score": 513,
+          "created_at": "2026-09-08T14:55:45Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49611251",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49615537,
+          "title": "Muse – Meta’s personal AI agent",
+          "url": "https://ai.meta.com/muse/",
+          "score": 376,
+          "created_at": "2026-09-08T19:25:00Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49615537",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49610229,
+          "title": "We Must Return to the Office to Use AI in Person",
+          "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
+          "score": 371,
+          "created_at": "2026-09-08T13:41:25Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49610229",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49616968,
+          "title": "Tao: Open math problems being non-renewably mined by AI",
+          "url": "https://mathstodon.xyz/@tao/117237320796901560",
+          "score": 235,
+          "created_at": "2026-09-08T21:00:52Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49616968",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49613068,
+          "title": "Show HN: LLM Attention Visualization",
+          "url": "https://ishamf.dev/p/llm-attention-visualizer/",
+          "score": 144,
+          "created_at": "2026-09-08T16:59:41Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49613068",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49616354,
+          "title": "Mercury 2.5",
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+          "score": 141,
+          "created_at": "2026-09-08T20:14:52Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49616354",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49614557,
+          "title": "Flights cancelled at UK airports due to ATC issue",
+          "url": "https://www.bbc.com/news/live/c6x2z0yy32ejt",
+          "score": 118,
+          "created_at": "2026-09-08T18:26:27Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49614557",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49605822,
+          "title": "Multi-Agents LLM Financial Trading Framework",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "score": 114,
+          "created_at": "2026-09-08T05:20:23Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49605822",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 10
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "ayghri/i-have-adhd",
+          "url": "https://github.com/ayghri/i-have-adhd",
+          "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+          "stars_today": 656,
+          "total_stars": 31141,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+          "stars_today": 710,
+          "total_stars": 35200,
+          "language": "HTML",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "openai/skills",
+          "url": "https://github.com/openai/skills",
+          "description": "Skills Catalog for Codex",
+          "stars_today": 490,
+          "total_stars": 26595,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "stars_today": 1427,
+          "total_stars": 254446,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "description": "Write HTML. Render video. Built for agents.",
+          "stars_today": 2627,
+          "total_stars": 47920,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "coreyhaines31/marketingskills",
+          "url": "https://github.com/coreyhaines31/marketingskills",
+          "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+          "stars_today": 666,
+          "total_stars": 48936,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 452,
+          "total_stars": 283460,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "multica-ai/andrej-karpathy-skills",
+          "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+          "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+          "stars_today": 333,
+          "total_stars": 211566,
+          "language": "",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "microsoft/markitdown",
+          "url": "https://github.com/microsoft/markitdown",
+          "description": "Python tool for converting files and office documents to Markdown.",
+          "stars_today": 2047,
+          "total_stars": 181831,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 5,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 117
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49605767,
+      "title": "Mistral raises €3B",
+      "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+      "score": 812,
+      "created_at": "2026-09-08T05:06:23Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49605767",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49610538,
+      "title": "LibreOffice breaks download records after declaring it has no AI features",
+      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+      "score": 656,
+      "created_at": "2026-09-08T14:05:57Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49610538",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49611251,
+      "title": "AlphaGenome Atlas: a high-resolution map of human DNA",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+      "score": 513,
+      "created_at": "2026-09-08T14:55:45Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49611251",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49615537,
+      "title": "Muse – Meta’s personal AI agent",
+      "url": "https://ai.meta.com/muse/",
+      "score": 376,
+      "created_at": "2026-09-08T19:25:00Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49615537",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49610229,
+      "title": "We Must Return to the Office to Use AI in Person",
+      "url": "https://www.mcsweeneys.net/articles/why-we-must-return-to-the-office-to-use-ai-in-person",
+      "score": 371,
+      "created_at": "2026-09-08T13:41:25Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49610229",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49616968,
+      "title": "Tao: Open math problems being non-renewably mined by AI",
+      "url": "https://mathstodon.xyz/@tao/117237320796901560",
+      "score": 235,
+      "created_at": "2026-09-08T21:00:52Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49616968",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49613068,
+      "title": "Show HN: LLM Attention Visualization",
+      "url": "https://ishamf.dev/p/llm-attention-visualizer/",
+      "score": 144,
+      "created_at": "2026-09-08T16:59:41Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49613068",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49616354,
+      "title": "Mercury 2.5",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-2-5",
+      "score": 141,
+      "created_at": "2026-09-08T20:14:52Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49616354",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49614557,
+      "title": "Flights cancelled at UK airports due to ATC issue",
+      "url": "https://www.bbc.com/news/live/c6x2z0yy32ejt",
+      "score": 118,
+      "created_at": "2026-09-08T18:26:27Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49614557",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49605822,
+      "title": "Multi-Agents LLM Financial Trading Framework",
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "score": 114,
+      "created_at": "2026-09-08T05:20:23Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49605822",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "stars_today": 656,
+      "total_stars": 31141,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "stars_today": 710,
+      "total_stars": 35200,
+      "language": "HTML",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "openai/skills",
+      "url": "https://github.com/openai/skills",
+      "description": "Skills Catalog for Codex",
+      "stars_today": 490,
+      "total_stars": 26595,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars_today": 1427,
+      "total_stars": 254446,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "stars_today": 2627,
+      "total_stars": 47920,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "coreyhaines31/marketingskills",
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "stars_today": 666,
+      "total_stars": 48936,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 452,
+      "total_stars": 283460,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "stars_today": 333,
+      "total_stars": 211566,
+      "language": "",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "microsoft/markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "stars_today": 2047,
+      "total_stars": 181831,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
