@@ -1,0 +1,422 @@
+{
+  "date": "2026-09-12",
+  "generated_at": "2026-09-12T04:23:42.787193+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 7,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49657850,
+          "title": "Ask HN: Can we please limit the AI news flood?",
+          "url": "",
+          "score": 761,
+          "created_at": "2026-09-11T13:11:04Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49657850",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49662371,
+          "title": "A misalignment of AI in mathematics",
+          "url": "https://mathandai.org/",
+          "score": 757,
+          "created_at": "2026-09-11T17:45:12Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49662371",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49666735,
+          "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+          "url": "https://www.rubyhack.ai/",
+          "score": 473,
+          "created_at": "2026-09-11T23:17:42Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49666735",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49656496,
+          "title": "The Waymo effect: how AI is quietly making research less collaborative",
+          "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
+          "score": 322,
+          "created_at": "2026-09-11T11:17:50Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49656496",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49659647,
+          "title": "Show HN: Hacker News, without AI",
+          "url": "https://hcker.news/?ai=exclude",
+          "score": 178,
+          "created_at": "2026-09-11T15:01:19Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49659647",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49660783,
+          "title": "Show HN: Hacker News, Without AI",
+          "url": "https://www.unslop.news/",
+          "score": 178,
+          "created_at": "2026-09-11T16:08:50Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49660783",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49661506,
+          "title": "Feeling Sad about AI",
+          "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
+          "score": 169,
+          "created_at": "2026-09-11T16:50:51Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49661506",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49656471,
+          "title": "RTK reports token savings, but our cost benchmarks disagree",
+          "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+          "score": 149,
+          "created_at": "2026-09-11T11:15:13Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49656471",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49662116,
+          "title": "A Misalignment of AI in Mathematics",
+          "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/",
+          "score": 145,
+          "created_at": "2026-09-11T17:30:26Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49662116",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49660482,
+          "title": "Hacker News with reduced priority for AI driven content",
+          "url": "https://sprinklz.io/public/pdwt4dve5uai",
+          "score": 112,
+          "created_at": "2026-09-11T15:52:49Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49660482",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 10
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "ayghri/i-have-adhd",
+          "url": "https://github.com/ayghri/i-have-adhd",
+          "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+          "stars_today": 3463,
+          "total_stars": 42164,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "bilawalsidhu/gods-eye-view",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view",
+          "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+          "stars_today": 3680,
+          "total_stars": 27350,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "nab138/iloader",
+          "url": "https://github.com/nab138/iloader",
+          "description": "User friendly sideloader",
+          "stars_today": 50,
+          "total_stars": 2939,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "melgarafael/DeskcommCRM",
+          "url": "https://github.com/melgarafael/DeskcommCRM",
+          "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+          "stars_today": 152,
+          "total_stars": 1421,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "vastsa/PI-Desktop",
+          "url": "https://github.com/vastsa/PI-Desktop",
+          "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+          "stars_today": 552,
+          "total_stars": 2837,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "armory3d/armorpaint",
+          "url": "https://github.com/armory3d/armorpaint",
+          "description": "Graphics Creation Tools",
+          "stars_today": 350,
+          "total_stars": 4758,
+          "language": "C",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "alsk1992/CloddsBot",
+          "url": "https://github.com/alsk1992/CloddsBot",
+          "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+          "stars_today": 626,
+          "total_stars": 2210,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "nashsu/llm_wiki",
+          "url": "https://github.com/nashsu/llm_wiki",
+          "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+          "stars_today": 647,
+          "total_stars": 18814,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 729,
+          "total_stars": 285438,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 7,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 128
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49657850,
+      "title": "Ask HN: Can we please limit the AI news flood?",
+      "url": "",
+      "score": 761,
+      "created_at": "2026-09-11T13:11:04Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49657850",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49662371,
+      "title": "A misalignment of AI in mathematics",
+      "url": "https://mathandai.org/",
+      "score": 757,
+      "created_at": "2026-09-11T17:45:12Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49662371",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49666735,
+      "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+      "url": "https://www.rubyhack.ai/",
+      "score": 473,
+      "created_at": "2026-09-11T23:17:42Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49666735",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49656496,
+      "title": "The Waymo effect: how AI is quietly making research less collaborative",
+      "url": "https://www.researchagenda.news/articles/the-waymo-effect.html",
+      "score": 322,
+      "created_at": "2026-09-11T11:17:50Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49656496",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49659647,
+      "title": "Show HN: Hacker News, without AI",
+      "url": "https://hcker.news/?ai=exclude",
+      "score": 178,
+      "created_at": "2026-09-11T15:01:19Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49659647",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49660783,
+      "title": "Show HN: Hacker News, Without AI",
+      "url": "https://www.unslop.news/",
+      "score": 178,
+      "created_at": "2026-09-11T16:08:50Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49660783",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49661506,
+      "title": "Feeling Sad about AI",
+      "url": "https://artificialworlds.net/blog/2026/09/11/feeling-sad-about-ai/",
+      "score": 169,
+      "created_at": "2026-09-11T16:50:51Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49661506",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49656471,
+      "title": "RTK reports token savings, but our cost benchmarks disagree",
+      "url": "https://quesma.com/blog/does-rtk-make-ai-coding-cheaper/",
+      "score": 149,
+      "created_at": "2026-09-11T11:15:13Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49656471",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49662116,
+      "title": "A Misalignment of AI in Mathematics",
+      "url": "https://terrytao.wordpress.com/2026/09/11/a-severe-misalignment-of-ai-in-mathematics/",
+      "score": 145,
+      "created_at": "2026-09-11T17:30:26Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49662116",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49660482,
+      "title": "Hacker News with reduced priority for AI driven content",
+      "url": "https://sprinklz.io/public/pdwt4dve5uai",
+      "score": 112,
+      "created_at": "2026-09-11T15:52:49Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49660482",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "ayghri/i-have-adhd",
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "stars_today": 3463,
+      "total_stars": 42164,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "stars_today": 3680,
+      "total_stars": 27350,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "nab138/iloader",
+      "url": "https://github.com/nab138/iloader",
+      "description": "User friendly sideloader",
+      "stars_today": 50,
+      "total_stars": 2939,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "melgarafael/DeskcommCRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "stars_today": 152,
+      "total_stars": 1421,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "vastsa/PI-Desktop",
+      "url": "https://github.com/vastsa/PI-Desktop",
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "stars_today": 552,
+      "total_stars": 2837,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "armory3d/armorpaint",
+      "url": "https://github.com/armory3d/armorpaint",
+      "description": "Graphics Creation Tools",
+      "stars_today": 350,
+      "total_stars": 4758,
+      "language": "C",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "alsk1992/CloddsBot",
+      "url": "https://github.com/alsk1992/CloddsBot",
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "stars_today": 626,
+      "total_stars": 2210,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "nashsu/llm_wiki",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "stars_today": 647,
+      "total_stars": 18814,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 729,
+      "total_stars": 285438,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
