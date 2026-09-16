@@ -1,0 +1,422 @@
+{
+  "date": "2026-09-16",
+  "generated_at": "2026-09-16T04:39:04.024073+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 4,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49717558,
+          "title": "Introducing System One Models and Jev",
+          "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+          "score": 967,
+          "created_at": "2026-09-15T19:25:03Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49717558",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49715947,
+          "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+          "score": 352,
+          "created_at": "2026-09-15T17:38:18Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49715947",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49712278,
+          "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+          "url": "https://withcapsule.app/",
+          "score": 301,
+          "created_at": "2026-09-15T13:31:40Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49712278",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49716476,
+          "title": "We got admin access to Baseten's production GitHub",
+          "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+          "score": 249,
+          "created_at": "2026-09-15T18:11:24Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49716476",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49708993,
+          "title": "CSS-Tricks in Limbo",
+          "url": "https://vale.rocks/micros/20260915-0135",
+          "score": 248,
+          "created_at": "2026-09-15T07:27:46Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49708993",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49715113,
+          "title": "There's a 100% Chance AI Agents Are Ruining the Internet",
+          "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
+          "score": 215,
+          "created_at": "2026-09-15T16:38:45Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49715113",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49715927,
+          "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+          "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+          "score": 164,
+          "created_at": "2026-09-15T17:37:12Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49715927",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49710015,
+          "title": "How much of F-Droid is LLM generated?",
+          "url": "https://tintotint.eu/whacky-corner/f-droid_slop/",
+          "score": 126,
+          "created_at": "2026-09-15T09:47:48Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49710015",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49713395,
+          "title": "A Cop Searched 19,000 Flock Cameras Across 1,558 Cities. His Reason: 'LMAO'",
+          "url": "https://www.techtimes.co.uk/police-flock-search-licence-plate-lmao-1808683",
+          "score": 117,
+          "created_at": "2026-09-15T14:47:21Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49713395",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49713999,
+          "title": "Cartesian – AI 3D Modeling for Design",
+          "url": "https://www.formas.ai/cartesian",
+          "score": 102,
+          "created_at": "2026-09-15T15:26:45Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49713999",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 10
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+          "stars_today": 2756,
+          "total_stars": 29103,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "JustVugg/colibri",
+          "url": "https://github.com/JustVugg/colibri",
+          "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+          "stars_today": 2026,
+          "total_stars": 34065,
+          "language": "C",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "ever-co/ever-gauzy",
+          "url": "https://github.com/ever-co/ever-gauzy",
+          "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+          "stars_today": 634,
+          "total_stars": 6780,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "stars_today": 2072,
+          "total_stars": 31231,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Homebrew/BrewUI",
+          "url": "https://github.com/Homebrew/BrewUI",
+          "description": "📺 Homebrew's official macOS GUI",
+          "stars_today": 271,
+          "total_stars": 1508,
+          "language": "Swift",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "melgarafael/DeskcommCRM",
+          "url": "https://github.com/melgarafael/DeskcommCRM",
+          "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+          "stars_today": 193,
+          "total_stars": 2920,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "alphaXiv/OpenResearch",
+          "url": "https://github.com/alphaXiv/OpenResearch",
+          "description": "Turn your coding agents into research agents",
+          "stars_today": 531,
+          "total_stars": 3528,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "NationalSecurityAgency/ghidra",
+          "url": "https://github.com/NationalSecurityAgency/ghidra",
+          "description": "Ghidra is a software reverse engineering (SRE) framework",
+          "stars_today": 725,
+          "total_stars": 76872,
+          "language": "Java",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "danny-avila/LibreChat",
+          "url": "https://github.com/danny-avila/LibreChat",
+          "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+          "stars_today": 254,
+          "total_stars": 43929,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 4,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 110
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49717558,
+      "title": "Introducing System One Models and Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "score": 967,
+      "created_at": "2026-09-15T19:25:03Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49717558",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49715947,
+      "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+      "score": 352,
+      "created_at": "2026-09-15T17:38:18Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49715947",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49712278,
+      "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+      "url": "https://withcapsule.app/",
+      "score": 301,
+      "created_at": "2026-09-15T13:31:40Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49712278",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49716476,
+      "title": "We got admin access to Baseten's production GitHub",
+      "url": "https://www.strix.ai/blog/baseten-harbor-github-pat-takeover",
+      "score": 249,
+      "created_at": "2026-09-15T18:11:24Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49716476",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49708993,
+      "title": "CSS-Tricks in Limbo",
+      "url": "https://vale.rocks/micros/20260915-0135",
+      "score": 248,
+      "created_at": "2026-09-15T07:27:46Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49708993",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49715113,
+      "title": "There's a 100% Chance AI Agents Are Ruining the Internet",
+      "url": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
+      "score": 215,
+      "created_at": "2026-09-15T16:38:45Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49715113",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49715927,
+      "title": "Why I'm still bearish on LLMs after Navier-Stokes",
+      "url": "https://dank.systems/posts/2026-09-15-ai-bear.html",
+      "score": 164,
+      "created_at": "2026-09-15T17:37:12Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49715927",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49710015,
+      "title": "How much of F-Droid is LLM generated?",
+      "url": "https://tintotint.eu/whacky-corner/f-droid_slop/",
+      "score": 126,
+      "created_at": "2026-09-15T09:47:48Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49710015",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49713395,
+      "title": "A Cop Searched 19,000 Flock Cameras Across 1,558 Cities. His Reason: 'LMAO'",
+      "url": "https://www.techtimes.co.uk/police-flock-search-licence-plate-lmao-1808683",
+      "score": 117,
+      "created_at": "2026-09-15T14:47:21Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49713395",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49713999,
+      "title": "Cartesian – AI 3D Modeling for Design",
+      "url": "https://www.formas.ai/cartesian",
+      "score": 102,
+      "created_at": "2026-09-15T15:26:45Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49713999",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stars_today": 2756,
+      "total_stars": 29103,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "stars_today": 2026,
+      "total_stars": 34065,
+      "language": "C",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "ever-co/ever-gauzy",
+      "url": "https://github.com/ever-co/ever-gauzy",
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "stars_today": 634,
+      "total_stars": 6780,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "stars_today": 2072,
+      "total_stars": 31231,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Homebrew/BrewUI",
+      "url": "https://github.com/Homebrew/BrewUI",
+      "description": "📺 Homebrew's official macOS GUI",
+      "stars_today": 271,
+      "total_stars": 1508,
+      "language": "Swift",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "melgarafael/DeskcommCRM",
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "stars_today": 193,
+      "total_stars": 2920,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "alphaXiv/OpenResearch",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "description": "Turn your coding agents into research agents",
+      "stars_today": 531,
+      "total_stars": 3528,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "stars_today": 725,
+      "total_stars": 76872,
+      "language": "Java",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "danny-avila/LibreChat",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "stars_today": 254,
+      "total_stars": 43929,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
