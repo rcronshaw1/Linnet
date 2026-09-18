@@ -1,0 +1,386 @@
+{
+  "date": "2026-09-18",
+  "generated_at": "2026-09-18T04:29:34.490884+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 8,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49737922,
+          "title": "How GLM built its own inference infrastructure",
+          "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+          "score": 384,
+          "created_at": "2026-09-17T08:27:09Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49737922",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49746163,
+          "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+          "url": "https://bend-lang.com/",
+          "score": 360,
+          "created_at": "2026-09-17T20:36:13Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49746163",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49737985,
+          "title": "AI safety is mostly a sex cult",
+          "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+          "score": 283,
+          "created_at": "2026-09-17T08:36:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49737985",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49740834,
+          "title": "I Don't Like LLMs",
+          "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+          "score": 209,
+          "created_at": "2026-09-17T13:57:07Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49740834",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49740105,
+          "title": "Show HN: Share your AI Setup, Learn from others",
+          "url": "https://mysetup.ai/",
+          "score": 201,
+          "created_at": "2026-09-17T13:01:44Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49740105",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49746654,
+          "title": "Sex, AI, and the Apocalypse",
+          "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
+          "score": 173,
+          "created_at": "2026-09-17T21:15:52Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49746654",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49742353,
+          "title": "Rate limits on GitLab.com are changing",
+          "url": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+          "score": 161,
+          "created_at": "2026-09-17T15:33:54Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49742353",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49743483,
+          "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+          "url": "https://arxiv.org/abs/2609.18842",
+          "score": 123,
+          "created_at": "2026-09-17T16:55:14Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49743483",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 8
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+          "stars_today": 3286,
+          "total_stars": 35284,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
+          "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+          "stars_today": 3607,
+          "total_stars": 10997,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "description": "Production-grade engineering skills for AI coding agents.",
+          "stars_today": 680,
+          "total_stars": 95962,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Tencent/BrowserSkill",
+          "url": "https://github.com/Tencent/BrowserSkill",
+          "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+          "stars_today": 1302,
+          "total_stars": 4421,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "alphaXiv/OpenResearch",
+          "url": "https://github.com/alphaXiv/OpenResearch",
+          "description": "Turn your coding agents into research agents",
+          "stars_today": 939,
+          "total_stars": 5059,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "anthropics/claude-code",
+          "url": "https://github.com/anthropics/claude-code",
+          "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+          "stars_today": 538,
+          "total_stars": 145935,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "NationalSecurityAgency/ghidra",
+          "url": "https://github.com/NationalSecurityAgency/ghidra",
+          "description": "Ghidra is a software reverse engineering (SRE) framework",
+          "stars_today": 912,
+          "total_stars": 78615,
+          "language": "Java",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "anthropics/knowledge-work-plugins",
+          "url": "https://github.com/anthropics/knowledge-work-plugins",
+          "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+          "stars_today": 287,
+          "total_stars": 24623,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Tencent/WeKnora",
+          "url": "https://github.com/Tencent/WeKnora",
+          "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+          "stars_today": 1125,
+          "total_stars": 26479,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 8,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 127
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49737922,
+      "title": "How GLM built its own inference infrastructure",
+      "url": "https://z.ai/blog/glm-built-its-inference-infrastructure",
+      "score": 384,
+      "created_at": "2026-09-17T08:27:09Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49737922",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49746163,
+      "title": "Bend – A language that blocks AI mistakes via proof, on CPU and GPU",
+      "url": "https://bend-lang.com/",
+      "score": 360,
+      "created_at": "2026-09-17T20:36:13Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49746163",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49737985,
+      "title": "AI safety is mostly a sex cult",
+      "url": "https://skywriter.blue/@segyges.bsky.social/3mvom4b4dn22q",
+      "score": 283,
+      "created_at": "2026-09-17T08:36:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49737985",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49740834,
+      "title": "I Don't Like LLMs",
+      "url": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "score": 209,
+      "created_at": "2026-09-17T13:57:07Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49740834",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49740105,
+      "title": "Show HN: Share your AI Setup, Learn from others",
+      "url": "https://mysetup.ai/",
+      "score": 201,
+      "created_at": "2026-09-17T13:01:44Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49740105",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49746654,
+      "title": "Sex, AI, and the Apocalypse",
+      "url": "https://www.iankduncan.com/personal/2026-09-16-sex-ai-and-the-apocalypse/",
+      "score": 173,
+      "created_at": "2026-09-17T21:15:52Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49746654",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49742353,
+      "title": "Rate limits on GitLab.com are changing",
+      "url": "https://about.gitlab.com/blog/rate-limit-change-2026/",
+      "score": 161,
+      "created_at": "2026-09-17T15:33:54Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49742353",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49743483,
+      "title": "Infinite-Parameter LLMs: Generating and Adapting Weights from Live Data",
+      "url": "https://arxiv.org/abs/2609.18842",
+      "score": 123,
+      "created_at": "2026-09-17T16:55:14Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49743483",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stars_today": 3286,
+      "total_stars": 35284,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "cloudflare/security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "stars_today": 3607,
+      "total_stars": 10997,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars_today": 680,
+      "total_stars": 95962,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Tencent/BrowserSkill",
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "stars_today": 1302,
+      "total_stars": 4421,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "alphaXiv/OpenResearch",
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "description": "Turn your coding agents into research agents",
+      "stars_today": 939,
+      "total_stars": 5059,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "anthropics/claude-code",
+      "url": "https://github.com/anthropics/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "stars_today": 538,
+      "total_stars": 145935,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "NationalSecurityAgency/ghidra",
+      "url": "https://github.com/NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "stars_today": 912,
+      "total_stars": 78615,
+      "language": "Java",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "anthropics/knowledge-work-plugins",
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "stars_today": 287,
+      "total_stars": 24623,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Tencent/WeKnora",
+      "url": "https://github.com/Tencent/WeKnora",
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "stars_today": 1125,
+      "total_stars": 26479,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
