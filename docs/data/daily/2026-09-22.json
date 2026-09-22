@@ -1,0 +1,422 @@
+{
+  "date": "2026-09-22",
+  "generated_at": "2026-09-22T04:40:19.447660+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 11,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49788838,
+          "title": "Grok 4.7",
+          "url": "https://x.ai/news/grok-4-7",
+          "score": 523,
+          "created_at": "2026-09-21T15:50:15Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49788838",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49783133,
+          "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+          "url": "https://github.com/volotat/mini-AGI/",
+          "score": 257,
+          "created_at": "2026-09-21T04:42:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49783133",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49787313,
+          "title": "M5 Ultra Mac Studio Review",
+          "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
+          "score": 236,
+          "created_at": "2026-09-21T13:53:27Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49787313",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49787535,
+          "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+          "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
+          "score": 218,
+          "created_at": "2026-09-21T14:10:49Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49787535",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49791509,
+          "title": "US halts flights at busy East Coast airports, says fiber line cut",
+          "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
+          "score": 216,
+          "created_at": "2026-09-21T18:41:59Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49791509",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49792067,
+          "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+          "url": "https://linear.app/now/ci-bottleneck-reworked",
+          "score": 172,
+          "created_at": "2026-09-21T19:23:33Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49792067",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49789982,
+          "title": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
+          "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
+          "score": 144,
+          "created_at": "2026-09-21T17:00:23Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49789982",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49786609,
+          "title": "Ask HN: Is it impossible to disable Siri on macOS 27?",
+          "url": "",
+          "score": 142,
+          "created_at": "2026-09-21T12:47:05Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49786609",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49784816,
+          "title": "Don't Use AI to Write",
+          "url": "https://paulbakker.io/writing/no-ai-for-writing/",
+          "score": 136,
+          "created_at": "2026-09-21T08:54:44Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49784816",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49791647,
+          "title": "Frontier AI on Your Own Hardware",
+          "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+          "score": 123,
+          "created_at": "2026-09-21T18:53:01Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49791647",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 10
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "BuilderIO/agent-native",
+          "url": "https://github.com/BuilderIO/agent-native",
+          "description": "A framework for building agentic apps",
+          "stars_today": 607,
+          "total_stars": 6048,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "trycua/cua",
+          "url": "https://github.com/trycua/cua",
+          "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+          "stars_today": 609,
+          "total_stars": 25786,
+          "language": "HTML",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Open-Dev-Society/OpenStock",
+          "url": "https://github.com/Open-Dev-Society/OpenStock",
+          "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+          "stars_today": 844,
+          "total_stars": 17938,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "akitaonrails/ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory",
+          "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+          "stars_today": 167,
+          "total_stars": 7801,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "coder/coder",
+          "url": "https://github.com/coder/coder",
+          "description": "Secure environments for developers and their agents",
+          "stars_today": 460,
+          "total_stars": 16485,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "anthropics/financial-services",
+          "url": "https://github.com/anthropics/financial-services",
+          "description": "",
+          "stars_today": 424,
+          "total_stars": 35909,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "cloudflare/quiche",
+          "url": "https://github.com/cloudflare/quiche",
+          "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+          "stars_today": 32,
+          "total_stars": 12399,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mvt-project/mvt",
+          "url": "https://github.com/mvt-project/mvt",
+          "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+          "stars_today": 169,
+          "total_stars": 13673,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "zhouxiaoka/autoclip",
+          "url": "https://github.com/zhouxiaoka/autoclip",
+          "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+          "stars_today": 250,
+          "total_stars": 8391,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 11,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 152
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49788838,
+      "title": "Grok 4.7",
+      "url": "https://x.ai/news/grok-4-7",
+      "score": 523,
+      "created_at": "2026-09-21T15:50:15Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49788838",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49783133,
+      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+      "url": "https://github.com/volotat/mini-AGI/",
+      "score": 257,
+      "created_at": "2026-09-21T04:42:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49783133",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49787313,
+      "title": "M5 Ultra Mac Studio Review",
+      "url": "https://www.macstories.net/stories/m5-ultra-mac-studio-review-the-dream-mac-for-local-ai-agents/",
+      "score": 236,
+      "created_at": "2026-09-21T13:53:27Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49787313",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49787535,
+      "title": "macOS 27: Workaround to avoid downloading AI models and save storage",
+      "url": "https://www.reddit.com/r/MacOSBeta/comments/1vlnf13/workaround_to_avoid_downloading_ai_models_and/",
+      "score": 218,
+      "created_at": "2026-09-21T14:10:49Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49787535",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49791509,
+      "title": "US halts flights at busy East Coast airports, says fiber line cut",
+      "url": "https://www.reuters.com/world/us/faa-halts-some-us-east-coast-flights-due-communication-issues-2026-09-21/",
+      "score": 216,
+      "created_at": "2026-09-21T18:41:59Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49791509",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49792067,
+      "title": "AI coding has made CI a bottleneck, so we reworked ours to keep up",
+      "url": "https://linear.app/now/ci-bottleneck-reworked",
+      "score": 172,
+      "created_at": "2026-09-21T19:23:33Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49792067",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49789982,
+      "title": "Amazon blocks Meta’s new Muse AI agent from shopping on amazon.com",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/09/21/amazon-blocks-metas-new-muse-ai-agent-from-shopping-on-amazoncom/",
+      "score": 144,
+      "created_at": "2026-09-21T17:00:23Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49789982",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49786609,
+      "title": "Ask HN: Is it impossible to disable Siri on macOS 27?",
+      "url": "",
+      "score": 142,
+      "created_at": "2026-09-21T12:47:05Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49786609",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49784816,
+      "title": "Don't Use AI to Write",
+      "url": "https://paulbakker.io/writing/no-ai-for-writing/",
+      "score": 136,
+      "created_at": "2026-09-21T08:54:44Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49784816",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49791647,
+      "title": "Frontier AI on Your Own Hardware",
+      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+      "score": 123,
+      "created_at": "2026-09-21T18:53:01Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49791647",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "BuilderIO/agent-native",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "description": "A framework for building agentic apps",
+      "stars_today": 607,
+      "total_stars": 6048,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "trycua/cua",
+      "url": "https://github.com/trycua/cua",
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "stars_today": 609,
+      "total_stars": 25786,
+      "language": "HTML",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Open-Dev-Society/OpenStock",
+      "url": "https://github.com/Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "stars_today": 844,
+      "total_stars": 17938,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "akitaonrails/ai-memory",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "stars_today": 167,
+      "total_stars": 7801,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "coder/coder",
+      "url": "https://github.com/coder/coder",
+      "description": "Secure environments for developers and their agents",
+      "stars_today": 460,
+      "total_stars": 16485,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "",
+      "stars_today": 424,
+      "total_stars": 35909,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "cloudflare/quiche",
+      "url": "https://github.com/cloudflare/quiche",
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "stars_today": 32,
+      "total_stars": 12399,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mvt-project/mvt",
+      "url": "https://github.com/mvt-project/mvt",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "stars_today": 169,
+      "total_stars": 13673,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "zhouxiaoka/autoclip",
+      "url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "stars_today": 250,
+      "total_stars": 8391,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
