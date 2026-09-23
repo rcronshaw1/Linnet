@@ -1,0 +1,384 @@
+{
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23T04:36:04.084803+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 8,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49806430,
+          "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+          "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+          "score": 513,
+          "created_at": "2026-09-22T19:03:38Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49806430",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49797323,
+          "title": "Can gzip be a language model?",
+          "url": "https://nathan.rs/posts/gzip-lm/",
+          "score": 387,
+          "created_at": "2026-09-22T06:08:39Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49797323",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49799965,
+          "title": "AI Has No Wisdom and Neither Will You",
+          "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+          "score": 371,
+          "created_at": "2026-09-22T12:11:09Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49799965",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49804316,
+          "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+          "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+          "score": 257,
+          "created_at": "2026-09-22T16:51:31Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49804316",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49808023,
+          "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+          "url": "https://foxscript.org/",
+          "score": 233,
+          "created_at": "2026-09-22T21:00:30Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49808023",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49801329,
+          "title": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
+          "url": "https://droprun.sh/",
+          "score": 159,
+          "created_at": "2026-09-22T13:52:47Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49801329",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49805748,
+          "title": "Unreal Agent",
+          "url": "https://unreallabs.ai/blog/unreal-agent/",
+          "score": 147,
+          "created_at": "2026-09-22T18:15:53Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49805748",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49807688,
+          "title": "LLM Ass Bench",
+          "url": "https://www.assbench.com/",
+          "score": 142,
+          "created_at": "2026-09-22T20:34:19Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49807688",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49802030,
+          "title": "Meta’s Muse has a serious 0-day",
+          "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+          "score": 116,
+          "created_at": "2026-09-22T14:35:15Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49802030",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "anthropics/financial-services",
+          "url": "https://github.com/anthropics/financial-services",
+          "description": "",
+          "stars_today": 438,
+          "total_stars": 36481,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "agent-substrate/substrate",
+          "url": "https://github.com/agent-substrate/substrate",
+          "description": "Agent Substrate: the core system",
+          "stars_today": 245,
+          "total_stars": 3067,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+          "stars_today": 255,
+          "total_stars": 15678,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "davila7/claude-code-templates",
+          "url": "https://github.com/davila7/claude-code-templates",
+          "description": "CLI tool for configuring and monitoring Claude Code",
+          "stars_today": 64,
+          "total_stars": 31191,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "google/ax",
+          "url": "https://github.com/google/ax",
+          "description": "Google's open agentic orchestration runtime",
+          "stars_today": 2305,
+          "total_stars": 7872,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mvt-project/mvt",
+          "url": "https://github.com/mvt-project/mvt",
+          "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+          "stars_today": 441,
+          "total_stars": 14198,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "superdesigndev/treg",
+          "url": "https://github.com/superdesigndev/treg",
+          "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+          "stars_today": 230,
+          "total_stars": 2304,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "browser-use/video-use",
+          "url": "https://github.com/browser-use/video-use",
+          "description": "Edit videos with coding agents",
+          "stars_today": 191,
+          "total_stars": 25989,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 8
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 8,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 125
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49806430,
+      "title": "Pentagon says overreliance on AI contributed to missile strike on Iran school",
+      "url": "https://www.bloomberg.com/graphics/2026-iran-school-attack/",
+      "score": 513,
+      "created_at": "2026-09-22T19:03:38Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49806430",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49797323,
+      "title": "Can gzip be a language model?",
+      "url": "https://nathan.rs/posts/gzip-lm/",
+      "score": 387,
+      "created_at": "2026-09-22T06:08:39Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49797323",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49799965,
+      "title": "AI Has No Wisdom and Neither Will You",
+      "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/",
+      "score": 371,
+      "created_at": "2026-09-22T12:11:09Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49799965",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49804316,
+      "title": "Claude Opus 5.5 Intelligence, Performance and Price Analysis (Max)",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5",
+      "score": 257,
+      "created_at": "2026-09-22T16:51:31Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49804316",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49808023,
+      "title": "Microsoft killed FoxPro in 2007. Anyway, here's FoxPro revived",
+      "url": "https://foxscript.org/",
+      "score": 233,
+      "created_at": "2026-09-22T21:00:30Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49808023",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49801329,
+      "title": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
+      "url": "https://droprun.sh/",
+      "score": 159,
+      "created_at": "2026-09-22T13:52:47Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49801329",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49805748,
+      "title": "Unreal Agent",
+      "url": "https://unreallabs.ai/blog/unreal-agent/",
+      "score": 147,
+      "created_at": "2026-09-22T18:15:53Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49805748",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49807688,
+      "title": "LLM Ass Bench",
+      "url": "https://www.assbench.com/",
+      "score": 142,
+      "created_at": "2026-09-22T20:34:19Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49807688",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49802030,
+      "title": "Meta’s Muse has a serious 0-day",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+      "score": 116,
+      "created_at": "2026-09-22T14:35:15Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49802030",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "anthropics/financial-services",
+      "url": "https://github.com/anthropics/financial-services",
+      "description": "",
+      "stars_today": 438,
+      "total_stars": 36481,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "agent-substrate/substrate",
+      "url": "https://github.com/agent-substrate/substrate",
+      "description": "Agent Substrate: the core system",
+      "stars_today": 245,
+      "total_stars": 3067,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "stars_today": 255,
+      "total_stars": 15678,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "stars_today": 64,
+      "total_stars": 31191,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "google/ax",
+      "url": "https://github.com/google/ax",
+      "description": "Google's open agentic orchestration runtime",
+      "stars_today": 2305,
+      "total_stars": 7872,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mvt-project/mvt",
+      "url": "https://github.com/mvt-project/mvt",
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "stars_today": 441,
+      "total_stars": 14198,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "superdesigndev/treg",
+      "url": "https://github.com/superdesigndev/treg",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "stars_today": 230,
+      "total_stars": 2304,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "browser-use/video-use",
+      "url": "https://github.com/browser-use/video-use",
+      "description": "Edit videos with coding agents",
+      "stars_today": 191,
+      "total_stars": 25989,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
