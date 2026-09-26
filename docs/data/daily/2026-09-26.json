@@ -1,0 +1,332 @@
+{
+  "date": "2026-09-26",
+  "generated_at": "2026-09-26T04:47:00.254143+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 7,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49845977,
+          "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+          "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+          "score": 417,
+          "created_at": "2026-09-25T15:29:25Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49845977",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49845952,
+          "title": "Classified estimates show the NSA is paying billions to test AI models",
+          "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+          "score": 171,
+          "created_at": "2026-09-25T15:27:35Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49845952",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49848295,
+          "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
+          "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
+          "score": 136,
+          "created_at": "2026-09-25T18:37:05Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49848295",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49849625,
+          "title": "Too AI; Didn't Read",
+          "url": "https://www.tai-dr.com/",
+          "score": 107,
+          "created_at": "2026-09-25T20:37:56Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49849625",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49848955,
+          "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
+          "url": "",
+          "score": 106,
+          "created_at": "2026-09-25T19:37:55Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49848955",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 5
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "paperclipai/paperclip",
+          "url": "https://github.com/paperclipai/paperclip",
+          "description": "The open-source app everyone uses to manage agents at work",
+          "stars_today": 2109,
+          "total_stars": 85254,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "anthropics/claude-plugins-official",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+          "stars_today": 83,
+          "total_stars": 36970,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "vectorize-io/hindsight",
+          "url": "https://github.com/vectorize-io/hindsight",
+          "description": "Hindsight: Agent Memory That Learns",
+          "stars_today": 1653,
+          "total_stars": 30036,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 468,
+          "total_stars": 291716,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "description": "Skills for Real Engineers. Straight from my .agents directory.",
+          "stars_today": 583,
+          "total_stars": 269799,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+          "stars_today": 1050,
+          "total_stars": 18748,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "anthropics/skills",
+          "url": "https://github.com/anthropics/skills",
+          "description": "Public repository for Agent Skills",
+          "stars_today": 189,
+          "total_stars": 178382,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "androoAGI/starnet",
+          "url": "https://github.com/androoAGI/starnet",
+          "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
+          "stars_today": 93,
+          "total_stars": 526,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "derv82/wifit3",
+          "url": "https://github.com/derv82/wifit3",
+          "description": "Wifite but USB-only & cross-platform.",
+          "stars_today": 183,
+          "total_stars": 989,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 7,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 106
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49845977,
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "score": 417,
+      "created_at": "2026-09-25T15:29:25Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49845977",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49845952,
+      "title": "Classified estimates show the NSA is paying billions to test AI models",
+      "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+      "score": 171,
+      "created_at": "2026-09-25T15:27:35Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49845952",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49848295,
+      "title": "Alan Kay: Shannon gave us a way of dealing with noisy channels [video]",
+      "url": "https://www.youtube.com/watch?v=Cjntrqhn8pk",
+      "score": 136,
+      "created_at": "2026-09-25T18:37:05Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49848295",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49849625,
+      "title": "Too AI; Didn't Read",
+      "url": "https://www.tai-dr.com/",
+      "score": 107,
+      "created_at": "2026-09-25T20:37:56Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49849625",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49848955,
+      "title": "Ask HN: Who's still keeping a DOS machine up because the business depends on it?",
+      "url": "",
+      "score": 106,
+      "created_at": "2026-09-25T19:37:55Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49848955",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "stars_today": 2109,
+      "total_stars": 85254,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "anthropics/claude-plugins-official",
+      "url": "https://github.com/anthropics/claude-plugins-official",
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "stars_today": 83,
+      "total_stars": 36970,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "stars_today": 1653,
+      "total_stars": 30036,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 468,
+      "total_stars": 291716,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "stars_today": 583,
+      "total_stars": 269799,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "stars_today": 1050,
+      "total_stars": 18748,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stars_today": 189,
+      "total_stars": 178382,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "androoAGI/starnet",
+      "url": "https://github.com/androoAGI/starnet",
+      "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
+      "stars_today": 93,
+      "total_stars": 526,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "derv82/wifit3",
+      "url": "https://github.com/derv82/wifit3",
+      "description": "Wifite but USB-only & cross-platform.",
+      "stars_today": 183,
+      "total_stars": 989,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
