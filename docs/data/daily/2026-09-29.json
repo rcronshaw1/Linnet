@@ -1,0 +1,384 @@
+{
+  "date": "2026-09-29",
+  "generated_at": "2026-09-29T05:34:31.939746+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 4,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49875148,
+          "title": "AI companies in race to demonstrate their model most threatening to humanity",
+          "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+          "score": 427,
+          "created_at": "2026-09-28T08:35:40Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49875148",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49883471,
+          "title": "It's Time to Investigate the AI Labs",
+          "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+          "score": 390,
+          "created_at": "2026-09-28T19:53:35Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49883471",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49880312,
+          "title": "The problem is not AI code, but not knowing about system architecture or intent",
+          "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+          "score": 357,
+          "created_at": "2026-09-28T16:11:42Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49880312",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49883760,
+          "title": "World Labs Is Joining AMD",
+          "url": "https://www.worldlabs.ai/blog/amd-announcement",
+          "score": 243,
+          "created_at": "2026-09-28T20:18:05Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49883760",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49882781,
+          "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+          "url": "https://stateofutopia.com/experiments/microllmlab/",
+          "score": 192,
+          "created_at": "2026-09-28T18:58:53Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49882781",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49879401,
+          "title": "Show HN: HN.watch – Videos of all Hacker News posts",
+          "url": "https://hn.watch/",
+          "score": 148,
+          "created_at": "2026-09-28T15:16:13Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49879401",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49876148,
+          "title": "What would a serious AI product look like?",
+          "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
+          "score": 143,
+          "created_at": "2026-09-28T11:02:12Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49876148",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49879883,
+          "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+          "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+          "score": 142,
+          "created_at": "2026-09-28T15:46:36Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49879883",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49881484,
+          "title": "OpenAI still doesn't seem to have a handle on all of its rogue AI activity",
+          "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+          "score": 105,
+          "created_at": "2026-09-28T17:33:34Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49881484",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "stars_today": 3221,
+          "total_stars": 44910,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "paperclipai/paperclip",
+          "url": "https://github.com/paperclipai/paperclip",
+          "description": "The open-source app everyone uses to manage agents at work",
+          "stars_today": 3197,
+          "total_stars": 93248,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "vectorize-io/hindsight",
+          "url": "https://github.com/vectorize-io/hindsight",
+          "description": "Hindsight: Agent Memory That Learns",
+          "stars_today": 4561,
+          "total_stars": 41401,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "NawfalMotii79/PLFM_RADAR",
+          "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+          "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+          "stars_today": 158,
+          "total_stars": 25851,
+          "language": "PLSQL",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "cs341-illinois/coursebook",
+          "url": "https://github.com/cs341-illinois/coursebook",
+          "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+          "stars_today": 195,
+          "total_stars": 2615,
+          "language": "TeX",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "byoungd/up",
+          "url": "https://github.com/byoungd/up",
+          "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+          "stars_today": 327,
+          "total_stars": 64951,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mvschwarz/openrig",
+          "url": "https://github.com/mvschwarz/openrig",
+          "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+          "stars_today": 734,
+          "total_stars": 1873,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+          "stars_today": 1099,
+          "total_stars": 21411,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 8
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 4,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 100
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49875148,
+      "title": "AI companies in race to demonstrate their model most threatening to humanity",
+      "url": "https://thecivilian.co.nz/2026/09/27/ai-companies-in-fierce-arms-race-to-demonstrate-their-model-is-the-most-existentially-threatening-to-humanity/",
+      "score": 427,
+      "created_at": "2026-09-28T08:35:40Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49875148",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49883471,
+      "title": "It's Time to Investigate the AI Labs",
+      "url": "https://calnewport.com/its-time-to-investigate-the-ai-labs/",
+      "score": 390,
+      "created_at": "2026-09-28T19:53:35Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49883471",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49880312,
+      "title": "The problem is not AI code, but not knowing about system architecture or intent",
+      "url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore/",
+      "score": 357,
+      "created_at": "2026-09-28T16:11:42Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49880312",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49883760,
+      "title": "World Labs Is Joining AMD",
+      "url": "https://www.worldlabs.ai/blog/amd-announcement",
+      "score": 243,
+      "created_at": "2026-09-28T20:18:05Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49883760",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49882781,
+      "title": "MicroLLM Lab – Try 7 tiny LLM's in the browser",
+      "url": "https://stateofutopia.com/experiments/microllmlab/",
+      "score": 192,
+      "created_at": "2026-09-28T18:58:53Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49882781",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49879401,
+      "title": "Show HN: HN.watch – Videos of all Hacker News posts",
+      "url": "https://hn.watch/",
+      "score": 148,
+      "created_at": "2026-09-28T15:16:13Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49879401",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49876148,
+      "title": "What would a serious AI product look like?",
+      "url": "https://blog.glyph.im/2026/09/serious-ai-product.html",
+      "score": 143,
+      "created_at": "2026-09-28T11:02:12Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49876148",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49879883,
+      "title": "Nvidia wants to put a watchdog chip next to every AI agent",
+      "url": "https://www.cnbc.com/2026/09/28/nvidia-releases.html",
+      "score": 142,
+      "created_at": "2026-09-28T15:46:36Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49879883",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49881484,
+      "title": "OpenAI still doesn't seem to have a handle on all of its rogue AI activity",
+      "url": "https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/",
+      "score": 105,
+      "created_at": "2026-09-28T17:33:34Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49881484",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "stars_today": 3221,
+      "total_stars": 44910,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "stars_today": 3197,
+      "total_stars": 93248,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "stars_today": 4561,
+      "total_stars": 41401,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "NawfalMotii79/PLFM_RADAR",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "stars_today": 158,
+      "total_stars": 25851,
+      "language": "PLSQL",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "cs341-illinois/coursebook",
+      "url": "https://github.com/cs341-illinois/coursebook",
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+      "stars_today": 195,
+      "total_stars": 2615,
+      "language": "TeX",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "byoungd/up",
+      "url": "https://github.com/byoungd/up",
+      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+      "stars_today": 327,
+      "total_stars": 64951,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mvschwarz/openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "stars_today": 734,
+      "total_stars": 1873,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "stars_today": 1099,
+      "total_stars": 21411,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
