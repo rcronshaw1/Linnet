@@ -1,0 +1,350 @@
+{
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30T05:22:59.536083+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 7,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49896050,
+          "title": "DraftKings is using AI to behaviorally target chronic gamblers",
+          "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+          "score": 535,
+          "created_at": "2026-09-29T16:30:48Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49896050",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49890226,
+          "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+          "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+          "score": 413,
+          "created_at": "2026-09-29T09:03:41Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49890226",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49897075,
+          "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+          "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+          "score": 205,
+          "created_at": "2026-09-29T17:31:26Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49897075",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49898952,
+          "title": "AI needs $6T in annual revenue to justify data centre boom",
+          "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
+          "score": 198,
+          "created_at": "2026-09-29T19:21:25Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49898952",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49893709,
+          "title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
+          "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+          "score": 154,
+          "created_at": "2026-09-29T14:15:24Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49893709",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49892175,
+          "title": "Sustainable energy without the hot air (2008)",
+          "url": "https://www.withouthotair.com/",
+          "score": 140,
+          "created_at": "2026-09-29T12:38:18Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49892175",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 6
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "stars_today": 4758,
+          "total_stars": 48700,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "NVIDIA/OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+          "stars_today": 990,
+          "total_stars": 10833,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "vectorize-io/hindsight",
+          "url": "https://github.com/vectorize-io/hindsight",
+          "description": "Hindsight: Agent Memory That Learns",
+          "stars_today": 2575,
+          "total_stars": 43115,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "paperclipai/paperclip",
+          "url": "https://github.com/paperclipai/paperclip",
+          "description": "The open-source app everyone uses to manage agents at work",
+          "stars_today": 2458,
+          "total_stars": 94700,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "t8y2/dbx",
+          "url": "https://github.com/t8y2/dbx",
+          "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+          "stars_today": 232,
+          "total_stars": 22351,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mvschwarz/openrig",
+          "url": "https://github.com/mvschwarz/openrig",
+          "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+          "stars_today": 737,
+          "total_stars": 2548,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "oblien/openship",
+          "url": "https://github.com/oblien/openship",
+          "description": "Self-hosted deployment platform",
+          "stars_today": 437,
+          "total_stars": 13966,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "averygan/reclip",
+          "url": "https://github.com/averygan/reclip",
+          "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+          "stars_today": 113,
+          "total_stars": 10284,
+          "language": "HTML",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "cs341-illinois/coursebook",
+          "url": "https://github.com/cs341-illinois/coursebook",
+          "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+          "stars_today": 572,
+          "total_stars": 3184,
+          "language": "TeX",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 7,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 111
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49896050,
+      "title": "DraftKings is using AI to behaviorally target chronic gamblers",
+      "url": "https://www.eff.org/deeplinks/2026/09/draftkings-using-ai-supercharge-harms-online-behavioral-advertising",
+      "score": 535,
+      "created_at": "2026-09-29T16:30:48Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49896050",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49890226,
+      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
+      "url": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
+      "score": 413,
+      "created_at": "2026-09-29T09:03:41Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49890226",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49897075,
+      "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+      "url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "score": 205,
+      "created_at": "2026-09-29T17:31:26Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49897075",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49898952,
+      "title": "AI needs $6T in annual revenue to justify data centre boom",
+      "url": "https://www.thenationalnews.com/future/technology/2026/09/29/ai-industry-needs-to-earn-6-trillion-by-2031-to-justify-data-centres/",
+      "score": 198,
+      "created_at": "2026-09-29T19:21:25Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49898952",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49893709,
+      "title": "Unsurprisingly, Meta's new Muse AI agent blatantly ignores users permissions",
+      "url": "https://appleinsider.com/articles/26/09/28/metas-new-ai-agent-blatantly-ignores-users-permissions",
+      "score": 154,
+      "created_at": "2026-09-29T14:15:24Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49893709",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49892175,
+      "title": "Sustainable energy without the hot air (2008)",
+      "url": "https://www.withouthotair.com/",
+      "score": 140,
+      "created_at": "2026-09-29T12:38:18Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49892175",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "stars_today": 4758,
+      "total_stars": 48700,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "stars_today": 990,
+      "total_stars": 10833,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "vectorize-io/hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "stars_today": 2575,
+      "total_stars": 43115,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "paperclipai/paperclip",
+      "url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "stars_today": 2458,
+      "total_stars": 94700,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "t8y2/dbx",
+      "url": "https://github.com/t8y2/dbx",
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "stars_today": 232,
+      "total_stars": 22351,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mvschwarz/openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "stars_today": 737,
+      "total_stars": 2548,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "oblien/openship",
+      "url": "https://github.com/oblien/openship",
+      "description": "Self-hosted deployment platform",
+      "stars_today": 437,
+      "total_stars": 13966,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "averygan/reclip",
+      "url": "https://github.com/averygan/reclip",
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "stars_today": 113,
+      "total_stars": 10284,
+      "language": "HTML",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "cs341-illinois/coursebook",
+      "url": "https://github.com/cs341-illinois/coursebook",
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+      "stars_today": 572,
+      "total_stars": 3184,
+      "language": "TeX",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
