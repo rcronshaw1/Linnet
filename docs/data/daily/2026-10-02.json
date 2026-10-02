@@ -1,0 +1,332 @@
+{
+  "date": "2026-10-02",
+  "generated_at": "2026-10-02T05:25:33.048795+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 8,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 49921118,
+          "title": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
+          "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+          "score": 250,
+          "created_at": "2026-10-01T13:05:51Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49921118",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49921050,
+          "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+          "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+          "score": 201,
+          "created_at": "2026-10-01T13:00:55Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49921050",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49922569,
+          "title": "Ask HN: Who is hiring? (October 2026)",
+          "url": "",
+          "score": 170,
+          "created_at": "2026-10-01T15:02:07Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49922569",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49924618,
+          "title": "Vote on which of Hacker News' challenges for AI have been met",
+          "url": "https://stoppels.ch/goalposts/",
+          "score": 119,
+          "created_at": "2026-10-01T17:32:43Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49924618",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 49922568,
+          "title": "Ask HN: Who wants to be hired? (October 2026)",
+          "url": "",
+          "score": 103,
+          "created_at": "2026-10-01T15:02:07Z",
+          "comments_url": "https://news.ycombinator.com/item?id=49922568",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 5
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "DietrichGebert/ponytail",
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+          "stars_today": 1194,
+          "total_stars": 150771,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "description": "Skills for Real Engineers. Straight from my .agents directory.",
+          "stars_today": 883,
+          "total_stars": 274073,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "NVIDIA/OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+          "stars_today": 2456,
+          "total_stars": 14111,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "firebase/firebase-ios-sdk",
+          "url": "https://github.com/firebase/firebase-ios-sdk",
+          "description": "Firebase SDK for Apple App Development",
+          "stars_today": 112,
+          "total_stars": 6884,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mvschwarz/openrig",
+          "url": "https://github.com/mvschwarz/openrig",
+          "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+          "stars_today": 642,
+          "total_stars": 3832,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "cursor/plugins",
+          "url": "https://github.com/cursor/plugins",
+          "description": "Cursor plugin specification and official plugins",
+          "stars_today": 150,
+          "total_stars": 9350,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 455,
+          "total_stars": 294063,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mksglu/context-mode",
+          "url": "https://github.com/mksglu/context-mode",
+          "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+          "stars_today": 362,
+          "total_stars": 24841,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "heygen-com/hyperframes",
+          "url": "https://github.com/heygen-com/hyperframes",
+          "description": "Write HTML. Render video. Built for agents.",
+          "stars_today": 627,
+          "total_stars": 55449,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 8,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 149
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 49921118,
+      "title": "Meta Uses A.I. Data Centers to Avoid Billions in Federal Taxes",
+      "url": "https://www.nytimes.com/2026/09/30/technology/meta-ai-data-centers-taxes.html",
+      "score": 250,
+      "created_at": "2026-10-01T13:05:51Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49921118",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49921050,
+      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+      "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "score": 201,
+      "created_at": "2026-10-01T13:00:55Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49921050",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49922569,
+      "title": "Ask HN: Who is hiring? (October 2026)",
+      "url": "",
+      "score": 170,
+      "created_at": "2026-10-01T15:02:07Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49922569",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49924618,
+      "title": "Vote on which of Hacker News' challenges for AI have been met",
+      "url": "https://stoppels.ch/goalposts/",
+      "score": 119,
+      "created_at": "2026-10-01T17:32:43Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49924618",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 49922568,
+      "title": "Ask HN: Who wants to be hired? (October 2026)",
+      "url": "",
+      "score": 103,
+      "created_at": "2026-10-01T15:02:07Z",
+      "comments_url": "https://news.ycombinator.com/item?id=49922568",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "stars_today": 1194,
+      "total_stars": 150771,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "stars_today": 883,
+      "total_stars": 274073,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "NVIDIA/OpenShell",
+      "url": "https://github.com/NVIDIA/OpenShell",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "stars_today": 2456,
+      "total_stars": 14111,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "firebase/firebase-ios-sdk",
+      "url": "https://github.com/firebase/firebase-ios-sdk",
+      "description": "Firebase SDK for Apple App Development",
+      "stars_today": 112,
+      "total_stars": 6884,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mvschwarz/openrig",
+      "url": "https://github.com/mvschwarz/openrig",
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "stars_today": 642,
+      "total_stars": 3832,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "stars_today": 150,
+      "total_stars": 9350,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 455,
+      "total_stars": 294063,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "stars_today": 362,
+      "total_stars": 24841,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "heygen-com/hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
+      "description": "Write HTML. Render video. Built for agents.",
+      "stars_today": 627,
+      "total_stars": 55449,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
