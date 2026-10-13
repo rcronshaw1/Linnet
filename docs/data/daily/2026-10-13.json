@@ -1,0 +1,422 @@
+{
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T06:41:01.407465+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 9,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 50059115,
+          "title": "Muse Wonder",
+          "url": "https://research.meta.ai/blog/muse-wonder",
+          "score": 604,
+          "created_at": "2026-10-12T16:48:01Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50059115",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50055304,
+          "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+          "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+          "score": 590,
+          "created_at": "2026-10-12T12:16:42Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50055304",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50058507,
+          "title": "GLM-Legal",
+          "url": "https://z.ai/blog/glm-legal",
+          "score": 513,
+          "created_at": "2026-10-12T16:11:45Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50058507",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50054751,
+          "title": "QGIS enacts moratorium on AI contributions",
+          "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+          "score": 372,
+          "created_at": "2026-10-12T11:22:24Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50054751",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50063427,
+          "title": "AI is a tool and using it well takes skill",
+          "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+          "score": 338,
+          "created_at": "2026-10-12T21:40:18Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50063427",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50059523,
+          "title": "AI coding agents generate more code, but not more software",
+          "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+          "score": 330,
+          "created_at": "2026-10-12T17:14:01Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50059523",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50057278,
+          "title": "Why aren't AI companies being charged for hacking?",
+          "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+          "score": 317,
+          "created_at": "2026-10-12T14:52:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50057278",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50060269,
+          "title": "'AI' Is Not a Tool by Rich Hickey",
+          "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+          "score": 255,
+          "created_at": "2026-10-12T18:00:25Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50060269",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50061278,
+          "title": "OpenFatigue™ – Open is the new closed",
+          "url": "https://openfatigue.ai/",
+          "score": 214,
+          "created_at": "2026-10-12T19:08:21Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50061278",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50057668,
+          "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+          "url": "https://taylor.town/kk-ai-2026",
+          "score": 173,
+          "created_at": "2026-10-12T15:16:45Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50057668",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 10
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "morluto/rea",
+          "url": "https://github.com/morluto/rea",
+          "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+          "stars_today": 45327,
+          "total_stars": 173041,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "bilawalsidhu/gods-eye-view",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view",
+          "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+          "stars_today": 1895,
+          "total_stars": 54134,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mksglu/context-mode",
+          "url": "https://github.com/mksglu/context-mode",
+          "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+          "stars_today": 246,
+          "total_stars": 27539,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "storytold/artcraft",
+          "url": "https://github.com/storytold/artcraft",
+          "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+          "stars_today": 4095,
+          "total_stars": 23037,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "open-webui/open-webui",
+          "url": "https://github.com/open-webui/open-webui",
+          "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+          "stars_today": 157,
+          "total_stars": 155305,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+          "stars_today": 2081,
+          "total_stars": 53041,
+          "language": "HTML",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "lyogavin/airllm",
+          "url": "https://github.com/lyogavin/airllm",
+          "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+          "stars_today": 879,
+          "total_stars": 37749,
+          "language": "Jupyter Notebook",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "microsoft/BitNet",
+          "url": "https://github.com/microsoft/BitNet",
+          "description": "Official inference framework for 1-bit LLMs",
+          "stars_today": 97,
+          "total_stars": 41018,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Alishahryar1/free-claude-code",
+          "url": "https://github.com/Alishahryar1/free-claude-code",
+          "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+          "stars_today": 626,
+          "total_stars": 59494,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 9,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 141
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 50059115,
+      "title": "Muse Wonder",
+      "url": "https://research.meta.ai/blog/muse-wonder",
+      "score": 604,
+      "created_at": "2026-10-12T16:48:01Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50059115",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50055304,
+      "title": "Hackers activate automatic defrosting in supermarket fridges across Europe",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/unprecedented-cyberattack-cripples-supermarket-fridges-across-europe-as-hackers-activate-automatic-defrosting-delivery-and-store-prices-also-impacted-by-incident",
+      "score": 590,
+      "created_at": "2026-10-12T12:16:42Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50055304",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50058507,
+      "title": "GLM-Legal",
+      "url": "https://z.ai/blog/glm-legal",
+      "score": 513,
+      "created_at": "2026-10-12T16:11:45Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50058507",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50054751,
+      "title": "QGIS enacts moratorium on AI contributions",
+      "url": "https://github.com/qgis/QGIS-Enhancement-Proposals/pull/387",
+      "score": 372,
+      "created_at": "2026-10-12T11:22:24Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50054751",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50063427,
+      "title": "AI is a tool and using it well takes skill",
+      "url": "https://yyhh.org/blog/2026/10/ai-is-a-tool/",
+      "score": 338,
+      "created_at": "2026-10-12T21:40:18Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50063427",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50059523,
+      "title": "AI coding agents generate more code, but not more software",
+      "url": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+      "score": 330,
+      "created_at": "2026-10-12T17:14:01Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50059523",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50057278,
+      "title": "Why aren't AI companies being charged for hacking?",
+      "url": "https://mortoray.com/why-arent-ai-companies-being-charged-for-hacking/",
+      "score": 317,
+      "created_at": "2026-10-12T14:52:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50057278",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50060269,
+      "title": "'AI' Is Not a Tool by Rich Hickey",
+      "url": "https://www.linkedin.com/pulse/ai-tool-rich-hickey-kjl8e",
+      "score": 255,
+      "created_at": "2026-10-12T18:00:25Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50060269",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50061278,
+      "title": "OpenFatigue™ – Open is the new closed",
+      "url": "https://openfatigue.ai/",
+      "score": 214,
+      "created_at": "2026-10-12T19:08:21Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50061278",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50057668,
+      "title": "Kevin Kelly's 2016 AI Predictions, 10 Years Later",
+      "url": "https://taylor.town/kk-ai-2026",
+      "score": 173,
+      "created_at": "2026-10-12T15:16:45Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50057668",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "stars_today": 45327,
+      "total_stars": 173041,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "stars_today": 1895,
+      "total_stars": 54134,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "stars_today": 246,
+      "total_stars": 27539,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "stars_today": 4095,
+      "total_stars": 23037,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "open-webui/open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "stars_today": 157,
+      "total_stars": 155305,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "stars_today": 2081,
+      "total_stars": 53041,
+      "language": "HTML",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+      "stars_today": 879,
+      "total_stars": 37749,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "microsoft/BitNet",
+      "url": "https://github.com/microsoft/BitNet",
+      "description": "Official inference framework for 1-bit LLMs",
+      "stars_today": 97,
+      "total_stars": 41018,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "stars_today": 626,
+      "total_stars": 59494,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
