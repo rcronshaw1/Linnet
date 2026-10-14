@@ -1,0 +1,386 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T04:42:04.437786+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 6,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 50068036,
+          "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
+          "url": "https://blog.character.ai/an-update-on-character-ai/",
+          "score": 313,
+          "created_at": "2026-10-13T07:28:34Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50068036",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50073221,
+          "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+          "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+          "score": 289,
+          "created_at": "2026-10-13T15:25:50Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50073221",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50070593,
+          "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+          "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+          "score": 240,
+          "created_at": "2026-10-13T12:26:36Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50070593",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50069337,
+          "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+          "url": "https://pdftomp3.com/connect-ai/",
+          "score": 160,
+          "created_at": "2026-10-13T10:08:34Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50069337",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50069942,
+          "title": "Character.ai Files for Bankruptcy",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+          "score": 145,
+          "created_at": "2026-10-13T11:24:08Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50069942",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50072120,
+          "title": "How to engineer an AI harness for game development",
+          "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+          "score": 141,
+          "created_at": "2026-10-13T14:14:23Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50072120",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50067356,
+          "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+          "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+          "score": 111,
+          "created_at": "2026-10-13T05:57:32Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50067356",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50069318,
+          "title": "AWS Lambda Web Functions",
+          "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+          "score": 108,
+          "created_at": "2026-10-13T10:07:03Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50069318",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 8
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "morluto/rea",
+          "url": "https://github.com/morluto/rea",
+          "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+          "stars_today": 54679,
+          "total_stars": 214706,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "bilawalsidhu/gods-eye-view",
+          "url": "https://github.com/bilawalsidhu/gods-eye-view",
+          "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+          "stars_today": 1961,
+          "total_stars": 55692,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "stars_today": 1748,
+          "total_stars": 63891,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mksglu/context-mode",
+          "url": "https://github.com/mksglu/context-mode",
+          "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+          "stars_today": 969,
+          "total_stars": 28403,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+          "stars_today": 1815,
+          "total_stars": 54462,
+          "language": "HTML",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "vercel-labs/skills",
+          "url": "https://github.com/vercel-labs/skills",
+          "description": "The open agent skills tool - npx skills",
+          "stars_today": 190,
+          "total_stars": 34661,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "lyogavin/airllm",
+          "url": "https://github.com/lyogavin/airllm",
+          "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+          "stars_today": 1001,
+          "total_stars": 38439,
+          "language": "Jupyter Notebook",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "storytold/artcraft",
+          "url": "https://github.com/storytold/artcraft",
+          "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+          "stars_today": 4081,
+          "total_stars": 26176,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "xtool-org/xtool",
+          "url": "https://github.com/xtool-org/xtool",
+          "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+          "stars_today": 1198,
+          "total_stars": 9638,
+          "language": "Swift",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 6,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 118
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 50068036,
+      "title": "Character.ai has initiated voluntary Chapter 11 bankruptcy",
+      "url": "https://blog.character.ai/an-update-on-character-ai/",
+      "score": 313,
+      "created_at": "2026-10-13T07:28:34Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50068036",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50073221,
+      "title": "I posted to HN, and then my website was flooded with AI bot traffic",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic",
+      "score": 289,
+      "created_at": "2026-10-13T15:25:50Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50073221",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50070593,
+      "title": "A Dynamic and Distributed Virtual GPU Cloud Built on Idle Apple Silicon Devices",
+      "url": "https://machinelearning.apple.com/research/distributed-gpu-cloud",
+      "score": 240,
+      "created_at": "2026-10-13T12:26:36Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50070593",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50069337,
+      "title": "Show HN: Use your OpenAI subscription to create audiobooks",
+      "url": "https://pdftomp3.com/connect-ai/",
+      "score": 160,
+      "created_at": "2026-10-13T10:08:34Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50069337",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50069942,
+      "title": "Character.ai Files for Bankruptcy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+      "score": 145,
+      "created_at": "2026-10-13T11:24:08Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50069942",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50072120,
+      "title": "How to engineer an AI harness for game development",
+      "url": "https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code",
+      "score": 141,
+      "created_at": "2026-10-13T14:14:23Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50072120",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50067356,
+      "title": "Threat of AI share crash puts world financial stability at risk, says IMF",
+      "url": "https://www.theguardian.com/business/2026/oct/13/ai-share-crash-risk-global-imf-debt-corrowing-cyber-attacks",
+      "score": 111,
+      "created_at": "2026-10-13T05:57:32Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50067356",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50069318,
+      "title": "AWS Lambda Web Functions",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-aws-lambda-web-functions-for-fast-consistent-web-app-performance-anywhere/",
+      "score": 108,
+      "created_at": "2026-10-13T10:07:03Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50069318",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "stars_today": 54679,
+      "total_stars": 214706,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "stars_today": 1961,
+      "total_stars": 55692,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "stars_today": 1748,
+      "total_stars": 63891,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "stars_today": 969,
+      "total_stars": 28403,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "stars_today": 1815,
+      "total_stars": 54462,
+      "language": "HTML",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "vercel-labs/skills",
+      "url": "https://github.com/vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "stars_today": 190,
+      "total_stars": 34661,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "lyogavin/airllm",
+      "url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+      "stars_today": 1001,
+      "total_stars": 38439,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "storytold/artcraft",
+      "url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "stars_today": 4081,
+      "total_stars": 26176,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "xtool-org/xtool",
+      "url": "https://github.com/xtool-org/xtool",
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "stars_today": 1198,
+      "total_stars": 9638,
+      "language": "Swift",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
