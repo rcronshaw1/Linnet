@@ -1,0 +1,422 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T04:24:25.476598+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 3,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 50091788,
+          "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+          "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+          "score": 854,
+          "created_at": "2026-10-14T17:45:23Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50091788",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50092664,
+          "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+          "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+          "score": 334,
+          "created_at": "2026-10-14T18:32:52Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50092664",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50095353,
+          "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+          "url": "https://typesafe.ai/blog/jev-1-14",
+          "score": 230,
+          "created_at": "2026-10-14T21:11:03Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50095353",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50088430,
+          "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+          "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+          "score": 168,
+          "created_at": "2026-10-14T14:38:55Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50088430",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50084622,
+          "title": "Starlink limit hits Ukraine's drones",
+          "url": "https://defence24.com/geopolitics/starlink-limit-hits-ukraines-drones-the-battlefield-depends-on-spacex",
+          "score": 161,
+          "created_at": "2026-10-14T09:10:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50084622",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50090443,
+          "title": "Why do LLM pelicans look like this?",
+          "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+          "score": 155,
+          "created_at": "2026-10-14T16:33:34Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50090443",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50085323,
+          "title": "TV4 postpones show after AI agent erases edited material",
+          "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+          "score": 143,
+          "created_at": "2026-10-14T10:28:26Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50085323",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50092470,
+          "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+          "url": "https://petal.live/",
+          "score": 135,
+          "created_at": "2026-10-14T18:23:14Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50092470",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50090842,
+          "title": "Linus Torvalds's first LLM-assisted patch series",
+          "url": "https://lwn.net/Articles/1100449/",
+          "score": 115,
+          "created_at": "2026-10-14T16:55:07Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50090842",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50097369,
+          "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+          "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+          "score": 113,
+          "created_at": "2026-10-14T23:59:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50097369",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 10
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "morluto/rea",
+          "url": "https://github.com/morluto/rea",
+          "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+          "stars_today": 41034,
+          "total_stars": 247835,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "stars_today": 3538,
+          "total_stars": 66874,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mksglu/context-mode",
+          "url": "https://github.com/mksglu/context-mode",
+          "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+          "stars_today": 947,
+          "total_stars": 29269,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "nvm-sh/nvm",
+          "url": "https://github.com/nvm-sh/nvm",
+          "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+          "stars_today": 52,
+          "total_stars": 95486,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "K-Dense-AI/scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+          "stars_today": 163,
+          "total_stars": 49533,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "HKUDS/CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+          "stars_today": 103,
+          "total_stars": 52647,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "ifixai-ai/iFixAi",
+          "url": "https://github.com/ifixai-ai/iFixAi",
+          "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+          "stars_today": 2109,
+          "total_stars": 27644,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "vxcontrol/pentagi",
+          "url": "https://github.com/vxcontrol/pentagi",
+          "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+          "stars_today": 1025,
+          "total_stars": 29736,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "rust-lang/rust",
+          "url": "https://github.com/rust-lang/rust",
+          "description": "Empowering everyone to build reliable and efficient software.",
+          "stars_today": 207,
+          "total_stars": 120116,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 3,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 105
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 50091788,
+      "title": "Containment and monitoring failures are to blame for AI hacking reports: experts",
+      "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "score": 854,
+      "created_at": "2026-10-14T17:45:23Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50091788",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50092664,
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/",
+      "score": 334,
+      "created_at": "2026-10-14T18:32:52Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50092664",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50095353,
+      "title": "We’re releasing Jev 1.14.0 along with experimental features for dreamers",
+      "url": "https://typesafe.ai/blog/jev-1-14",
+      "score": 230,
+      "created_at": "2026-10-14T21:11:03Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50095353",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50088430,
+      "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+      "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/",
+      "score": 168,
+      "created_at": "2026-10-14T14:38:55Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50088430",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50084622,
+      "title": "Starlink limit hits Ukraine's drones",
+      "url": "https://defence24.com/geopolitics/starlink-limit-hits-ukraines-drones-the-battlefield-depends-on-spacex",
+      "score": 161,
+      "created_at": "2026-10-14T09:10:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50084622",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50090443,
+      "title": "Why do LLM pelicans look like this?",
+      "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/",
+      "score": 155,
+      "created_at": "2026-10-14T16:33:34Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50090443",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50085323,
+      "title": "TV4 postpones show after AI agent erases edited material",
+      "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage",
+      "score": 143,
+      "created_at": "2026-10-14T10:28:26Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50085323",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50092470,
+      "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "url": "https://petal.live/",
+      "score": 135,
+      "created_at": "2026-10-14T18:23:14Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50092470",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50090842,
+      "title": "Linus Torvalds's first LLM-assisted patch series",
+      "url": "https://lwn.net/Articles/1100449/",
+      "score": 115,
+      "created_at": "2026-10-14T16:55:07Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50090842",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50097369,
+      "title": "LFM2.5-24B-A2B: Built for fast on-device agents",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "score": 113,
+      "created_at": "2026-10-14T23:59:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50097369",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "morluto/rea",
+      "url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "stars_today": 41034,
+      "total_stars": 247835,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "stars_today": 3538,
+      "total_stars": 66874,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mksglu/context-mode",
+      "url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "stars_today": 947,
+      "total_stars": 29269,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "nvm-sh/nvm",
+      "url": "https://github.com/nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "stars_today": 52,
+      "total_stars": 95486,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "stars_today": 163,
+      "total_stars": 49533,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "stars_today": 103,
+      "total_stars": 52647,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "ifixai-ai/iFixAi",
+      "url": "https://github.com/ifixai-ai/iFixAi",
+      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "stars_today": 2109,
+      "total_stars": 27644,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "vxcontrol/pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "stars_today": 1025,
+      "total_stars": 29736,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "stars_today": 207,
+      "total_stars": 120116,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
