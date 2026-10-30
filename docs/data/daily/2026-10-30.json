@@ -1,0 +1,422 @@
+{
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T05:34:21.445026+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 9,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 50289418,
+          "title": "We're releasing the weights of Mistral Large 4",
+          "url": "https://mistral.ai/news/mistral-large-4-oss/",
+          "score": 1292,
+          "created_at": "2026-10-29T14:13:21Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50289418",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50290177,
+          "title": "LLM Voice",
+          "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+          "score": 398,
+          "created_at": "2026-10-29T14:57:55Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50290177",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50288019,
+          "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+          "score": 329,
+          "created_at": "2026-10-29T12:41:56Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50288019",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50290668,
+          "title": "I went to Mexico to test-drive the cars Americans can’t buy",
+          "url": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
+          "score": 291,
+          "created_at": "2026-10-29T15:30:22Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50290668",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50296486,
+          "title": "We ran AI agent swarms in Minecraft and Mindustry",
+          "url": "https://labs.ycombinator.com/projects/games/index.html",
+          "score": 231,
+          "created_at": "2026-10-29T21:40:28Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50296486",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50295450,
+          "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+          "url": "https://github.com/SheepSeb/tinyworldformer",
+          "score": 170,
+          "created_at": "2026-10-29T20:32:28Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50295450",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50290283,
+          "title": "Zombie stats: Where the numbers AI quotes come from",
+          "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+          "score": 154,
+          "created_at": "2026-10-29T15:06:17Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50290283",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50289692,
+          "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+          "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+          "score": 147,
+          "created_at": "2026-10-29T14:29:06Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50289692",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50290912,
+          "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
+          "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+          "score": 134,
+          "created_at": "2026-10-29T15:45:05Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50290912",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50294506,
+          "title": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+          "url": "https://github.com/johncassil/dontallow",
+          "score": 118,
+          "created_at": "2026-10-29T19:27:44Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50294506",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 10
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "HKUDS/DeepTutor",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+          "stars_today": 1930,
+          "total_stars": 50613,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 1034,
+          "total_stars": 308774,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+          "stars_today": 2870,
+          "total_stars": 95773,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "JetBrains/thinkrail",
+          "url": "https://github.com/JetBrains/thinkrail",
+          "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+          "stars_today": 1117,
+          "total_stars": 6141,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
+          "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+          "stars_today": 1199,
+          "total_stars": 7643,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "nightly-labs/openbot",
+          "url": "https://github.com/nightly-labs/openbot",
+          "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+          "stars_today": 709,
+          "total_stars": 3994,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "elayadesign/ai-design-skills",
+          "url": "https://github.com/elayadesign/ai-design-skills",
+          "description": "",
+          "stars_today": 1187,
+          "total_stars": 12393,
+          "language": "",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+          "stars_today": 336,
+          "total_stars": 105009,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "CopilotKit/OpenBot",
+          "url": "https://github.com/CopilotKit/OpenBot",
+          "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+          "stars_today": 247,
+          "total_stars": 8281,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 9,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 145
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 50289418,
+      "title": "We're releasing the weights of Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "score": 1292,
+      "created_at": "2026-10-29T14:13:21Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50289418",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50290177,
+      "title": "LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "score": 398,
+      "created_at": "2026-10-29T14:57:55Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50290177",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50288019,
+      "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "score": 329,
+      "created_at": "2026-10-29T12:41:56Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50288019",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50290668,
+      "title": "I went to Mexico to test-drive the cars Americans can’t buy",
+      "url": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/",
+      "score": 291,
+      "created_at": "2026-10-29T15:30:22Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50290668",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50296486,
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "score": 231,
+      "created_at": "2026-10-29T21:40:28Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50296486",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50295450,
+      "title": "A tiny world model running games on a Raspberry Pi Pico 2 W",
+      "url": "https://github.com/SheepSeb/tinyworldformer",
+      "score": 170,
+      "created_at": "2026-10-29T20:32:28Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50295450",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50290283,
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "score": 154,
+      "created_at": "2026-10-29T15:06:17Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50290283",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50289692,
+      "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+      "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+      "score": 147,
+      "created_at": "2026-10-29T14:29:06Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50289692",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50290912,
+      "title": "Grace Blackwell needs a new scheduler: 27% more usable GPUs from the same racks",
+      "url": "https://skypilot.ai/blog/grace-blackwell-needs-a-new-scheduler",
+      "score": 134,
+      "created_at": "2026-10-29T15:45:05Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50290912",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50294506,
+      "title": "Show HN: Auto Dismiss Mac OS \"Allow <app> to find devices on local networks?\"",
+      "url": "https://github.com/johncassil/dontallow",
+      "score": 118,
+      "created_at": "2026-10-29T19:27:44Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50294506",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "HKUDS/DeepTutor",
+      "url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "stars_today": 1930,
+      "total_stars": 50613,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 1034,
+      "total_stars": 308774,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "stars_today": 2870,
+      "total_stars": 95773,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "JetBrains/thinkrail",
+      "url": "https://github.com/JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "stars_today": 1117,
+      "total_stars": 6141,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "milind-soni/OpenMausBot",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "stars_today": 1199,
+      "total_stars": 7643,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "nightly-labs/openbot",
+      "url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "stars_today": 709,
+      "total_stars": 3994,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "elayadesign/ai-design-skills",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "description": "",
+      "stars_today": 1187,
+      "total_stars": 12393,
+      "language": "",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "stars_today": 336,
+      "total_stars": 105009,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "CopilotKit/OpenBot",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "stars_today": 247,
+      "total_stars": 8281,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
