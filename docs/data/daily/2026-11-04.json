@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T06:02:28.238166+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 10,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 50354960,
+          "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+          "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+          "score": 1149,
+          "created_at": "2026-11-03T17:22:37Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50354960",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50353192,
+          "title": "Google will turn off search for schools that reject AI",
+          "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+          "score": 590,
+          "created_at": "2026-11-03T15:25:47Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50353192",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50358422,
+          "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+          "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+          "score": 320,
+          "created_at": "2026-11-03T21:26:44Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50358422",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50358582,
+          "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+          "url": "https://arxiv.org/abs/2605.29713",
+          "score": 291,
+          "created_at": "2026-11-03T21:40:53Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50358582",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50350004,
+          "title": "Revolut moves to self-hosted GLM",
+          "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+          "score": 189,
+          "created_at": "2026-11-03T09:53:59Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50350004",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50352257,
+          "title": "Just a little AI resistance, as a treat",
+          "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+          "score": 173,
+          "created_at": "2026-11-03T14:14:12Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50352257",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50354336,
+          "title": "Gitbook Breached",
+          "url": "",
+          "score": 149,
+          "created_at": "2026-11-03T16:45:49Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50354336",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50355767,
+          "title": "How I use AI (Oct 2026)",
+          "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+          "score": 123,
+          "created_at": "2026-11-03T18:11:11Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50355767",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50353300,
+          "title": "AI is destroying my CS degree",
+          "url": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
+          "score": 121,
+          "created_at": "2026-11-03T15:35:06Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50353300",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "thedotmack/claude-mem",
+          "url": "https://github.com/thedotmack/claude-mem",
+          "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+          "stars_today": 1139,
+          "total_stars": 112152,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "vercel-labs/agent-desktop",
+          "url": "https://github.com/vercel-labs/agent-desktop",
+          "description": "Computer use CLI for AI agents",
+          "stars_today": 3791,
+          "total_stars": 13306,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "max-sixty/worktrunk",
+          "url": "https://github.com/max-sixty/worktrunk",
+          "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+          "stars_today": 438,
+          "total_stars": 10631,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "JustVugg/colibri",
+          "url": "https://github.com/JustVugg/colibri",
+          "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+          "stars_today": 802,
+          "total_stars": 47380,
+          "language": "C",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "description": "Skills for Real Engineers. Straight from my .agents directory.",
+          "stars_today": 1164,
+          "total_stars": 311730,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "p-e-w/heretic",
+          "url": "https://github.com/p-e-w/heretic",
+          "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+          "stars_today": 701,
+          "total_stars": 38965,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "spotify/portal-ai-plugins",
+          "url": "https://github.com/spotify/portal-ai-plugins",
+          "description": "",
+          "stars_today": 91,
+          "total_stars": 3091,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "floci-io/floci",
+          "url": "https://github.com/floci-io/floci",
+          "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+          "stars_today": 482,
+          "total_stars": 29010,
+          "language": "Java",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Usagi-org/ai-goofish-monitor",
+          "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+          "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+          "stars_today": 228,
+          "total_stars": 16732,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 10,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 179
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 50354960,
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "score": 1149,
+      "created_at": "2026-11-03T17:22:37Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50354960",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50353192,
+      "title": "Google will turn off search for schools that reject AI",
+      "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+      "score": 590,
+      "created_at": "2026-11-03T15:25:47Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50353192",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50358422,
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "score": 320,
+      "created_at": "2026-11-03T21:26:44Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50358422",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50358582,
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "score": 291,
+      "created_at": "2026-11-03T21:40:53Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50358582",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50350004,
+      "title": "Revolut moves to self-hosted GLM",
+      "url": "https://twitter.com/guilleflorvs/status/2117379073785696395",
+      "score": 189,
+      "created_at": "2026-11-03T09:53:59Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50350004",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50352257,
+      "title": "Just a little AI resistance, as a treat",
+      "url": "https://shkspr.mobi/blog/2026/11/just-a-little-ai-resistance-as-a-treat/",
+      "score": 173,
+      "created_at": "2026-11-03T14:14:12Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50352257",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50354336,
+      "title": "Gitbook Breached",
+      "url": "",
+      "score": 149,
+      "created_at": "2026-11-03T16:45:49Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50354336",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50355767,
+      "title": "How I use AI (Oct 2026)",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+      "score": 123,
+      "created_at": "2026-11-03T18:11:11Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50355767",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50353300,
+      "title": "AI is destroying my CS degree",
+      "url": "https://lordtoots.bearblog.dev/ai-is-destroying-my-cs-degree/",
+      "score": 121,
+      "created_at": "2026-11-03T15:35:06Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50353300",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "thedotmack/claude-mem",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "stars_today": 1139,
+      "total_stars": 112152,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "stars_today": 3791,
+      "total_stars": 13306,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "stars_today": 438,
+      "total_stars": 10631,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
+      "stars_today": 802,
+      "total_stars": 47380,
+      "language": "C",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "stars_today": 1164,
+      "total_stars": 311730,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+      "stars_today": 701,
+      "total_stars": 38965,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "spotify/portal-ai-plugins",
+      "url": "https://github.com/spotify/portal-ai-plugins",
+      "description": "",
+      "stars_today": 91,
+      "total_stars": 3091,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "floci-io/floci",
+      "url": "https://github.com/floci-io/floci",
+      "description": "Light, fluffy, and always free - The AWS Local Emulator alternative",
+      "stars_today": 482,
+      "total_stars": 29010,
+      "language": "Java",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Usagi-org/ai-goofish-monitor",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "stars_today": 228,
+      "total_stars": 16732,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
