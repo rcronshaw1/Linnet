@@ -1,0 +1,386 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T05:46:58.493577+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 9,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 50397429,
+          "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+          "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+          "score": 405,
+          "created_at": "2026-11-06T19:48:51Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50397429",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50392118,
+          "title": "Gemini Omni 1.2 Flash",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+          "score": 311,
+          "created_at": "2026-11-06T13:35:27Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50392118",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50394906,
+          "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+          "score": 264,
+          "created_at": "2026-11-06T16:54:36Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50394906",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50397994,
+          "title": "AI is dramatically accelerating AI research",
+          "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+          "score": 250,
+          "created_at": "2026-11-06T20:27:23Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50397994",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50397219,
+          "title": "Firecracker VM Escape: PwnEscape Part 2",
+          "url": "https://pwn.ai/blog/firecracker-escape",
+          "score": 204,
+          "created_at": "2026-11-06T19:33:38Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50397219",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50390525,
+          "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
+          "url": "https://jhr.pensoft.net/articles.php?id=9096",
+          "score": 168,
+          "created_at": "2026-11-06T10:21:15Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50390525",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50392499,
+          "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+          "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+          "score": 127,
+          "created_at": "2026-11-06T14:13:09Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50392499",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50395919,
+          "title": "Memorilla: Latent Semantic Memory for LLMs",
+          "url": "https://arxiv.org/abs/2610.21375",
+          "score": 101,
+          "created_at": "2026-11-06T18:03:33Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50395919",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 8
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "zed-industries/zed",
+          "url": "https://github.com/zed-industries/zed",
+          "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+          "stars_today": 306,
+          "total_stars": 93791,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "NVIDIA/auto-ontology",
+          "url": "https://github.com/NVIDIA/auto-ontology",
+          "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+          "stars_today": 2015,
+          "total_stars": 9283,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "rails/rails",
+          "url": "https://github.com/rails/rails",
+          "description": "Ruby on Rails",
+          "stars_today": 142,
+          "total_stars": 59051,
+          "language": "Ruby",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mpv-player/mpv",
+          "url": "https://github.com/mpv-player/mpv",
+          "description": "🎥 Command line media player",
+          "stars_today": 37,
+          "total_stars": 37924,
+          "language": "C",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "rust-lang/rust",
+          "url": "https://github.com/rust-lang/rust",
+          "description": "Empowering everyone to build reliable and efficient software.",
+          "stars_today": 192,
+          "total_stars": 121512,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "react/react",
+          "url": "https://github.com/react/react",
+          "description": "The library for web and native user interfaces.",
+          "stars_today": 248,
+          "total_stars": 252301,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "angular/angular",
+          "url": "https://github.com/angular/angular",
+          "description": "Deliver web apps with confidence 🚀",
+          "stars_today": 135,
+          "total_stars": 101413,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "symfony/symfony",
+          "url": "https://github.com/symfony/symfony",
+          "description": "The Symfony PHP framework",
+          "stars_today": 128,
+          "total_stars": 31471,
+          "language": "PHP",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "prometheus/prometheus",
+          "url": "https://github.com/prometheus/prometheus",
+          "description": "The Prometheus monitoring system and time series database.",
+          "stars_today": 148,
+          "total_stars": 67230,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 9,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 133
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 50397429,
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+      "score": 405,
+      "created_at": "2026-11-06T19:48:51Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50397429",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50392118,
+      "title": "Gemini Omni 1.2 Flash",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "score": 311,
+      "created_at": "2026-11-06T13:35:27Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50392118",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50394906,
+      "title": "Anthropic IPO buyers see valuation as low as $1.1T",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
+      "score": 264,
+      "created_at": "2026-11-06T16:54:36Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50394906",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50397994,
+      "title": "AI is dramatically accelerating AI research",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "score": 250,
+      "created_at": "2026-11-06T20:27:23Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50397994",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50397219,
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "url": "https://pwn.ai/blog/firecracker-escape",
+      "score": 204,
+      "created_at": "2026-11-06T19:33:38Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50397219",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50390525,
+      "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
+      "url": "https://jhr.pensoft.net/articles.php?id=9096",
+      "score": 168,
+      "created_at": "2026-11-06T10:21:15Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50390525",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50392499,
+      "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+      "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+      "score": 127,
+      "created_at": "2026-11-06T14:13:09Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50392499",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50395919,
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "url": "https://arxiv.org/abs/2610.21375",
+      "score": 101,
+      "created_at": "2026-11-06T18:03:33Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50395919",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "zed-industries/zed",
+      "url": "https://github.com/zed-industries/zed",
+      "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
+      "stars_today": 306,
+      "total_stars": 93791,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "stars_today": 2015,
+      "total_stars": 9283,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "rails/rails",
+      "url": "https://github.com/rails/rails",
+      "description": "Ruby on Rails",
+      "stars_today": 142,
+      "total_stars": 59051,
+      "language": "Ruby",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mpv-player/mpv",
+      "url": "https://github.com/mpv-player/mpv",
+      "description": "🎥 Command line media player",
+      "stars_today": 37,
+      "total_stars": 37924,
+      "language": "C",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "rust-lang/rust",
+      "url": "https://github.com/rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "stars_today": 192,
+      "total_stars": 121512,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "react/react",
+      "url": "https://github.com/react/react",
+      "description": "The library for web and native user interfaces.",
+      "stars_today": 248,
+      "total_stars": 252301,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "angular/angular",
+      "url": "https://github.com/angular/angular",
+      "description": "Deliver web apps with confidence 🚀",
+      "stars_today": 135,
+      "total_stars": 101413,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "symfony/symfony",
+      "url": "https://github.com/symfony/symfony",
+      "description": "The Symfony PHP framework",
+      "stars_today": 128,
+      "total_stars": 31471,
+      "language": "PHP",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "prometheus/prometheus",
+      "url": "https://github.com/prometheus/prometheus",
+      "description": "The Prometheus monitoring system and time series database.",
+      "stars_today": 148,
+      "total_stars": 67230,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
