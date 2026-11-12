@@ -1,0 +1,404 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T07:00:33.891579+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 10,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 50452455,
+          "title": "My AI agents found an unmapped Maya site?",
+          "url": "https://pietromiotti.com/latest/maya-site",
+          "score": 968,
+          "created_at": "2026-11-11T12:05:22Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50452455",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50456631,
+          "title": "AWS emulator",
+          "url": "https://github.com/aws/aws-emulator",
+          "score": 788,
+          "created_at": "2026-11-11T18:21:38Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50456631",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50458900,
+          "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+          "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "score": 508,
+          "created_at": "2026-11-11T21:24:35Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50458900",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50455394,
+          "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+          "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+          "score": 462,
+          "created_at": "2026-11-11T16:38:44Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50455394",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50456791,
+          "title": "Gemini Decisions API",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "score": 375,
+          "created_at": "2026-11-11T18:32:42Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50456791",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50454625,
+          "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+          "url": "https://github.com/FrigadeHQ/yogurt",
+          "score": 222,
+          "created_at": "2026-11-11T15:33:06Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50454625",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50455633,
+          "title": "Faster Retrieval for Better, More Efficient RAG",
+          "url": "https://machinelearning.apple.com/research/faster-retrieval",
+          "score": 190,
+          "created_at": "2026-11-11T16:57:45Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50455633",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50457164,
+          "title": "Retirement Savings Are Fueling the AI Bubble",
+          "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+          "score": 152,
+          "created_at": "2026-11-11T19:06:43Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50457164",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50455332,
+          "title": "AI, activity, and outcomes in software engineering",
+          "url": "https://cabird.com/talks/shipping-faster/",
+          "score": 113,
+          "created_at": "2026-11-11T16:33:28Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50455332",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "meta/astryx",
+          "url": "https://github.com/meta/astryx",
+          "description": "An open source design system that's fully customizable and agent ready",
+          "stars_today": 2776,
+          "total_stars": 25520,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "ZhuLinsen/daily_stock_analysis",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+          "stars_today": 278,
+          "total_stars": 70688,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "GoogleChrome/modern-web-guidance-src",
+          "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+          "description": "",
+          "stars_today": 159,
+          "total_stars": 1999,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "shadcn/improve",
+          "url": "https://github.com/shadcn/improve",
+          "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+          "stars_today": 361,
+          "total_stars": 11162,
+          "language": "",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "addyosmani/agent-skills",
+          "url": "https://github.com/addyosmani/agent-skills",
+          "description": "Production-grade engineering skills for AI coding agents.",
+          "stars_today": 787,
+          "total_stars": 116157,
+          "language": "JavaScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "vercel-labs/agent-browser",
+          "url": "https://github.com/vercel-labs/agent-browser",
+          "description": "Browser automation CLI for AI agents",
+          "stars_today": 708,
+          "total_stars": 50044,
+          "language": "Rust",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "we-promise/sure",
+          "url": "https://github.com/we-promise/sure",
+          "description": "The personal finance app for everyone (by everyone)",
+          "stars_today": 1078,
+          "total_stars": 13203,
+          "language": "Ruby",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "homeassistant-ai/ha-mcp",
+          "url": "https://github.com/homeassistant-ai/ha-mcp",
+          "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+          "stars_today": 645,
+          "total_stars": 7534,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "openai/codex-security",
+          "url": "https://github.com/openai/codex-security",
+          "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+          "stars_today": 52,
+          "total_stars": 11934,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 10,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 145
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 50452455,
+      "title": "My AI agents found an unmapped Maya site?",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "score": 968,
+      "created_at": "2026-11-11T12:05:22Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50452455",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50456631,
+      "title": "AWS emulator",
+      "url": "https://github.com/aws/aws-emulator",
+      "score": 788,
+      "created_at": "2026-11-11T18:21:38Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50456631",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50458900,
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "score": 508,
+      "created_at": "2026-11-11T21:24:35Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50458900",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50455394,
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+      "score": 462,
+      "created_at": "2026-11-11T16:38:44Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50455394",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50456791,
+      "title": "Gemini Decisions API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "score": 375,
+      "created_at": "2026-11-11T18:32:42Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50456791",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50454625,
+      "title": "Show HN: Yogurt – Free, private, open-source alternative to Granola",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "score": 222,
+      "created_at": "2026-11-11T15:33:06Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50454625",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50455633,
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "score": 190,
+      "created_at": "2026-11-11T16:57:45Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50455633",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50457164,
+      "title": "Retirement Savings Are Fueling the AI Bubble",
+      "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+      "score": 152,
+      "created_at": "2026-11-11T19:06:43Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50457164",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50455332,
+      "title": "AI, activity, and outcomes in software engineering",
+      "url": "https://cabird.com/talks/shipping-faster/",
+      "score": 113,
+      "created_at": "2026-11-11T16:33:28Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50455332",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "meta/astryx",
+      "url": "https://github.com/meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "stars_today": 2776,
+      "total_stars": 25520,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "stars_today": 278,
+      "total_stars": 70688,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "GoogleChrome/modern-web-guidance-src",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "description": "",
+      "stars_today": 159,
+      "total_stars": 1999,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "shadcn/improve",
+      "url": "https://github.com/shadcn/improve",
+      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "stars_today": 361,
+      "total_stars": 11162,
+      "language": "",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars_today": 787,
+      "total_stars": 116157,
+      "language": "JavaScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "vercel-labs/agent-browser",
+      "url": "https://github.com/vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "stars_today": 708,
+      "total_stars": 50044,
+      "language": "Rust",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "we-promise/sure",
+      "url": "https://github.com/we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "stars_today": 1078,
+      "total_stars": 13203,
+      "language": "Ruby",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "homeassistant-ai/ha-mcp",
+      "url": "https://github.com/homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "stars_today": 645,
+      "total_stars": 7534,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "openai/codex-security",
+      "url": "https://github.com/openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "stars_today": 52,
+      "total_stars": 11934,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
