@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T07:08:12.819237+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 9,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 50535885,
+          "title": "MAI Code 2 and Code 2 Flash",
+          "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+          "score": 334,
+          "created_at": "2026-11-17T18:25:13Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50535885",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50540178,
+          "title": "Google's AI answers reducing search traffic by 40%",
+          "url": "https://revscope.co/blog/search-seo-geo-2026/",
+          "score": 293,
+          "created_at": "2026-11-18T00:17:58Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50540178",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50531751,
+          "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+          "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+          "score": 186,
+          "created_at": "2026-11-17T14:19:59Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50531751",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50538303,
+          "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+          "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+          "score": 149,
+          "created_at": "2026-11-17T21:16:12Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50538303",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50532118,
+          "title": "Java4Shell: pre-auth RCE flaw in Java 17 puts servers at risk (CVE-2026-114938)",
+          "url": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938",
+          "score": 149,
+          "created_at": "2026-11-17T14:48:03Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50532118",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50535740,
+          "title": "Not Everything Needs an LLM",
+          "url": "https://newsletter.posthog.com/p/decision-models",
+          "score": 143,
+          "created_at": "2026-11-17T18:16:18Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50535740",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50538184,
+          "title": "Tencent Hy4 Flash",
+          "url": "https://hy.tencent.ai/research/hy4-flash",
+          "score": 104,
+          "created_at": "2026-11-17T21:06:08Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50538184",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 7
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+          "stars_today": 1005,
+          "total_stars": 9875,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "mvanhorn/last30days-skill",
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "stars_today": 696,
+          "total_stars": 69370,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+          "stars_today": 763,
+          "total_stars": 53945,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "Tencent/LoopForge",
+          "url": "https://github.com/Tencent/LoopForge",
+          "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+          "stars_today": 591,
+          "total_stars": 3526,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "dream-num/univer",
+          "url": "https://github.com/dream-num/univer",
+          "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+          "stars_today": 1774,
+          "total_stars": 29434,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "getarcaneapp/arcane",
+          "url": "https://github.com/getarcaneapp/arcane",
+          "description": "Modern Docker Management, Designed for Everyone",
+          "stars_today": 618,
+          "total_stars": 9476,
+          "language": "Go",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+          "stars_today": 350,
+          "total_stars": 10207,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "cursor/plugins",
+          "url": "https://github.com/cursor/plugins",
+          "description": "Cursor plugin specification and official plugins",
+          "stars_today": 201,
+          "total_stars": 16986,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 1917,
+          "total_stars": 319549,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 9,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 128
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 50535885,
+      "title": "MAI Code 2 and Code 2 Flash",
+      "url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "score": 334,
+      "created_at": "2026-11-17T18:25:13Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50535885",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50540178,
+      "title": "Google's AI answers reducing search traffic by 40%",
+      "url": "https://revscope.co/blog/search-seo-geo-2026/",
+      "score": 293,
+      "created_at": "2026-11-18T00:17:58Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50540178",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50531751,
+      "title": "Baidu, Xiaomi CEOs warn of growing gap between AI hype and returns",
+      "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
+      "score": 186,
+      "created_at": "2026-11-17T14:19:59Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50531751",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50538303,
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "score": 149,
+      "created_at": "2026-11-17T21:16:12Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50538303",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50532118,
+      "title": "Java4Shell: pre-auth RCE flaw in Java 17 puts servers at risk (CVE-2026-114938)",
+      "url": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938",
+      "score": 149,
+      "created_at": "2026-11-17T14:48:03Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50532118",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50535740,
+      "title": "Not Everything Needs an LLM",
+      "url": "https://newsletter.posthog.com/p/decision-models",
+      "score": 143,
+      "created_at": "2026-11-17T18:16:18Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50535740",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50538184,
+      "title": "Tencent Hy4 Flash",
+      "url": "https://hy.tencent.ai/research/hy4-flash",
+      "score": 104,
+      "created_at": "2026-11-17T21:06:08Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50538184",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "stars_today": 1005,
+      "total_stars": 9875,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "stars_today": 696,
+      "total_stars": 69370,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stars_today": 763,
+      "total_stars": 53945,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "Tencent/LoopForge",
+      "url": "https://github.com/Tencent/LoopForge",
+      "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
+      "stars_today": 591,
+      "total_stars": 3526,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "dream-num/univer",
+      "url": "https://github.com/dream-num/univer",
+      "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
+      "stars_today": 1774,
+      "total_stars": 29434,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "getarcaneapp/arcane",
+      "url": "https://github.com/getarcaneapp/arcane",
+      "description": "Modern Docker Management, Designed for Everyone",
+      "stars_today": 618,
+      "total_stars": 9476,
+      "language": "Go",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "google-labs-code/stitch-skills",
+      "url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "stars_today": 350,
+      "total_stars": 10207,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "stars_today": 201,
+      "total_stars": 16986,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 1917,
+      "total_stars": 319549,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
