@@ -1,0 +1,386 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T06:59:45.214497+00:00",
+  "sections_ordered": [
+    {
+      "key": "arxiv",
+      "payload_key": "papers",
+      "title": "arXiv Papers",
+      "icon": "📄",
+      "items": [],
+      "meta": {
+        "papers_fetched": 100,
+        "papers_after_keyword_filter": 7,
+        "papers_after_llm_filter": 0,
+        "count": 0
+      }
+    },
+    {
+      "key": "hacker_news",
+      "payload_key": "hacker_news",
+      "title": "Hacker News",
+      "icon": "🔥",
+      "items": [
+        {
+          "id": 50562754,
+          "title": "Anthropic’s Nasdaq debut",
+          "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+          "score": 1043,
+          "created_at": "2026-11-19T17:02:40Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50562754",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50562262,
+          "title": "Fuck Your AI Safeguards",
+          "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+          "score": 524,
+          "created_at": "2026-11-19T16:30:18Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50562262",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50561508,
+          "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+          "url": "https://thedataexchange.media/pete-warden-moonshine/",
+          "score": 226,
+          "created_at": "2026-11-19T15:38:12Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50561508",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50562500,
+          "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+          "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
+          "score": 132,
+          "created_at": "2026-11-19T16:45:50Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50562500",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50562636,
+          "title": "Chrome AI features wasting much bandwidth",
+          "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+          "score": 128,
+          "created_at": "2026-11-19T16:54:25Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50562636",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50562320,
+          "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+          "url": "https://github.com/onlook-dev/onlook/",
+          "score": 109,
+          "created_at": "2026-11-19T16:34:04Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50562320",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50559749,
+          "title": "Show HN: Foolscap – a writing app that reads your book and never writes for you",
+          "url": "https://foolscap.works/",
+          "score": 105,
+          "created_at": "2026-11-19T13:21:20Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50559749",
+          "summary": "Story: summary generation failed."
+        },
+        {
+          "id": 50559140,
+          "title": "The AI Superintelligence Debate Has Serious Flaws",
+          "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+          "score": 102,
+          "created_at": "2026-11-19T12:17:10Z",
+          "comments_url": "https://news.ycombinator.com/item?id=50559140",
+          "summary": "Story: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 8
+      }
+    },
+    {
+      "key": "github_trending",
+      "payload_key": "github_trending",
+      "title": "GitHub Trending",
+      "icon": "⭐",
+      "items": [
+        {
+          "full_name": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+          "stars_today": 1349,
+          "total_stars": 12959,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "stars_today": 2028,
+          "total_stars": 322299,
+          "language": "Shell",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "HKUDS/CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+          "stars_today": 898,
+          "total_stars": 60776,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "jingyaogong/minimind",
+          "url": "https://github.com/jingyaogong/minimind",
+          "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+          "stars_today": 238,
+          "total_stars": 67190,
+          "language": "Python",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "cursor/plugins",
+          "url": "https://github.com/cursor/plugins",
+          "description": "Cursor plugin specification and official plugins",
+          "stars_today": 384,
+          "total_stars": 17639,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "firecrawl/firecrawl",
+          "url": "https://github.com/firecrawl/firecrawl",
+          "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+          "stars_today": 825,
+          "total_stars": 204524,
+          "language": "TypeScript",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "nginx/nginx",
+          "url": "https://github.com/nginx/nginx",
+          "description": "The official NGINX Open Source repository.",
+          "stars_today": 73,
+          "total_stars": 32408,
+          "language": "C",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "openvinotoolkit/openvino",
+          "url": "https://github.com/openvinotoolkit/openvino",
+          "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+          "stars_today": 246,
+          "total_stars": 11621,
+          "language": "C++",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        },
+        {
+          "full_name": "cathrynlavery/diagram-design",
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+          "stars_today": 271,
+          "total_stars": 68835,
+          "language": "HTML",
+          "topics": [],
+          "summary": "Repo: summary generation failed."
+        }
+      ],
+      "meta": {
+        "count": 9
+      }
+    }
+  ],
+  "meta": {
+    "papers_fetched": 100,
+    "papers_after_keyword_filter": 7,
+    "papers_after_llm_filter": 0,
+    "llm_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "scoring_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "summarization_model": "google/gemini-2.5-flash-lite-preview-09-2025",
+    "duration_seconds": 120
+  },
+  "quote_of_day": [],
+  "hitokoto": [],
+  "arxiv": [],
+  "papers": [],
+  "hacker_news": [
+    {
+      "id": 50562754,
+      "title": "Anthropic’s Nasdaq debut",
+      "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+      "score": 1043,
+      "created_at": "2026-11-19T17:02:40Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50562754",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50562262,
+      "title": "Fuck Your AI Safeguards",
+      "url": "https://ounapuu.ee/posts/2026/11/19/unsafeguards/",
+      "score": 524,
+      "created_at": "2026-11-19T16:30:18Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50562262",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50561508,
+      "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
+      "url": "https://thedataexchange.media/pete-warden-moonshine/",
+      "score": 226,
+      "created_at": "2026-11-19T15:38:12Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50561508",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50562500,
+      "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+      "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
+      "score": 132,
+      "created_at": "2026-11-19T16:45:50Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50562500",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50562636,
+      "title": "Chrome AI features wasting much bandwidth",
+      "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+      "score": 128,
+      "created_at": "2026-11-19T16:54:25Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50562636",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50562320,
+      "title": "Launch HN: Onlook (YC W25) – An open-source developer tool for designers",
+      "url": "https://github.com/onlook-dev/onlook/",
+      "score": 109,
+      "created_at": "2026-11-19T16:34:04Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50562320",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50559749,
+      "title": "Show HN: Foolscap – a writing app that reads your book and never writes for you",
+      "url": "https://foolscap.works/",
+      "score": 105,
+      "created_at": "2026-11-19T13:21:20Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50559749",
+      "summary": "Story: summary generation failed."
+    },
+    {
+      "id": 50559140,
+      "title": "The AI Superintelligence Debate Has Serious Flaws",
+      "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+      "score": 102,
+      "created_at": "2026-11-19T12:17:10Z",
+      "comments_url": "https://news.ycombinator.com/item?id=50559140",
+      "summary": "Story: summary generation failed."
+    }
+  ],
+  "github_trending": [
+    {
+      "full_name": "elementalsouls/Claude-BugHunter",
+      "url": "https://github.com/elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "stars_today": 1349,
+      "total_stars": 12959,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": 2028,
+      "total_stars": 322299,
+      "language": "Shell",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "HKUDS/CLI-Anything",
+      "url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "stars_today": 898,
+      "total_stars": 60776,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "stars_today": 238,
+      "total_stars": 67190,
+      "language": "Python",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "stars_today": 384,
+      "total_stars": 17639,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "firecrawl/firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "stars_today": 825,
+      "total_stars": 204524,
+      "language": "TypeScript",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "nginx/nginx",
+      "url": "https://github.com/nginx/nginx",
+      "description": "The official NGINX Open Source repository.",
+      "stars_today": 73,
+      "total_stars": 32408,
+      "language": "C",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "openvinotoolkit/openvino",
+      "url": "https://github.com/openvinotoolkit/openvino",
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "stars_today": 246,
+      "total_stars": 11621,
+      "language": "C++",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    },
+    {
+      "full_name": "cathrynlavery/diagram-design",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "stars_today": 271,
+      "total_stars": 68835,
+      "language": "HTML",
+      "topics": [],
+      "summary": "Repo: summary generation failed."
+    }
+  ],
+  "postdoc_jobs": [],
+  "jobs": [],
+  "supervisor_updates": [],
+  "weather": []
+}
